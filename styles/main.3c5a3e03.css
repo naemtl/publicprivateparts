@@ -561,7 +561,7 @@ body {
     padding-top: 4%;
 }
 .indexOdm-logo {
-    background-image: url(odm-logo.eb164430.svg);
+    background-image: url(/assets/02_origineDuMonde/odm-logo.svg);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: contain;
@@ -771,7 +771,7 @@ body {
     position: absolute;
     right: 0;
     bottom: -42px;
-    background: url(transparent-body.05d4a85b.png) no-repeat;
+    background: url(/assets/01_landing/transparent-body.png) no-repeat;
     background-size: cover;
     width: 676px;
     height: 450px;
