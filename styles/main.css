@@ -221,16 +221,14 @@
 }
 @font-face {
     font-family: Ogg;
-    src: url(/assets/fonts/Ogg/Ogg-Regular.a1960225.eot) format("embedded-opentype"),
-        url(/assets/fonts/Ogg/Ogg-Regular.72bbd0b6.woff2) format("woff2"),
-        url(/assets/fonts/Ogg/Ogg-Regular.bd2ffaeb.woff) format("woff");
+    src: url(Ogg-Regular.eot) format("embedded-opentype"), url(Ogg-Regular.woff2) format("woff2"),
+        url(Ogg-Regular.woff) format("woff");
     font-weight: 400;
 }
 @font-face {
     font-family: Ogg;
-    src: url(/assets/fonts/Ogg/Ogg-RegularItalic.5fd334ee.eot) format("embedded-opentype"),
-        url(/assets/fonts/Ogg/Ogg-RegularItalic.372d4fde.woff2) format("woff2"),
-        url(/assets/fonts/Ogg/Ogg-RegularItalic.765c6ff9.woff) format("woff");
+    src: url(Ogg-RegularItalic.eot) format("embedded-opentype"), url(Ogg-RegularItalic.woff2) format("woff2"),
+        url(Ogg-RegularItalic.woff) format("woff");
     font-weight: 400;
     font-style: italic;
 }
@@ -442,316 +440,435 @@ body {
 .text-decoration-none {
     text-decoration: none;
 }
-body {
-    background: #232023;
-    font-size: 25px;
-    letter-spacing: -1.17px;
-    line-height: 34px;
-    font-family: aktiv-grotesk;
-    font-weight: 400;
+.indexHeader {
+    position: relative;
+    height: 100vh;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 400px;
 }
-a {
-    text-decoration: none;
+.indexHeader-title {
+    display: flex;
+    max-width: 726px;
+    flex: 1;
     color: #9d8b02;
-}
-.content {
-    max-width: 1176px;
-    margin: auto;
+    text-transform: uppercase;
+    z-index: 1;
+    align-items: center;
     padding-left: 24px;
     padding-right: 24px;
+    justify-content: space-between;
+    padding-bottom: 275px;
+}
+.indexHeader-spacer {
+    flex: 1;
+}
+.indexHeader-video {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+@media (max-width: 446px) {
+    .indexHeader {
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        padding-top: 134px;
+        box-sizing: border-box;
+        align-items: flex-start;
+    }
+    .indexHeader-spacer {
+        width: 20px;
+    }
+    .indexHeader-video {
+        min-height: 30vh;
+        object-fit: cover;
+    }
+}
+.indexAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #9d8b02;
+    padding: 162px 24px;
+    position: relative;
+    overflow: hidden;
+}
+.indexAbout-text,
+.indexAbout-textSpacer {
+    z-index: 2;
+}
+.indexAbout-video {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    object-fit: cover;
+    object-position: bottom left;
     width: 100%;
 }
-h1 {
-    font-weight: 400;
-    font-size: 52px;
-    letter-spacing: -2.42px;
-    line-height: 80px;
-    margin-top: 75px;
+.indexAbout-text {
+    text-align: center;
+    max-width: 696px;
 }
-.bodBanner,
-h1 {
-    font-family: Ogg;
+.indexAbout-textSpacer {
+    height: 26px;
 }
-.bodBanner {
-    background: url(/assets/03_somaticSexEducation/hands-on-head.270eaf2d.jpg) no-repeat;
-    background-size: cover;
-    background-position: 50%;
+@media (max-width: 470px) {
+    .indexAbout {
+        padding-top: 80px;
+        padding-bottom: 216px;
+        background-position: 0 100%;
+        background-size: 544px;
+    }
+    .indexAbout-text {
+        font-family: aktiv-grotesk;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: -0.18px;
+        line-height: 20px;
+    }
+}
+.indexOdm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.indexOdm-video {
+    flex: 1;
+    max-width: calc(50% - 24px);
+    order: -1;
+}
+.indexOdm-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
     padding-left: 24px;
     padding-right: 24px;
-    height: 535px;
+    padding-top: 4%;
+}
+.indexOdm-logo {
+    background-image: url(/assets/02_origineDuMonde/odm-logo.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    height: 150px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 172px;
+    margin-bottom: 24px;
+}
+.indexOdm-logoTextLower,
+.indexOdm-logoTextUpper {
+    display: none;
+}
+.indexOdm-text {
+    max-width: 521px;
+}
+.indexOdm-textSpacer {
+    height: 35px;
+}
+@media (max-width: 446px) {
+    .indexOdm {
+        padding-bottom: 110px;
+        flex-direction: column;
+    }
+    .indexOdm-video {
+        order: 1;
+        max-width: 100%;
+        margin: 48px 0 0;
+    }
+    .indexOdm-content {
+        padding-top: 0;
+    }
+    .indexOdm-logo {
+        padding-top: 105px;
+        background: none;
+        height: auto;
+        margin-bottom: 24px;
+    }
+    .indexOdm-logoTextUpper {
+        display: block;
+        padding-left: 24px;
+        padding-right: 24px;
+        max-width: 280px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .indexOdm-logoTextLower {
+        display: block;
+        text-align: center;
+    }
+    .indexOdm-logoTextSuperscript {
+        vertical-align: 1em;
+    }
+    .indexOdm-text {
+        font-family: aktiv-grotesk;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: -0.18px;
+        line-height: 20px;
+    }
+}
+.indexSubscribe {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 46px;
-    letter-spacing: -0.25px;
-    line-height: 52px;
+    padding: 156px 24px 134px;
+    background: linear-gradient(180deg, #041422, #000);
+}
+.indexSubscribe-title {
+    margin-bottom: 16px;
     text-align: center;
+}
+.indexSubscribe-text {
+    max-width: 592px;
+    text-align: center;
+}
+.indexSubscribe-form {
+    margin-top: 64px;
+    max-width: 504px;
     width: 100%;
+}
+.indexSubscribe-form input:not([type="submit"]),
+.indexSubscribe-form select {
+    width: 100%;
+    margin-bottom: 25px;
+    display: block;
+    background: none;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #9d8b02;
+    padding: 32px 26px;
+    color: #fff49e;
     box-sizing: border-box;
+    border-radius: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    font-family: aktiv-grotesk;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 27px;
+    letter-spacing: -0.25px;
 }
-.bodBanner span {
-    max-width: 773px;
-    margin-bottom: 36px;
+.indexSubscribe-form select {
+    text-transform: uppercase;
 }
-.contactBanner {
-    background: url(/assets/02_origineDuMonde/purple-flower.703f9776.jpg) no-repeat;
-    background-size: cover;
-    background-position: 50%;
+.indexSubscribe-form select:invalid {
+    color: #9d8b02;
+}
+.indexSubscribe-form input:focus,
+.indexSubscribe-form select:focus {
+    border-color: #fff49e;
+}
+.indexSubscribe-form input::placeholder {
+    color: #9d8b02;
+    text-transform: uppercase;
+}
+.indexSubscribe-form input[type="submit"] {
+    font-family: aktiv-grotesk;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 23px;
+    font-style: italic;
+    margin: auto;
+}
+@media (max-width: 446px) {
+    .indexSubscribe {
+        padding-top: 106px;
+        padding-bottom: 115px;
+    }
+    .indexSubscribe-title {
+        font-family: Ogg;
+        font-weight: 400;
+        font-size: 29px;
+        letter-spacing: -0.34px;
+        line-height: 50px;
+    }
+    .indexSubscribe-text {
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .indexSubscribe-form,
+    .indexSubscribe-text {
+        font-family: aktiv-grotesk;
+        font-size: 15px;
+        letter-spacing: -0.18px;
+    }
+    .indexSubscribe-form {
+        font-weight: 300;
+        line-height: 27px;
+    }
+    .indexSubscribe-form input:not([type="submit"]),
+    .indexSubscribe-form select {
+        font-family: aktiv-grotesk;
+        font-weight: 300;
+        font-size: 15px;
+        letter-spacing: -0.18px;
+        line-height: 27px;
+    }
+    .indexSubscribe-form input[type="submit"] {
+        font-family: aktiv-grotesk;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: normal;
+        font-style: italic;
+    }
+}
+.indexAboutGerard {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 190px;
+}
+.indexAboutGerard-content {
+    font-family: aktiv-grotesk;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 27px;
+    letter-spacing: -0.25px;
+    font-style: normal;
+    max-width: 756px;
+    display: flex;
     padding-left: 24px;
     padding-right: 24px;
-    height: 418px;
+}
+.indexAboutGerard-title {
+    font-family: Ogg;
+    font-weight: 400;
+    font-size: 52px;
+    letter-spacing: -0.62px;
+    line-height: 47px;
+    margin-bottom: 17px;
+}
+.indexAboutGerard-body {
+    width: 50%;
+}
+.indexAboutGerard-column {
+    flex: 1;
+}
+.indexAboutGerard-bodyImg {
+    position: absolute;
+    right: 0;
+    bottom: -42px;
+    background: url(/assets/01_landing/transparent-body.png) no-repeat;
+    background-size: cover;
+    width: 676px;
+    height: 450px;
+}
+.indexAboutGerard-button {
+    margin-top: 35px;
+}
+@media (max-width: 786px) {
+    .indexAboutGerard {
+        font-family: aktiv-grotesk;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: -0.18px;
+        line-height: 20px;
+        display: block;
+        padding-bottom: 0;
+        padding-top: 80px;
+    }
+    .indexAboutGerard-content {
+        display: block;
+    }
+    .indexAboutGerard-title {
+        font-family: Ogg;
+        font-weight: 400;
+        font-size: 29px;
+        letter-spacing: -0.34px;
+        line-height: 1.1;
+    }
+    .indexAboutGerard-body {
+        width: 100%;
+    }
+    .indexAboutGerard-bodyImg {
+        position: unset;
+        width: 98%;
+        height: 200px;
+        margin-left: 2%;
+        background-size: contain;
+        margin-bottom: -20px;
+        background-position: 100% 100%;
+    }
+}
+.interviewsVideos {
+    background-color: #020d16;
+    font-family: aktiv-grotesk;
+    font-size: 21px;
+    letter-spacing: -0.25px;
+    line-height: 27px;
+    font-weight: 300;
+    padding: 143px 24px;
+}
+.interviewsVideos-wrapper {
+    max-width: 1230px;
+    margin: auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    text-transform: uppercase;
-    line-height: 2em;
-    width: 100%;
-    box-sizing: border-box;
 }
-.contactBanner-inner {
-    width: 100%;
-    max-width: 596px;
-    font-size: 17px;
-    letter-spacing: -0.79px;
-    line-height: 2em;
-    text-align: center;
-}
-.contactBanner-title {
+.interviewsVideos-title {
     font-family: Ogg;
     font-size: 46px;
     letter-spacing: -0.51px;
     line-height: 70px;
     text-align: center;
     font-weight: 400;
-    text-transform: none;
-    margin-bottom: 26px;
+    margin-bottom: 20px;
 }
-.contactBanner-links {
+.interviewsVideos-text {
+    max-width: 680px;
+    text-align: center;
+}
+.interviewsVideos-videos {
+    margin-top: 72px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    flex-direction: row;
+    width: 100%;
 }
-@media (min-width: 762px) {
-    .mobile-only {
-        display: none;
-    }
-    .row {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    .row img {
-        object-fit: contain;
-    }
-    .row1 {
-        margin-bottom: 187px;
-    }
-    .row1 img {
-        width: 50%;
-    }
-    .row1 span {
-        max-width: 406px;
-        align-self: flex-end;
-        padding-bottom: 45px;
-        margin-left: 45px;
-    }
-    .row2 {
-        margin-bottom: 200px;
-    }
-    .row2 span {
-        max-width: 407px;
-        padding-left: 49px;
-        padding-top: 26px;
-        z-index: 1;
-        flex: 1;
-    }
-    .row2 div {
-        position: relative;
-        z-index: 0;
-        width: 300px;
-        text-align: right;
-        margin-left: 48px;
-    }
-    .imgOverlay1 {
-        position: absolute;
-        right: 85px;
-        top: 130px;
-    }
-    .row3 div {
-        max-width: 456px;
-        padding-right: 75px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-    .row3 div span {
-        z-index: 1;
-    }
-    .img3 {
-        margin-top: 54px;
-        margin-right: 48px;
-    }
-    .imgOverlay2 {
-        position: relative;
-        z-index: 0;
-        top: -65px;
-        right: -80px;
-    }
-    .row4 {
-        position: relative;
-        margin-bottom: 192px;
-        width: 100%;
-    }
-    .row4 span {
-        padding-left: 240px;
-        padding-top: 150px;
-        padding-bottom: 115px;
-        max-width: 405px;
-        flex: 1;
-        z-index: 1;
-    }
-    .img4 {
-        position: absolute;
-        display: block;
-        left: -24px;
-        z-index: 0;
-    }
-    .row4 div {
-        align-self: flex-end;
-        padding-bottom: 128px;
-        z-index: 1;
-        width: 404px;
-        text-align: right;
-    }
-    .img6 {
-        top: 128px;
-        left: -65px;
-    }
-    .img6,
-    .row5 {
-        position: relative;
-    }
-    .row5 {
-        flex-direction: column;
-        padding-bottom: 118px;
-        margin-bottom: 166px;
-    }
-    .row5-content div {
-        flex: 1;
-        z-index: 1;
-        max-width: 451px;
-    }
-    .leftSide {
-        margin-right: 113px;
-    }
-    .row5 img {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        z-index: 0;
-    }
-    .row5-content {
-        display: flex;
-        width: 100%;
-    }
-    .row5-content .button {
-        margin-top: 26px;
-        margin-bottom: 26px;
-    }
+.interviewsVideos-col {
+    flex: 1;
 }
-@media (max-width: 762px) {
-    h1 {
-        text-align: center;
+.interviewsVideos-video {
+    width: 100%;
+    height: 337px;
+}
+@media (max-width: 600px) {
+    .interviewsVideos {
+        padding-bottom: 63px;
     }
-    .desktop-only {
-        display: none;
-    }
-    .mobile-only {
-        display: block;
-    }
-    .content {
-        font-size: 15px;
-        letter-spacing: -0.18px;
-        line-height: 20px;
-        padding-left: 48px;
-        padding-right: 48px;
-        box-sizing: border-box;
-        width: 100%;
-        display: flex;
-        align-items: center;
-    }
-    .content,
-    .row {
+    .interviewsVideos-videos {
         flex-direction: column;
     }
-    .row1 img,
-    .row img {
-        width: 100%;
-    }
-    .row1 img {
-        display: block;
-        margin-bottom: 87px;
-    }
-    .imgContainer {
-        margin-top: 42px;
-    }
-    .row2 img {
-        width: 100%;
-    }
-    .row2 span {
-        display: block;
-        padding-top: 47px;
-    }
-    .row3 img {
-        display: block;
-        max-width: 100%;
-        margin-bottom: 50px;
-    }
-    .row3 {
-        margin-top: 47px;
-    }
-    .imgOverlay2,
-    .row4 span {
-        margin-top: 50px;
-    }
-    .row4 span {
-        display: block;
-    }
-    .leftSide {
-        margin-bottom: 2em;
-    }
-    .row5 img {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    .bodBanner {
-        margin-top: 62px;
-    }
-    .img5 {
-        max-width: 235px;
-        margin-top: 50px;
-    }
-    .img6 {
-        max-width: 164px;
-        margin-bottom: 50px;
-    }
-    .button {
-        margin: 26px auto auto;
+    .interviewsVideos-col {
+        margin-bottom: 42px;
     }
 }
-@media (max-width: 1024px) {
-    .row4 {
-        flex-direction: column;
-    }
-    .row4 span {
-        padding-bottom: 0;
+@media (min-width: 600px) {
+    .interviewsVideos-col:first-child {
+        margin-right: 34px;
     }
 }
-.titleMobile {
-    font-family: Ogg;
-    font-size: 29px;
-    letter-spacing: 0;
-    line-height: 45px;
-}
-/*# sourceMappingURL=/about.2dfc2098.css.map */
+/*# sourceMappingURL=/main.css.map */

@@ -221,16 +221,15 @@
 }
 @font-face {
     font-family: Ogg;
-    src: url(/assets/fonts/Ogg/Ogg-Regular.a1960225.eot) format("embedded-opentype"),
-        url(/assets/fonts/Ogg/Ogg-Regular.72bbd0b6.woff2) format("woff2"),
-        url(/assets/fonts/Ogg/Ogg-Regular.bd2ffaeb.woff) format("woff");
+    src: url(/assets/fonts/Ogg/Ogg-Regular.eot) format("embedded-opentype"),
+        url(/assets/fonts/Ogg/Ogg-Regular.woff2) format("woff2"), url(/assets/fonts/Ogg/Ogg-Regular.woff) format("woff");
     font-weight: 400;
 }
 @font-face {
     font-family: Ogg;
-    src: url(/assets/fonts/Ogg/Ogg-RegularItalic.5fd334ee.eot) format("embedded-opentype"),
-        url(/assets/fonts/Ogg/Ogg-RegularItalic.372d4fde.woff2) format("woff2"),
-        url(/assets/fonts/Ogg/Ogg-RegularItalic.765c6ff9.woff) format("woff");
+    src: url(/assets/fonts/Ogg/Ogg-RegularItalic.eot) format("embedded-opentype"),
+        url(/assets/fonts/Ogg/Ogg-RegularItalic.woff2) format("woff2"),
+        url(/assets/fonts/Ogg/Ogg-RegularItalic.woff) format("woff");
     font-weight: 400;
     font-style: italic;
 }
@@ -533,7 +532,7 @@ body {
 }
 .odmQuote {
     min-height: 572px;
-    background: url(/assets/02_origineDuMonde/purple-stems.eb761b22.jpg);
+    background: url(/assets/02_origineDuMonde/purple-stems.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
@@ -701,4 +700,4 @@ body {
         margin-bottom: 24px;
     }
 }
-/*# sourceMappingURL=/odm.80c1d6db.css.map */
+/*# sourceMappingURL=/odm.css.map */

@@ -5,4 +5,4 @@ parcelRequire = function (e, r, t, n) { var i, o = "function" == typeof parcelRe
         "use strict"; var e = o(require("../media/odm-trailer1.mp4")); function o(e) { return e && e.__esModule ? e : { default: e } } var t = window.document.querySelectorAll(".odmPlayVideo"); function n(o) { o.target.style.display = "none", window.document.querySelector(".odmEmbedContainer").innerHTML = '<video src="'.concat(e.default, '" controls autoplay>') } t.forEach(function (e) { e.addEventListener("click", n) });
     }, { "../media/odm-trailer1.mp4": "ElQU" }]
 }, {}, ["ZUlz"], null)
-//# sourceMappingURL=/odm.e77a0a98.js.map
+//# sourceMappingURL=/odm.js.map

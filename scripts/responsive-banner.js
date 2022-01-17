@@ -7,4 +7,4 @@ parcelRequire = function (e, r, t, n) { var i, o = "function" == typeof parcelRe
         "use strict"; var e = r(require("../assets/01_landing/landing-banner-mobile.mp4")), n = r(require("../assets/01_landing/landing-banner-cropped.mp4")); function r(e) { return e && e.__esModule ? e : { default: e } } function i() { return window.matchMedia("(max-width: 521px)").matches } function d() { for (var r = document.querySelectorAll("video.indexHeader-video"), d = 0; d < r.length; d++)i() ? r[d].src = e.default : r[d].src = n.default } var a = i(); window.addEventListener("resize", function () { var e = i(); e !== a && d(), a = e }), d();
     }, { "../assets/01_landing/landing-banner-mobile.mp4": "vkct", "../assets/01_landing/landing-banner-cropped.mp4": "lLBS" }]
 }, {}, ["QvaY"], null)
-//# sourceMappingURL=/js.bf11a772.js.map
+//# sourceMappingURL=/responsive-banner.js.map
