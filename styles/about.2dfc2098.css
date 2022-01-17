@@ -221,14 +221,16 @@
 }
 @font-face {
     font-family: Ogg;
-    src: url(Ogg-Regular.a1960225.eot) format("embedded-opentype"), url(Ogg-Regular.72bbd0b6.woff2) format("woff2"),
-        url(Ogg-Regular.bd2ffaeb.woff) format("woff");
+    src: url(/assets/fonts/Ogg/Ogg-Regular.a1960225.eot) format("embedded-opentype"),
+        url(/assets/fonts/Ogg/Ogg-Regular.72bbd0b6.woff2) format("woff2"),
+        url(/assets/fonts/Ogg/Ogg-Regular.bd2ffaeb.woff) format("woff");
     font-weight: 400;
 }
 @font-face {
     font-family: Ogg;
-    src: url(Ogg-RegularItalic.5fd334ee.eot) format("embedded-opentype"),
-        url(Ogg-RegularItalic.372d4fde.woff2) format("woff2"), url(Ogg-RegularItalic.765c6ff9.woff) format("woff");
+    src: url(/assets/fonts/Ogg/Ogg-RegularItalic.5fd334ee.eot) format("embedded-opentype"),
+        url(/assets/fonts/Ogg/Ogg-RegularItalic.372d4fde.woff2) format("woff2"),
+        url(/assets/fonts/Ogg/Ogg-RegularItalic.765c6ff9.woff) format("woff");
     font-weight: 400;
     font-style: italic;
 }
@@ -471,7 +473,7 @@ h1 {
     font-family: Ogg;
 }
 .bodBanner {
-    background: url(hands-on-head.270eaf2d.jpg) no-repeat;
+    background: url(/assets/03_somaticSexEducation/hands-on-head.270eaf2d.jpg) no-repeat;
     background-size: cover;
     background-position: 50%;
     padding-left: 24px;
@@ -493,7 +495,7 @@ h1 {
     margin-bottom: 36px;
 }
 .contactBanner {
-    background: url(purple-flower.703f9776.jpg) no-repeat;
+    background: url(/assets/02_origineDuMonde/purple-flower.703f9776.jpg) no-repeat;
     background-size: cover;
     background-position: 50%;
     padding-left: 24px;
