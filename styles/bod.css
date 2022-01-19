@@ -164,7 +164,7 @@
         margin-left: 15px;
     }
 }
-.contactFooter {
+.footer {
     row-gap: 8px;
     text-transform: uppercase;
     max-width: 1000px;
@@ -176,38 +176,38 @@
     padding-right: 24px;
     padding-bottom: 24px;
 }
-.contactFooter a {
+.footer a {
     text-decoration: none;
     color: #9d8b02;
 }
 @media (min-width: 758px) {
-    .contactFooter-title {
+    .footer__title {
         grid-column: 1;
     }
-    .contactFooter-email {
+    .footer__social--email {
         grid-column: 2 / span 6;
     }
-    .contactFooter-insta {
+    .footer__social--insta {
         grid-column: 9 / span 1;
     }
-    .contactFooter-fb {
+    .footer__social--fb {
         grid-column: 11 / span 1;
         grid-row: 1;
     }
-    .contactFooter-yt {
+    .footer__social--youtube {
         grid-column: 9 / span 1;
         grid-row: 2;
     }
-    .contactFooter-li,
-    .contactFooter-vimeo {
+    .footer__social--linkedin,
+    .footer__social--vimeo {
         grid-column: 10 / span 1;
     }
-    .contactFooter-vimeo {
+    .footer__social--vimeo {
         grid-row: 2;
     }
 }
 @media (max-width: 758px) {
-    .contactFooter {
+    .footer {
         display: grid;
         row-gap: 22px;
         grid-template-columns: 1fr;
@@ -459,12 +459,12 @@ body {
     line-height: 27px;
     letter-spacing: -0.25px;
 }
-.bodHeader,
+.bodywork__header,
 body {
     font-weight: 400;
     font-style: normal;
 }
-.bodHeader {
+.bodywork__header {
     margin: 0;
     display: flex;
     justify-content: center;
@@ -480,10 +480,10 @@ body {
     background-size: cover;
     background-position: 50%;
 }
-.bodHeader > span {
+.bodywork__header > span {
     max-width: 645px;
 }
-.bodContent {
+.bodywork__content {
     margin: auto;
     max-width: 696px;
     padding: 54px 120px 123px 24px;
@@ -522,18 +522,18 @@ hr {
         letter-spacing: -0.18px;
         line-height: 20px;
     }
-    .bodHeader,
+    .bodywork__header,
     body {
         font-weight: 400;
         font-style: normal;
     }
-    .bodHeader {
+    .bodywork__header {
         font-family: Ogg;
         font-size: 29px;
         letter-spacing: -0.34px;
         line-height: 50px;
     }
-    .bodContent {
+    .bodywork__content {
         padding: 12px 24px 86px;
     }
     h2 {
