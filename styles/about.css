@@ -467,11 +467,11 @@ h1 {
     line-height: 80px;
     margin-top: 75px;
 }
-.bodBanner,
+.bodywork-banner,
 h1 {
     font-family: Ogg;
 }
-.bodBanner {
+.bodywork-banner {
     background: url(/assets/03_somaticSexEducation/hands-on-head.jpg) no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -489,11 +489,11 @@ h1 {
     width: 100%;
     box-sizing: border-box;
 }
-.bodBanner span {
+.bodywork-banner span {
     max-width: 773px;
     margin-bottom: 36px;
 }
-.contactBanner {
+.contact-banner {
     background: url(/assets/02_origineDuMonde/purple-flower.jpg) no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -508,7 +508,7 @@ h1 {
     width: 100%;
     box-sizing: border-box;
 }
-.contactBanner-inner {
+.contact-banner__inner {
     width: 100%;
     max-width: 596px;
     font-size: 17px;
@@ -516,7 +516,7 @@ h1 {
     line-height: 2em;
     text-align: center;
 }
-.contactBanner-title {
+.contact-banner__title {
     font-family: Ogg;
     font-size: 46px;
     letter-spacing: -0.51px;
@@ -526,7 +526,7 @@ h1 {
     text-transform: none;
     margin-bottom: 26px;
 }
-.contactBanner-links {
+.contact-banner__links {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -724,7 +724,7 @@ h1 {
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    .bodBanner {
+    .bodywork-banner {
         margin-top: 62px;
     }
     .img5 {
