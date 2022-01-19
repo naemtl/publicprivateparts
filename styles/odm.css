@@ -505,10 +505,16 @@ body {
 }
 .odmDescription-buttons a {
     text-decoration: none;
+    margin-right: 10px;
 }
 .odmDescription-buttonSpacer {
     width: 60px;
 }
+
+.inline-link {
+    color: #9d8b02;
+}
+
 @media (max-width: 446px) {
     .odmDescription {
         padding-top: 42px;

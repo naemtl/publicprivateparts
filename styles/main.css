@@ -775,9 +775,13 @@ body {
     background-size: cover;
     width: 676px;
     height: 450px;
+    pointer-events: none;
 }
-.indexAboutGerard-button {
+.indexAboutGerard-button,
+.indexSomaticSex-button {
     margin-top: 35px;
+    width: fit-content;
+    z-index: 999;
 }
 @media (max-width: 786px) {
     .indexAboutGerard {
