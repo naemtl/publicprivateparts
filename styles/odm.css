@@ -444,7 +444,7 @@ body {
 body {
     background-color: #222023;
 }
-.odmHeader {
+.origine__header {
     position: relative;
     height: 100vh;
     display: flex;
@@ -456,39 +456,39 @@ body {
     padding-left: 24px;
     box-sizing: border-box;
 }
-.odmHeader-logo {
+.origine__logo--header {
     max-width: 452px;
     width: 100%;
     z-index: 2;
     display: block;
 }
-.odmHeader-videoOverlay {
+.origine__video-overlay--header {
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-.odmHeader-video,
-.odmHeader-videoOverlay {
+.origine__video-player--header,
+.origine__video-overlay--header {
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
 }
-.odmHeader-video {
+.origine__video-player--header {
     z-index: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center center;
 }
-.odmDescription {
+.origine__content {
     padding: 127px 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.odmDescription-text {
+.origine__text {
     max-width: 696px;
     font-family: aktiv-grotesk;
     font-weight: 400;
@@ -498,16 +498,16 @@ body {
     margin-bottom: 50px;
     width: 100%;
 }
-.odmDescription-buttons {
+.origine__controls {
     display: flex;
     max-width: 696px;
     width: 100%;
 }
-.odmDescription-buttons a {
+.origine__controls a {
     text-decoration: none;
     margin-right: 10px;
 }
-.odmDescription-buttonSpacer {
+.origine__button-spacer {
     width: 60px;
 }
 
@@ -516,11 +516,11 @@ body {
 }
 
 @media (max-width: 446px) {
-    .odmDescription {
+    .origine__content {
         padding-top: 42px;
         padding-bottom: 70px;
     }
-    .odmDescription-text {
+    .origine__text {
         font-family: aktiv-grotesk;
         font-weight: 400;
         font-size: 15px;
@@ -528,15 +528,15 @@ body {
         line-height: 20px;
         font-style: normal;
     }
-    .odmDescription-buttons {
+    .origine__controls {
         flex-direction: column;
         align-items: center;
     }
-    .odmDescription-buttonSpacer {
+    .origine__button-spacer {
         height: 51px;
     }
 }
-.odmQuote {
+.origine__quote {
     min-height: 572px;
     background: url(/assets/02_origineDuMonde/purple-stems.jpg);
     background-repeat: no-repeat;
@@ -547,23 +547,23 @@ body {
     align-items: center;
     flex-direction: column;
 }
-.odmQuote-container {
+.origine__quote-container {
     max-width: 823px;
     padding-left: 33px;
     padding-right: 33px;
 }
-.odmQuote-text {
+.origine__quote-text {
     font-family: Ogg;
     font-size: 46px;
     letter-spacing: -0.51px;
     line-height: 70px;
 }
-.odmQuote-author,
-.odmQuote-text {
+.origine__quote-author,
+.origine__quote-text {
     font-weight: 400;
     font-style: normal;
 }
-.odmQuote-author {
+.origine__quote-author {
     margin-top: 1em;
     font-family: aktiv-grotesk;
     font-size: 17px;
@@ -572,10 +572,10 @@ body {
     max-width: 374px;
 }
 @media (max-width: 446px) {
-    .odmQuote {
+    .origine__quote {
         height: 401px;
     }
-    .odmQuote-text {
+    .origine__quote-text {
         font-family: Ogg;
         font-weight: 400;
         font-size: 29px;
@@ -584,12 +584,12 @@ body {
         font-style: normal;
     }
 }
-.odmCredits {
+.origine__personnel-container {
     max-width: 984px;
     padding: 138px 24px 78px;
     margin: auto;
 }
-.odmCredits-title {
+.origine__personnel-heading {
     font-weight: 600;
     font-style: italic;
     margin-bottom: 16px;
@@ -598,12 +598,12 @@ body {
     line-height: 34px;
     margin-top: 2em;
 }
-.odmCredits-row,
-.odmCredits-title {
+.origine__personnel-row,
+.origine__personnel-heading {
     font-family: aktiv-grotesk;
     text-transform: uppercase;
 }
-.odmCredits-row {
+.origine__personnel-row {
     font-weight: 400;
     font-size: 21px;
     letter-spacing: -0.68px;
@@ -612,30 +612,30 @@ body {
     flex-direction: row;
     align-items: baseline;
 }
-.odmCredits-rowTitle {
+.origine__personnel-role {
     max-width: 40%;
 }
-.odmCredits-rowSpacer {
+.origine__personnel-spacer {
     flex: 1;
     border-bottom: 4px dotted #494419;
     height: 1px;
     margin-left: 1em;
     margin-right: 1em;
 }
-.odmCredits-rowCredit {
+.origine__personnel-name {
     max-width: 480px;
     text-align: right;
 }
 @media (max-width: 768px) {
-    .odmCredits {
+    .origine__personnel-container {
         padding-top: 88px;
     }
-    .odmCredits-title {
+    .origine__personnel-heading {
         font-size: 20px;
         letter-spacing: -0.19px;
         line-height: 20px;
     }
-    .odmCredits-row {
+    .origine__personnel-row {
         text-transform: none;
         font-size: 15px;
         letter-spacing: -0.18px;
@@ -643,33 +643,33 @@ body {
         flex-direction: column;
         margin-bottom: 1em;
     }
-    .odmCredits-rowTitle {
+    .origine__personnel-role {
         max-width: none;
         font-weight: 600;
         text-transform: uppercase;
     }
-    .odmCredits-rowSpacer {
+    .origine__personnel-spacer {
         display: none;
     }
-    .odmCredits-rowCredit {
+    .origine__personnel-name {
         max-width: none;
         text-align: left;
     }
 }
-.odmEmbedContainer {
+.origine__embed {
     background: #000;
 }
-.odmEmbedContainer video {
+.origine__embed video {
     width: 100%;
     max-height: 90vh;
 }
-.odmLogos {
+.origine__logos-container {
     background-color: #272528;
     padding-top: 42px;
     padding-bottom: 42px;
     margin-bottom: 100px;
 }
-.odmLogos-row {
+.origine__logos-row {
     display: flex;
     justify-content: space-between;
     max-width: 900px;
@@ -677,31 +677,31 @@ body {
     padding: 32px 24px;
     align-items: center;
 }
-.logoCalq {
+.calq-logo {
     width: 204px;
 }
-.logoCca {
+.cca-logo {
     max-width: 357px;
     width: 100%;
 }
 .logoThc {
     width: 158px;
 }
-.logoSacd {
+.sacd-logo {
     width: 117px;
     height: 84px;
 }
-.logoGoethe {
+.goethe-logo {
     width: 217px;
 }
 @media (max-width: 700px) {
-    .odmLogos-row {
+    .origine__logos-row {
         flex-direction: column;
         padding-top: 0;
         padding-bottom: 0;
         align-items: center;
     }
-    .odmLogos img {
+    .origine__logos-container img {
         margin-top: 24px;
         margin-bottom: 24px;
     }

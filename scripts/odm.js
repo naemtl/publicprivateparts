@@ -2,7 +2,7 @@ parcelRequire = function (e, r, t, n) { var i, o = "function" == typeof parcelRe
     "ElQU": [function (require, module, exports) {
         module.exports = "/odm-trailer1.6bd1bc81.mp4";
     }, {}], "ZUlz": [function (require, module, exports) {
-        "use strict"; var e = o(require("../media/odm-trailer1.mp4")); function o(e) { return e && e.__esModule ? e : { default: e } } var t = window.document.querySelectorAll(".odmPlayVideo"); function n(o) { o.target.style.display = "none", window.document.querySelector(".odmEmbedContainer").innerHTML = '<video src="'.concat(e.default, '" controls autoplay>') } t.forEach(function (e) { e.addEventListener("click", n) });
+        "use strict"; var e = o(require("../media/odm-trailer1.mp4")); function o(e) { return e && e.__esModule ? e : { default: e } } var t = window.document.querySelectorAll(".odmPlayVideo"); function n(o) { o.target.style.display = "none", window.document.querySelector(".origine__embed").innerHTML = '<video src="'.concat(e.default, '" controls autoplay>') } t.forEach(function (e) { e.addEventListener("click", n) });
     }, { "../media/odm-trailer1.mp4": "ElQU" }]
 }, {}, ["ZUlz"], null)
 //# sourceMappingURL=/odm.js.map

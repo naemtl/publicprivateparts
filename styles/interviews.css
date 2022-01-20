@@ -614,21 +614,21 @@ body {
     margin: auto;
     padding: 32px 24px;
 }
-.logoCalq {
+.calq-logo {
     width: 204px;
 }
-.logoCca {
+.cca-logo {
     max-width: 357px;
     width: 100%;
 }
 .logoThc {
     width: 158px;
 }
-.logoSacd {
+.sacd-logo {
     width: 117px;
     height: 84px;
 }
-.logoGoethe {
+.goethe-logo {
     width: 217px;
 }
 @media (max-width: 700px) {
