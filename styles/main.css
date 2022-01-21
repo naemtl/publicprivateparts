@@ -440,7 +440,7 @@ body {
 .text-decoration-none {
     text-decoration: none;
 }
-.indexHeader {
+.homepage__content--header {
     position: relative;
     height: 100vh;
     padding-top: 40px;
@@ -450,7 +450,7 @@ body {
     width: 100%;
     min-height: 400px;
 }
-.indexHeader-title {
+.homepage__title--header {
     display: flex;
     max-width: 726px;
     flex: 1;
@@ -463,10 +463,10 @@ body {
     justify-content: space-between;
     padding-bottom: 275px;
 }
-.indexHeader-spacer {
+.homepage__spacer--header {
     flex: 1;
 }
-.indexHeader-video {
+.homepage__video--header {
     position: absolute;
     left: 0;
     right: 0;
@@ -476,7 +476,7 @@ body {
     margin-top: 40px;
 }
 @media (max-width: 446px) {
-    .indexHeader {
+    .homepage__content--header {
         height: 80vh;
         background-repeat: no-repeat;
         background-position: bottom;
@@ -485,15 +485,15 @@ body {
         box-sizing: border-box;
         align-items: flex-start;
     }
-    .indexHeader-spacer {
+    .homepage__spacer--header {
         width: 20px;
     }
-    .indexHeader-video {
+    .homepage__video--header {
         min-height: 30vh;
         object-fit: cover;
     }
 }
-.indexAbout {
+.homepage__content--about {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -504,10 +504,10 @@ body {
     overflow: hidden;
 }
 .indexAbout-text,
-.indexAbout-textSpacer {
+.homepage__spacer--about {
     z-index: 2;
 }
-.indexAbout-video {
+.homepage__video--about {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -517,21 +517,22 @@ body {
     object-position: bottom left;
     width: 100%;
 }
-.indexAbout-text {
+.homepage__text--about {
     text-align: center;
     max-width: 696px;
+    z-index: 2;
 }
-.indexAbout-textSpacer {
+.homepage__spacer--about {
     height: 26px;
 }
 @media (max-width: 470px) {
-    .indexAbout {
+    .homepage__content--about {
         padding-top: 80px;
         padding-bottom: 216px;
         background-position: 0 100%;
         background-size: 544px;
     }
-    .indexAbout-text {
+    .homepage__text--about {
         font-family: aktiv-grotesk;
         font-weight: 400;
         font-size: 15px;
@@ -539,18 +540,18 @@ body {
         line-height: 20px;
     }
 }
-.indexOdm {
+.homepage__section--origine {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
 }
-.indexOdm-video {
+.homepage__video--origine {
     flex: 1;
     max-width: calc(50% - 24px);
     order: -1;
 }
-.indexOdm-content {
+.homepage__content--origine {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -560,7 +561,7 @@ body {
     padding-right: 24px;
     padding-top: 4%;
 }
-.indexOdm-logo {
+.homepage__logo--origine {
     background-image: url(/assets/02_origineDuMonde/odm-logo.svg);
     background-repeat: no-repeat;
     background-position: 50%;
@@ -571,36 +572,36 @@ body {
     margin-top: 172px;
     margin-bottom: 24px;
 }
-.indexOdm-logoTextLower,
-.indexOdm-logoTextUpper {
+.homepage__text-lower--origine,
+.homepage__text-upper--origine {
     display: none;
 }
-.indexOdm-text {
+.homepage__text--origine {
     max-width: 521px;
 }
-.indexOdm-textSpacer {
+.homepage__spacer--origine {
     height: 35px;
 }
 @media (max-width: 446px) {
-    .indexOdm {
+    .homepage__section--origine {
         padding-bottom: 110px;
         flex-direction: column;
     }
-    .indexOdm-video {
+    .homepage__video--origine {
         order: 1;
         max-width: 100%;
         margin: 48px 0 0;
     }
-    .indexOdm-content {
+    .homepage__content--origine {
         padding-top: 0;
     }
-    .indexOdm-logo {
+    .homepage__logo--origine {
         padding-top: 105px;
         background: none;
         height: auto;
         margin-bottom: 24px;
     }
-    .indexOdm-logoTextUpper {
+    .homepage__text-upper--origine {
         display: block;
         padding-left: 24px;
         padding-right: 24px;
@@ -610,14 +611,14 @@ body {
         justify-content: space-between;
         margin: auto;
     }
-    .indexOdm-logoTextLower {
+    .homepage__text-lower--origine {
         display: block;
         text-align: center;
     }
-    .indexOdm-logoTextSuperscript {
+    .homepage__text-super--origine {
         vertical-align: 1em;
     }
-    .indexOdm-text {
+    .homepage__text--origine {
         font-family: aktiv-grotesk;
         font-weight: 400;
         font-size: 15px;
@@ -625,7 +626,7 @@ body {
         line-height: 20px;
     }
 }
-.indexSubscribe {
+.subscribe {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -633,21 +634,21 @@ body {
     padding: 156px 24px 134px;
     background: linear-gradient(180deg, #041422, #000);
 }
-.indexSubscribe-title {
+.subscribe__title {
     margin-bottom: 16px;
     text-align: center;
 }
-.indexSubscribe-text {
+.subscribe__text {
     max-width: 592px;
     text-align: center;
 }
-.indexSubscribe-form {
+.subscribe__form {
     margin-top: 64px;
     max-width: 504px;
     width: 100%;
 }
-.indexSubscribe-form input:not([type="submit"]),
-.indexSubscribe-form select {
+.subscribe__form input:not([type="submit"]),
+.subscribe__form select {
     width: 100%;
     margin-bottom: 25px;
     display: block;
@@ -667,21 +668,21 @@ body {
     line-height: 27px;
     letter-spacing: -0.25px;
 }
-.indexSubscribe-form select {
+.subscribe__form select {
     text-transform: uppercase;
 }
-.indexSubscribe-form select:invalid {
+.subscribe__form select:invalid {
     color: #9d8b02;
 }
-.indexSubscribe-form input:focus,
-.indexSubscribe-form select:focus {
+.subscribe__form input:focus,
+.subscribe__form select:focus {
     border-color: #fff49e;
 }
-.indexSubscribe-form input::placeholder {
+.subscribe__form input::placeholder {
     color: #9d8b02;
     text-transform: uppercase;
 }
-.indexSubscribe-form input[type="submit"] {
+.subscribe__form input[type="submit"] {
     font-family: aktiv-grotesk;
     font-weight: 400;
     font-size: 16px;
@@ -691,40 +692,40 @@ body {
     margin: auto;
 }
 @media (max-width: 446px) {
-    .indexSubscribe {
+    .subscribe {
         padding-top: 106px;
         padding-bottom: 115px;
     }
-    .indexSubscribe-title {
+    .subscribe__title {
         font-family: Ogg;
         font-weight: 400;
         font-size: 29px;
         letter-spacing: -0.34px;
         line-height: 50px;
     }
-    .indexSubscribe-text {
+    .subscribe__text {
         font-weight: 400;
         line-height: 20px;
     }
-    .indexSubscribe-form,
-    .indexSubscribe-text {
+    .subscribe__form,
+    .subscribe__text {
         font-family: aktiv-grotesk;
         font-size: 15px;
         letter-spacing: -0.18px;
     }
-    .indexSubscribe-form {
+    .subscribe__form {
         font-weight: 300;
         line-height: 27px;
     }
-    .indexSubscribe-form input:not([type="submit"]),
-    .indexSubscribe-form select {
+    .subscribe__form input:not([type="submit"]),
+    .subscribe__form select {
         font-family: aktiv-grotesk;
         font-weight: 300;
         font-size: 15px;
         letter-spacing: -0.18px;
         line-height: 27px;
     }
-    .indexSubscribe-form input[type="submit"] {
+    .subscribe__form input[type="submit"] {
         font-family: aktiv-grotesk;
         font-weight: 400;
         font-size: 20px;
@@ -733,7 +734,7 @@ body {
         font-style: italic;
     }
 }
-.indexAboutGerard {
+.homepage--gerard {
     position: relative;
     display: flex;
     align-items: center;
@@ -741,7 +742,7 @@ body {
     padding-top: 200px;
     padding-bottom: 190px;
 }
-.indexAboutGerard-content {
+.homepage__content--gerard {
     font-family: aktiv-grotesk;
     font-weight: 300;
     font-size: 21px;
@@ -753,7 +754,7 @@ body {
     padding-left: 24px;
     padding-right: 24px;
 }
-.indexAboutGerard-title {
+.homepage__title--gerard {
     font-family: Ogg;
     font-weight: 400;
     font-size: 52px;
@@ -761,13 +762,13 @@ body {
     line-height: 47px;
     margin-bottom: 17px;
 }
-.indexAboutGerard-body {
+.homepage__text--gerard {
     width: 50%;
 }
-.indexAboutGerard-column {
+.homepage__column--gerard {
     flex: 1;
 }
-.indexAboutGerard-bodyImg {
+.homepage__image--gerard {
     position: absolute;
     right: 0;
     bottom: -42px;
@@ -777,14 +778,14 @@ body {
     height: 450px;
     pointer-events: none;
 }
-.indexAboutGerard-button,
+.homepage__button--gerard,
 .indexSomaticSex-button {
     margin-top: 35px;
     width: fit-content;
     z-index: 999;
 }
 @media (max-width: 786px) {
-    .indexAboutGerard {
+    .homepage--gerard {
         font-family: aktiv-grotesk;
         font-weight: 400;
         font-size: 15px;
@@ -794,20 +795,20 @@ body {
         padding-bottom: 0;
         padding-top: 80px;
     }
-    .indexAboutGerard-content {
+    .homepage__content--gerard {
         display: block;
     }
-    .indexAboutGerard-title {
+    .homepage__title--gerard {
         font-family: Ogg;
         font-weight: 400;
         font-size: 29px;
         letter-spacing: -0.34px;
         line-height: 1.1;
     }
-    .indexAboutGerard-body {
+    .homepage__text--gerard {
         width: 100%;
     }
-    .indexAboutGerard-bodyImg {
+    .homepage__image--gerard {
         position: unset;
         width: 98%;
         height: 200px;
