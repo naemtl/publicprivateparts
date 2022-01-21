@@ -1,0 +1,43 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin button {
+    background-color: $science-blue;
+    border-color: $science-blue;
+    color: $white;
+    display: flex;
+    font-size: rem(12px);
+    font-weight: $bold-font-weight;
+    justify-content: center;
+    padding: rem(7px) rem(9px);
+    text-transform: uppercase;
+
+    &:active:enabled,
+    &:hover:enabled {
+        background-color: $endeavour;
+        border-color: $science-blue;
+    }
+
+    &:disabled {
+        background-color: $gray;
+        color: $white;
+    }
+
+    &:focus:enabled {
+        box-shadow: none;
+    }
+
+    &--outline {
+        background-color: $white;
+        color: $science-blue;
+
+        &:active:enabled,
+        &:hover:enabled {
+            background-color: $link-water;
+            color: $science-blue;
+        }
+    }
+}
