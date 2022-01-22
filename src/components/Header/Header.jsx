@@ -3,16 +3,16 @@ import { useTranslation } from "react-i18next";
 
 import { supportedLanguages } from "../../utils/localization";
 
-import './Navbar.scss'
+import './Header.scss'
 
-const Navbar = () => {
+const Header = () => {
     const { t, i18n } = useTranslation()
 
     return (
-        <div className='navbar'>
+        <header className='header'>
             {Object.keys(supportedLanguages).map((lang) => (
                 <button
-                    className='navbar__lang-item'
+                    className='header__lang-item'
                     key={lang}
                     style={{ fontWeight: i18n.resolvedLanguage === lang ? 'bold' : 'normal' }}
                     type="submit"
@@ -21,8 +21,8 @@ const Navbar = () => {
                     {supportedLanguages[lang].nativeName}
                 </button>
             ))}
-            <button className='navbar__control--open'>Menu</button>
-            {/* <nav class="navigation navigation--closed">
+            <button className='header__control--open'>Menu</button>
+            <nav class="navigation navigation--closed">
                 <div class="navigation__inner">
                     <div class="navigation-lang type-ag-regular-15">
                         <div class="navigation__lang-item navigation__lang-item--active"><a href="en-index.html">English</a>
@@ -56,9 +56,9 @@ const Navbar = () => {
                 </ol>
                 <div class="navigation__contact type-ogg-regular-19-italic"> Say hi ⟶ <a
                     href="mailto:gerardxreyes@gmail.com">gerardxreyes@gmail.com</a> </div>
-            </nav> */}
-        </div>
+            </nav>
+        </header>
     )
 };
 
-export default Navbar;
+export default Header;
