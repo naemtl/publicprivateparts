@@ -18,10 +18,10 @@
     &__control--open {
         margin-left: rem(27px);
         font-weight: $bold-font-weight;
-    }
 
-    &__control--open:hover {
-        color: #fff49e;
+        &hover {
+            color: #fff49e;
+        }
     }
 
     &__lang-item {
@@ -37,5 +37,37 @@
         border: none;
         color: $site-color;
         cursor: pointer;
+    }
+}
+
+.navmenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $black;
+    z-index: 1;
+
+    &__lang-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__list {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 75%;
+        margin: 0;
+    }
+
+    &__top {
+        height: 10%;
+        display: flex;
+        justify-content: flex-end;
     }
 }
