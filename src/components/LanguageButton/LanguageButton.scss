@@ -1,0 +1,9 @@
+@import "/src/assets/styles/common";
+
+.language-button {
+    background: none;
+    border: none;
+    color: $site-color;
+    cursor: pointer;
+    margin-right: rem(30px);
+}

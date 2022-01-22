@@ -1,39 +1,28 @@
-import React from 'react';
 import { useTranslation } from "react-i18next";
+
+import LanguageButton from "../LanguageButton/LanguageButton";
 
 import { supportedLanguages } from "../../utils/localization";
 
 import './Header.scss'
 
 const Header = () => {
-    const { t, i18n } = useTranslation()
+    const { t } = useTranslation()
+
+    const displayLanguageButtons = () => (
+        Object.keys(supportedLanguages).map((lang) => (
+            <LanguageButton supportedLanguages={supportedLanguages} language={lang} />
+        ))
+    )
 
     return (
         <header className='header'>
-            {Object.keys(supportedLanguages).map((lang) => (
-                <button
-                    className='header__lang-item'
-                    key={lang}
-                    style={{ fontWeight: i18n.resolvedLanguage === lang ? 'bold' : 'normal' }}
-                    type="submit"
-                    onClick={() => i18n.changeLanguage(lang)}
-                >
-                    {supportedLanguages[lang].nativeName}
-                </button>
-            ))}
+            {displayLanguageButtons()}
             <button className='header__control--open'>Menu</button>
             <nav class="navmenu navmenu--closed">
                 <div class="navmenu__top">
                     <div class="navmenu__lang-container">
-                        <div class="navmenu__lang-item navmenu__lang-item--active">
-                            <a href="en-index.html">English</a>
-                        </div>
-                        <div class="navmenu__lang-item">
-                            <a href="fr-index.html">Français</a>
-                        </div>
-                        <div class="navmenu__lang-item">
-                            <a href="es-index.html">Español</a>
-                        </div>
+                        {displayLanguageButtons()}
                     </div>
                     <div class="navmenu__exit">
                         <svg width="35" height="35" viewBox="0 0 35 35"

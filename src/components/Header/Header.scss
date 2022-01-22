@@ -16,27 +16,16 @@
     z-index: 3;
 
     &__control--open {
-        margin-left: rem(27px);
-        font-weight: $bold-font-weight;
-
-        &hover {
-            color: #fff49e;
-        }
-    }
-
-    &__lang-item {
-        background: none;
-        border: none;
-        color: $site-color;
-        margin-right: rem(30px);
-    }
-
-    &__control--open,
-    &__lang-item {
         background: none;
         border: none;
         color: $site-color;
         cursor: pointer;
+        font-weight: $bold-font-weight;
+        margin-left: rem(27px);
+
+        &hover {
+            color: #fff49e;
+        }
     }
 }
 
@@ -69,5 +58,16 @@
         height: 10%;
         display: flex;
         justify-content: flex-end;
+    }
+
+    &__exit {
+        padding: 1.5em;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        // position: absolute;
+        // top: 1em;
+        // right: 1em;
+        // z-index: 2;
     }
 }
