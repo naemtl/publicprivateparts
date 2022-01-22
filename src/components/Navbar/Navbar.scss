@@ -1,0 +1,41 @@
+@import "/src/assets/styles/common";
+
+.navbar {
+    background-color: $black;
+    color: $site-color;
+    display: flex;
+    font-size: rem(17px);
+    justify-content: flex-end;
+    left: 0;
+    padding: rem(16px) rem(32px);
+    position: fixed;
+    right: 0;
+    text-transform: uppercase;
+    top: 0;
+    transition: background-color 0.2s ease-in-out;
+    z-index: 3;
+
+    &__control--open {
+        margin-left: rem(27px);
+        font-weight: $bold-font-weight;
+    }
+
+    &__control--open:hover {
+        color: #fff49e;
+    }
+
+    &__lang-item {
+        background: none;
+        border: none;
+        color: $site-color;
+        margin-right: rem(30px);
+    }
+
+    &__control--open,
+    &__lang-item {
+        background: none;
+        border: none;
+        color: $site-color;
+        cursor: pointer;
+    }
+}
