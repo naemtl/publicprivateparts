@@ -7,7 +7,7 @@
     font-size: rem(17px);
     justify-content: flex-end;
     left: 0;
-    padding: rem(16px) rem(32px);
+    padding: 0.6rem 1rem;
     position: fixed;
     right: 0;
     text-transform: uppercase;
@@ -26,82 +26,5 @@
         &:hover {
             color: #fff49e;
         }
-    }
-}
-
-.navmenu {
-    background-color: $black;
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    transform: translateX(100%);
-    z-index: 1;
-
-    &__button--exit {
-        cursor: pointer;
-        background: transparent;
-        border: none;
-        padding: 1.5rem 0.8rem;
-        position: absolute;
-        top: 1em;
-        right: 1em;
-        z-index: 2;
-    }
-
-    &__lang-container {
-        display: flex;
-        justify-content: space-evenly;
-        position: absolute;
-        top: 2rem;
-        right: 5rem;
-    }
-
-    &__hamburger {
-        display: block;
-        position: relative;
-    }
-
-    &__hamburger,
-    &__hamburger::before,
-    &__hamburger::after {
-        width: 2rem;
-        height: rem(2px);
-        background-color: $site-color;
-    }
-
-    &__hamburger::before,
-    &__hamburger::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-    }
-
-    &__hamburger::before {
-        top: rem(8px);
-    }
-
-    &__hamburger::after {
-        bottom: rem(8px);
-    }
-
-    &__list {
-        list-style-type: none;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        height: 75%;
-        margin: 0;
-    }
-
-    &__top {
-        display: flex;
-        height: 10%;
-        justify-content: flex-end;
-        position: relative;
     }
 }
