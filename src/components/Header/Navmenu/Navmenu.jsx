@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 import "./Navmenu.scss";
 
@@ -44,7 +45,8 @@ const Navmenu = ({ menuOpen }) => {
                 </li>
             </ol>
             <div className="navmenu__contact">
-                Say hi ⟶
+                <span>Say hi</span>
+                <FaLongArrowAltRight />
                 <a href="mailto:gerardxreyes@gmail.com">gerardxreyes@gmail.com</a>
             </div>
         </nav>

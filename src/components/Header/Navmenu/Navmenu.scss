@@ -19,7 +19,16 @@
     }
 
     &__contact {
+        align-items: center;
         align-self: flex-end;
+        display: flex;
+        font-size: rem(16px);
+        margin-top: rem(10px);
+        text-transform: none;
+
+        svg {
+            margin: 0 rem(5px);
+        }
     }
 
     &__top {
