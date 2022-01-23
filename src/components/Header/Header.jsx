@@ -28,7 +28,7 @@ const Header = () => {
         <header className='header'>
             {displayLanguageButtons()}
             <HamburgerButton menuOpen={menuOpen} clickCallback={toggleMenu} />
-            <Navmenu menuOpen={menuOpen} />
+            <Navmenu menuOpen={menuOpen} toggleMenu={toggleMenu} />
         </header>
     )
 };
