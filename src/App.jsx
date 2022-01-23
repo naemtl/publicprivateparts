@@ -1,8 +1,10 @@
 import { Suspense } from "react";
 
 import Homepage from "./pages/Homepage/Homepage";
-import Header from "./components/Header/Header";
+
 import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Loader from "./components/Loader/Loader";
 
 import './App.scss';
 
@@ -18,7 +20,7 @@ const App = () => {
 
 export default function WrappedApp() {
 	return (
-		<Suspense fallback="...is loading">
+		<Suspense fallback={<Loader />}>
 			<App />
 		</Suspense>
 	)
