@@ -5,9 +5,9 @@ import AboutPreview from "./AboutPreview/AboutPreview";
 
 import landingBannerCropped from "../../assets/01_landing/landing-banner-cropped.mp4";
 import breathingVid from "../../assets/01_landing/breathing.mp4";
-import origineBanner from "../../assets/01_landing/odm-banner.mp4";
 
 import './Homepage.scss'
+import OriginePreview from "./OriginePreview/OriginePreview";
 
 const Homepage = () => {
     const { t } = useTranslation('homepage')
@@ -41,36 +41,7 @@ const Homepage = () => {
                 <video className="homepage__video--about" src={breathingVid} autoPlay muted loop
                     controlsList="nofullscreen" playsInline=""></video>
             </div>
-            <div className="homepage__logo--origine">
-                <div className="homepage__text-upper--origine type-ag-medium-17"> <span>Public </span> <span>Private </span>
-                    <span>Parts</span>
-                </div>
-                <div className="homepage__text-lower--origine"> <span
-                    className="homepage__text-super--origine type-ogg-regular-14-italic">ou</span> <span
-                        className="type-ogg-regular-30">L’Origine du monde</span> </div>
-            </div>
-            <div className="homepage__section--origine type-ag-light-21">
-                <div className="homepage__content--origine">
-                    <div className="homepage__text--origine"> The first work in the Public / Private Parts series is an immersive
-                        dance
-                        performance and video installation which looks
-                        beyond the limiting binaries of public/private and art/pornography. A community of nine embodiment
-                        experts from various
-                        professional and cultural backgrounds create mindful bodily practices to awaken the senses. Through live
-                        performances
-                        and documentary videos, the group of contemporary dancers, sex workers and sex educators explore alone
-                        and expand
-                        together using the essential functions of touch, breath, sound, movement, and imagination. Intimate and
-                        innovative,
-                        their discoveries reveal new, hopeful interconnections that could benefit us all.</div>
-                    <div className="homepage__spacer--origine"></div>
-                    <a href="en-odm.html" className="text-decoration-none">
-                        <button className="button">Trailer and info</button>
-                    </a>
-                </div>
-                <video className="homepage__video--origine" src={origineBanner} autoPlay muted loop
-                    controlsList="nofullscreen" playsInline=""></video>
-            </div>
+            <OriginePreview />
             <DocumentaryInterviews />
             <AboutPreview />
             <div className="subscribe">

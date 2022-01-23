@@ -1,0 +1,90 @@
+@import "/src/assets/styles/common";
+
+.origine-preview {
+    &__section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    &__video {
+        flex: 1;
+        max-width: calc(50% - 24px);
+        order: -1;
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex: 1;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 4%;
+    }
+    &__logo {
+        background-image: url(/assets/02_origineDuMonde/odm-logo.svg);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: contain;
+        height: 150px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 172px;
+        margin-bottom: 24px;
+    }
+    &__text-lower,
+    &__text-upper {
+        display: none;
+    }
+    &__text {
+        max-width: 521px;
+    }
+    &__spacer {
+        height: 35px;
+    }
+    @media (max-width: 446px) {
+        &__section {
+            padding-bottom: 110px;
+            flex-direction: column;
+        }
+        &__video {
+            order: 1;
+            max-width: 100%;
+            margin: 48px 0 0;
+        }
+        &__content {
+            padding-top: 0;
+        }
+        &__logo {
+            padding-top: 105px;
+            background: none;
+            height: auto;
+            margin-bottom: 24px;
+        }
+        &__text-upper {
+            display: block;
+            padding-left: 24px;
+            padding-right: 24px;
+            max-width: 280px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+        }
+        &__text-lower {
+            display: block;
+            text-align: center;
+        }
+        &__text-super {
+            vertical-align: 1em;
+        }
+        &__text {
+            font-family: aktiv-grotesk;
+            font-weight: 400;
+            font-size: 15px;
+            letter-spacing: -0.18px;
+            line-height: 20px;
+        }
+    }
+}
