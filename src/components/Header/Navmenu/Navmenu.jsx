@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import "./Navmenu.scss";
 
@@ -6,37 +7,40 @@ const Navmenu = ({ menuOpen }) => {
     return (
         <nav className={`navmenu ${menuOpen ? 'navmenu--open' : ''}`}>
             <div className="navmenu__top">
+                {
+                    // do not delete this div
+                }
             </div>
             <ol className="navmenu__list">
                 <li className="navmenu__list-item">
-                    <a href="en-index.html">
+                    <Link to="/">
                         <span className="navmenu__list-item--numeral">01</span>
                         Home
-                    </a>
+                    </Link>
                 </li>
                 <li className="navmenu__list-item">
-                    <a href="en-odm.html">
+                    <Link to="/odm">
                         <span className="navmenu__list-item--numeral">02</span>
                         Public / Private Parts ou L’Origine du monde
-                    </a>
+                    </Link>
                 </li>
                 <li className="navmenu__list-item">
-                    <a href="en-bod.html">
+                    <Link to="/bodywork">
                         <span className="navmenu__list-item--numeral">03</span>
                         Somatic Sex Education and Bodywork Sessions
-                    </a>
+                    </Link>
                 </li>
                 <li className="navmenu__list-item">
-                    <a href="en-interviews.html">
+                    <Link to="/interviews">
                         <span className="navmenu__list-item--numeral">04</span>
                         Documentary Interviews
-                    </a>
+                    </Link>
                 </li>
                 <li className="navmenu__list-item">
-                    <a href="en-about.html">
+                    <Link to="/about">
                         <span className="navmenu__list-item--numeral">05</span>
                         About
-                    </a>
+                    </Link>
                 </li>
             </ol>
             <div className="navmenu__contact type-ogg-regular-19-italic">

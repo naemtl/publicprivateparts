@@ -1,4 +1,9 @@
 import { Suspense } from "react";
+import {
+	BrowserRouter,
+	Routes,
+	Route
+} from "react-router-dom";
 
 import Homepage from "./pages/Homepage/Homepage";
 
@@ -10,11 +15,13 @@ import './App.scss';
 
 const App = () => {
 	return (
-		<>
+		<BrowserRouter>
 			<Header />
-			<Homepage />
+			<Routes>
+				<Route path="/" element={<Homepage />} />
+			</Routes>
 			<Footer />
-		</>
+		</BrowserRouter>
 	)
 };
 

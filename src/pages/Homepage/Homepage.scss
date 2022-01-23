@@ -7,12 +7,10 @@
     color: $site-color;
 
     &__content--header {
+        @include flex-center;
         position: relative;
         height: 100vh;
         padding-top: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         width: 100%;
         min-height: 400px;
     }
@@ -59,10 +57,8 @@
         }
     }
     &__content--about {
-        display: flex;
+        @include flex-center;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         color: #9d8b02;
         padding: 162px 24px;
         position: relative;
@@ -99,7 +95,6 @@
         }
         &__text--about {
             font-family: aktiv-grotesk;
-            font-weight: 400;
             font-size: 15px;
             letter-spacing: -0.18px;
             line-height: 20px;

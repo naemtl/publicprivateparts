@@ -60,7 +60,7 @@
     }
     &__form input[type="submit"] {
         font-family: aktiv-grotesk;
-        font-weight: 400;
+
         font-size: 16px;
         letter-spacing: 0;
         line-height: 23px;
@@ -73,13 +73,12 @@
 
         &__title {
             font-family: Ogg;
-            font-weight: 400;
+
             font-size: 29px;
             letter-spacing: -0.34px;
             line-height: 50px;
         }
         &__text {
-            font-weight: 400;
             line-height: 20px;
         }
         &__form,
@@ -102,7 +101,7 @@
         }
         &__form input[type="submit"] {
             font-family: aktiv-grotesk;
-            font-weight: 400;
+
             font-size: 20px;
             line-height: 23px;
             letter-spacing: normal;

@@ -1,3 +1,4 @@
+@import "/src/assets/styles/common";
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -25,7 +26,7 @@ body {
   5. Improve text rendering
 */
 body {
-  font-family: "Questrial", sans-serif;
+  font-family: $base-font-family;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
