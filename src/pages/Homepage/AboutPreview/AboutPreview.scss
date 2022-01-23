@@ -9,7 +9,7 @@
     padding-bottom: 190px;
 
     &__content {
-        font-family: aktiv-grotesk;
+        font-family: $base-font-family;
         font-weight: 300;
         font-size: 21px;
         line-height: 27px;
@@ -21,7 +21,7 @@
         padding-right: 24px;
     }
     &__title {
-        font-family: Ogg;
+        font-family: $secondary-font-family;
         font-size: 52px;
         letter-spacing: -0.62px;
         line-height: 47px;
@@ -61,7 +61,7 @@
             display: block;
         }
         &__title {
-            font-family: Ogg;
+            font-family: $secondary-font-family;
             font-size: 29px;
             letter-spacing: -0.34px;
             line-height: 1.1;

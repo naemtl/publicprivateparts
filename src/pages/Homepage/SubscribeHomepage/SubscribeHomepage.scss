@@ -38,7 +38,7 @@
         border-radius: 0;
         -webkit-appearance: none;
         appearance: none;
-        font-family: aktiv-grotesk;
+        font-family: $base-font-family;
         font-weight: 300;
         font-size: 21px;
         line-height: 27px;
@@ -59,7 +59,7 @@
         text-transform: uppercase;
     }
     &__form input[type="submit"] {
-        font-family: aktiv-grotesk;
+        font-family: $base-font-family;
 
         font-size: 16px;
         letter-spacing: 0;
@@ -72,7 +72,7 @@
         padding-bottom: 115px;
 
         &__title {
-            font-family: Ogg;
+            font-family: $secondary-font-family;
 
             font-size: 29px;
             letter-spacing: -0.34px;
@@ -83,7 +83,7 @@
         }
         &__form,
         &__text {
-            font-family: aktiv-grotesk;
+            font-family: $base-font-family;
             font-size: 15px;
             letter-spacing: -0.18px;
         }
@@ -93,14 +93,14 @@
         }
         &__form input:not([type="submit"]),
         &__form select {
-            font-family: aktiv-grotesk;
+            font-family: $base-font-family;
             font-weight: 300;
             font-size: 15px;
             letter-spacing: -0.18px;
             line-height: 27px;
         }
         &__form input[type="submit"] {
-            font-family: aktiv-grotesk;
+            font-family: $base-font-family;
 
             font-size: 20px;
             line-height: 23px;

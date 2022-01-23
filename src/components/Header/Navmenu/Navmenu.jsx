@@ -43,7 +43,7 @@ const Navmenu = ({ menuOpen }) => {
                     </Link>
                 </li>
             </ol>
-            <div className="navmenu__contact type-ogg-regular-19-italic">
+            <div className="navmenu__contact">
                 Say hi ⟶
                 <a href="mailto:gerardxreyes@gmail.com">gerardxreyes@gmail.com</a>
             </div>

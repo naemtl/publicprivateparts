@@ -2,7 +2,7 @@
 
 .interviews-preview {
     &__videos {
-        font-family: aktiv-grotesk;
+        font-family: $base-font-family;
         font-size: 21px;
         letter-spacing: -0.25px;
         line-height: 27px;
@@ -17,7 +17,7 @@
         align-items: center;
     }
     &__videos-title {
-        font-family: Ogg;
+        font-family: $secondary-font-family;
         font-size: 46px;
         letter-spacing: -0.51px;
         line-height: 70px;
