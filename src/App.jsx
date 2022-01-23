@@ -6,6 +6,10 @@ import {
 } from "react-router-dom";
 
 import Homepage from "./pages/Homepage/Homepage";
+import About from "./pages/About/About";
+import Bodywork from "./pages/Bodywork/Bodywork";
+import Interviews from "./pages/Interviews/Interviews";
+import OrigineDuMonde from "./pages/OrigineDuMonde/OrigineDuMonde";
 
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -19,8 +23,11 @@ const App = () => {
 			<Header />
 			<Routes>
 				<Route path="/" element={<Homepage />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/bodywork" element={<Bodywork />} />
+				<Route path="/interviews" element={<Interviews />} />
+				<Route path="/odm" element={<OrigineDuMonde />} />
 			</Routes>
-			<Footer />
 		</BrowserRouter>
 	)
 };
