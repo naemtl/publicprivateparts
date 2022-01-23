@@ -1,0 +1,61 @@
+@import "/src/assets/styles/common";
+
+.doc-interviews {
+    &__videos {
+        font-family: aktiv-grotesk;
+        font-size: 21px;
+        letter-spacing: -0.25px;
+        line-height: 27px;
+        font-weight: 300;
+        padding: 143px 24px;
+    }
+    &__videos-wrapper {
+        max-width: 1230px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__videos-title {
+        font-family: Ogg;
+        font-size: 46px;
+        letter-spacing: -0.51px;
+        line-height: 70px;
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    &__videos-text {
+        max-width: 680px;
+        text-align: center;
+    }
+    &__videos {
+        margin-top: 72px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    &__videos-col {
+        flex: 1;
+    }
+    &__video-player {
+        width: 100%;
+        height: 337px;
+    }
+    @media (max-width: 600px) {
+        &__videos {
+            padding-bottom: 63px;
+        }
+        &__videos {
+            flex-direction: column;
+        }
+        &__videos-col {
+            margin-bottom: 42px;
+        }
+    }
+    @media (min-width: 600px) {
+        &__videos-col:first-child {
+            margin-right: 34px;
+        }
+    }
+}
