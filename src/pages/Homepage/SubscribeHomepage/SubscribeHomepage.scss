@@ -1,0 +1,112 @@
+@import "/src/assets/styles/common";
+
+.subscribe-homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 156px 24px 134px;
+
+    &__title {
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    &__text {
+        max-width: 592px;
+        text-align: center;
+    }
+
+    &__form {
+        margin-top: 64px;
+        max-width: 504px;
+        width: 100%;
+    }
+
+    &__form input:not([type="submit"]),
+    &__form select {
+        width: 100%;
+        margin-bottom: 25px;
+        display: block;
+        background: none;
+        outline: none;
+        border: 0;
+        border-bottom: 1px solid #9d8b02;
+        padding: 32px 26px;
+        color: #fff49e;
+        box-sizing: border-box;
+        border-radius: 0;
+        -webkit-appearance: none;
+        appearance: none;
+        font-family: aktiv-grotesk;
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 27px;
+        letter-spacing: -0.25px;
+    }
+    &__form select {
+        text-transform: uppercase;
+    }
+    &__form select:invalid {
+        color: #9d8b02;
+    }
+    &__form input:focus,
+    &__form select:focus {
+        border-color: #fff49e;
+    }
+    &__form input::placeholder {
+        color: #9d8b02;
+        text-transform: uppercase;
+    }
+    &__form input[type="submit"] {
+        font-family: aktiv-grotesk;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 23px;
+        font-style: italic;
+        margin: auto;
+    }
+    @media (max-width: 446px) {
+        padding-top: 106px;
+        padding-bottom: 115px;
+
+        &__title {
+            font-family: Ogg;
+            font-weight: 400;
+            font-size: 29px;
+            letter-spacing: -0.34px;
+            line-height: 50px;
+        }
+        &__text {
+            font-weight: 400;
+            line-height: 20px;
+        }
+        &__form,
+        &__text {
+            font-family: aktiv-grotesk;
+            font-size: 15px;
+            letter-spacing: -0.18px;
+        }
+        &__form {
+            font-weight: 300;
+            line-height: 27px;
+        }
+        &__form input:not([type="submit"]),
+        &__form select {
+            font-family: aktiv-grotesk;
+            font-weight: 300;
+            font-size: 15px;
+            letter-spacing: -0.18px;
+            line-height: 27px;
+        }
+        &__form input[type="submit"] {
+            font-family: aktiv-grotesk;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            letter-spacing: normal;
+            font-style: italic;
+        }
+    }
+}

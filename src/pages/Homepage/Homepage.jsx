@@ -1,8 +1,9 @@
 import { useTranslation } from "react-i18next";
 
-import InterviewsPreview from "./InterviewsPreview/InterviewsPreview";
 import AboutPreview from "./AboutPreview/AboutPreview";
+import InterviewsPreview from "./InterviewsPreview/InterviewsPreview";
 import OriginePreview from "./OriginePreview/OriginePreview";
+import SubscribeHomepage from "./SubscribeHomepage/SubscribeHomepage";
 
 import landingBannerCropped from "../../assets/01_landing/landing-banner-cropped.mp4";
 import breathingVid from "../../assets/01_landing/breathing.mp4";
@@ -44,32 +45,7 @@ const Homepage = () => {
             <OriginePreview />
             <InterviewsPreview />
             <AboutPreview />
-            <div className="subscribe">
-                <div className="subscribe__title type-ogg-regular-52">Join the Movement</div>
-                <div className="subscribe__text type-ag-light-21">
-                    We are creating more works in the Public / Private Parts series which will be available soon. Be the first
-                    to know about
-                    upcoming release dates and tours of the live performance Public / Private Parts ou L’Origine du monde. Sign
-                    up today!
-                </div>
-                <form className="subscribe__form type-ag-light-21"
-                    action="https://vimeo.us14.list-manage.com/subscribe/post?u=1ceba19e26d5a0f14904f257e&amp;id=0d6becde98"
-                    method="post" target="_blank">
-                    <input type="text" name="FNAME" placeholder="First name" />
-                    <input type="text" name="LNAME" placeholder="Last name" />
-                    <select name="LANG" required>
-                        <option defaultValue="Language Preference" disabled>Language Preference</option>
-                        <option defaultValue="English">English</option>
-                        <option defaultValue="Français">Français</option>
-                        <option defaultValue="Español">Español</option>
-                    </select>
-                    <input type="email" name="EMAIL" placeholder="Email*" required />
-                    <div style={{ position: "absolute", left: "-5000px" }} aria-hidden="true">
-                        <input type="text" name="b_1ceba19e26d5a0f14904f257e_0d6becde98" tabIndex="-1" defaultValue="" />
-                    </div>
-                    <input className="button" type="submit" name="subscribe" defaultValue="Keep me updated" />
-                </form>
-            </div>
+            <SubscribeHomepage />
         </div>
     );
 };
