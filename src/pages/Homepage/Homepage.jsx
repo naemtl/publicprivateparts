@@ -1,11 +1,13 @@
 import { useTranslation } from "react-i18next";
 
+import DocumentaryInterviews from "./DocumentaryInterviews/DocumentaryInterviews";
+import AboutPreview from "./AboutPreview/AboutPreview";
+
 import landingBannerCropped from "../../assets/01_landing/landing-banner-cropped.mp4";
 import breathingVid from "../../assets/01_landing/breathing.mp4";
 import origineBanner from "../../assets/01_landing/odm-banner.mp4";
 
 import './Homepage.scss'
-import DocumentaryInterviews from "./DocumentaryInterviews/DocumentaryInterviews";
 
 const Homepage = () => {
     const { t } = useTranslation('homepage')
@@ -70,24 +72,7 @@ const Homepage = () => {
                     controlsList="nofullscreen" playsInline=""></video>
             </div>
             <DocumentaryInterviews />
-            <div className="homepage--gerard">
-                <div className="homepage__content--gerard">
-                    <div className="homepage__column--gerard">
-                        <div className="homepage__title--gerard">About Gerard X Reyes</div>
-                        <div className="homepage__text--gerard">
-                            Learn more about Gerard’s artistic journey as well as their Somatic Sex Education practice.
-                        </div>
-                        <a href="en-about.html" className="text-decoration-none button homepage__button--gerard">
-                            Read bio
-
-                        </a>
-                        <a href="en-about.html" className="text-decoration-none button indexSomaticSex-button">
-                            Discover Somatic Sex Education
-                        </a>
-                    </div>
-                </div>
-                <div className="homepage__image--gerard"></div>
-            </div>
+            <AboutPreview />
             <div className="subscribe">
                 <div className="subscribe__title type-ogg-regular-52">Join the Movement</div>
                 <div className="subscribe__text type-ag-light-21">
