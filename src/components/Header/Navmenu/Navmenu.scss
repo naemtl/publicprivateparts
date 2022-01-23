@@ -3,6 +3,8 @@
 .navmenu {
     background-color: $black;
     bottom: 0;
+    display: flex;
+    flex-direction: column;
     left: 0;
     position: fixed;
     right: 0;
@@ -13,6 +15,10 @@
 
     &--open {
         transform: translateX(0);
+    }
+
+    &__contact {
+        align-self: flex-end;
     }
 
     &__top {
@@ -26,6 +32,10 @@
         list-style-type: none;
         padding: 0;
         height: 75%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
     }
 
     &__list-item {
@@ -33,15 +43,14 @@
         font-family: $secondary-font-family;
         letter-spacing: -0.62px;
         line-height: rem(50px);
-        max-width: 600px;
-        margin-top: rem(35px);
+        max-width: rem(600px);
     }
     @media (max-height: 750px), (max-width: 800px) {
         &__list-item {
             font-size: rem(25px);
             letter-spacing: -0.33px;
             line-height: 1;
-            max-width: 440px;
+            max-width: rem(380px);
         }
     }
 
@@ -63,7 +72,6 @@
     }
     &__list-item--numeral {
         font-family: aktiv-grotesk;
-
         font-size: 19px;
         letter-spacing: -0.23px;
         line-height: 22px;
