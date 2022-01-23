@@ -1,13 +1,13 @@
 import { useTranslation } from "react-i18next";
 
-import DocumentaryInterviews from "./DocumentaryInterviews/DocumentaryInterviews";
+import InterviewsPreview from "./InterviewsPreview/InterviewsPreview";
 import AboutPreview from "./AboutPreview/AboutPreview";
+import OriginePreview from "./OriginePreview/OriginePreview";
 
 import landingBannerCropped from "../../assets/01_landing/landing-banner-cropped.mp4";
 import breathingVid from "../../assets/01_landing/breathing.mp4";
 
 import './Homepage.scss'
-import OriginePreview from "./OriginePreview/OriginePreview";
 
 const Homepage = () => {
     const { t } = useTranslation('homepage')
@@ -42,7 +42,7 @@ const Homepage = () => {
                     controlsList="nofullscreen" playsInline=""></video>
             </div>
             <OriginePreview />
-            <DocumentaryInterviews />
+            <InterviewsPreview />
             <AboutPreview />
             <div className="subscribe">
                 <div className="subscribe__title type-ogg-regular-52">Join the Movement</div>

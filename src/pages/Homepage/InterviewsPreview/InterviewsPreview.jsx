@@ -1,14 +1,14 @@
 import React from 'react';
 
-import './DocumentaryInterviews.scss'
+import './InterviewsPreview.scss'
 
-const DocumentaryInterviews = () => {
+const InterviewsPreview = () => {
     return (
-        <div className='doc-interviews'>
-            <div className="doc-interviews__videos">
-                <div className="doc-interviews__videos-wrapper">
-                    <div className="doc-interviews__videos-title">Documentary Interviews</div>
-                    <div className="doc-interviews__videos-text">
+        <div className='interviews-preview'>
+            <div className="interviews-preview__videos">
+                <div className="interviews-preview__videos-wrapper">
+                    <div className="interviews-preview__videos-title">Documentary Interviews</div>
+                    <div className="interviews-preview__videos-text">
                         This series of interviews follows Gerard X Reyes as they meet with Berlin-based sex workers, sex
                         educators and artists
                         to ask for their perspectives on the sensual/sexual body. These interviews took place in Montreal,
@@ -19,22 +19,22 @@ const DocumentaryInterviews = () => {
                         by their
                         refreshing views on relationships, sex and society.
                     </div>
-                    <div className="doc-interviews__videos">
-                        <div className="doc-interviews__videos-col">
+                    <div className="interviews-preview__videos">
+                        <div className="interviews-preview__videos-col">
                             <iframe src="https://www.youtube-nocookie.com/embed/9rH27gpU_40" title="YouTube video player"
                                 frameBorder="0"
                                 allow="accelerometer; autoPlay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen className="doc-interviews__video-player">
+                                allowFullScreen className="interviews-preview__video-player">
                             </iframe>
-                            <div className="doc-interviews__videos-text"> Mareen </div>
+                            <div className="interviews-preview__videos-text"> Mareen </div>
                         </div>
-                        <div className="doc-interviews__videos-col">
+                        <div className="interviews-preview__videos-col">
                             <iframe src="https://www.youtube-nocookie.com/embed/IIBsRHuYAq4" title="YouTube video player"
                                 frameBorder="0"
                                 allow="accelerometer; autoPlay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen className="doc-interviews__video-player">
+                                allowFullScreen className="interviews-preview__video-player">
                             </iframe>
-                            <div className="doc-interviews__videos-text"> Bishop </div>
+                            <div className="interviews-preview__videos-text"> Bishop </div>
                         </div>
                     </div>
                     <a href="en-interviews.html" className="text-decoration-none">
@@ -45,4 +45,4 @@ const DocumentaryInterviews = () => {
         </div>);
 };
 
-export default DocumentaryInterviews;
+export default InterviewsPreview;
