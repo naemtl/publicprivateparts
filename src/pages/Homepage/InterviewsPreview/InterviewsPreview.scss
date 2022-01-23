@@ -1,6 +1,10 @@
 @import "/src/assets/styles/common";
 
 .interviews-preview {
+    &__button {
+        @include button;
+    }
+
     &__videos {
         font-family: $base-font-family;
         font-size: 21px;
@@ -22,7 +26,6 @@
         letter-spacing: -0.51px;
         line-height: 70px;
         text-align: center;
-
         margin-bottom: 20px;
     }
     &__videos-text {

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './InterviewsPreview.scss'
 
@@ -37,9 +38,9 @@ const InterviewsPreview = () => {
                             <div className="interviews-preview__videos-text"> Bishop </div>
                         </div>
                     </div>
-                    <a href="en-interviews.html" className="text-decoration-none">
-                        <button className="button homepage__button--gerard">Watch videos</button>
-                    </a>
+                    <Link className='interviews-preview__button' to="/interviews" >
+                        Watch videos
+                    </Link>
                 </div>
             </div>
         </div>);

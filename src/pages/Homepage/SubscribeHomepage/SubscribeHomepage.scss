@@ -59,8 +59,8 @@
         text-transform: uppercase;
     }
     &__form input[type="submit"] {
+        @include button;
         font-family: $base-font-family;
-
         font-size: 16px;
         letter-spacing: 0;
         line-height: 23px;

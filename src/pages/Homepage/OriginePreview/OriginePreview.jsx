@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import origineBanner from "../../../assets/01_landing/odm-banner.mp4";
 
@@ -30,9 +31,9 @@ const OriginePreview = () => {
                         innovative,
                         their discoveries reveal new, hopeful interconnections that could benefit us all.</div>
                     <div className="origine-preview__spacer"></div>
-                    <a href="en-odm.html" className="text-decoration-none">
-                        <button className="button">Trailer and info</button>
-                    </a>
+                    <Link className='origine-preview__button' to="/odm" >
+                        Trailer and info
+                    </Link>
                 </div>
                 <video className="origine-preview__video" src={origineBanner} autoPlay muted loop
                     controlsList="nofullscreen" playsInline=""></video>

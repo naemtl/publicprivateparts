@@ -11,11 +11,11 @@ const AboutPreview = () => {
                     <div className="about-preview__text">
                         Learn more about Gerard’s artistic journey as well as their Somatic Sex Education practice.
                     </div>
-                    <a href="en-about.html" className="text-decoration-none button about-preview__button">
+                    <a href="en-about.html" className="about-preview__button">
                         Read bio
 
                     </a>
-                    <a href="en-about.html" className="text-decoration-none button indexSomaticSex-button">
+                    <a href="en-about.html" className="about-preview__button">
                         Discover Somatic Sex Education
                     </a>
                 </div>

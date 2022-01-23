@@ -25,13 +25,15 @@
         font-size: 52px;
         letter-spacing: -0.62px;
         line-height: 47px;
-        margin-bottom: 17px;
+        margin-bottom: rem(17px);
     }
     &__text {
         width: 50%;
+        margin-bottom: rem(17px);
     }
     &__column {
         flex: 1;
+        z-index: 2;
     }
     &__image {
         position: absolute;
@@ -43,12 +45,14 @@
         height: 450px;
         pointer-events: none;
     }
-    &__button,
-    .indexSomaticSex-button {
-        margin-top: 35px;
-        width: fit-content;
-        z-index: 999;
+    &__button {
+        @include button;
+
+        &:first-of-type {
+            margin-bottom: rem(17px);
+        }
     }
+
     @media (max-width: 786px) {
         font-size: 15px;
         letter-spacing: -0.18px;

@@ -5,40 +5,29 @@
 }
 
 @mixin button {
-    background-color: $science-blue;
-    border-color: $science-blue;
-    color: $white;
-    display: flex;
-    font-size: rem(12px);
-    font-weight: $bold-font-weight;
-    justify-content: center;
-    padding: rem(7px) rem(9px);
-    text-transform: uppercase;
+    @include flex-center;
+    background-color: transparent;
+    border: 1px solid $site-color;
+    border-radius: 20px;
+    color: $site-color;
+    cursor: pointer;
+    font-family: $base-font-family;
+    font-size: rem(20px);
+    font-style: italic;
+    height: rem(40px);
+    line-height: rem(23px);
+    padding: 0 rem(27px);
+    text-decoration: none;
+    width: fit-content;
 
     &:active:enabled,
-    &:hover:enabled {
-        background-color: $endeavour;
-        border-color: $science-blue;
-    }
-
-    &:disabled {
-        background-color: $gray;
-        color: $white;
+    &:hover {
+        color: #d3c666;
+        border-color: #d3c666;
     }
 
     &:focus:enabled {
         box-shadow: none;
-    }
-
-    &--outline {
-        background-color: $white;
-        color: $science-blue;
-
-        &:active:enabled,
-        &:hover:enabled {
-            background-color: $link-water;
-            color: $science-blue;
-        }
     }
 }
 

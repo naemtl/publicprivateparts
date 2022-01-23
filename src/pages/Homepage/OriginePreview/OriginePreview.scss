@@ -1,6 +1,10 @@
 @import "/src/assets/styles/common";
 
 .origine-preview {
+    &__button {
+        @include button;
+    }
+
     &__section {
         display: flex;
         flex-direction: row;
