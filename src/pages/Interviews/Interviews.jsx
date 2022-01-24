@@ -1,6 +1,10 @@
 import './Interviews.scss'
 
 import hollowBodyVid from "../../assets/04_documentaryInterviews/hollow-body.mp4";
+import calqLogo from "../../assets/02_origineDuMonde/calq-logo.svg";
+import ccaLogo from "../../assets/02_origineDuMonde/cca-logo.svg";
+import goetheLogo from "../../assets/02_origineDuMonde/goethe-logo.svg";
+import sacdLogo from "../../assets/02_origineDuMonde/sacd-logo.png";
 
 const Interviews = () => {
     return (
@@ -172,13 +176,12 @@ const Interviews = () => {
             <div className="interviewsLogos">
                 <h2><em>SUPPORT</em></h2>
                 <div className="interviewsLogos-row">
-                    <img src="/assets/02_origineDuMonde/calq-logo.svg" className="calq-logo"
-                        alt="Conseil des arts et des lettres du Québec" />
-                    <img src="/assets/02_origineDuMonde/goethe-logo.svg" className="goethe-logo" alt="Goethe-Institut" />
+                    <img src={calqLogo} className="calq-logo" alt="Conseil des arts et des lettres du Québec" />
+                    <img src={goetheLogo} className="goethe-logo" alt="Goethe-Institut" />
                 </div>
                 <div className="interviewsLogos-row">
-                    <img src="/assets/02_origineDuMonde/cca-logo.svg" className="cca-logo" alt="Canada Council for the Arts" />
-                    <img src="/assets/02_origineDuMonde/sacd-logo.png" className="sacd-logo" alt="SACD Canada" />
+                    <img src={ccaLogo} className="cca-logo" alt="Canada Council for the Arts" />
+                    <img src={sacdLogo} className="sacd-logo" alt="SACD Canada" />
                 </div>
             </div>
         </div>

@@ -4,6 +4,7 @@
     background-color: #000;
     background-color: #0f1214;
     color: $site-color;
+    font-family: $base-font-family;
 
     &__button {
         @include button;
@@ -12,7 +13,7 @@
     &__header {
         position: relative;
         height: 100vh;
-        font-family: Ogg;
+        font-family: $secondary-font-family;
         font-size: 52px;
         letter-spacing: -0.57px;
         line-height: 80px;
@@ -48,7 +49,7 @@
     @media (max-width: 700px) {
         &__header {
             height: 400px;
-            font-family: Ogg;
+            font-family: $secondary-font-family;
             font-weight: 400;
             font-size: 30px;
             letter-spacing: -0.33px;
@@ -82,7 +83,6 @@
     }
     &__videos-text {
         flex: 1;
-        font-family: aktiv-grotesk;
         font-size: 19px;
         letter-spacing: 0.11px;
         line-height: 25px;
@@ -127,7 +127,7 @@
         }
     }
     &__videos-text h2 {
-        font-family: Ogg;
+        font-family: $secondary-font-family;
         font-size: 46px;
         letter-spacing: 1.4px;
         line-height: 70px;
