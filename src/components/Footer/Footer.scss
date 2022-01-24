@@ -1,1 +1,56 @@
 @import "/src/assets/styles/common";
+
+.footer {
+    row-gap: 8px;
+    text-transform: uppercase;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 24px;
+    margin: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    @media (max-width: 758px) {
+        display: grid;
+        row-gap: 22px;
+        grid-template-columns: 1fr;
+        text-align: center;
+        font-family: aktiv-grotesk;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: -0.68px;
+        line-height: 27px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #9d8b02;
+    }
+    @media (min-width: 758px) {
+        &__title {
+            grid-column: 1;
+        }
+        &__social--email {
+            grid-column: 2 / span 6;
+        }
+        &__social--insta {
+            grid-column: 9 / span 1;
+        }
+        &__social--fb {
+            grid-column: 11 / span 1;
+            grid-row: 1;
+        }
+        &__social--youtube {
+            grid-column: 9 / span 1;
+            grid-row: 2;
+        }
+        &__social--linkedin,
+        &__social--vimeo {
+            grid-column: 10 / span 1;
+        }
+        &__social--vimeo {
+            grid-row: 2;
+        }
+    }
+}
