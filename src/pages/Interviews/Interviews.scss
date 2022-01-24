@@ -1,1 +1,212 @@
 @import "/src/assets/styles/common";
+
+.interviews {
+    background-color: #000;
+    background-color: #0f1214;
+    color: $site-color;
+
+    &__button {
+        @include button;
+    }
+
+    &__header {
+        position: relative;
+        height: 100vh;
+        font-family: Ogg;
+        font-size: 52px;
+        letter-spacing: -0.57px;
+        line-height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__header-text {
+        z-index: 2;
+        padding-left: 24px;
+        padding-right: 24px;
+        text-align: center;
+        color: #d2ba3b;
+    }
+    &__video-header {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    &__video-header,
+    &__video-header-overlay {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    &__video-header-overlay {
+        background-color: rgba(0, 0, 122, 0.2);
+    }
+    @media (max-width: 700px) {
+        &__header {
+            height: 400px;
+            font-family: Ogg;
+            font-weight: 400;
+            font-size: 30px;
+            letter-spacing: -0.33px;
+            line-height: 46px;
+            font-style: normal;
+        }
+    }
+    &__intro {
+        max-width: 729px;
+        font-size: 25px;
+        letter-spacing: -1.07px;
+        line-height: 34px;
+        font-family: aktiv-grotesk;
+        font-weight: 400;
+        margin: 123px auto 117px;
+    }
+    &__intro,
+    &__videos {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    &__videos {
+        max-width: 1135px;
+        margin: auto;
+    }
+    &__videos-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 68px;
+    }
+    &__videos-text {
+        flex: 1;
+        font-family: aktiv-grotesk;
+        font-size: 19px;
+        letter-spacing: 0.11px;
+        line-height: 25px;
+        font-weight: 400;
+        max-width: 729px;
+        margin-bottom: 32px;
+    }
+    &__video-player {
+        width: 100%;
+        max-width: 620px;
+        height: 300px;
+    }
+    @media (min-width: 1170px) {
+        &__videos-row {
+            flex-direction: row;
+            margin-bottom: 225px;
+        }
+        &__videos-text {
+            margin-bottom: 0;
+        }
+        &__videos-row--left &__videos-text {
+            margin-left: 66px;
+            order: 2;
+        }
+        &__videos-row--right &__videos-text {
+            margin-right: 66px;
+        }
+        &__videos-row--center {
+            flex-direction: column;
+        }
+        &__videos-row--center &__videos-text {
+            max-width: 802px;
+            margin-top: 32px;
+            order: 2;
+        }
+        &__videos-row--center &__video-player {
+            max-width: 802px;
+            height: 451px;
+        }
+        &__video-player {
+            height: 350px;
+        }
+    }
+    &__videos-text h2 {
+        font-family: Ogg;
+        font-size: 46px;
+        letter-spacing: 1.4px;
+        line-height: 70px;
+        margin: 0 0 17px;
+        padding: 0;
+        font-weight: 400;
+    }
+    .interviewsThanks {
+        font-family: aktiv-grotesk;
+        font-size: 16px;
+        letter-spacing: -0.9px;
+        line-height: 27px;
+        max-width: 662px;
+        padding-left: 24px;
+        padding-right: 24px;
+        margin: auto auto 150px;
+    }
+
+    .interviewsThanks--row {
+        display: flex;
+        width: 100%;
+    }
+
+    .interviewsThanks--row span:nth-of-type(1),
+    .interviewsThanks--row span:nth-of-type(3) {
+        white-space: nowrap;
+    }
+
+    .interviewsThanks--row span:nth-of-type(2) {
+        width: 100%;
+        border-bottom: 2px dotted #9d8b02;
+        margin: 0 2px 6px;
+    }
+
+    .interviewsThanks--special {
+        margin-top: 2rem;
+    }
+
+    .interviewsLogos {
+        background-color: #171b1d;
+        padding-top: 42px;
+        padding-bottom: 42px;
+        margin-bottom: 100px;
+    }
+    .interviewsLogos-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 900px;
+        margin: auto;
+        padding: 32px 24px;
+    }
+    .calq-logo {
+        width: 204px;
+    }
+    .cca-logo {
+        max-width: 357px;
+        width: 100%;
+    }
+    .logoThc {
+        width: 158px;
+    }
+    .sacd-logo {
+        width: 117px;
+        height: 84px;
+    }
+    .goethe-logo {
+        width: 217px;
+    }
+    @media (max-width: 700px) {
+        .interviewsLogos-row {
+            flex-direction: column;
+            padding-top: 0;
+            padding-bottom: 0;
+            align-items: center;
+        }
+        .interviewsLogos img {
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+    }
+}
