@@ -11,7 +11,6 @@ import Bodywork from "./pages/Bodywork/Bodywork";
 import Interviews from "./pages/Interviews/Interviews";
 import OrigineDuMonde from "./pages/OrigineDuMonde/OrigineDuMonde";
 
-import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Loader from "./components/Loader/Loader";
 
