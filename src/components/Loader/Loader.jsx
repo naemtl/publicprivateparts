@@ -1,6 +1,6 @@
 import React from 'react';
 
-import pppLogo from "../../assets/01_landing/ppp-logo.png";
+import pppLogo from "../../assets/images/ppp-logo.png";
 
 import "./Loader.scss";
 

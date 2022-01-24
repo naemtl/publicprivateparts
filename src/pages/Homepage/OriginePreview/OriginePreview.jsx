@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import origineBanner from "../../../assets/01_landing/odm-banner.mp4";
+import origineBanner from "../../../assets/videos/odm-banner.mp4";
 
 import './OriginePreview.scss'
 

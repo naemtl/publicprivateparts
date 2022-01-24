@@ -2,16 +2,16 @@ import { Link } from 'react-router-dom';
 
 import ContactBanner from './ContactBanner/ContactBanner';
 
-import gerardProfileImg from "../../assets/05_about/gerard-profile.jpg";
-import gerardOverlapImg from "../../assets/05_about/gerard-overlap.jpg";
-import gerardOneImg from "../../assets/05_about/gerard-1.jpg";
-import gerardTwoImg from "../../assets/05_about/gerard-2.jpg";
-import gerardThreeImg from "../../assets/05_about/gerard-3.jpg";
-import gerardFourImg from "../../assets/05_about/gerard-4.jpg";
-import gerardFiveImg from "../../assets/05_about/gerard-5.jpg";
-import gerardSixImg from "../../assets/05_about/gerard-6.jpg";
-import gerardSevenImg from "../../assets/05_about/gerard-7.jpg";
-import gerardEightImg from "../../assets/05_about/gerard-8.jpg";
+import gerardProfileImg from "../../assets/images/gerard-profile.jpg";
+import gerardOverlapImg from "../../assets/images/gerard-overlap.jpg";
+import gerardOneImg from "../../assets/images/gerard-1.jpg";
+import gerardTwoImg from "../../assets/images/gerard-2.jpg";
+import gerardThreeImg from "../../assets/images/gerard-3.jpg";
+import gerardFourImg from "../../assets/images/gerard-4.jpg";
+import gerardFiveImg from "../../assets/images/gerard-5.jpg";
+import gerardSixImg from "../../assets/images/gerard-6.jpg";
+import gerardSevenImg from "../../assets/images/gerard-7.jpg";
+import gerardEightImg from "../../assets/images/gerard-8.jpg";
 
 import './About.scss'
 

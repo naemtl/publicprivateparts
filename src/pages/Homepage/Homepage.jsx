@@ -5,8 +5,8 @@ import InterviewsPreview from "./InterviewsPreview/InterviewsPreview";
 import OriginePreview from "./OriginePreview/OriginePreview";
 import SubscribeHomepage from "./SubscribeHomepage/SubscribeHomepage";
 
-import landingBannerCropped from "../../assets/01_landing/landing-banner-cropped.mp4";
-import breathingVid from "../../assets/01_landing/breathing.mp4";
+import landingBannerCropped from "../../assets/videos/landing-banner-cropped.mp4";
+import breathingVid from "../../assets/videos/breathing.mp4";
 
 import './Homepage.scss'
 

@@ -1,10 +1,12 @@
-import './Interviews.scss'
+import Footer from '../../components/Footer/Footer';
 
-import hollowBodyVid from "../../assets/04_documentaryInterviews/hollow-body.mp4";
-import calqLogo from "../../assets/02_origineDuMonde/calq-logo.svg";
-import ccaLogo from "../../assets/02_origineDuMonde/cca-logo.svg";
-import goetheLogo from "../../assets/02_origineDuMonde/goethe-logo.svg";
-import sacdLogo from "../../assets/02_origineDuMonde/sacd-logo.png";
+import hollowBodyVid from "../../assets/videos/hollow-body.mp4";
+import calqLogo from "../../assets/svg/calq-logo.svg";
+import ccaLogo from "../../assets/svg/cca-logo.svg";
+import goetheLogo from "../../assets/svg/goethe-logo.svg";
+import sacdLogo from "../../assets/images/sacd-logo.png";
+
+import './Interviews.scss'
 
 const Interviews = () => {
     return (
@@ -184,6 +186,7 @@ const Interviews = () => {
                     <img src={sacdLogo} className="sacd-logo" alt="SACD Canada" />
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };
