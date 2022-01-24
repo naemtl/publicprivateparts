@@ -4,7 +4,7 @@
     background-color: #000;
     background-color: #0f1214;
     color: $site-color;
-    font-family: $base-font-family;
+    font-family: $primary-font-family;
 
     &__button {
         @include button;
@@ -62,7 +62,7 @@
         font-size: 25px;
         letter-spacing: -1.07px;
         line-height: 34px;
-        font-family: aktiv-grotesk;
+        font-family: $primary-font-family;
         font-weight: 400;
         margin: 123px auto 117px;
     }
@@ -136,7 +136,7 @@
         font-weight: 400;
     }
     .interviewsThanks {
-        font-family: aktiv-grotesk;
+        font-family: $primary-font-family;
         font-size: 16px;
         letter-spacing: -0.9px;
         line-height: 27px;

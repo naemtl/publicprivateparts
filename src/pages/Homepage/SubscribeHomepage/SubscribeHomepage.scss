@@ -38,7 +38,7 @@
         border-radius: 0;
         -webkit-appearance: none;
         appearance: none;
-        font-family: $base-font-family;
+        font-family: $primary-font-family;
         font-weight: 300;
         font-size: 21px;
         line-height: 27px;
@@ -60,7 +60,7 @@
     }
     &__form input[type="submit"] {
         @include button;
-        font-family: $base-font-family;
+        font-family: $primary-font-family;
         font-size: 16px;
         letter-spacing: 0;
         line-height: 23px;
@@ -83,7 +83,7 @@
         }
         &__form,
         &__text {
-            font-family: $base-font-family;
+            font-family: $primary-font-family;
             font-size: 15px;
             letter-spacing: -0.18px;
         }
@@ -93,14 +93,14 @@
         }
         &__form input:not([type="submit"]),
         &__form select {
-            font-family: $base-font-family;
+            font-family: $primary-font-family;
             font-weight: 300;
             font-size: 15px;
             letter-spacing: -0.18px;
             line-height: 27px;
         }
         &__form input[type="submit"] {
-            font-family: $base-font-family;
+            font-family: $primary-font-family;
 
             font-size: 20px;
             line-height: 23px;

@@ -5,6 +5,8 @@ import InterviewsPreview from "./InterviewsPreview/InterviewsPreview";
 import OriginePreview from "./OriginePreview/OriginePreview";
 import SubscribeHomepage from "./SubscribeHomepage/SubscribeHomepage";
 
+import Footer from "../../components/Footer/Footer";
+
 import landingBannerCropped from "../../assets/videos/landing-banner-cropped.mp4";
 import breathingVid from "../../assets/videos/breathing.mp4";
 
@@ -46,6 +48,7 @@ const Homepage = () => {
             <InterviewsPreview />
             <AboutPreview />
             <SubscribeHomepage />
+            <Footer />
         </div>
     );
 };
