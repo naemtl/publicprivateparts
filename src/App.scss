@@ -1,4 +1,15 @@
 @import "/src/assets/styles/common";
+
+@font-face {
+  font-family: "AktivGroteskRegular";
+  src: url("./assets/fonts/aktiv-grotesk.woff") format("woff");
+}
+
+@font-face {
+  font-family: "OggRegular";
+  src: url("./assets/fonts/ogg-regular.woff") format("woff");
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
