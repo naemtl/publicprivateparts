@@ -1,4 +1,195 @@
 @import "/src/assets/styles/common";
 
 .origine {
+    background-color: #222023;
+    color: $site-color;
+
+    &__header {
+        @include flex-center;
+        position: relative;
+        height: 100vh;
+        flex-direction: column;
+        width: 100%;
+        padding-right: 24px;
+        padding-left: 24px;
+        box-sizing: border-box;
+    }
+    &__logo--header {
+        max-width: 452px;
+        width: 100%;
+        z-index: 2;
+        display: block;
+    }
+    &__video-overlay--header {
+        background-color: rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    &__video-player--header,
+    &__video-overlay--header {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    &__video-player--header {
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    &__content {
+        padding: 127px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__text {
+        max-width: 696px;
+        font-family: $primary-font-family;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 34px;
+        font-style: normal;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    &__controls {
+        display: flex;
+        max-width: 696px;
+        width: 100%;
+    }
+    &__controls a {
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    &__button-spacer {
+        width: 60px;
+    }
+
+    .inline-link {
+        color: #9d8b02;
+    }
+
+    @media (max-width: 446px) {
+        &__content {
+            padding-top: 42px;
+            padding-bottom: 70px;
+        }
+        &__text {
+            font-family: $primary-font-family;
+            font-weight: 400;
+            font-size: 15px;
+            letter-spacing: -0.18px;
+            line-height: 20px;
+            font-style: normal;
+        }
+        &__controls {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__button-spacer {
+            height: 51px;
+        }
+    }
+    &__quote {
+        min-height: 572px;
+        background: url(/assets/images/purple-stems.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__quote-container {
+        max-width: 823px;
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+    &__quote-text {
+        font-family: $secondary-font-family;
+        font-size: 46px;
+        letter-spacing: -0.51px;
+        line-height: 70px;
+    }
+    &__quote-author,
+    &__quote-text {
+        font-weight: 400;
+        font-style: normal;
+    }
+    &__quote-author {
+        margin-top: 1em;
+        font-family: $primary-font-family;
+        font-size: 17px;
+        letter-spacing: -0.72px;
+        line-height: 27px;
+        max-width: 374px;
+    }
+    @media (max-width: 446px) {
+        &__quote {
+            height: 401px;
+        }
+        &__quote-text {
+            font-family: $secondary-font-family;
+            font-weight: 400;
+            font-size: 29px;
+            letter-spacing: -0.34px;
+            line-height: 50px;
+            font-style: normal;
+        }
+    }
+    &__embed {
+        background: #000;
+    }
+    &__embed video {
+        width: 100%;
+        max-height: 90vh;
+    }
+    &__logos-container {
+        background-color: #272528;
+        padding-top: 42px;
+        padding-bottom: 42px;
+        margin-bottom: 100px;
+    }
+    &__logos-row {
+        display: flex;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: auto;
+        padding: 32px 24px;
+        align-items: center;
+    }
+    .calq-logo {
+        width: 204px;
+    }
+    .cca-logo {
+        max-width: 357px;
+        width: 100%;
+    }
+    .logoThc {
+        width: 158px;
+    }
+    .sacd-logo {
+        width: 117px;
+        height: 84px;
+    }
+    .goethe-logo {
+        width: 217px;
+    }
+    @media (max-width: 700px) {
+        &__logos-row {
+            flex-direction: column;
+            padding-top: 0;
+            padding-bottom: 0;
+            align-items: center;
+        }
+        &__logos-container img {
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+    }
 }

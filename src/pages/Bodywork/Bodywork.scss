@@ -8,12 +8,7 @@
     line-height: 27px;
     letter-spacing: -0.25px;
 
-    .bodywork__header,
-    body {
-        font-weight: 400;
-        font-style: normal;
-    }
-    .bodywork__header {
+    &__header {
         margin: 0;
         display: flex;
         justify-content: center;
@@ -29,10 +24,10 @@
         background-size: cover;
         background-position: 50%;
     }
-    .bodywork__header > span {
+    &__header > span {
         max-width: 645px;
     }
-    .bodywork__content {
+    &__content {
         margin: auto;
         max-width: 696px;
         padding: 54px 120px 123px 24px;
@@ -71,18 +66,18 @@
             letter-spacing: -0.18px;
             line-height: 20px;
         }
-        .bodywork__header,
+        &__header,
         body {
             font-weight: 400;
             font-style: normal;
         }
-        .bodywork__header {
+        &__header {
             font-family: $secondary-font-family;
             font-size: 29px;
             letter-spacing: -0.34px;
             line-height: 50px;
         }
-        .bodywork__content {
+        &__content {
             padding: 12px 24px 86px;
         }
         h2 {

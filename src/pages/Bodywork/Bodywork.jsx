@@ -5,7 +5,7 @@ import './Bodywork.scss'
 const Bodywork = () => {
     return (
         <div className="bodywork">
-            <h1 className="bodywork__header"> <span>Somatic Sex Education and Bodywork Sessions</span> </h1>
+            <h1 className="bodywork__header">Somatic Sex Education and Bodywork Sessions</h1>
             <div className="bodywork__content">
                 <h2>Society’s Relationship To Pleasure</h2>
                 <p> We all set limits on the quantity and quality of pleasure we can embody. Limits to pleasure are ubiquitous
@@ -113,7 +113,7 @@ const Bodywork = () => {
                 </div>
                 <hr />
                 <p> NOTE: For in-person sessions, I follow the Government of Québec’s public health guidelines to reduce the
-                    transmission of COVID-19(ie. wearing masks, hand washing, sanitizing surfaces, etc.) and ask that all
+                    transmission of COVID-19 (ie. wearing masks, hand washing, sanitizing surfaces, etc.) and ask that all
                     clients abide by these guidelines.
                 </p>
                 <p>
