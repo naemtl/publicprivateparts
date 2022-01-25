@@ -1,13 +1,31 @@
 @import "/src/assets/styles/common";
 
+// Aktiv Grotesk definition
+
 @font-face {
-  font-family: "AktivGroteskRegular";
-  src: url("./assets/fonts/aktiv-grotesk.woff") format("woff");
+  font-family: "AktivGrotesk";
+  weight: 400;
+  src: url("./assets/fonts/aktiv-grotesk-regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: "OggRegular";
-  src: url("./assets/fonts/ogg-regular.woff") format("woff");
+  font-family: "AktivGrotesk";
+  weight: 300;
+  src: url("./assets/fonts/aktiv-grotesk-light.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "AktivGrotesk";
+  weight: 700;
+  src: url("./assets/fonts/aktiv-grotesk-bold.ttf") format("ttf");
+}
+
+// Ogg definition
+
+@font-face {
+  font-family: "Ogg";
+  weight: 400;
+  src: url("./assets/fonts/ogg-regular.woff") format("woff"), url("./assets/fonts/ogg-regular.woff2") format("woff2");
 }
 
 /*
