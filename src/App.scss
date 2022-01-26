@@ -47,8 +47,22 @@
 */
 html,
 body {
+  font-size: $root-font-size;
   height: 100%;
 }
+
+@media (max-width: 1024px) {
+  html {
+    font-size: $sm-font;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: $xs-font;
+  }
+}
+
 /*
   Typographic tweaks!
   4. Add accessible line-height

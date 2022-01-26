@@ -1,6 +1,11 @@
 @import "/src/assets/styles/common";
 
 .origine-preview {
+    font-family: $primary-font-family;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     &__button {
         @include button;
     }
@@ -13,7 +18,7 @@
     }
     &__video {
         flex: 1;
-        max-width: calc(50% - 24px);
+        max-width: calc(50% - rem(24px));
         order: -1;
     }
     &__content {
@@ -22,8 +27,7 @@
         justify-content: center;
         align-items: flex-start;
         flex: 1;
-        padding-left: 24px;
-        padding-right: 24px;
+        padding: 0 rem(24px);
         padding-top: 4%;
     }
     &__logo {
@@ -31,46 +35,47 @@
         background-repeat: no-repeat;
         background-position: 50%;
         background-size: contain;
-        height: 150px;
+        height: rem(150px);
         width: 100%;
         box-sizing: border-box;
-        margin-top: 172px;
-        margin-bottom: 24px;
+        margin-bottom: rem(24px);
     }
     &__text-lower,
     &__text-upper {
         display: none;
     }
     &__text {
-        max-width: 521px;
+        font-size: 1.3rem;
+        max-width: rem(521px);
     }
     &__spacer {
-        height: 35px;
+        height: rem(35px);
     }
     @media (max-width: 446px) {
         &__section {
-            padding-bottom: 110px;
+            align-items: center;
             flex-direction: column;
+            padding-bottom: rem(110px);
         }
         &__video {
             order: 1;
             max-width: 100%;
-            margin: 48px 0 0;
+            margin: rem(48px) 0 0;
         }
         &__content {
+            align-items: center;
             padding-top: 0;
+            text-align: center;
         }
         &__logo {
-            padding-top: 105px;
+            padding-top: rem(105px);
             background: none;
             height: auto;
-            margin-bottom: 24px;
+            margin-bottom: rem(24px);
         }
         &__text-upper {
             display: block;
-            padding-left: 24px;
-            padding-right: 24px;
-            max-width: 280px;
+            max-width: rem(280px);
             text-transform: uppercase;
             display: flex;
             justify-content: space-between;
@@ -78,17 +83,15 @@
         }
         &__text-lower {
             display: block;
+            font-family: $secondary-font-family;
             text-align: center;
         }
-        &__text-super {
-            vertical-align: 1em;
+        &__text--ou {
+            vertical-align: 0.7em;
+            margin-right: 0.6rem;
         }
-        &__text {
-            font-family: $primary-font-family;
-
-            font-size: 15px;
-            letter-spacing: -0.18px;
-            line-height: 20px;
+        &__text--odm {
+            font-size: 2.8rem;
         }
     }
 }
