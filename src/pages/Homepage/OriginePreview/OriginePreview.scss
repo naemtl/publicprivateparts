@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: rem(142px) 0 rem(62);
 
     &__button {
         @include button;
@@ -52,10 +53,13 @@
         height: rem(35px);
     }
     @media (max-width: 446px) {
+        &__button {
+            font-size: rem(30px);
+            height: rem(60px);
+        }
         &__section {
             align-items: center;
             flex-direction: column;
-            padding-bottom: rem(110px);
         }
         &__video {
             order: 1;
@@ -68,10 +72,7 @@
             text-align: center;
         }
         &__logo {
-            padding-top: rem(105px);
             background: none;
-            height: auto;
-            margin-bottom: rem(24px);
         }
         &__text-upper {
             display: block;

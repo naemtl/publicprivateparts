@@ -21,7 +21,8 @@ const Homepage = () => {
                 <h1 className="homepage__title type-ag-medium-19">
                     <span>Public</span>
                     <svg viewBox="0 0 205 214" height="214" xmlns="http://www.w3.org/2000/svg" className="homepage__spacer--header">
-                        <path d="M1 214 204 0" stroke="#9D8B02" strokeWidth=".3" fill="none" fillRule="evenodd"></path>
+                        <path d="M1 214 204 8" stroke="#9D8B02" strokeWidth="1" fill="none" fillRule="evenodd"></path>
+                        {/* FIXME: strokewidth 0.3 on desktop, 1 on mobile */}
                     </svg>
                     <span>Private</span>
                     <span className="homepage__spacer--header"></span>
