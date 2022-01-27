@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="footer__column footer__column--socials">
                 <div>
                     <div className="footer__label">Follow Gerard</div>
-                    <a className="footer__anchor--text" href="/">@gerardxreyes</a>
+                    <a className="footer__anchor--text" href="https://twitter.com/gerardxreyes">@gerardxreyes</a>
                 </div>
                 <div className="footer__socials">
                     <a className="footer__anchor--icon" href="https://www.youtube.com/channel/UCuOTqqnX4obf7HefTmQZyng">
