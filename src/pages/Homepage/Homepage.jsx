@@ -18,19 +18,21 @@ import './Homepage.scss'
 const Homepage = () => {
     const { t } = useTranslation('homepage')
 
+    const isMobile = useCheckMobileScreen()
+
     return (
         <div className='homepage'>
             <div className="homepage__header">
                 <h1 className="homepage__title type-ag-medium-19">
                     <span>Public</span>
                     <svg viewBox="0 0 205 214" height="214" xmlns="http://www.w3.org/2000/svg" className="homepage__spacer--header">
-                        <path d="M1 214 204 8" stroke="#9D8B02" strokeWidth={`${useCheckMobileScreen() ? '1' : '0.3'}`} fill="none" fillRule="evenodd"></path>
+                        <path d="M1 214 204 8" stroke="#9D8B02" strokeWidth={`${isMobile ? '1' : '0.3'}`} fill="none" fillRule="evenodd"></path>
                     </svg>
                     <span>Private</span>
                     <span className="homepage__spacer--header"></span>
                     <span>Parts</span>
                 </h1>
-                <video className="homepage__video--banner" src={`${useCheckMobileScreen() === "mobile" ? landingBannerMobile : landingBannerCropped}`} autoPlay muted loop
+                <video className="homepage__video--banner" src={`${isMobile === "mobile" ? landingBannerMobile : landingBannerCropped}`} autoPlay muted loop
                     controlsList="nofullscreen" playsInline=""></video>
             </div>
             <div className="homepage__content">
