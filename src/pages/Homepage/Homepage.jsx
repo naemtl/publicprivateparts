@@ -10,6 +10,7 @@ import SubscribeHomepage from "./SubscribeHomepage/SubscribeHomepage";
 import Footer from "../../components/Footer/Footer";
 
 import landingBannerCropped from "../../assets/videos/landing-banner-cropped.mp4";
+import landingBannerMobile from "../../assets/videos/landing-banner-mobile.mp4";
 import breathingVid from "../../assets/videos/breathing.mp4";
 
 import './Homepage.scss'
@@ -29,7 +30,7 @@ const Homepage = () => {
                     <span className="homepage__spacer--header"></span>
                     <span>Parts</span>
                 </h1>
-                <video className="homepage__video--banner" src={landingBannerCropped} autoPlay muted loop
+                <video className="homepage__video--banner" src={`${useCheckMobileScreen() === "mobile" ? landingBannerMobile : landingBannerCropped}`} autoPlay muted loop
                     controlsList="nofullscreen" playsInline=""></video>
             </div>
             <div className="homepage__content">
