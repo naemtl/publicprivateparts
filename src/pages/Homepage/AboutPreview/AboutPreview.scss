@@ -1,30 +1,21 @@
 @import "/src/assets/styles/common";
 
 .about-preview {
+    @include flex-center;
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 200px;
-    padding-bottom: 190px;
+    margin: 8rem 0;
 
     &__content {
         font-family: $primary-font-family;
         font-weight: 300;
-        font-size: 21px;
-        line-height: 27px;
-        letter-spacing: -0.25px;
-        font-style: normal;
-        max-width: 756px;
+        font-size: rem(21px);
+        max-width: rem(756px);
         display: flex;
-        padding-left: 24px;
-        padding-right: 24px;
+        padding: 0 rem(24px);
     }
     &__title {
         font-family: $secondary-font-family;
-        font-size: 52px;
-        letter-spacing: -0.62px;
-        line-height: 47px;
+        font-size: 3.25em;
         margin-bottom: rem(17px);
     }
     &__text {
@@ -32,17 +23,15 @@
         margin-bottom: rem(17px);
     }
     &__column {
-        flex: 1;
         z-index: 2;
     }
     &__image {
         position: absolute;
-        right: 0;
-        bottom: -42px;
+        right: 0px;
         background: url(/assets/images/transparent-body.png) no-repeat;
         background-size: cover;
-        width: 676px;
-        height: 450px;
+        width: 49.25rem;
+        height: 31.125rem;
         pointer-events: none;
     }
     &__button {
@@ -53,34 +42,43 @@
         }
     }
 
-    @media (max-width: 786px) {
-        font-size: 15px;
-        letter-spacing: -0.18px;
-        line-height: 20px;
+    @media (max-width: 768px) {
+        font-size: rem(15px);
         display: block;
-        padding-bottom: 0;
-        padding-top: 80px;
+
+        &__button {
+            &:last-of-type {
+                font-size: 17px;
+                padding: 0 1em;
+            }
+        }
+
+        &__column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
         &__content {
-            display: block;
+            margin: 0 auto;
         }
         &__title {
             font-family: $secondary-font-family;
-            font-size: 29px;
-            letter-spacing: -0.34px;
-            line-height: 1.1;
+            font-size: em(32px);
         }
         &__text {
             width: 100%;
+            text-align: center;
+            margin: 0.5rem 0 2rem;
         }
         &__image {
             position: unset;
-            width: 98%;
-            height: 200px;
-            margin-left: 2%;
+            max-width: 35rem;
+            width: 100%;
+            height: 24.5rem;
             background-size: contain;
-            margin-bottom: -20px;
             background-position: 100% 100%;
+            margin: 0 auto;
         }
     }
 }

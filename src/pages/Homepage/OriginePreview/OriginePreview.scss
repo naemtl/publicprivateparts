@@ -53,10 +53,6 @@
         height: rem(35px);
     }
     @media (max-width: 446px) {
-        &__button {
-            font-size: rem(30px);
-            height: rem(60px);
-        }
         &__section {
             align-items: center;
             flex-direction: column;

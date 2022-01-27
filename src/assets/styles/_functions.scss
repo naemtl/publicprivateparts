@@ -5,6 +5,10 @@
     @return math.div($value, ($value * 0 + 1));
 }
 
+@function em($pxValue) {
+    @return #{math.div(stripUnit($pxValue), stripUnit($root-font-size))}em;
+}
+
 @function rem($pxValue) {
     @return #{math.div(stripUnit($pxValue), stripUnit($root-font-size))}rem;
 }

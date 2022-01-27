@@ -20,7 +20,7 @@
     }
     &__title {
         font-family: $secondary-font-family;
-        font-size: rem(46px);
+        font-size: em(46px);
         line-height: 3.2rem;
         margin-bottom: rem(20px);
         text-align: center;
@@ -43,21 +43,15 @@
         }
     }
     &__video-player {
-        width: rem(600px);
+        width: rem(550px);
         height: rem(337px);
     }
     @media (max-width: 1300px) {
-        &__button {
-            font-size: 1.875rem;
-            height: 3.75rem;
+        &__video-player {
+            width: rem(420px);
         }
     }
 
-    @media (max-width: 1024px) {
-        &__video-player {
-            width: rem(460px);
-        }
-    }
     @media (max-width: 768px) {
         &__text {
             padding: 0 rem(20px);
