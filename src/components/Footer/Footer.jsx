@@ -5,24 +5,37 @@ import './Footer.scss'
 const Footer = () => {
     return (
         <div class="footer">
-            <div class="footer__title">Contact:</div>
-            <div class="footer__social--email">
-                <a href="mailto:gerardxreyes@gmail.com">gerardxreyes@gmail.com</a>
+            <div className="footer__column">
+                <div>
+                    <div className="footer__label">Contact Gerard</div>
+                    <a className="footer__anchor--text" href="mailto:gerardxreyes@gmail.com">gerardxreyes@gmail.com</a>
+                </div>
             </div>
-            <div class="footer__social--insta">
-                <a href="https://instagram.com/gerardxreyes">Instagram</a>
+            <div className="footer__column footer__column--socials">
+                <div>
+                    <div className="footer__label">Follow Gerard</div>
+                    <a className="footer__anchor--text" href="/">@gerardxreyes</a>
+                </div>
+                <div className="footer__socials">
+                    <a className="footer__anchor--icon" href="https://www.youtube.com/channel/UCuOTqqnX4obf7HefTmQZyng">
+                        <FaYoutube />
+                    </a>
+                    <a className="footer__anchor--icon" href="https://vimeo.com/gerardxreyes">
+                        <FaVimeoV />
+                    </a>
+                    <a className="footer__anchor--icon" href="https://www.facebook.com/GerardReyesArtist">
+                        <FaFacebookF />
+                    </a>
+                    <a className="footer__anchor--icon" href="https://www.linkedin.com/in/gerard-x-reyes-77952a120">
+                        <FaLinkedinIn />
+                    </a>
+                </div>
             </div>
-            <div class="footer__social--fb">
-                <a href="https://www.facebook.com/GerardReyesArtist">Facebook</a>
-            </div>
-            <div class="footer__social--youtube">
-                <a href="https://www.youtube.com/channel/UCuOTqqnX4obf7HefTmQZyng">YouTube</a>
-            </div>
-            <div class="footer__social--vimeo">
-                <a href="https://vimeo.com/gerardxreyes">Vimeo</a>
-            </div>
-            <div class="footer__social--linkedin">
-                <a href="https://www.linkedin.com/in/gerard-x-reyes-77952a120">LinkedIn</a>
+            <div className="footer__column">
+                <div>
+                    <div className="footer__label">Follow Public / Private Parts</div>
+                    <a className="footer__anchor--text" href="/">@publicprivateparts</a>
+                </div>
             </div>
         </div>
     );
