@@ -96,6 +96,12 @@
         }
     }
 
+    @media (max-width: 768px) {
+        &__content {
+            padding: 2.8rem;
+        }
+    }
+
     @media (max-width: 470px) {
         &__content {
             background-position: 0 100%;

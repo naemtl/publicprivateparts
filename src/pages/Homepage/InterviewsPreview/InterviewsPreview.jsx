@@ -8,8 +8,8 @@ const InterviewsPreview = () => {
         <div className='interviews-preview'>
             <div className="interviews-preview__videos">
                 <div className="interviews-preview__videos-wrapper">
-                    <div className="interviews-preview__videos-title">Documentary Interviews</div>
-                    <div className="interviews-preview__videos-text">
+                    <div className="interviews-preview__title">Documentary Interviews</div>
+                    <div className="interviews-preview__text">
                         This series of interviews follows Gerard X Reyes as they meet with Berlin-based sex workers, sex
                         educators and artists
                         to ask for their perspectives on the sensual/sexual body. These interviews took place in Montreal,
@@ -27,7 +27,7 @@ const InterviewsPreview = () => {
                                 allow="accelerometer; autoPlay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen className="interviews-preview__video-player">
                             </iframe>
-                            <div className="interviews-preview__videos-text"> Mareen </div>
+                            <div className="interviews-preview__text"> Mareen </div>
                         </div>
                         <div className="interviews-preview__videos-col">
                             <iframe src="https://www.youtube-nocookie.com/embed/IIBsRHuYAq4" title="YouTube video player"
@@ -35,7 +35,7 @@ const InterviewsPreview = () => {
                                 allow="accelerometer; autoPlay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen className="interviews-preview__video-player">
                             </iframe>
-                            <div className="interviews-preview__videos-text"> Bishop </div>
+                            <div className="interviews-preview__text"> Bishop </div>
                         </div>
                     </div>
                     <Link className='interviews-preview__button' to="/interviews" >

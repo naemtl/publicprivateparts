@@ -9,16 +9,16 @@ const OriginePreview = () => {
     return (
         <div className='origine-preview'>
             <div className="origine-preview__logo">
-                <div className="origine-preview__text-upper">
+                <div className="origine-preview__logo--upper">
                     <span>Public</span>
                     <span>Private </span>
                     <span>Parts</span>
                 </div>
-                <div className="origine-preview__text-lower">
-                    <span className="origine-preview__text--ou">
+                <div className="origine-preview__logo--lower">
+                    <span className="origine-preview__logo--ou">
                         <em>ou</em>
                     </span>
-                    <span className="origine-preview__text--odm">L’Origine du monde</span>
+                    <span className="origine-preview__logo--odm">L’Origine du monde</span>
                 </div>
             </div>
             <div className="origine-preview__section">

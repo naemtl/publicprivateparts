@@ -41,8 +41,8 @@
         box-sizing: border-box;
         margin-bottom: rem(24px);
     }
-    &__text-lower,
-    &__text-upper {
+    &__logo--lower,
+    &__logo--upper {
         display: none;
     }
     &__text {
@@ -64,7 +64,7 @@
         &__video {
             order: 1;
             max-width: 100%;
-            margin: rem(48px) 0 0;
+            margin: 4rem 0;
         }
         &__content {
             align-items: center;
@@ -74,7 +74,7 @@
         &__logo {
             background: none;
         }
-        &__text-upper {
+        &__logo--upper {
             display: block;
             max-width: rem(280px);
             text-transform: uppercase;
@@ -82,17 +82,21 @@
             justify-content: space-between;
             margin: auto;
         }
-        &__text-lower {
+        &__logo--lower {
             display: block;
             font-family: $secondary-font-family;
             text-align: center;
         }
-        &__text--ou {
+        &__logo--ou {
             vertical-align: 0.7em;
             margin-right: 0.6rem;
         }
-        &__text--odm {
+        &__logo--odm {
             font-size: 2.8rem;
+        }
+
+        &__text {
+            padding: 0 rem(20px);
         }
     }
 }
