@@ -1,3 +1,5 @@
+import { FaYoutube, FaVimeoV, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+
 import './Footer.scss'
 
 const Footer = () => {
