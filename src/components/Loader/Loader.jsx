@@ -8,6 +8,7 @@ const Loader = () => {
     return (
         <div className='loader'>
             <img src={pppLogo} alt="Public Private Parts logo" />
+            <FaSpinner />
         </div>
     );
 };

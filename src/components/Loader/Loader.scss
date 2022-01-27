@@ -2,14 +2,20 @@
 
 .loader {
     @include gradientHomepage;
-    align-items: center;
-    display: flex;
+    @include flex-center;
+    flex-direction: column;
     height: 100vh;
-    justify-content: center;
     margin: 0;
     width: 100%;
 
     img {
         padding: 0 3rem;
+    }
+
+    svg {
+        animation: spinner 2s infinite linear;
+        color: $site-color;
+        font-size: 3rem;
+        margin-top: 1rem;
     }
 }
