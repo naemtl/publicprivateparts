@@ -3,15 +3,16 @@
 .footer {
     color: $site-color;
     display: flex;
-    height: 15rem;
+    height: 180px;
     justify-content: space-evenly;
+    margin-top: 50px;
     width: 100%;
 
     &__anchor--icon {
         font-size: 2rem;
-        margin: 0.5rem;
-        padding: 0.3rem;
-        width: 5rem;
+        margin: 5px;
+        padding: 5px;
+        width: 60px;
 
         svg {
             margin: 0 auto;
@@ -19,18 +20,18 @@
     }
 
     &__column {
-        width: 17rem;
-        display: flex;
         align-items: center;
+        display: flex;
         flex-direction: column;
+        width: 200px;
     }
 
     &__socials {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-top: 0.5rem;
-        width: 12rem;
+        margin-top: 5px;
+        width: 150px;
     }
 
     a {
@@ -41,7 +42,8 @@
     @media (max-width: 768px) {
         align-items: center;
         flex-direction: column;
-        height: 40rem;
+        height: 600px;
+        margin-top: 0;
         text-align: center;
 
         &__anchor--icon {
