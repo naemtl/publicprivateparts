@@ -1,5 +1,14 @@
 export const supportedLanguages = {
-    en: { nativeName: 'English' },
-    fr: { nativeName: 'French' },
-    es: { nativeName: 'Spanish' }
+    en: {
+        nativeName: 'English',
+        shortName: 'en'
+    },
+    fr: {
+        nativeName: 'Français',
+        shortName: 'fr'
+    },
+    es: {
+        nativeName: 'Español',
+        shortName: 'es'
+    }
 }

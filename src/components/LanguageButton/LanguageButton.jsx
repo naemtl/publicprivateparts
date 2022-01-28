@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 
 import "./LanguageButton.scss";
 
-const LanguageButton = ({ supportedLanguages, language }) => {
+const LanguageButton = ({ language, supportedLanguages }) => {
     const { t, i18n } = useTranslation()
 
     return (
@@ -13,7 +13,7 @@ const LanguageButton = ({ supportedLanguages, language }) => {
             type="submit"
             onClick={() => i18n.changeLanguage(language)}
         >
-            {supportedLanguages[language].nativeName}
+            {supportedLanguages[language].shortName}
         </button>
     );
 };
