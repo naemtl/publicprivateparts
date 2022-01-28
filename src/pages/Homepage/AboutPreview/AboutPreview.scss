@@ -2,25 +2,22 @@
 
 .about-preview {
     @include flex-center;
+    font-family: $primary-font-family;
+    margin: 8em 0;
     position: relative;
-    margin: 8rem 0;
 
     &__content {
-        font-family: $primary-font-family;
-        font-weight: 300;
-        font-size: rem(21px);
-        max-width: rem(756px);
         display: flex;
-        padding: 0 rem(24px);
+        font-size: rem(21px);
     }
     &__title {
         font-family: $secondary-font-family;
         font-size: 3.25em;
-        margin-bottom: rem(17px);
+        margin-bottom: 15px;
     }
     &__text {
         width: 50%;
-        margin-bottom: rem(17px);
+        margin-bottom: 15px;
     }
     &__column {
         z-index: 2;
@@ -30,15 +27,29 @@
         right: 0px;
         background: url(/assets/images/transparent-body.png) no-repeat;
         background-size: cover;
-        width: 49.25rem;
-        height: 31.125rem;
+        width: 49.25em;
+        height: 31.125em;
         pointer-events: none;
     }
     &__button {
         @include button;
 
         &:first-of-type {
-            margin-bottom: rem(17px);
+            margin-bottom: 15px;
+        }
+    }
+
+    @media (max-width: 1440px) {
+        &__image {
+            height: 25.125em;
+            width: 39.25em;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        &__image {
+            height: 19.125em;
+            width: 28.25em;
         }
     }
 
@@ -61,6 +72,7 @@
 
         &__content {
             margin: 0 auto;
+            justify-content: center;
         }
         &__title {
             font-family: $secondary-font-family;
@@ -72,13 +84,13 @@
             margin: 0.5rem 0 2rem;
         }
         &__image {
-            position: unset;
-            max-width: 35rem;
-            width: 100%;
-            height: 24.5rem;
             background-size: contain;
             background-position: 100% 100%;
+            height: 24.5em;
             margin: 0 auto;
+            max-width: 35em;
+            position: unset;
+            width: 100%;
         }
     }
 }

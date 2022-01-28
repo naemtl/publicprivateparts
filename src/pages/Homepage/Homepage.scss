@@ -35,9 +35,14 @@
         left: 0;
         right: 0;
         bottom: 0;
+        top: 400px;
         z-index: 0;
         width: 100%;
-        margin-top: rem(40px);
+    }
+    @media (max-width: 1024px) {
+        &__video--banner {
+            top: unset;
+        }
     }
     @media (max-width: 768px) {
         &__title {
