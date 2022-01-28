@@ -4,7 +4,7 @@
     cursor: pointer;
     background: transparent;
     border: none;
-    padding: 1.5rem 0.8rem;
+    padding: 1.5em 0.8em;
     z-index: 2;
 
     &__burger {
@@ -16,7 +16,7 @@
     &__burger::before,
     &__burger::after {
         width: 2em;
-        height: em(2px);
+        height: 2px;
         background-color: $site-color;
     }
 
@@ -30,11 +30,11 @@
     }
 
     &__burger::before {
-        top: em(8px);
+        top: 8px;
     }
 
     &__burger::after {
-        bottom: em(8px);
+        bottom: 8px;
     }
 
     &__burger--open {
