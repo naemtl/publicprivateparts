@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: space-between;
     left: 0;
-    padding: 2rem;
+    padding: 24px;
     position: fixed;
     right: 0;
     top: 0;
@@ -25,17 +25,17 @@
         display: flex;
         font-family: $secondary-font-family;
         font-size: 1.1em;
-        margin-top: rem(10px);
+        margin-top: 10px;
         text-transform: none;
 
         svg {
-            margin: 0 rem(5px);
+            margin: 0 5px;
         }
     }
 
     &__top {
         display: flex;
-        height: rem(70px);
+        height: 70px;
         justify-content: flex-end;
         position: relative;
     }
@@ -54,7 +54,7 @@
         font-family: $secondary-font-family;
         font-size: em(40px);
         line-height: 1.2em;
-        max-width: em(250px);
+        max-width: 520px;
     }
 
     &__list-item a {
@@ -105,7 +105,7 @@
     @media (max-width: 425px) {
         &__list-item {
             font-size: em(22px);
-            max-width: em(250px);
+            max-width: 250px;
         }
     }
 

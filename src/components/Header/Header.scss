@@ -7,24 +7,11 @@
     font-size: 1em;
     justify-content: flex-end;
     left: 0;
-    padding: 0.6rem 1rem;
+    padding: 7px 12px;
     position: fixed;
     right: 0;
     text-transform: uppercase;
     top: 0;
     transition: background-color 0.2s ease-in-out;
     z-index: 10;
-
-    &__control--open {
-        background: none;
-        border: none;
-        color: $site-color;
-        cursor: pointer;
-        font-weight: $bold-font-weight;
-        margin-left: rem(27px);
-
-        &:hover {
-            color: #fff49e;
-        }
-    }
 }
