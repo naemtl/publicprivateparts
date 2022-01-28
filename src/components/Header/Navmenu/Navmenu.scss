@@ -45,7 +45,6 @@
         height: 85%;
         justify-content: space-around;
         list-style-type: none;
-        // max-height: em(500px);
         padding: 0;
         width: 100%;
     }
@@ -93,6 +92,10 @@
     }
 
     @media (max-width: 767px) {
+        &__contact {
+            align-self: flex-start;
+        }
+
         &__list-item--numeral {
             display: none;
         }
