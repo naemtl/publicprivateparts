@@ -5,6 +5,7 @@
     bottom: 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     left: 0;
     padding: 2rem;
     position: fixed;
@@ -39,32 +40,21 @@
     }
 
     &__list {
-        list-style-type: none;
-        padding: 0;
-        height: 75%;
-        width: 100%;
         display: flex;
-        justify-content: space-around;
         flex-direction: column;
+        height: 85%;
+        justify-content: space-around;
+        list-style-type: none;
+        // max-height: em(500px);
+        padding: 0;
+        width: 100%;
     }
 
     &__list-item {
-        font-size: em(40px);
         font-family: $secondary-font-family;
-        max-width: rem(600px);
-    }
-
-    @media (max-width: 1024px) {
-        &__list-item {
-            font-size: em(32px);
-        }
-    }
-
-    @media (max-height: 750px), (max-width: 800px) {
-        &__list-item {
-            font-size: em(28px);
-            max-width: em(250px);
-        }
+        font-size: em(40px);
+        line-height: 1.2em;
+        max-width: em(250px);
     }
 
     &__list-item a {
@@ -89,7 +79,33 @@
         font-style: italic;
         margin-right: 30px;
     }
-    @media (min-width: 600px) {
+
+    @media (max-width: 1024px) {
+        &__list-item {
+            font-size: em(32px);
+        }
+    }
+
+    @media (max-width: 768px) {
+        &__list-item {
+            font-size: em(28px);
+        }
+    }
+
+    @media (max-width: 767px) {
+        &__list-item--numeral {
+            display: none;
+        }
+    }
+
+    @media (max-width: 425px) {
+        &__list-item {
+            font-size: em(22px);
+            max-width: em(250px);
+        }
+    }
+
+    @media (min-width: 768px) {
         &__list-item:first-of-type {
             margin-left: 10%;
         }
