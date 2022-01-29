@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useTranslation } from "react-i18next";
 
 import LanguageButton from "../LanguageButton/LanguageButton";
 import HamburgerButton from "../HamburgerButton/HamburgerButton";
@@ -10,7 +9,6 @@ import { supportedLanguages } from "../../utils/localization";
 import './Header.scss'
 
 const Header = () => {
-    const { t } = useTranslation()
 
     const [menuOpen, setMenuOpen] = useState(false);
 
