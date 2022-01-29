@@ -38,27 +38,20 @@ const Homepage = () => {
             <div className="homepage__content">
                 <div className="homepage__text">
                     <p>
-                        The sensual body can be a resource for cultivating deeper
-                        embodiment, pleasure, and connection with ourselves and others. However we live in a society that shames
-                        sexuality and fails to teach us how to honour and celebrate our bodies.
+                        {t('intro.paragraph-1')}
                     </p>
                     <p>
-                        Public / Private Parts is a series of works directed by
-                        artist
-                        and somatic sex educator Gerard X Reyes in conversation and collaboration with sex workers, somatic sex
-                        educators, and artists in Berlin and Montreal. Through various mediums (documentary interviews, live
-                        performance, video installations, podcasts, etc.) the collaborators share enlightening perspectives on
-                        topics such as moral censorship, sensual practices, the nude body, intimacy, pleasure, and much more.
+                        {t('intro.paragraph-2')}
                     </p>
                 </div>
                 <video className="homepage__video--about" src={breathingVid} autoPlay muted loop
                     controlsList="nofullscreen" playsInline=""></video>
             </div>
-            <OriginePreview />
-            <InterviewsPreview />
-            <AboutPreview />
-            <SubscribeHomepage />
-            <Footer />
+            <OriginePreview t={t} />
+            <InterviewsPreview t={t} />
+            <AboutPreview t={t} />
+            <SubscribeHomepage t={t} />
+            <Footer t={t} />
         </div>
     );
 };

@@ -2,21 +2,22 @@ import React from 'react';
 
 import './AboutPreview.scss'
 
-const AboutPreview = () => {
+const AboutPreview = ({ t }) => {
     return (
         <div className="about-preview">
             <div className="about-preview__content">
                 <div className="about-preview__column">
-                    <div className="about-preview__title">About Gerard X Reyes</div>
+                    <div className="about-preview__title">
+                        {t('about.title')}
+                    </div>
                     <div className="about-preview__text">
-                        Learn more about Gerard’s artistic journey as well as their Somatic Sex Education practice.
+                        {t('about.desc')}
                     </div>
                     <a href="en-about.html" className="about-preview__button">
-                        Read bio
-
+                        {t('about.button-1')}
                     </a>
                     <a href="en-about.html" className="about-preview__button">
-                        Discover Somatic Sex Education
+                        {t('about.button-2')}
                     </a>
                 </div>
             </div>

@@ -1,3 +1,26 @@
 {
-    "greeting": "Bonjour"
+    "intro": {
+        "paragraph-1": "",
+        "paragraph-2": ""
+    },
+    "about": {
+        "title": "",
+        "desc": "",
+        "button-1": "",
+        "button-2": ""
+    },
+    "interviews": {
+        "title": "",
+        "desc": "",
+        "anchor-1": ""
+    },
+    "origine": {
+        "desc": "",
+        "anchor-1": ""
+    },
+    "subscribe": {
+        "title": "",
+        "desc": "",
+        "dropdown-default": ""
+    }
 }

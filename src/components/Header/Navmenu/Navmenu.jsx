@@ -50,7 +50,7 @@ const Navmenu = ({ menuOpen, toggleMenu }) => {
                 </li>
             </ol>
             <div className="navmenu__contact">
-                <span>Say hi</span>
+                <span>{t('anchors.contact')}</span>
                 <FaLongArrowAltRight />
                 <a href="mailto:gerardxreyes@gmail.com">gerardxreyes@gmail.com</a>
             </div>

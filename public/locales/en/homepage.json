@@ -1,3 +1,26 @@
 {
-    "greeting": "Hello"
+    "intro": {
+        "paragraph-1": "The sensual body can be a resource for cultivating deeper embodiment, pleasure, and connection with ourselves and others. However we live in a society that shames sexuality and fails to teach us how to honour and celebrate our bodies.",
+        "paragraph-2": "Public / Private Parts is a series of works directed by artist and somatic sex educator Gerard X Reyes in conversation and collaboration with sex workers, somatic sex educators, and artists in Berlin and Montreal. Through various mediums (documentary interviews, live performance, video installations, podcasts, etc.) the collaborators share enlightening perspectives on topics such as moral censorship, sensual practices, the nude body, intimacy, pleasure, and much more."
+    },
+    "about": {
+        "title": "About Gerard X Reyes",
+        "desc": "Learn more about Gerard’s artistic journey as well as their Somatic Sex Education practice.",
+        "button-1": "Read bio",
+        "button-2": "Discover Somatic Sex Education"
+    },
+    "interviews": {
+        "title": "Documentary Interviews",
+        "desc": "This series of interviews follows Gerard X Reyes as they meet with Berlin-based sex workers, sex educators and artists to ask for their perspectives on the sensual/sexual body. These interviews took place in Montreal, Berlin and Zürich between 2017 and 2019. Gerard was curious to better understand their experiences of working with intimacy and to search for links between these seemingly disparate professions. Meet 7 intriguing interviewees and be inspired by their refreshing views on relationships, sex, and society.",
+        "anchor-1": "Watch videos"
+    },
+    "origine": {
+        "desc": "The first work in the Public / Private Parts series is an immersive dance performance and video installation which looks beyond the limiting binaries of public/private and art/pornography. A community of nine embodiment experts from various professional and cultural backgrounds create mindful bodily practices to awaken the senses. Through live performances and documentary videos, the group of contemporary dancers, sex workers and sex educators explore alone and expand together using the essential functions of touch, breath, sound, movement, and imagination. Intimate and innovative, their discoveries reveal new, hopeful interconnections that could benefit us all.",
+        "anchor-1": "Trailer and info"
+    },
+    "subscribe": {
+        "title": "Join the Movement",
+        "desc": "We are creating more works in the Public / Private Parts series which will be available soon. Be the first to know about upcoming release dates and tours of the live performance Public / Private Parts ou L’Origine du monde. Sign up today!",
+        "dropdown-default": "Language Preference"
+    }
 }
