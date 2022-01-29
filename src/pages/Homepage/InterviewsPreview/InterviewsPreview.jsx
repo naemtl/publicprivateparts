@@ -18,7 +18,7 @@ const InterviewsPreview = ({ t }) => {
                         <div className="interviews-preview__videos-col">
                             <iframe src="https://www.youtube-nocookie.com/embed/9rH27gpU_40" title="YouTube video player"
                                 frameBorder="0"
-                                allow="accelerometer; autoPlay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen className="interviews-preview__video-player">
                             </iframe>
                             <div className="interviews-preview__text">Mareen</div>
@@ -26,7 +26,7 @@ const InterviewsPreview = ({ t }) => {
                         <div className="interviews-preview__videos-col">
                             <iframe src="https://www.youtube-nocookie.com/embed/IIBsRHuYAq4" title="YouTube video player"
                                 frameBorder="0"
-                                allow="accelerometer; autoPlay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen className="interviews-preview__video-player">
                             </iframe>
                             <div className="interviews-preview__text">Bishop</div>
