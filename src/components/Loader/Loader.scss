@@ -1,7 +1,7 @@
 @import "/src/assets/styles/common";
 
 .loader {
-    @include gradientHomepage;
+    @include gradientHomepage180;
     @include flex-center;
     flex-direction: column;
     height: 100vh;

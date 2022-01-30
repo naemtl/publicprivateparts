@@ -1,3 +1,5 @@
+import { Trans, useTranslation } from "react-i18next";
+
 import OriginePersonnel from "./OriginePersonnel/OriginePersonnel";
 import Footer from '../../components/Footer/Footer';
 
@@ -11,6 +13,8 @@ import purpleBodyVid from "../../assets/videos/purple-body.mp4";
 import './OrigineDuMonde.scss'
 
 const OrigineDuMonde = () => {
+    const { t } = useTranslation('origine')
+
     return (
         <div className="origine">
             <div className="origine__header">
@@ -26,55 +30,54 @@ const OrigineDuMonde = () => {
                 </video>
             </div>
             <div className="origine__content">
-                <div className="origine__text"> <em>The Origin of the World</em> may be the starting point for a global
-                    history of
-                    moral censorship in modern times. In Paris 1866, Gustave Courbet’s painting was hidden from public view
-                    right after it had been completed. The work – which displays a woman’s abdomen, genitals, and legs – was
-                    seen more as a pornographic object than as a work of art. It was sold and resold many times but remained
-                    hidden until its first public exhibition in New York in 1988, when it became world famous. Then in 2011,
-                    Facebook censored the work again, this time online, under its “Community Guidelines”. What would happen if
-                    our human society could learn to accept the sensual body? What if we acknowledged the body as a precious
-                    resource for cultivating sensation, connection, and empathy with each other, with the world and with
-                    ourselves? </div>
-                <div className="origine__text"> <em>Public / Private Parts ou L’Origine du monde</em> is a dance performance
-                    and
-                    video installation which looks beyond the limiting binaries of public/private and art/pornography. A
-                    community of nine embodiment experts from various professional and cultural backgrounds create mindful body
-                    practices to awaken the senses. Through live performances and documentary videos, the group of contemporary
-                    dancers, sex workers, and sex educators, explore alone and expand together using the essential bodily
-                    functions of touch, breath, sound, movement, and imagination. Intimate and innovative, their discoveries
-                    reveal new, hopeful interconnections that could benefit us all. </div>
                 <div className="origine__text">
-                    Premiered June 10th, 2021 at the in Montréal, Canada.
+                    <Trans i18nkey="origine.main.paragraph-main-1">
+                        <em>The Origin of the World</em> may be the starting point for a global history of moral censorship in modern times. In Paris 1866, Gustave Courbet’s painting was hidden from public view right after it had been completed. The work – which displays a woman’s abdomen, genitals, and legs – was seen more as a pornographic object than as a work of art. It was sold and resold many times but remained
+                        hidden until its first public exhibition in New York in 1988, when it became world famous. Then in 2011, Facebook censored the work again, this time online, under its “Community Guidelines”. What would happen if our human society could learn to accept the sensual body? What if we acknowledged the body as a precious resource for cultivating sensation, connection, and empathy with each other, with the world and with ourselves?
+
+                    </Trans>
+                </div>
+                <div className="origine__text">
+                    <span>
+                        <em>Public / Private Parts ou L’Origine du monde </em>
+                        {t("main.paragraph-main-2")}
+                    </span>
+                </div>
+                <div className="origine__text">
+                    {t("main.premiere-text")}
                 </div>
                 <div className="origine__controls">
                     <a className="button" href="https://vimeo.com/542702988">
-                        Trailer 1
+                        {t("main.button-trailer")}
+                        <span> 1</span>
                     </a>
                     <a className="button" href="https://vimeo.com/542702988">
-                        Trailer 2
+                        {t("main.button-trailer")}
+                        <span> 2</span>
                     </a>
                     <a className="button" href="https://vimeo.com/542702988">
-                        Trailer 3
+                        {t("main.button-trailer")}
+                        <span> 3</span>
                     </a>
                 </div>
             </div>
             <div className="origine__embed"></div>
             <div className="origine__quote">
                 <div className="origine__quote-container">
-                    <div className="origine__quote-text"> “Having a naked body there apparently is no longer radical but at the same
-                        time
-                        there’s still a fight against it.” </div>
-                    <div className="origine__quote-author">—Bishop Black, p*rn artist and video performer in “Public / Private Parts
-                        ou
-                        L’Origine du monde”</div>
+                    <div className="origine__quote-text">
+                        {t("main.quote-text")}
+                    </div>
+                    <div className="origine__quote-author">
+                        <span>—Bishop Black, </span>
+                        {t("main.quote-source")}
+                    </div>
                 </div>
             </div>
             <OriginePersonnel />
             <div className="origine__logos-container">
                 <div className="origine__logos-row">
                     <div className="origine__personnel-heading">
-                        Support
+                        {t("main.heading-1")}
                     </div>
                     <img src={calqLogo}
                         alt="Conseil des arts et des lettres du Québec" />
@@ -83,16 +86,13 @@ const OrigineDuMonde = () => {
                 </div>
                 <div className="origine__logos-row">
                     <div className="origine__personnel-heading">
-                        Partners
+                        {t("main.heading-2")}
                     </div>
                     <img src={goetheLogo} className="goethe-logo" alt="Goethe-Institut" />
                 </div>
             </div>
             <div className="origine__personnel-row">
-                Gerard X Reyes would like to thank all of the interviewees and dancers in Montréal, Berlin and Zürich who
-                participated
-                in the research for this work. Special thanks to Guy Cools, Julie Favreau and Andréane Leclerc for their
-                guidance.
+                {t("main.paragraph-thanks")}
             </div>
             <Footer />
         </div>
