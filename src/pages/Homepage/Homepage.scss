@@ -1,14 +1,12 @@
 @import "/src/assets/styles/common";
 
 .homepage {
-    @include gradientHomepage;
-    height: 100%;
-    margin: 0;
     color: $site-color;
     font-family: $primary-font-family;
 
     &__header {
         @include flex-center;
+        background-color: $black;
         position: relative;
         height: 100vh;
         padding-top: rem(40px);

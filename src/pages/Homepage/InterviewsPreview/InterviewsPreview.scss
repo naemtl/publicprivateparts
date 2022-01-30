@@ -1,7 +1,8 @@
 @import "/src/assets/styles/common";
 
 .interviews-preview {
-    margin: rem(55px) rem(16px);
+    @include gradientHomepage180;
+    height: 100%;
     &__button {
         @include button;
     }

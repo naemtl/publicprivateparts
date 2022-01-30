@@ -2,9 +2,9 @@ import { FaYoutube, FaVimeoV, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 import './Footer.scss'
 
-const Footer = () => {
+const Footer = ({ backgroundColor }) => {
     return (
-        <div className="footer">
+        <div className={`footer ${backgroundColor ? backgroundColor : ''}`}>
             <div className="footer__column">
                 <div>
                     <div className="footer__label">Contact Gerard</div>

@@ -2,8 +2,10 @@
 
 .about-preview {
     @include flex-center;
+    @include gradientHomepage;
     font-family: $primary-font-family;
-    margin: 8em 0;
+    height: 100%;
+    padding: 8em 0;
     position: relative;
 
     &__content {

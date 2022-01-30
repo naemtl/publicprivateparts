@@ -1,11 +1,12 @@
 @import "/src/assets/styles/common";
 
 .subscribe-homepage {
+    @include gradientHomepage180;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 156px 24px 134px;
+    padding: 128px 0;
 
     &__title {
         margin-bottom: 16px;

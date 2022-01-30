@@ -1,11 +1,12 @@
 @import "/src/assets/styles/common";
 
 .origine-preview {
-    font-family: $primary-font-family;
+    background-color: $black;
     display: flex;
     flex-direction: column;
+    font-family: $primary-font-family;
     justify-content: center;
-    margin: rem(142px) 0 rem(62);
+    padding: em(142px) 0 em(62);
 
     &__button {
         @include button;
