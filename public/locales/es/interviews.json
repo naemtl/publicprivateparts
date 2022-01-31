@@ -1,0 +1,37 @@
+{
+    "main": {
+        "heading-banner": "",
+        "heading-caritia": "",
+        "heading-valentin": "",
+        "heading-kay-1": "",
+        "heading-kay-2": "",
+        "heading-bishop": "",
+        "heading-jasko": "",
+        "heading-pina": "",
+        "heading-mareen": "",
+        "heading-production": "",
+        "heading-support": "",
+        "paragraph-intro-1": "",
+        "paragraph-intro-2": "",
+        "paragraph-caritia": "",
+        "paragraph-valentin": "",
+        "paragraph-kay-1": "",
+        "paragraph-kay-2": "",
+        "paragraph-bishop": "",
+        "paragraph-jasko": "",
+        "paragraph-pina": "",
+        "paragraph-mareen": "",
+        "text-thanks": ""
+    },
+    "prod-roles": {
+        "prod-director": "",
+        "camera-op": "",
+        "editor-drama": "",
+        "colour": "",
+        "sound": "",
+        "subtitles": "",
+        "transcription-en": "",
+        "translation-fr": "",
+        "translation-es": ""
+    }
+}

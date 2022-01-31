@@ -1,0 +1,37 @@
+{
+    "main": {
+        "heading-banner": "Documentary Interviews",
+        "heading-caritia": "Caritia : on perversion",
+        "heading-valentin": "Valentin : on porn as a cure",
+        "heading-kay-1": "KAy : on communication",
+        "heading-kay-2": "KAy : on sex work as a trans man",
+        "heading-bishop": "Bishop : on sex and art",
+        "heading-jasko": "Jasko : on expanding porn",
+        "heading-pina": "Pina : on power",
+        "heading-mareen": "Mareen : on anal pleasure",
+        "heading-production": "Production Team",
+        "heading-support": "Support",
+        "paragraph-intro-1": "Between 2017 and 2019 the artist and now somatic sex educator, Gerard X Reyes, began research for Public / Private Parts by conducting over 40 documentary interviews. These interviews took place in Montreal, Berlin, and Zürich with sex workers, sex educators and artists. Gerard was curious to better understand their experiences of working with intimacy and to search for links between these seemingly disparate professions. Meet seven intriguing interviewees and be inspired by their refreshing views on relationships, sex and society!",
+        "paragraph-intro-2": "The conversations are in English and French. Subtitles are available in English, French and Spanish.",
+        "paragraph-caritia": "Caritia is a queer person of colour, facilitator and performer with over 20 years of experience in the practices of kink and BDSM. Here Caritia dialogues about society’s relationship to kink and ‘perversion’.",
+        "paragraph-valentin": "Valentin Braun is a dancer and porn artist. In this interview he shares his experience struggling with body dysmorphia while he was a dancer and how performing in erotic films helped him overcome this.",
+        "paragraph-kay-1": "KAy Garnellen is an escort, artist and porn performer. KAy opens up about the need for communication with sexual partners.",
+        "paragraph-kay-2": "In this excerpt, KAy talks about finding his place in the sex work industry as a trans man.",
+        "paragraph-bishop": "Bishop Black is a porn artist, drag and stage performer. Bishop explains the film genre known as \"queer feminist porn\" and raises the question, ‘Can sex be art?’.",
+        "paragraph-jasko": "Jasko Fide is a porn performer. She discusses gender stereotypes and her wish to expand the limits of porn.",
+        "paragraph-pina": "Pina Brutal is a dancer, director, suspension artist, and ex-stripper. Pina compares dancing in the strip club with the empowering feeling she gets from suspension art.",
+        "paragraph-mareen": "Mareen Scholl is a certified somatic sex educator, teacher of Sexological Bodywork and co-founder of the ISB (Institute for Somatic Education, Sexuality and Bodywork in Berlin). Here she talks about desires and consciously exploring anal pleasure.",
+        "text-thanks": "Gerard would like to thank all the interviewees in Berlin, Zürich and Montréal who participated in the research. Special thanks to Julie Favreau, David J. Romero, Tyrone Harper and Denise Reyes for their guidance in the interview process."
+    },
+    "prod-roles": {
+        "prod-director": "Producer, director, interviewer, co-editor",
+        "camera-op": "Camera operators",
+        "editor-drama": "Editor and dramaturgical advice",
+        "colour": "Colour correction",
+        "sound": "Sound correction",
+        "subtitles": "Subtitles",
+        "transcription-en": "Transcription (English)",
+        "translation-fr": "Translation (French)",
+        "translation-es": "Translation (Spanish)"
+    }
+}
