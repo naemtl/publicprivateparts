@@ -31,20 +31,17 @@ const OrigineDuMonde = () => {
             </div>
             <div className="origine__content">
                 <div className="origine__text">
-                    <Trans i18nkey="origine.main.paragraph-main-1">
-                        <em>The Origin of the World</em> may be the starting point for a global history of moral censorship in modern times. In Paris 1866, Gustave Courbet’s painting was hidden from public view right after it had been completed. The work – which displays a woman’s abdomen, genitals, and legs – was seen more as a pornographic object than as a work of art. It was sold and resold many times but remained
-                        hidden until its first public exhibition in New York in 1988, when it became world famous. Then in 2011, Facebook censored the work again, this time online, under its “Community Guidelines”. What would happen if our human society could learn to accept the sensual body? What if we acknowledged the body as a precious resource for cultivating sensation, connection, and empathy with each other, with the world and with ourselves?
-
+                    <Trans t={t} i18nKey={"main.paragraph-main-1"}>
+                        <em>The Origin of the World</em> may be the starting point for a global history of moral censorship in modern times. In Paris 1866, Gustave Courbet’s painting was hidden from public view right after it had been completed. The work – which displays a woman’s abdomen, genitals, and legs – was seen more as a pornographic object than as a work of art. It was sold and resold many times but remained hidden until its first public exhibition in New York in 1988, when it became world famous. Then in 2011, Facebook censored the work again, this time online, under its “Community Guidelines”. What would happen if our human society could learn to accept the sensual body? What if we acknowledged the body as a precious resource for cultivating sensation, connection, and empathy with each other, with the world and with ourselves?
                     </Trans>
                 </div>
                 <div className="origine__text">
-                    <span>
-                        <em>Public / Private Parts ou L’Origine du monde </em>
-                        {t("main.paragraph-main-2")}
-                    </span>
+                    <Trans t={t} i18nKey={"main.paragraph-main-2"}>
+                        <em>Public / Private Parts ou L’Origine du monde</em> is a dance performance and video installation which looks beyond the limiting binaries of public/private and art/pornography. A community of nine embodiment experts from various professional and cultural backgrounds create mindful body practices to awaken the senses. Through live performances and documentary videos, the group of contemporary dancers, sex workers, and sex educators, explore alone and expand together using the essential bodily functions of touch, breath, sound, movement, and imagination. Intimate and innovative, their discoveries reveal new, hopeful interconnections that could benefit us all.
+                    </Trans>
                 </div>
                 <div className="origine__text">
-                    {t("main.premiere-text")}
+                    {t("main.text-premiere")}
                 </div>
                 <div className="origine__controls">
                     <a className="button" href="https://vimeo.com/542702988">
@@ -65,11 +62,10 @@ const OrigineDuMonde = () => {
             <div className="origine__quote">
                 <div className="origine__quote-container">
                     <div className="origine__quote-text">
-                        {t("main.quote-text")}
+                        {t("main.text-quote")}
                     </div>
                     <div className="origine__quote-author">
-                        <span>—Bishop Black, </span>
-                        {t("main.quote-source")}
+                        {t("main.text-quote-source")}
                     </div>
                 </div>
             </div>
