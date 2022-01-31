@@ -1,10 +1,10 @@
 import './ContactBanner.scss'
 
-const ContactBanner = () => {
+const ContactBanner = ({ t }) => {
     return (
         <div className="contact-banner">
             <div className="contact-banner__inner">
-                <div className="contact-banner__title">Contact me</div>
+                <div className="contact-banner__title">{t("text-contact")}</div>
                 <div className="contact-banner__email">
                     <a href="mailto:gerardxreyes@gmail.com">gerardxreyes@gmail.com</a>
                 </div>

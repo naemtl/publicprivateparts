@@ -1,5 +1,5 @@
 
-import { Trans, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 import Footer from '../../components/Footer/Footer';
 
