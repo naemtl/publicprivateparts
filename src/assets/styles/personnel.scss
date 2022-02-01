@@ -1,0 +1,32 @@
+@import "/src/assets/styles/common";
+
+.personnel {
+    font-family: $primary-font-family;
+    font-size: 16px;
+    letter-spacing: -0.9px;
+    line-height: 27px;
+    max-width: 662px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: auto auto 150px;
+
+    &__row {
+        display: flex;
+        width: 100%;
+    }
+
+    &__row span:nth-of-type(1),
+    &__row span:nth-of-type(3) {
+        white-space: nowrap;
+    }
+
+    &__row span:nth-of-type(2) {
+        width: 100%;
+        border-bottom: 2px dotted #9d8b02;
+        margin: 0 2px 6px;
+    }
+
+    &__row--special {
+        margin-top: 2rem;
+    }
+}

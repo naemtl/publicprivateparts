@@ -82,9 +82,7 @@ const Bodywork = () => {
                     </p>
                     <p>
                         <Trans t={t} i18nKey={"paragraph-message-2"}>
-                            In 2019, I became a Certified Sexological Bodyworker by completing a six-month course at the Australian <a href="https://instituteofsomaticsexology.com/">Institute of
-                                Somatic Sexology</a>, which was facilitated by master educators Deej Juventin and Uma Ayelet. In 2020, I continued my studies via a mentorship with Ron Stuart and Pono Stuart – two Certified Sexological Bodyworkers who are
-                            associated with the Institute for the Study of Somatic Sex Education in Victoria, Canada.
+                            In 2019, I became a Certified Sexological Bodyworker by completing a six-month course at the Australian <a href="https://instituteofsomaticsexology.com/">Institute of Somatic Sexology</a>, which was facilitated by master educators Deej Juventin and Uma Ayelet. In 2020, I continued my studies via a mentorship with Ron Stuart and Pono Stuart – two Certified Sexological Bodyworkers who are associated with the Institute for the Study of Somatic Sex Education in Victoria, Canada.
                         </Trans>
                     </p>
                     <p>

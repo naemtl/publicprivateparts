@@ -10,6 +10,7 @@ import goetheLogo from "../../assets/svg/goethe-logo.svg";
 import sacdLogo from "../../assets/images/sacd-logo.png";
 
 import './Interviews.scss'
+import InterviewPersonnel from "./InterviewPersonnel/InterviewPersonnel";
 
 const Interviews = () => {
     const { t } = useTranslation('interviews')
@@ -143,58 +144,7 @@ const Interviews = () => {
                     </iframe>
                 </div>
             </div>
-            <div className="interviewsThanks">
-                <h2>{t("main.heading-production")}</h2>
-                <div className="interviewsThanks--row">
-                    <span>{t("prod-roles.prod-director")}</span>
-                    <span></span>
-                    <span>Gerard X Reyes</span>
-                </div>
-                <div className="interviewsThanks--row">
-                    <span>{t("prod-roles.camera-op")}</span>
-                    <span></span>
-                    <span>David J. Romero, Julie Favreau</span>
-                </div>
-                <div className="interviewsThanks--row">
-                    <span>{t("prod-roles.editor-drama")}</span>
-                    <span></span>
-                    <span>Julie Favreau</span>
-                </div>
-                <div className="interviewsThanks--row">
-                    <span>{t("prod-roles.colour")}</span>
-                    <span></span>
-                    <span>Max Hilsamer</span>
-                </div>
-                <div className="interviewsThanks--row">
-                    <span>{t("prod-roles.sound")}</span>
-                    <span></span>
-                    <span>Devon Bate</span>
-                </div>
-                <div className="interviewsThanks--row">
-                    <span>{t("prod-roles.subtitles")}</span>
-                    <span></span>
-                    <span>T &amp; S Coop (Emma Roufs, Ellen Warkentin, Carolina Alfaro Carvalho)</span>
-                </div>
-                <div className="interviewsThanks--row">
-                    <span>{t("prod-roles.transcription-en")}</span>
-                    <span></span>
-                    <span>Gerard X Reyes</span>
-                </div>
-                <div className="interviewsThanks--row">
-                    <span>{t("prod-roles.translation-fr")}</span>
-                    <span></span>
-                    <span>Ingrid Vallus</span>
-                </div>
-                <div className="interviewsThanks--row">
-                    <span>{t("prod-roles.translation-es")}</span>
-                    <span></span>
-                    <span>Julia Sahagún</span>
-                </div>
-
-                <div className="interviewsThanks--special">
-                    {t("main.text-thanks")}
-                </div>
-            </div>
+            <InterviewPersonnel t={t} />
             <div className="interviewsLogos">
                 <h2><em>{t("main.heading-support")}</em></h2>
                 <div className="interviewsLogos-row">

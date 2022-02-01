@@ -2,9 +2,9 @@ import React from 'react';
 
 import './OriginePersonnel.scss'
 
-const OriginePersonnel = () => {
+const OriginePersonnel = ({ t }) => {
     return (
-        <div className="origine-personnel__container">
+        <div className="origine-personnel">
             <div className="origine-personnel__heading">
                 A Gerard X Reyes production
             </div>
@@ -12,6 +12,7 @@ const OriginePersonnel = () => {
                 <div className="origine-personnel__role">
                     CO-PRODUCTION
                 </div>
+                <div className="origine-personnel__spacer"></div>
                 <div className="origine-personnel__name">
                     FESTIVAL TRANSAMÉRIQUES
                 </div>
