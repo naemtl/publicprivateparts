@@ -1,14 +1,14 @@
 {
     "main": {
-        "button-trailer": "",
-        "heading-1": "",
-        "heading-2": "",
-        "paragraph-main-1": "",
-        "paragraph-main-2": "",
+        "button-trailer": "Trailer",
+        "heading-1": "Support",
+        "heading-2": "Partners",
+        "paragraph-main-1": "<i>El origen del mundo</i> puede ser el punto de partida para una historia global de censura moral en los tiempos modernos. En París de 1866, la pintura de Gustave Courbet se ocultó a la vista del público justo después de haber sido pintada. La obra, que muestra el abdomen, los genitales y las piernas de una mujer, fue vista más como un objeto pornográfico que como una obra de arte. Fue vendida y revendida muchas veces, pero permaneció oculta hasta su primera exhibición pública en Nueva York en 1988, cuando se hizo mundialmente famosa. Luego, en 2011, Facebook bajo sus “Pautas comunitarias”, censuró la obra nuevamente. ¿Qué pasaría si nuestra sociedad humana pudiera aprender a aceptar el cuerpo sensual? ¿Qué pasaría si reconociéramos el cuerpo como un recurso para cultivar la sensación, la conexión y la empatía entre nosotrxs, con nosotrxs mismxs y con el mundo?",
+        "paragraph-main-2": "<i>Public / Private Parts ou L’Origine du monde</i> es un espectáculo de danza y una instalación de video que ve más allá de los límites binarios de público/privado y arte/pornografía. Una comunidad de nueve expertos sexuales de diversos orígenes profesionales y culturales crea prácticas corporales conscientes para despertar los sentidos. A través de performances en vivo y videos documentales, el grupo de bailarines contemporáneos, trabajadorxs sexuales y educadorxs sexuales exploran solxs y se expanden juntxs utilizando las funciones corporales esenciales de la respiración, el tacto, el sonido, el movimiento y la imaginación. Íntimos e innovadores, sus descubrimientos revelan nuevas interconexiones prometedoras que podrían beneficiarnos a todxs.",
         "paragraph-thanks": "",
-        "premiere-text": "",
-        "quote-text": "“”",
-        "quote-source": " “Public / Private Parts ou L’Origine du monde”"
+        "text-premiere": "",
+        "text-quote": "“…Lo que surja de mis deseos, de mis emociones, de mi mente, es natural, si no, no estaría ahí. Y creo que esas fantasías pueden decirte mucho sobre lo que está ocurriendo dentro de ti, y permitirlo te acerca a lo que realmente quieren decirte.”",
+        "text-quote-source": "—Mara Morgen"
     },
     "personnel": {
         "heading-main": "A Gerard X Reyes production",

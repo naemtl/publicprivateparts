@@ -1,64 +1,64 @@
 {
-    "page-title": "",
-    "heading-society": "",
-    "heading-somatic": "",
-    "heading-reasons": "",
-    "heading-session": "",
+    "page-title": "Sesiones de Educación Sexual Somática y de Trabajo Corporal",
+    "heading-society": "La Relación de la Sociedad con el Placer",
+    "heading-somatic": "¿Qué es la Educación Sexual Somática?",
+    "heading-reasons": "15 Razones por las que las personas podrían ver un Sexological Bodyworker",
+    "heading-session": "¿Qué pasa en una sesión?",
     "heading-message": "",
-    "heading-pricing": "",
+    "heading-pricing": "Precios para individuos",
     "list-reasons": {
-        "accepting": "",
-        "reconnecting": "",
-        "pleasure": "",
-        "habits-patterns": "",
-        "boundaries": "",
-        "orgasm-difficulties": "",
-        "healthy-porn": "",
-        "ejaculation-choice": "",
-        "trauma-support": "",
-        "pain-relief": "",
-        "transition-support": "",
-        "dysfunction": "",
-        "enhance": "",
-        "understanding-anal": "",
-        "referred-by": ""
+        "accepting": "Aceptar y amar tu cuerpo, tu género y/o tu sexualidad",
+        "reconnecting": "Reconectarse con el yo sensual/sexual",
+        "pleasure": "Aprender a pedir y recibir placer",
+        "habits-patterns": "Tomar conciencia de los hábitos y patrones y aprender a expandir el placer por todo el cuerpo",
+        "boundaries": "Aprender sobre los límites y el contacto consentido",
+        "orgasm-difficulties": "Dificultades con el orgasmo",
+        "healthy-porn": "Desarrollar un uso saludable de la pornografía",
+        "ejaculation-choice": "Elección de la eyaculación",
+        "trauma-support": "Apoyo postraumático",
+        "pain-relief": "Alivio del dolor o entumecimiento pélvico",
+        "transition-support": "Apoyo durante la transición de género",
+        "dysfunction": "Disfunción eréctil",
+        "enhance": "Parejas / Tríadas, etc. que desean mejorar su vida sexual",
+        "understanding-anal": "Entendiendo el placer anal",
+        "referred-by": "Remitido por un terapeuta, médico, sexólogo o un masajista"
     },
     "list-session": {
         "check-in": {
-            "label": "",
-            "desc": ""
+            "label": "Check-in",
+            "desc": "Discutimos sobre tus intenciones, intereses, desafíos e historia sensual/sexual."
         },
         "body-scan": {
-            "label": "",
-            "desc": ""
+            "label": "Escaneo Corporal",
+            "desc": "Te guío en un escaneo corporal para tomar conciencia de las sensaciones en tu cuerpo, como una práctica para aprender a tomar decisiones desde un lugar encarnado."
         },
         "options": {
-            "label": "",
-            "desc": ""
+            "label": "Opciones",
+            "desc": "A partir de un check-in y un escaneo corporal, te ofrezco 2 opciones de trabajo corporal o prácticas somáticas que podrían ser útiles para tus intereses o búsquedas específicas."
         },
         "agreement": {
-            "label": "",
-            "desc": ""
+            "label": "Acuerdo",
+            "desc": "Tú eliges 1 práctica somática o trabajo corporal y nos pondremos de acuerdo en los límites."
         },
         "integration": {
-            "label": "",
-            "desc": ""
+            "label": "Integración",
+            "desc": "La sesión finaliza con unos minutos de integración para “guardar” la experiencia de aprendizaje en tu sistema nervioso (mente y cuerpo), formando así nuevos hábitos saludables y ampliando tu potencial de placer."
         }
     },
-    "paragraph-society-1": "",
+    "paragraph-society-1": "Todos ponemos límites a la cantidad y calidad del placer que podemos encarnar. Los límites al placer son omnipresentes en una cultura que se avergüenza de la sexualidad y no nos enseña cómo honrar y celebrar nuestro ser erótico. Las heridas sexuales se incrustan en los tejidos y las respuestas del cuerpo. La educación sexual somática y el trabajo corporal pueden ayudar a los clientes a expandir las posibilidades del placer. Esta expansión tiene beneficios físicos, mentales, emocionales y sociales.",
     "paragraph-society-2": "Lorem ipsum dolor sit, <1>amet consectetur adipisicing elit</1>. Placeat, dolore dolorem dolores ut ea modi perferendis quis. Quos, aliquid? Facilis dolores iusto, reiciendis dolor culpa illum voluptates dolore sit fuga.",
-    "paragraph-somatic-1": "",
-    "paragraph-somatic-2": "",
+    "paragraph-somatic-1": "Lxs Sexological Bodyworkers enseñan educación sexual somática y ofrecen trabajo corporal. Enseñamos a través de experiencias corporales diseñadas para nutrir, profundizar o despertar el yo sensual. Nuestra enseñanza puede incluir entrenamiento en respiración, conciencia corporal, movimiento, establecimiento de límites (consentimiento), comunicación, anatomía, masajes, masturbación consciente, corrección de tejido cicatricial y otras prácticas basadas en el cuerpo.",
+    "paragraph-somatic-2": "No todas las enseñanzas incluyen el tacto, pero cuando se solicita, el tacto es unidireccional (del practicante al cliente) y está dirigido por el cliente. Tocamos de maneras que ayudan a lxs clientes a desarrollar su presencia dentro del cuerpo, abriendo la conciencia interior, empoderando la elección y la voz, y aprendiendo cómo el cuerpo puede sentirse más seguro y más vivo. De manera única en la profesión, estamos capacitadxs para ofrecer contacto genital o anal dirigido por el cliente con fines de educación, curación y placer. Lxs Sexological Bodyworkers están informadxs sobre el trauma y permanecen vestidxs durante las sesiones.",
     "paragraph-message-1": "",
     "paragraph-message-2": "",
     "paragraph-message-3": "",
-    "paragraph-pricing-1": "",
-    "paragraph-pricing-2": "",
-    "paragraph-covid": "",
-    "paragraph-thanks": "",
-    "paragraph-copyright": "",
-    "text-pricing-1": "",
-    "text-pricing-2": "",
-    "anchor-contact": "",
+    "paragraph-pricing-1": "* En dólares canadienses, impuestos incluidos",
+    "paragraph-pricing-2": "Puedo acomodar parejas / tríadas, sesiones más cortas, dificultades financieras, etc. ¡Escríbeme para ontarme tu situación!",
+    "paragraph-covid": "NOTA: Para sesiones presenciales, yo sigo las pautas de salud pública del Gobierno de Quebec para reducir la transmisión de COVID-19 (usar mascarillas, lavado de manos, desinfección de superficies, etc.)",
+    "paragraph-thanks": "Gracias al Bodyworker Sexológicx Caffyn Jesse por su contribución a esta descripción.",
+    "paragraph-copyright": "Reservados todos los derechos.",
+    "text-pricing-1": "1 sesión (90 min): <strong>$110</strong>",
+    "text-pricing-2": "3 sesiones (90 min cada una): <strong>$300</strong>",
+    "anchor-contact": "Contacto",
     "anchor-book": ""
 }

@@ -1,26 +1,26 @@
 {
     "intro": {
-        "paragraph-1": "",
-        "paragraph-2": ""
+        "paragraph-1": "El cuerpo sensual puede ser un recurso para cultivar una encarnación, un placer y una conexión más profunda con nosotrxs mismxs y lxs demás. Sin embargo, vivimos en una sociedad que avergüenza la sexualidad y no nos enseña cómo celebrar nuestros cuerpos.",
+        "paragraph-2": "Public / Private Parts es una serie de obras dirigidas por el artista y educador sexual somático Gerard X Reyes en conversación y colaboración con trabajadorxs sexuales, educadores sexuales somáticos y artistas en Berlín y Montreal. A través de diversos medios (entrevistas documentales, performances en vivo, videoinstalaciones, podcasts, etc.) lxs colaboradores comparten perspectivas esclarecedoras sobre temas como la censura moral, las prácticas sensuales, el cuerpo desnudo, la intimidad, el placer y mucho más."
     },
     "about": {
-        "title": "",
-        "desc": "",
+        "title": "Acerca de Gerard X Reyes",
+        "desc": "Obtenga más información sobre el viaje de Gerard X Reyes, así como su experiencia educativa y performativa.",
         "button-1": "",
-        "button-2": ""
+        "button-2": "Descubrir"
     },
     "interviews": {
-        "title": "",
-        "desc": "",
-        "anchor-1": ""
+        "title": "Entrevistas Documentales",
+        "desc": "Gerard X Reyes y 7 trabajadorxs sexuales, artistas y educadores sexuales de Berlín se reúnen para compartir sus puntos de vista. Juntxs discuten sobre la vida pública (sociedad, trabajo) y la vida privada (pensamientos íntimos, experiencias, deseos). Las conversaciones son en inglés y francés con subtítulos en inglés, francés y español.",
+        "anchor-1": "Mirar los videos"
     },
     "origine": {
-        "desc": "",
-        "anchor-1": ""
+        "desc": "Public / Private Parts ou L'Origine du monde es la primera obra de la serie Public / Private Parts. Esta instalación de video inmersiva y performance de danza extiende el cuerpo sensual más allá de los límites binarios de público/privado y de arte/pornografía.",
+        "anchor-1": "Tráiler e información"
     },
     "subscribe": {
-        "title": "",
-        "desc": "",
-        "dropdown-default": ""
+        "title": "Únete al Movimiento",
+        "desc": "No te pierdas el próximo podcast, entrevistas documentales y entradas para el estreno mundial de la instalación de video en vivo. ¿Quieres ser el/la primero/la en experimentarlo? ¡Regístrate hoy!",
+        "dropdown-default": "Idioma de preferencia"
     }
 }
