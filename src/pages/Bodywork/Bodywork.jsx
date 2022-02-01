@@ -37,48 +37,40 @@ const Bodywork = () => {
                     {t("heading-reasons")}
                 </h2>
                 <ol>
-                    <li>Accepting and loving one’s body, gender and/or sexuality</li>
-                    <li>Reconnecting to the sensual/sexual self</li>
-                    <li>Learning how to ask for and receive pleasure</li>
-                    <li>Becoming aware of habits and patterns, and learning to expand pleasure throughout the body</li>
-                    <li>Learning about boundaries and consensual touch</li>
-                    <li>Difficulties with orgasm</li>
-                    <li>Developing a healthy use of porn</li>
-                    <li>Ejaculation choice</li>
-                    <li>Post-trauma support</li>
-                    <li>Relief from pelvic pain or numbness</li>
-                    <li>Support during gender transition</li>
-                    <li>Erectile dysfunction</li>
-                    <li>Couples/Triads/Quads wanting to enhance their sex life</li>
-                    <li>Understanding anal pleasure</li>
-                    <li>Referred by a Therapist, Doctor, Sexologist, Massage Therapist</li>
+                    <li>{t("list-reasons.accepting")}</li>
+                    <li>{t("list-reasons.reconnecting")}</li>
+                    <li>{t("list-reasons.pleasure")}</li>
+                    <li>{t("list-reasons.habits-patterns")}</li>
+                    <li>{t("list-reasons.boundaries")}</li>
+                    <li>{t("list-reasons.orgasm-difficulties")}</li>
+                    <li>{t("list-reasons.healthy-porn")}</li>
+                    <li>{t("list-reasons.ejaculation-choice")}</li>
+                    <li>{t("list-reasons.trauma-support")}</li>
+                    <li>{t("list-reasons.pain-relief")}</li>
+                    <li>{t("list-reasons.transition-support")}</li>
+                    <li>{t("list-reasons.dysfunction")}</li>
+                    <li>{t("list-reasons.enhance")}</li>
+                    <li>{t("list-reasons.understanding-anal")}</li>
+                    <li>{t("list-reasons.referred-by")}</li>
                 </ol>
                 <h2>
                     {t("heading-session")}
                 </h2>
                 <ol>
                     <li>
-                        <span>Check-in</span> – You and Gerard discuss your intentions, interests, challenges and
-                        sensual/sexual history.
+                        <span>{t("list-session.check-in.label")}</span> – {t("list-session.check-in.desc")}
                     </li>
                     <li>
-                        <span>Body Scan</span> – Gerard leads you in a somatic body scan to bring awareness to
-                        sensations in your body. This practice helps with learning to make choices
-                        from an embodied place.
+                        <span>{t("list-session.body-scan.label")}</span> – {t("list-session.body-scan.desc")}
                     </li>
                     <li>
-                        <span>Options</span> – Based on the check-in and body scan Gerard will offer you 2 options for
-                        bodywork or somatic practices that could be useful based on your specific
-                        interests or challenges.
+                        <span>{t("list-session.options.label")}</span> – {t("list-session.options.desc")}
                     </li>
                     <li>
-                        <span>Agreement</span> - You choose 1 somatic practice or type of bodywork. You and Gerard
-                        agree on the boundaries.
+                        <span>{t("list-session.agreement.label")}</span> – {t("list-session.agreement.desc")}
                     </li>
                     <li>
-                        <span>Integration</span> – The session ends with a few minutes of integration to ‘save’ the learning
-                        experience in your nervous system (mind and body), thus forming new
-                        healthy habits and expanding your potential for pleasure.
+                        <span>{t("list-session.integration.label")}</span> – {t("list-session.integration.desc")}
                     </li>
                 </ol>
                 <div>

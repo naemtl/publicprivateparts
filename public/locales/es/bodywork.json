@@ -6,8 +6,45 @@
     "heading-session": "",
     "heading-message": "",
     "heading-pricing": "",
-    "list-reasons": {},
-    "list-session": {},
+    "list-reasons": {
+        "accepting": "",
+        "reconnecting": "",
+        "pleasure": "",
+        "habits-patterns": "",
+        "boundaries": "",
+        "orgasm-difficulties": "",
+        "healthy-porn": "",
+        "ejaculation-choice": "",
+        "trauma-support": "",
+        "pain-relief": "",
+        "transition-support": "",
+        "dysfunction": "",
+        "enhance": "",
+        "understanding-anal": "",
+        "referred-by": ""
+    },
+    "list-session": {
+        "check-in": {
+            "label": "",
+            "desc": ""
+        },
+        "body-scan": {
+            "label": "",
+            "desc": ""
+        },
+        "options": {
+            "label": "",
+            "desc": ""
+        },
+        "agreement": {
+            "label": "",
+            "desc": ""
+        },
+        "integration": {
+            "label": "",
+            "desc": ""
+        }
+    },
     "paragraph-society-1": "",
     "paragraph-society-2": "Lorem ipsum dolor sit, <1>amet consectetur adipisicing elit</1>. Placeat, dolore dolorem dolores ut ea modi perferendis quis. Quos, aliquid? Facilis dolores iusto, reiciendis dolor culpa illum voluptates dolore sit fuga.",
     "paragraph-somatic-1": "",

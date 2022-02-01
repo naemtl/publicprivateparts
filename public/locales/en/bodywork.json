@@ -6,8 +6,45 @@
     "heading-session": "What happens in a session?",
     "heading-message": "Message from Gerard",
     "heading-pricing": "Prices for individuals",
-    "list-reasons": {},
-    "list-session": {},
+    "list-reasons": {
+        "accepting": "Accepting and loving one’s body, gender and/or sexuality",
+        "reconnecting": "Reconnecting to the sensual/sexual self",
+        "pleasure": "Learning how to ask for and receive pleasure",
+        "habits-patterns": "Becoming aware of habits and patterns, and learning to expand pleasure throughout the body",
+        "boundaries": "Learning about boundaries and consensual touch",
+        "orgasm-difficulties": "Difficulties with orgasm",
+        "healthy-porn": "Developing a healthy use of porn",
+        "ejaculation-choice": "Ejaculation choice",
+        "trauma-support": "Post-trauma support",
+        "pain-relief": "Relief from pelvic pain or numbness",
+        "transition-support": "Support during gender transition",
+        "dysfunction": "Erectile dysfunction",
+        "enhance": "Couples/Triads/Quads wanting to enhance their sex life",
+        "understanding-anal": "Understanding anal pleasure",
+        "referred-by": "Referred by a Therapist, Doctor, Sexologist, Massage Therapist"
+    },
+    "list-session": {
+        "check-in": {
+            "label": "Check-in",
+            "desc": "You and Gerard discuss your intentions, interests, challenges and sensual/sexual history."
+        },
+        "body-scan": {
+            "label": "Body Scan",
+            "desc": "Gerard leads you in a somatic body scan to bring awareness to sensations in your body. This practice helps with learning to make choices from an embodied place."
+        },
+        "options": {
+            "label": "Options",
+            "desc": "Based on the check-in and body scan Gerard will offer you 2 options for bodywork or somatic practices that could be useful based on your specific interests or challenges."
+        },
+        "agreement": {
+            "label": "Agreement",
+            "desc": "You choose 1 somatic practice or type of bodywork. You and Gerard agree on the boundaries."
+        },
+        "integration": {
+            "label": "Integration",
+            "desc": "The session ends with a few minutes of integration to ‘save’ the learning experience in your nervous system (mind and body), thus forming new healthy habits and expanding your potential for pleasure."
+        }
+    },
     "paragraph-society-1": "We all set limits on the quantity and quality of pleasure we can embody. Limits to pleasure are ubiquitous in a culture that shames sexuality and fails to teach us how to honour and celebrate our erotic selves. Sexual wounding becomes embedded in the body’s tissues and responses. Somatic Sex Education and Bodywork can assist clients in expanding the pleasure that is possible. This expansion has physical, mental, emotional, and relational benefits.",
     "paragraph-society-2": "In 2019, I graduated from the esteemed <1>Institute of Somatic Sexology</1> in Australia to become a Certified Sexological Bodyworker. I warmly welcome people of all genders, races, cultures, religions, sexual orientations and relationship choices to work with me.",
     "paragraph-somatic-1": "Sexological Bodyworkers teach embodied sex education and offer bodywork. We teach through body experiences designed to nurture, deepen or awaken the sensual self. Our teaching can include coaching in breathwork, body awareness, movement, boundary-setting (consent), communication, anatomy, massage, mindful masturbation, scar tissue remediation and other body-based practices.",
