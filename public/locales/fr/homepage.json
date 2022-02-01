@@ -1,26 +1,26 @@
 {
     "intro": {
-        "paragraph-1": "",
-        "paragraph-2": ""
+        "paragraph-1": "Le corps sensuel peut être une ressource pour cultiver avec richesse une incarnation, un plaisir et une connexion avec nous-mêmes et les autres. Cependant, nous vivons dans une société qui rend la sexualité honteuse et qui ne nous apprend pas à honorer et à célébrer notre corps.",
+        "paragraph-2": "Dirigé par l'artiste et éducateur sexuel somatique Gerard X Reyes, Public / Private Parts est une série d'œuvres d'art développée en conversation et en collaboration avec des travailleurs·ses du sexe, des éducateurs·rices sexuel·les somatiques, et des artistes de Berlin et de Montréal. À travers différents médiums (entrevues, performances en direct, installation vidéo, etc.), les collaborateurs·rices partagent notamment des perspectives brillantes sur le corps nu, l'intimité, les pratiques sensuelles, les relations et la morale tout comme l'autocensure."
     },
     "about": {
-        "title": "",
-        "desc": "",
-        "button-1": "",
+        "title": "À Propos de Gerard X Reyes",
+        "desc": "Apprenez davantage sur le parcours de Gerard X Reyes ainsi que sur son expertise performative et pédagogique.",
+        "button-1": "Découvrez",
         "button-2": ""
     },
     "interviews": {
-        "title": "",
-        "desc": "",
-        "anchor-1": ""
+        "title": "Entrevues Documentaires",
+        "desc": "Gerard X Reyes et 7 professionnels·les du sexe, des artistes et des éducateurs.trices sexuels·les basés·es à Berlin se rencontrent pour partager leurs perspectives. Ensemble, ils discutent de la vie publique (société, travail) et de la vie privée (pensées intimes, expériences, désirs). Les conversations ont été enregistrées en anglais ou en français, avec sous-titres en anglais, en français et en espagnol.",
+        "anchor-1": "Regardez les vidéos"
     },
     "origine": {
-        "desc": "",
-        "anchor-1": ""
+        "desc": "Public / Private Parts ou L'Origine du monde est la première œuvre de la série Public / Private Parts. Le trio de danse et l’installation vidéo immersive transportent le corps sensuel au-delà des binaires limitatifs du public/privé et art/pornographie.",
+        "anchor-1": "Bande-annonce et infos"
     },
     "subscribe": {
-        "title": "",
-        "desc": "",
-        "dropdown-default": ""
+        "title": "Rejoigner le mouvement",
+        "desc": "Ne manquez pas le podcast Public / Private Parts, les entrevues documentaires et la première mondiale de l'installation vidéo-performance en direct. Soyez les premiers·ères à tenter l’expérience!",
+        "dropdown-default": "Préférence de langue"
     }
 }
