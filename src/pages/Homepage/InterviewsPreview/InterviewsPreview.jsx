@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import YoutubeEmbed from "../../../components/YoutubeEmbed/YoutubeEmbed"
+import YoutubeVimeoEmbed from "../../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed"
 
 import './InterviewsPreview.scss'
 
@@ -17,18 +17,13 @@ const InterviewsPreview = ({ t }) => {
             </div>
             <div className="interviews-preview__videos">
                 <div className="interviews-preview__videos-column">
-                    <YoutubeEmbed embedId="9rH27gpU_40" />
+                    <YoutubeVimeoEmbed embedId="9rH27gpU_40" />
                     <div className="interviews-preview__video-name">
                         Mareen
                     </div>
                 </div>
                 <div className="interviews-preview__videos-column">
-                    {/* <iframe src="https://www.youtube-nocookie.com/embed/IIBsRHuYAq4" title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen className="interviews-preview__video-player">
-                    </iframe> */}
-                    <YoutubeEmbed embedId="IIBsRHuYAq4" />
+                    <YoutubeVimeoEmbed embedId="IIBsRHuYAq4" />
                     <div className="interviews-preview__video-name">
                         Bishop
                     </div>

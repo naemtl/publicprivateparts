@@ -11,6 +11,7 @@ import sacdLogo from "../../assets/images/sacd-logo.png";
 import purpleBodyVid from "../../assets/videos/purple-body.mp4";
 
 import './OrigineDuMonde.scss'
+import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
 
 const OrigineDuMonde = () => {
     const { t } = useTranslation('origine')
@@ -40,6 +41,7 @@ const OrigineDuMonde = () => {
                     {t("main.text-premiere")}
                 </div>
                 <div className="origine__controls">
+                    <YoutubeVimeoEmbed isVimeo={true} embedId="542702988" />
                     <a className="button" href="https://vimeo.com/542702988">
                         {t("main.button-trailer")}
                         <span> 1</span>
