@@ -1,5 +1,5 @@
 
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 
 import Footer from '../../components/Footer/Footer';
 
@@ -25,7 +25,7 @@ const Interviews = () => {
                 <div className="interviews__video-header-overlay"></div>
             </div>
             <div className="interviews__intro">
-                <p>{t("main.paragraph-intro-1")}</p>
+                <p><Trans t={t} i18nKey={"main.paragraph-intro-1"} /></p>
                 <p>{t("main.paragraph-intro-1")}</p>
             </div>
             <div className="interviews__videos">

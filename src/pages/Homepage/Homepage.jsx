@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 
 import useCheckMobileScreen from "../../hooks/useCheckMobileScreen";
 
@@ -41,7 +41,7 @@ const Homepage = () => {
                         {t('intro.paragraph-1')}
                     </p>
                     <p>
-                        {t('intro.paragraph-2')}
+                        <Trans t={t} i18nKey={'intro.paragraph-2'} />
                     </p>
                 </div>
                 <video className="homepage__video--about" src={breathingVid} autoPlay muted loop

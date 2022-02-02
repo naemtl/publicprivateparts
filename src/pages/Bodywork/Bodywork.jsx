@@ -12,6 +12,9 @@ const Bodywork = () => {
             <h1 className="bodywork__header">
                 {t("page-title")}
             </h1>
+            <h2 className="bodywork__header">
+                {t("page-title-gerard")}
+            </h2>
             <div className="bodywork__content">
                 <h2>
                     {t("heading-society")}
@@ -28,10 +31,10 @@ const Bodywork = () => {
                     {t("heading-somatic")}
                 </h2>
                 <p>
-                    {t("paragraph-somatic-1")}
+                    <Trans t={t} i18nKey={"paragraph-somatic-1"} />
                 </p>
                 <p>
-                    {t("paragraph-somatic-2")}
+                    <Trans t={t} i18nKey={"paragraph-somatic-2"} />
                 </p>
                 <h2>
                     {t("heading-reasons")}
@@ -75,10 +78,10 @@ const Bodywork = () => {
                 </ol>
                 <div>
                     <h2>
-                        {t("heading-message")}
+                        <em>{t("heading-message")}</em>
                     </h2>
                     <p>
-                        {t("paragraph-message-1")}
+                        <Trans t={t} i18nKey={"paragraph-message-1"} />
                     </p>
                     <p>
                         <Trans t={t} i18nKey={"paragraph-message-2"}>
@@ -123,7 +126,7 @@ const Bodywork = () => {
                     {t("paragraph-covid")}
                 </p>
                 <p>
-                    <em>{t("paragraph-thanks")}</em>
+                    <Trans t={t} i18nKey={"paragraph-thanks"} />
                 </p>
                 <p>
                     <em>&copy; 2014 ACSB. {t("paragraph-copyright")}</em>

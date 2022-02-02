@@ -1,26 +1,27 @@
 {
     "intro": {
         "paragraph-1": "Le corps sensuel peut être une ressource pour cultiver avec richesse une incarnation, un plaisir et une connexion avec nous-mêmes et les autres. Cependant, nous vivons dans une société qui rend la sexualité honteuse et qui ne nous apprend pas à honorer et à célébrer notre corps.",
-        "paragraph-2": "Dirigé par l'artiste et éducateur sexuel somatique Gerard X Reyes, Public / Private Parts est une série d'œuvres d'art développée en conversation et en collaboration avec des travailleurs·ses du sexe, des éducateurs·rices sexuel·les somatiques, et des artistes de Berlin et de Montréal. À travers différents médiums (entrevues, performances en direct, installation vidéo, etc.), les collaborateurs·rices partagent notamment des perspectives brillantes sur le corps nu, l'intimité, les pratiques sensuelles, les relations et la morale tout comme l'autocensure."
+        "paragraph-2": "Dirigé par l'artiste et éducateur sexuel somatique Gerard X Reyes, <i>Public / Private Parts</i> est une série d'œuvres d'art développée en conversation et en collaboration avec des travailleurs·ses du sexe, des éducateurs·rices sexuel·les somatiques, et des artistes de Berlin et de Montréal. À travers différents médiums (entrevues, performances en direct, installation vidéo, etc.), les collaborateurs·rices partagent notamment des perspectives brillantes sur le corps nu, l'intimité, les pratiques sensuelles, les relations et la morale tout comme l'autocensure."
     },
     "about": {
         "title": "À Propos de Gerard X Reyes",
-        "desc": "Apprenez davantage sur le parcours de Gerard X Reyes ainsi que sur son expertise performative et pédagogique.",
-        "button-1": "Découvrez",
-        "button-2": ""
+        "desc": "Apprenez-en plus sur le parcours de Gerard X Reyes ainsi que sur sa pratique d’éducation sexuelle somatique.",
+        "button-1": "Lisez sa bio",
+        "button-2": "Découvrez l’éducation sexuelle somatique"
     },
     "interviews": {
         "title": "Entrevues Documentaires",
-        "desc": "Gerard X Reyes et 7 professionnels·les du sexe, des artistes et des éducateurs.trices sexuels·les basés·es à Berlin se rencontrent pour partager leurs perspectives. Ensemble, ils discutent de la vie publique (société, travail) et de la vie privée (pensées intimes, expériences, désirs). Les conversations ont été enregistrées en anglais ou en français, avec sous-titres en anglais, en français et en espagnol.",
+        "desc": "Cette série d’entretiens suit Gerard X Reyes alors qu'iel rencontre des travailleurs.euses du sexe, des éducateurs.trices sexuels et des artistes pour leur demander leur point de vue sur le corps sensuel/sexuel. Ces entrevues ont eu lieu à Montréal, Berlin et Zürich entre 2017 et 2019. Gerard était curieux de mieux comprendre leurs expériences de travail avec l'intimité et recherchait des liens entre ces professions apparemment disparates. Rencontrez 7 interviewé.e.s fascinant.e.s et laissez-vous inspirer par leurs points de vue rafraîchissants sur les relations, le sexe et la société.",
         "anchor-1": "Regardez les vidéos"
     },
     "origine": {
-        "desc": "Public / Private Parts ou L'Origine du monde est la première œuvre de la série Public / Private Parts. Le trio de danse et l’installation vidéo immersive transportent le corps sensuel au-delà des binaires limitatifs du public/privé et art/pornographie.",
+        "desc": "La première œuvre de la série <i>Public / Private Parts</i>. <i>Public / Private Parts ou L'Origine du monde</i> est une performance de danse et une installation vidéo qui va au-delà des binaires restrictifs du public / privé et de l’art / la pornographie. Une communauté de neuf experts en incarnation (<i>​embodiment</i>​) issus de divers milieux professionnels et culturels crée des pratiques corporelles conscientes pour éveiller les sens. À travers les performances en direct et les vidéos documentaires, le groupe de danseur.euse.s contemporains, travailleur.euse.s du sexe et éducateur.trice.s sexuels, explorent seul.e.s et évoluent ensemble en utilisant les fonctions corporelles essentielles de la respiration, du toucher, du son, du mouvement et de l'imagination. Intimes et innovantes, leurs découvertes révèlent de nouvelles interconnexions pleines d'espoir qui pourraient profiter à tous.tes. Une coproduction du Festival TransAmériques et présenté en première au festival en juin 2021.",
         "anchor-1": "Bande-annonce et infos"
     },
     "subscribe": {
         "title": "Rejoigner le mouvement",
-        "desc": "Ne manquez pas le podcast Public / Private Parts, les entrevues documentaires et la première mondiale de l'installation vidéo-performance en direct. Soyez les premiers·ères à tenter l’expérience!",
-        "dropdown-default": "Préférence de langue"
+        "desc": "D'autres œuvres de la série Public / Private Parts sont en cours de création et seront bientôt disponibles. Soyez les premiers.ères informé.e.s des prochaines dates de sortie et des tournées à venir de la performance en direct Public / Private Parts ou L’Origine du monde. Inscrivez-vous aujourd'hui!",
+        "dropdown-default": "Préférence de langue",
+        "button": "Tenez-moi informé.e"
     }
 }

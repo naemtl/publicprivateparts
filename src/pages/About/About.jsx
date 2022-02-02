@@ -58,7 +58,8 @@ const About = () => {
                 </div>
                 <div className="about__row about__row--four"> <img alt="Gerard" className="img4" src={gerardFiveImg} width="314" />
                     <div>
-                        <p>{t("paragraph-ballroom")}</p>
+
+                        <p><Trans t={t} i18nKey={"paragraph-ballroom"} /></p>
                         <p>{t("paragraph-bodywork")}</p>
                     </div>
                     <div>
@@ -71,7 +72,7 @@ const About = () => {
                         <div>
                             <strong><em>{t("text-pop-1")}</em></strong>
                         </div>
-                        <div>– {t("text-pop-2")}</div>
+                        <div>– <em>{t("text-pop-2")}</em></div>
                     </div>
                     <div className="about__row-content">
                         <div className="leftSide">

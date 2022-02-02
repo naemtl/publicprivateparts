@@ -1,4 +1,5 @@
 import React from 'react';
+import { Trans } from "react-i18next";
 import { Link } from 'react-router-dom';
 
 import origineBanner from "../../../assets/videos/odm-banner.mp4";
@@ -23,10 +24,9 @@ const OriginePreview = ({ t }) => {
             </div>
             <div className="origine-preview__section">
                 <div className="origine-preview__content">
-                    <div className="origine-preview__text">
-                        {t('origine.desc')}
-                    </div>
-                    <div className="origine-preview__spacer"></div>
+                    <p className="origine-preview__text">
+                        <Trans t={t} i18nKey={'origine.desc'} />
+                    </p>
                     <Link className='origine-preview__button' to="/odm" >
                         {t('origine.anchor-1')}
                     </Link>

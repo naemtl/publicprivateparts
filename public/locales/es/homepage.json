@@ -21,6 +21,7 @@
     "subscribe": {
         "title": "Únete al Movimiento",
         "desc": "No te pierdas el próximo podcast, entrevistas documentales y entradas para el estreno mundial de la instalación de video en vivo. ¿Quieres ser el/la primero/la en experimentarlo? ¡Regístrate hoy!",
-        "dropdown-default": "Idioma de preferencia"
+        "dropdown-default": "Idioma de preferencia",
+        "button": ""
     }
 }

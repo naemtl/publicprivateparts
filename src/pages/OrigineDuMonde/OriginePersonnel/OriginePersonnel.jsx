@@ -1,12 +1,10 @@
-import React from 'react';
-
 import "../../../assets/styles/personnel.scss"
 
 const OriginePersonnel = ({ t }) => {
     return (
         <div className="personnel">
             <div className="personnel__heading">
-                {t("heading-main")}
+                <em>{t("heading-main")}</em>
             </div>
             <div className="personnel__row">
                 <span>{t("roles.co-prod")}</span>
