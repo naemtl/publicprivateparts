@@ -8,14 +8,14 @@
     @include flex-center;
     background-color: transparent;
     border: 1px solid $site-color;
-    border-radius: em(20px);
+    border-radius: 20px;
     color: $site-color;
     cursor: pointer;
     font-family: $primary-font-family;
-    font-size: 21px;
+    font-size: $lg-text;
     font-style: italic;
     height: 40px;
-    padding: 0 em(20px);
+    padding: 0 20px;
     text-decoration: none;
     width: fit-content;
 

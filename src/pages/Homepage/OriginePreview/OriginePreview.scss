@@ -5,8 +5,9 @@
     display: flex;
     flex-direction: column;
     font-family: $primary-font-family;
+    font-size: $lg-text;
     justify-content: center;
-    padding: em(142px) 0 em(62);
+    padding: em(142px) 0 em(62px);
 
     &__button {
         @include button;
@@ -20,7 +21,7 @@
     }
     &__video {
         flex: 1;
-        max-width: calc(50% - rem(24px));
+        max-width: calc(50% - 24px);
         order: -1;
     }
     &__content {
@@ -29,7 +30,7 @@
         justify-content: center;
         align-items: flex-start;
         flex: 1;
-        padding: 0 rem(24px);
+        padding: 0 24px;
         padding-top: 4%;
     }
     &__logo {
@@ -37,21 +38,20 @@
         background-repeat: no-repeat;
         background-position: 50%;
         background-size: contain;
-        height: rem(150px);
+        height: 150px;
         width: 100%;
         box-sizing: border-box;
-        margin-bottom: rem(24px);
+        margin-bottom: 24px;
     }
     &__logo--lower,
     &__logo--upper {
         display: none;
     }
     &__text {
-        font-size: 1.3rem;
-        max-width: rem(521px);
+        max-width: 521px;
     }
     &__spacer {
-        height: rem(35px);
+        height: 35px;
     }
     @media (max-width: 446px) {
         &__section {
@@ -61,7 +61,7 @@
         &__video {
             order: 1;
             max-width: 100%;
-            margin: 4rem 0;
+            margin: 40px 0;
         }
         &__content {
             align-items: center;
@@ -73,11 +73,11 @@
         }
         &__logo--upper {
             display: block;
-            max-width: rem(280px);
+            max-width: 280px;
             text-transform: uppercase;
             display: flex;
             justify-content: space-between;
-            margin: auto;
+            margin: 0 auto;
         }
         &__logo--lower {
             display: block;
@@ -85,15 +85,15 @@
             text-align: center;
         }
         &__logo--ou {
-            vertical-align: 0.7em;
-            margin-right: 0.6rem;
+            vertical-align: 7px;
+            margin-right: 6px;
         }
         &__logo--odm {
             font-size: 2.8rem;
         }
 
         &__text {
-            padding: 0 rem(20px);
+            padding: 0 20px;
         }
     }
 }

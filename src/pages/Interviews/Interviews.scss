@@ -1,7 +1,6 @@
 @import "/src/assets/styles/common";
 
 .interviews {
-    background-color: #000;
     background-color: #0f1214;
     color: $site-color;
     font-family: $primary-font-family;
@@ -11,20 +10,16 @@
     }
 
     &__header {
+        @include flex-center;
         position: relative;
         height: 100vh;
         font-family: $secondary-font-family;
-        font-size: 52px;
-        letter-spacing: -0.57px;
+        font-size: 5.2rem;
         line-height: 80px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     &__header-text {
         z-index: 2;
-        padding-left: 24px;
-        padding-right: 24px;
+        padding: 0 24px;
         text-align: center;
         color: #d2ba3b;
     }
@@ -50,30 +45,23 @@
         &__header {
             height: 400px;
             font-family: $secondary-font-family;
-            font-weight: 400;
-            font-size: 30px;
-            letter-spacing: -0.33px;
-            line-height: 46px;
-            font-style: normal;
+            font-size: 3rem;
+            line-height: 4rem;
         }
     }
     &__intro {
         max-width: 729px;
-        font-size: 25px;
-        letter-spacing: -1.07px;
-        line-height: 34px;
-        font-family: $primary-font-family;
-        font-weight: 400;
+        font-size: 2.5rem;
+        line-height: 4rem;
         margin: 123px auto 117px;
     }
     &__intro,
     &__videos {
-        padding-left: 24px;
-        padding-right: 24px;
+        padding: 0 24px;
     }
     &__videos {
         max-width: 1135px;
-        margin: auto;
+        margin: 0 auto;
     }
     &__videos-row {
         display: flex;
@@ -83,10 +71,8 @@
     }
     &__videos-text {
         flex: 1;
-        font-size: 19px;
-        letter-spacing: 0.11px;
+        font-size: 1.9rem;
         line-height: 25px;
-        font-weight: 400;
         max-width: 729px;
         margin-bottom: 32px;
     }
@@ -128,18 +114,16 @@
     }
     &__videos-text h2 {
         font-family: $secondary-font-family;
-        font-size: 46px;
-        letter-spacing: 1.4px;
+        font-size: 4.6rem;
+        letter-spacing: 2px;
         line-height: 70px;
         margin: 0 0 17px;
         padding: 0;
-        font-weight: 400;
     }
 
     .interviewsLogos {
         background-color: #171b1d;
-        padding-top: 42px;
-        padding-bottom: 42px;
+        padding: 42px 0;
         margin-bottom: 100px;
     }
     .interviewsLogos-row {
@@ -147,7 +131,7 @@
         justify-content: space-between;
         align-items: center;
         max-width: 900px;
-        margin: auto;
+        margin: 0 auto;
         padding: 32px 24px;
     }
     .calq-logo {
@@ -175,8 +159,7 @@
             align-items: center;
         }
         .interviewsLogos img {
-            margin-top: 24px;
-            margin-bottom: 24px;
+            margin: 24px 0;
         }
     }
 }

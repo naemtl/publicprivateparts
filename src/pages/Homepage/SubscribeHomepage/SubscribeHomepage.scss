@@ -2,10 +2,9 @@
 
 .subscribe-homepage {
     @include gradientHomepage180;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     flex-direction: column;
+    font-family: $primary-font-family;
     padding: 128px 0;
 
     &__title {
@@ -31,19 +30,14 @@
         display: block;
         background: none;
         outline: none;
-        border: 0;
         border-bottom: 1px solid #9d8b02;
         padding: 32px 26px;
         color: #fff49e;
-        box-sizing: border-box;
-        border-radius: 0;
         -webkit-appearance: none;
         appearance: none;
-        font-family: $primary-font-family;
         font-weight: 300;
-        font-size: 21px;
+        font-size: $lg-text;
         line-height: 27px;
-        letter-spacing: -0.25px;
     }
     &__form select {
         text-transform: uppercase;
@@ -61,12 +55,11 @@
     }
     &__form input[type="submit"] {
         @include button;
-        font-family: $primary-font-family;
-        font-size: 16px;
+        font-size: $sm-text;
         letter-spacing: 0;
         line-height: 23px;
         font-style: italic;
-        margin: auto;
+        margin: 0 auto;
     }
     @media (max-width: 446px) {
         padding-top: 106px;
@@ -74,9 +67,7 @@
 
         &__title {
             font-family: $secondary-font-family;
-
-            font-size: 29px;
-            letter-spacing: -0.34px;
+            font-size: 2.9rem;
             line-height: 50px;
         }
         &__text {
@@ -84,9 +75,7 @@
         }
         &__form,
         &__text {
-            font-family: $primary-font-family;
-            font-size: 15px;
-            letter-spacing: -0.18px;
+            font-size: $sm-text;
         }
         &__form {
             font-weight: 300;
@@ -94,18 +83,13 @@
         }
         &__form input:not([type="submit"]),
         &__form select {
-            font-family: $primary-font-family;
             font-weight: 300;
-            font-size: 15px;
-            letter-spacing: -0.18px;
+            font-size: $sm-text;
             line-height: 27px;
         }
         &__form input[type="submit"] {
-            font-family: $primary-font-family;
-
-            font-size: 20px;
-            line-height: 23px;
-            letter-spacing: normal;
+            font-size: $lg-text;
+            line-height: 4rem;
             font-style: italic;
         }
     }

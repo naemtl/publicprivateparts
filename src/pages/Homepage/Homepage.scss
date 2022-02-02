@@ -45,7 +45,7 @@
     }
     @media (max-width: 768px) {
         &__title {
-            font-size: 1.5625rem;
+            font-size: 1.6rem;
         }
     }
     @media (max-width: 446px) {
@@ -90,7 +90,7 @@
     }
 
     &__text {
-        font-size: 2.1rem;
+        font-size: $lg-text;
         max-width: 696px;
         text-align: center;
         z-index: 2;

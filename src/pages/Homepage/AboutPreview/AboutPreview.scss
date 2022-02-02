@@ -10,11 +10,11 @@
 
     &__content {
         display: flex;
-        font-size: 2.1rem;
+        font-size: $lg-text;
     }
     &__title {
         font-family: $secondary-font-family;
-        font-size: 3.25em;
+        font-size: 5rem;
         margin-bottom: 15px;
     }
     &__text {
@@ -61,7 +61,7 @@
 
         &__button {
             &:last-of-type {
-                font-size: 17px;
+                font-size: $sm-text;
                 padding: 0 1em;
             }
         }
@@ -78,7 +78,7 @@
         }
         &__title {
             font-family: $secondary-font-family;
-            font-size: em(32px);
+            font-size: 3.2rem;
         }
         &__text {
             width: 100%;

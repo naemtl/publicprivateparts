@@ -2,8 +2,8 @@
 
 .about {
     background-color: #232023;
-    font-size: rem(25px);
-    line-height: rem(34px);
+    font-size: 2.5rem;
+    line-height: 3.4rem;
     font-family: $primary-font-family;
     color: $site-color;
 
@@ -13,15 +13,12 @@
 
     &__content {
         max-width: 1176px;
-        margin: auto;
-        padding-left: 24px;
-        padding-right: 24px;
+        margin: 0 auto;
+        padding: 0 24px;
         width: 100%;
     }
     h1 {
-        font-weight: 400;
-        font-size: 52px;
-        letter-spacing: -2.42px;
+        font-size: 5.2rem;
         line-height: 80px;
     }
     &__banner--bodywork,
@@ -32,14 +29,13 @@
         background: url(/assets/images/hands-on-head.jpg) no-repeat;
         background-size: cover;
         background-position: 50%;
-        padding-left: 24px;
-        padding-right: 24px;
+        padding: 0 24px;
         height: 535px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        font-size: 37px;
+        font-size: 3.7rem;
         letter-spacing: -0.25px;
         line-height: 52px;
         text-align: center;
@@ -190,7 +186,7 @@
             display: block;
         }
         &__content {
-            font-size: 15px;
+            font-size: 1.5rem;
             letter-spacing: -0.18px;
             line-height: 20px;
             padding-left: 48px;
@@ -269,8 +265,8 @@
     }
     &__heading--mobile {
         font-family: $secondary-font-family;
-        font-size: 29px;
+        font-size: 2.9rem;
         letter-spacing: 0;
-        line-height: 45px;
+        line-height: 4.5rem;
     }
 }
