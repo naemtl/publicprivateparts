@@ -10,7 +10,7 @@
 
     &__content {
         display: flex;
-        font-size: rem(21px);
+        font-size: 2.1rem;
     }
     &__title {
         font-family: $secondary-font-family;
@@ -56,7 +56,7 @@
     }
 
     @media (max-width: 768px) {
-        font-size: rem(15px);
+        font-size: 1.5rem;
         display: block;
 
         &__button {
@@ -83,7 +83,7 @@
         &__text {
             width: 100%;
             text-align: center;
-            margin: 0.5rem 0 2rem;
+            margin: 5px 0 20px;
         }
         &__image {
             background-size: contain;
