@@ -14,8 +14,8 @@ const SubscribeHomepage = ({ t }) => {
             <form className="subscribe-homepage__form"
                 action="https://vimeo.us14.list-manage.com/subscribe/post?u=1ceba19e26d5a0f14904f257e&amp;id=0d6becde98"
                 method="post" target="_blank">
-                <input type="text" name="FNAME" placeholder={"subscribe.input-first-name"} />
-                <input type="text" name="LNAME" placeholder={"subscribe.input-last-name"} />
+                <input type="text" name="FNAME" placeholder={t("subscribe.input-first-name")} />
+                <input type="text" name="LNAME" placeholder={t("subscribe.input-last-name")} />
                 <select name="LANG" required>
                     <option defaultValue={t('subscribe.dropdown-default')} disabled>
                         {t('subscribe.dropdown-default')}
@@ -24,11 +24,11 @@ const SubscribeHomepage = ({ t }) => {
                     <option defaultValue="Français">Français</option>
                     <option defaultValue="Español">Español</option>
                 </select>
-                <input type="email" name="EMAIL" placeholder={"subscribe.input-email"} required />
+                <input type="email" name="EMAIL" placeholder={t("subscribe.input-email")} required />
                 <div style={{ position: "absolute", left: "-5000px" }} aria-hidden="true">
                     <input type="text" name="b_1ceba19e26d5a0f14904f257e_0d6becde98" tabIndex="-1" defaultValue="" />
                 </div>
-                <input className="button" type="submit" name="subscribe" defaultValue={t("subscribe.button")} />
+                <input className="button" type="submit" name="subscribe" value={t("subscribe.button")} />
             </form>
         </div>
     );

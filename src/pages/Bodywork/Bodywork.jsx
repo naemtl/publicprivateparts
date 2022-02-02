@@ -11,10 +11,10 @@ const Bodywork = () => {
         <div className="bodywork">
             <h1 className="bodywork__header">
                 {t("page-title")}
+                <div>
+                    {t("page-title-gerard")}
+                </div>
             </h1>
-            <h2 className="bodywork__header">
-                {t("page-title-gerard")}
-            </h2>
             <div className="bodywork__content">
                 <h2>
                     {t("heading-society")}
@@ -109,7 +109,7 @@ const Bodywork = () => {
                 <p>
                     {t('paragraph-pricing-2')}
                 </p>
-                <div>
+                <div className="bodywork__contact">
                     <div>
                         <a href="mailto:gerardxreyes@gmail.com">
                             {t("anchor-contact")}
@@ -121,7 +121,6 @@ const Bodywork = () => {
                         </a>
                     </div>
                 </div>
-                <hr />
                 <p>
                     {t("paragraph-covid")}
                 </p>

@@ -47,20 +47,12 @@
 */
 html,
 body {
-  font-size: $root-font-size;
   height: 100%;
 }
 
-@media (max-width: 1024px) {
-  html {
-    font-size: $sm-font;
-  }
-}
-
-@media (max-width: 768px) {
-  html {
-    font-size: $xs-font;
-  }
+html {
+  font-size: 62.5%;
+  /* 62.5% of the base size of 16px = 10px.*/
 }
 
 /*
@@ -70,6 +62,7 @@ body {
 */
 body {
   font-family: $primary-font-family;
+  font-size: 1.6rem;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
