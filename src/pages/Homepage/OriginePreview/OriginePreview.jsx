@@ -2,7 +2,7 @@ import React from 'react';
 import { Trans } from "react-i18next";
 import { Link } from 'react-router-dom';
 
-import origineBanner from "../../../assets/videos/odm-banner.mp4";
+import originePromo from "../../../assets/videos/odm-promo.mp4";
 
 import './OriginePreview.scss'
 
@@ -31,7 +31,7 @@ const OriginePreview = ({ t }) => {
                         {t('origine.anchor-1')}
                     </Link>
                 </div>
-                <video className="origine-preview__video" src={origineBanner} autoPlay muted loop
+                <video className="origine-preview__video" src={originePromo} autoPlay muted loop
                     controlsList="nofullscreen" playsInline=""></video>
             </div>
         </div>

@@ -106,10 +106,7 @@
         letter-spacing: -0.51px;
         line-height: 70px;
     }
-    &__quote-author,
-    &__quote-text {
-        font-weight: 400;
-    }
+
     &__quote-author {
         margin-top: 10px;
         font-size: $sm-text;
@@ -122,7 +119,6 @@
         }
         &__quote-text {
             font-family: $secondary-font-family;
-            font-weight: 400;
             font-size: 2.9rem;
             letter-spacing: -0.34px;
             line-height: 50px;
@@ -174,8 +170,7 @@
             align-items: center;
         }
         &__logos-container img {
-            margin-top: 24px;
-            margin-bottom: 24px;
+            margin: 24px 0;
         }
     }
 }
