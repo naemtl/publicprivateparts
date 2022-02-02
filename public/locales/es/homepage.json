@@ -5,23 +5,26 @@
     },
     "about": {
         "title": "Acerca de Gerard X Reyes",
-        "desc": "Obtenga más información sobre el viaje de Gerard X Reyes, así como su experiencia educativa y performativa.",
-        "button-1": "",
-        "button-2": "Descubrir"
+        "desc": "Obtenga más información sobre el trayecto artístico de Gerard, así como su práctica de educación sexual somática.",
+        "button-1": "Lee su biografía",
+        "button-2": "Descubre la educación sexual somática"
     },
     "interviews": {
         "title": "Entrevistas Documentales",
-        "desc": "Gerard X Reyes y 7 trabajadorxs sexuales, artistas y educadores sexuales de Berlín se reúnen para compartir sus puntos de vista. Juntxs discuten sobre la vida pública (sociedad, trabajo) y la vida privada (pensamientos íntimos, experiencias, deseos). Las conversaciones son en inglés y francés con subtítulos en inglés, francés y español.",
+        "desc": "Esta serie de entrevistas sigue a Gerard X Reyes mientras que se reúne con trabajadores sexuales, educadores sexuales y artistas para preguntarles sus perspectivas sobre el cuerpo sensual/sexual. Estas entrevistas fueron grabadas en Montreal, Berlín y Zúrich entre 2017 y 2019. Gerard tenía curiosidad por comprender mejor cómo trabajar con la intimidad y buscaba vínculos entre estas profesiones aparentemente dispares. ¡Conoce a siete interesantes entrevistadxs e inspírate con sus refrescantes perspectivas sobre las relaciones, el sexo y la sociedad!",
         "anchor-1": "Mirar los videos"
     },
     "origine": {
-        "desc": "Public / Private Parts ou L'Origine du monde es la primera obra de la serie Public / Private Parts. Esta instalación de video inmersiva y performance de danza extiende el cuerpo sensual más allá de los límites binarios de público/privado y de arte/pornografía.",
+        "desc": "La primera obra de la serie Public / Private Parts es una instalación de video inmersiva y performance de danza que ve más allá de los límites binarios de público/privado y arte/pornografía. Una comunidad de nueve expertos sexuales de diversos orígenes profesionales y culturales crea prácticas corporales conscientes para despertar los sentidos. A través de performances en vivo y videos documentales, el grupo de bailarines contemporáneos, trabajadorxs sexuales y educadorxs sexuales exploran solxs y se expanden juntxs utilizando las funciones corporales esenciales de la respiración, el tacto, el sonido, el movimiento y la imaginación. Íntimos e innovadores, sus descubrimientos revelan nuevas interconexiones prometedoras que podrían beneficiarnos a todxs.",
         "anchor-1": "Tráiler e información"
     },
     "subscribe": {
         "title": "Únete al Movimiento",
-        "desc": "No te pierdas el próximo podcast, entrevistas documentales y entradas para el estreno mundial de la instalación de video en vivo. ¿Quieres ser el/la primero/la en experimentarlo? ¡Regístrate hoy!",
+        "desc": "Estamos creando más obras para la serie <i>Public / Private Parts</i> y pronto estarán disponibles. Sé el/la primerx en enterarte de las próximas fechas de lanzamiento y giras de la actuación en vivo <i>Public / Private Parts ou L’Origine du monde</i>. ¡Regístrate hoy!",
         "dropdown-default": "Idioma de preferencia",
-        "button": ""
+        "button": "Mantenme informadx",
+        "input-first-name": "Nombre",
+        "input-last-name": "Apellido",
+        "input-email": "Correo electrónico"
     }
 }

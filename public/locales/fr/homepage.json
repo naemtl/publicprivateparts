@@ -20,8 +20,11 @@
     },
     "subscribe": {
         "title": "Rejoigner le mouvement",
-        "desc": "D'autres œuvres de la série Public / Private Parts sont en cours de création et seront bientôt disponibles. Soyez les premiers.ères informé.e.s des prochaines dates de sortie et des tournées à venir de la performance en direct Public / Private Parts ou L’Origine du monde. Inscrivez-vous aujourd'hui!",
+        "desc": "D'autres œuvres de la série <i>Public / Private</i> Parts sont en cours de création et seront bientôt disponibles. Soyez les premiers.ères informé.e.s des prochaines dates de sortie et des tournées à venir de la performance en direct <i>Public / Private Parts ou L’Origine du monde</i>. Inscrivez-vous aujourd'hui!",
         "dropdown-default": "Préférence de langue",
-        "button": "Tenez-moi informé.e"
+        "button": "Tenez-moi informé.e",
+        "input-first-name": "Prénom",
+        "input-last-name": "Nom",
+        "input-email": "Courriel"
     }
 }

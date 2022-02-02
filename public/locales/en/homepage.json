@@ -20,8 +20,11 @@
     },
     "subscribe": {
         "title": "Join the Movement",
-        "desc": "We are creating more works in the Public / Private Parts series which will be available soon. Be the first to know about upcoming release dates and tours of the live performance Public / Private Parts ou L’Origine du monde. Sign up today!",
+        "desc": "We are creating more works in the <i>Public / Private Parts</i> series which will be available soon. Be the first to know about upcoming release dates and tours of the live performance <i>Public / Private Parts ou L’Origine du monde</i>. Sign up today!",
         "dropdown-default": "Language Preference",
-        "button": "Keep me updated"
+        "button": "Keep me updated",
+        "input-first-name": "First name",
+        "input-last-name": "Last name",
+        "input-email": "Email"
     }
 }

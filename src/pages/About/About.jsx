@@ -32,7 +32,7 @@ const About = () => {
                         Gerard X Reyes
                     </div>
                     <p>
-                        {t("paragraph-intro")}
+                        <Trans t={t} i18nKey={"paragraph-intro"} />
                     </p>
                 </div>
                 <div className="about__row about__row--two">
@@ -40,7 +40,7 @@ const About = () => {
                         <img alt='Gerard' src={gerardOverlapImg} />
                     </div>
                     <p>
-                        {t("paragraph-chouinard")}
+                        <Trans t={t} i18nKey={"paragraph-chouinard"} />
                     </p>
                     <div className="desktop-only">
                         <img alt="Gerard" className="imgOverlay1" src={gerardOneImg} width="224" height="223" />
@@ -58,7 +58,6 @@ const About = () => {
                 </div>
                 <div className="about__row about__row--four"> <img alt="Gerard" className="img4" src={gerardFiveImg} width="314" />
                     <div>
-
                         <p><Trans t={t} i18nKey={"paragraph-ballroom"} /></p>
                         <p>{t("paragraph-bodywork")}</p>
                     </div>
