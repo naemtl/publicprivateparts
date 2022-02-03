@@ -7,17 +7,17 @@
 
     &__header {
         @include flex-center;
-        position: relative;
-        height: 100vh;
         flex-direction: column;
-        width: 100%;
+        height: 100vh;
         padding: 0 24px;
+        position: relative;
+        width: 100%;
     }
     &__logo--header {
+        display: block;
         max-width: 452px;
         width: 100%;
         z-index: 2;
-        display: block;
     }
     &__video-overlay--header {
         background-color: rgba(0, 0, 0, 0.2);
@@ -25,46 +25,128 @@
     }
     &__video-player--header,
     &__video-overlay--header {
-        position: absolute;
-        top: 0;
         bottom: 0;
-        right: 0;
         left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
     &__video-player--header {
-        z-index: 0;
-        width: 100%;
         height: 100%;
         object-fit: cover;
         object-position: center center;
+        width: 100%;
+        z-index: 0;
     }
     &__content {
         @include flex-center;
         flex-direction: column;
-        padding: 127px 24px;
+        margin: 100px 0;
     }
     &__text {
-        max-width: 696px;
         font-size: $med-text;
-        line-height: 4rem;
+        line-height: 2.5rem;
         margin-bottom: 50px;
-        width: 100%;
-    }
-    &__controls {
-        display: flex;
         max-width: 696px;
         width: 100%;
-    }
-    &__controls a {
-        text-decoration: none;
-        margin-right: 10px;
-    }
-    &__button-spacer {
-        width: 60px;
     }
 
-    .inline-link {
-        color: #9d8b02;
+    &__logos-container {
+        background-color: #272528;
+        margin-bottom: 100px;
+        padding: 24px;
+    }
+    &__logos-row {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 900px;
+        padding: 24px;
+    }
+
+    &__logo--calq,
+    &__logo--cca,
+    &__logo--sacd,
+    &__logo--goethe {
+        height: 100%;
+        max-height: 60px;
+        max-width: 100%;
+    }
+
+    &__media-row {
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 1440px;
+        width: 100%;
+        padding: 25px;
+
+        .origine__video-column,
+        img {
+            width: 50%;
+            padding: 0 15px;
+        }
+    }
+
+    &__media-row--single {
+        justify-content: center;
+
+        .origine__video-column {
+            width: 80%;
+        }
+    }
+
+    &__quote {
+        @include flex-center;
+        background: url(/assets/images/purple-stems.jpg);
+        background-position: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: column;
+        min-height: 572px;
+    }
+    &__quote-container {
+        max-width: 823px;
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+    &__quote-text {
+        font-family: $secondary-font-family;
+        font-size: 4.6rem;
+        line-height: 70px;
+    }
+
+    &__quote-author {
+        font-size: $sm-text;
+        line-height: 4rem;
+        margin-top: 10px;
+        max-width: 374px;
+    }
+
+    @media (max-width: 768px) {
+        &__logos-row {
+            align-items: center;
+            flex-direction: column;
+            padding: 0;
+        }
+        &__logos-container img {
+            margin: 24px 0;
+        }
+
+        &__media-row {
+            align-items: center;
+            flex-direction: column;
+            padding: 0;
+            img {
+                padding: 15px 0;
+                width: 80%;
+            }
+            .origine__video-column {
+                margin-top: 15px;
+                padding: 0;
+                width: 80%;
+            }
+        }
     }
 
     @media (max-width: 446px) {
@@ -77,100 +159,20 @@
             line-height: 20px;
         }
         &__controls {
-            flex-direction: column;
             align-items: center;
+            flex-direction: column;
         }
         &__button-spacer {
             height: 51px;
         }
-    }
-    &__quote {
-        min-height: 572px;
-        background: url(/assets/images/purple-stems.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    &__quote-container {
-        max-width: 823px;
-        padding-left: 33px;
-        padding-right: 33px;
-    }
-    &__quote-text {
-        font-family: $secondary-font-family;
-        font-size: 4.6rem;
-        letter-spacing: -0.51px;
-        line-height: 70px;
-    }
 
-    &__quote-author {
-        margin-top: 10px;
-        font-size: $sm-text;
-        line-height: 4rem;
-        max-width: 374px;
-    }
-    @media (max-width: 446px) {
         &__quote {
             height: 401px;
         }
+
         &__quote-text {
-            font-family: $secondary-font-family;
             font-size: 2.9rem;
-            letter-spacing: -0.34px;
             line-height: 50px;
-        }
-    }
-    &__embed {
-        background: $black;
-    }
-    &__embed video {
-        width: 100%;
-        max-height: 90vh;
-    }
-    &__logos-container {
-        background-color: #272528;
-        padding-top: 42px;
-        padding-bottom: 42px;
-        margin-bottom: 100px;
-    }
-    &__logos-row {
-        display: flex;
-        justify-content: space-between;
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 24px;
-        align-items: center;
-    }
-    .calq-logo {
-        width: 204px;
-    }
-    .cca-logo {
-        max-width: 357px;
-        width: 100%;
-    }
-    .logoThc {
-        width: 158px;
-    }
-    .sacd-logo {
-        width: 117px;
-        height: 84px;
-    }
-    .goethe-logo {
-        width: 217px;
-    }
-    @media (max-width: 700px) {
-        &__logos-row {
-            flex-direction: column;
-            padding-top: 0;
-            padding-bottom: 0;
-            align-items: center;
-        }
-        &__logos-container img {
-            margin: 24px 0;
         }
     }
 }
