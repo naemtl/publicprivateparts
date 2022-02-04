@@ -10,16 +10,16 @@
 
     &__content {
         display: flex;
-        font-size: $lg-text;
+        font-size: $text-lg;
     }
     &__title {
         font-family: $secondary-font-family;
         font-size: 5rem;
-        margin-bottom: 15px;
+        margin-bottom: $space-sm;
     }
     &__text {
         width: 50%;
-        margin-bottom: 15px;
+        margin-bottom: $space-sm;
     }
     &__column {
         z-index: 2;
@@ -37,7 +37,7 @@
         @include button;
 
         &:first-of-type {
-            margin-bottom: 15px;
+            margin-bottom: $space-sm;
         }
     }
 
@@ -61,7 +61,7 @@
 
         &__button {
             &:last-of-type {
-                font-size: $sm-text;
+                font-size: $text-sm;
                 padding: 0 1em;
             }
         }
@@ -83,7 +83,7 @@
         &__text {
             width: 100%;
             text-align: center;
-            margin: 5px 0 20px;
+            margin: 5px 0 $space-lg;
         }
         &__image {
             background-size: contain;

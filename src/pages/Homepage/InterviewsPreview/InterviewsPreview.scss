@@ -5,7 +5,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    font-size: $lg-text;
+    font-size: $text-lg;
     height: 100%;
 
     &__button {
@@ -27,7 +27,7 @@
     &__videos {
         display: flex;
         justify-content: space-evenly;
-        margin-bottom: 24px;
+        margin-bottom: $space-lg;
         width: 100%;
     }
 
@@ -47,7 +47,7 @@
         }
 
         &__videos-column {
-            margin-bottom: 24px;
+            margin-bottom: $space-lg;
             width: 80%;
         }
     }

@@ -85,7 +85,7 @@ const OrigineDuMonde = () => {
                     <YoutubeVimeoEmbed isVimeo={true} embedId="542702988" />
                 </div>
             </div>
-            {/* <OriginePersonnel t={t} /> */}
+            <OriginePersonnel t={t} />
             <div className="origine__logos-container">
                 <div className="origine__logos-row">
                     <div className="origine__personnel-heading">

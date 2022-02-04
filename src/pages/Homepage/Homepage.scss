@@ -10,7 +10,7 @@
         background-color: $black;
         position: relative;
         height: 100vh;
-        padding-top: 40px;
+        padding-top: $space-xl;
         width: 100%;
         min-height: 400px;
     }
@@ -22,7 +22,7 @@
         font-size: 1.7rem;
         justify-content: space-between;
         max-width: 726px;
-        padding: 0 24px 275px;
+        padding: 0 $space-lg 275px;
         text-transform: uppercase;
         z-index: 1;
     }
@@ -54,7 +54,7 @@
             background-repeat: no-repeat;
             background-position: bottom;
             background-size: contain;
-            padding-top: 24px;
+            padding-top: $space-lg;
             box-sizing: border-box;
             align-items: flex-start;
         }
@@ -69,7 +69,7 @@
     &__content {
         @include flex-center;
         height: 475px;
-        padding: 20px;
+        padding: $space-lg;
         position: relative;
         overflow: hidden;
     }
@@ -90,7 +90,7 @@
     }
 
     &__text {
-        font-size: $lg-text;
+        font-size: $text-lg;
         max-width: 696px;
         text-align: center;
         z-index: 2;
@@ -115,7 +115,7 @@
 
     @media (min-width: 1440px) {
         &__content {
-            margin-top: 40px;
+            margin-top: $space-xl;
         }
     }
 }

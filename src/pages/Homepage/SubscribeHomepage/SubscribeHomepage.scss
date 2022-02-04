@@ -26,7 +26,7 @@
     &__form input:not([type="submit"]),
     &__form select {
         width: 100%;
-        margin-bottom: 25px;
+        margin-bottom: $space-lg;
         display: block;
         background: none;
         outline: none;
@@ -36,7 +36,7 @@
         -webkit-appearance: none;
         appearance: none;
         font-weight: 300;
-        font-size: $lg-text;
+        font-size: $text-lg;
         line-height: 27px;
     }
     &__form select {
@@ -55,7 +55,7 @@
     }
     &__form input[type="submit"] {
         @include button;
-        font-size: $sm-text;
+        font-size: $text-sm;
         letter-spacing: 0;
         line-height: 23px;
         font-style: italic;
@@ -75,7 +75,7 @@
         }
         &__form,
         &__text {
-            font-size: $sm-text;
+            font-size: $text-sm;
         }
         &__form {
             font-weight: 300;
@@ -84,11 +84,11 @@
         &__form input:not([type="submit"]),
         &__form select {
             font-weight: 300;
-            font-size: $sm-text;
+            font-size: $text-sm;
             line-height: 27px;
         }
         &__form input[type="submit"] {
-            font-size: $lg-text;
+            font-size: $text-lg;
             line-height: 4rem;
             font-style: italic;
         }

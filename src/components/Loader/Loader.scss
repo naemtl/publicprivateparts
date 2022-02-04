@@ -9,13 +9,13 @@
     width: 100%;
 
     img {
-        padding: 0 40px;
+        padding: 0 $space-xl;
     }
 
     svg {
         animation: spinner 2s infinite linear;
         color: $site-color;
         font-size: 3rem;
-        margin-top: 20px;
+        margin-top: $space-lg;
     }
 }

@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: space-between;
     left: 0;
-    padding: 24px;
+    padding: $space-lg;
     position: fixed;
     right: 0;
     top: 0;
@@ -24,7 +24,7 @@
         align-self: flex-end;
         display: flex;
         font-family: $secondary-font-family;
-        font-size: $xxs-text;
+        font-size: $text-xxs;
         margin-top: 10px;
         text-transform: none;
 

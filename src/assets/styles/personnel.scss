@@ -2,12 +2,10 @@
 
 .personnel {
     font-family: $primary-font-family;
-    font-size: $sm-text;
-    letter-spacing: -0.9px;
+    font-size: $text-sm;
     line-height: 27px;
     max-width: 662px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 0 $space-lg;
     margin: auto auto 150px;
 
     &__row {

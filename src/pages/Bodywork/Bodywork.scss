@@ -17,14 +17,14 @@
         font-family: $secondary-font-family;
         line-height: 5rem;
         min-height: 90vh;
-        padding: 0 24px;
+        padding: 0 $space-lg;
         text-align: center;
     }
 
     &__content {
         margin: 0 auto;
         max-width: 696px;
-        padding: 0 24px;
+        padding: 0 $space-lg;
     }
 
     &__contact {
