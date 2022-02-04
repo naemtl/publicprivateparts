@@ -48,6 +48,7 @@
         display: none;
     }
     &__text {
+        margin-bottom: $space-md;
         max-width: 521px;
     }
     &__spacer {

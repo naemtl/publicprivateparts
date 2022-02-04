@@ -112,7 +112,7 @@
     }
     &__quote-text {
         font-family: $secondary-font-family;
-        font-size: 4.6rem;
+        font-size: $text-xl * 2;
         line-height: 70px;
     }
 
@@ -151,8 +151,7 @@
 
     @media (max-width: 446px) {
         &__content {
-            padding-top: 42px;
-            padding-bottom: 70px;
+            padding: $space-lg 0;
         }
         &__text {
             font-size: $text-sm;

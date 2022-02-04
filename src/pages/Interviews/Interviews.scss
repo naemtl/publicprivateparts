@@ -114,7 +114,7 @@
     }
     &__videos-text h2 {
         font-family: $secondary-font-family;
-        font-size: 4.6rem;
+        font-size: $text-xl * 2;
         letter-spacing: 2px;
         line-height: 70px;
         margin: 0 0 17px;
@@ -123,7 +123,7 @@
 
     .interviewsLogos {
         background-color: #171b1d;
-        padding: 42px 0;
+        padding: $space-lg 0;
         margin-bottom: 100px;
     }
     .interviewsLogos-row {
