@@ -13,10 +13,10 @@
     }
 
     &__anchor--icon {
-        font-size: 2rem;
-        margin: 5px;
-        padding: 5px;
-        width: 60px;
+        font-size: $text-lg;
+        margin: $space-xxs;
+        padding: $space-xxs;
+        width: 50px;
 
         svg {
             margin: 0 auto;
@@ -34,7 +34,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-top: 5px;
+        margin-top: $space-xxs;
         width: 150px;
     }
 

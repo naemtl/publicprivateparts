@@ -74,7 +74,7 @@
         font-size: 1.9rem;
         line-height: 25px;
         max-width: 729px;
-        margin-bottom: 32px;
+        margin-bottom: $space-lg;
     }
     &__video-player {
         width: 100%;
@@ -101,7 +101,7 @@
         }
         &__videos-row--center &__videos-text {
             max-width: 802px;
-            margin-top: 32px;
+            margin-top: $space-lg;
             order: 2;
         }
         &__videos-row--center &__video-player {
@@ -132,7 +132,7 @@
         align-items: center;
         max-width: 900px;
         margin: 0 auto;
-        padding: 32px $space-lg;
+        padding: $space-lg;
     }
     .calq-logo {
         width: 204px;

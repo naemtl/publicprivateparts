@@ -15,7 +15,7 @@
     svg {
         animation: spinner 2s infinite linear;
         color: $site-color;
-        font-size: 3rem;
+        font-size: $text-xxl;
         margin-top: $space-lg;
     }
 }
