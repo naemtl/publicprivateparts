@@ -2,8 +2,8 @@
 
 .about {
     background-color: #232023;
-    font-size: 2.5rem;
-    line-height: 3.4rem;
+    font-size: $text-md;
+    line-height: 2.5rem;
     font-family: $primary-font-family;
     color: $site-color;
 
@@ -26,14 +26,12 @@
         font-family: $secondary-font-family;
     }
     &__banner--bodywork {
+        @include flex-center;
         background: url(/assets/images/hands-on-head.jpg) no-repeat;
         background-size: cover;
         background-position: 50%;
         padding: 0 $space-lg;
         height: 535px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
         font-size: 3.7rem;
         letter-spacing: -0.25px;
