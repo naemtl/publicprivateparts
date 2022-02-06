@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import ContactBanner from './ContactBanner/ContactBanner';
 
 import gerardProfileImg from "../../assets/images/gerard-profile.jpg";
-import gerardOverlapImg from "../../assets/images/gerard-overlap.jpg";
 import gerardOneImg from "../../assets/images/gerard-1.jpg";
 import gerardTwoImg from "../../assets/images/gerard-2.jpg";
 import gerardThreeImg from "../../assets/images/gerard-3.jpg";
@@ -22,74 +21,75 @@ const About = () => {
     return (
         <div className="about">
             <div className="about__content">
-                <h1 className="about__heading--desktop">
+                <h1 className="about__heading">
                     {t("heading-title")}
-                    <span className="desktop-only"> Gerard X Reyes</span>
+                    <span className=""> Gerard X Reyes</span>
                 </h1>
-                <div className="about__row about__row--one">
-                    <img alt='Gerard' src={gerardProfileImg} />
-                    <div className="about__heading--mobile">
-                        Gerard X Reyes
-                    </div>
-                    <p>
-                        <Trans t={t} i18nKey={"paragraph-intro"} />
-                    </p>
-                </div>
-                <div className="about__row about__row--two">
-                    <div className="imgContainer mobile-only">
-                        <img alt='Gerard' src={gerardOverlapImg} />
-                    </div>
-                    <p>
-                        <Trans t={t} i18nKey={"paragraph-chouinard"} />
-                    </p>
-                    <div className="desktop-only">
-                        <img alt="Gerard" className="imgOverlay1" src={gerardOneImg} width="224" height="223" />
-                        <img alt='Gerard' src={gerardTwoImg} width="193" height="212" />
-                    </div>
-                </div>
-                <div className="about__row about__row--three">
-                    <img alt="Gerard" className="img3" src={gerardThreeImg} width="359" />
-                    <div>
+                <div className="about__row">
+                    <div className="about__row--text">
                         <p>
-                            <Trans t={t} i18nKey={"paragraph-pop"} />
+                            <Trans t={t} i18nKey={"paragraph-intro"} />
                         </p>
-                        <img alt="Gerard" className="imgOverlay2" src={gerardFourImg} width="290" />
+                    </div>
+                    <div>
+                        <img className="about__image" alt='Gerard' src={gerardProfileImg} />
                     </div>
                 </div>
-                <div className="about__row about__row--four"> <img alt="Gerard" className="img4" src={gerardFiveImg} width="314" />
+                <div className="about__row">
+                    <div className="about__row--text">
+                        <Trans t={t} i18nKey={"paragraph-chouinard"} />
+                    </div>
+                    <div className="">
+                        <img className="about__image" alt="Gerard" src={gerardOneImg} />
+                        <img className="about__image" alt='Gerard' src={gerardTwoImg} />
+                    </div>
+                </div>
+                <div className="about__row">
+                    <div className="about__row--text">
+                        <Trans t={t} i18nKey={"paragraph-pop"} />
+                    </div>
                     <div>
+                        <img className="about__image" alt="Gerard" src={gerardThreeImg} />
+                        <img className="about__image" alt="Gerard" src={gerardFourImg} />
+                    </div>
+                </div>
+                <div className="about__row">
+                    <div className="about__row--text">
                         <p><Trans t={t} i18nKey={"paragraph-ballroom"} /></p>
                         <p>{t("paragraph-bodywork")}</p>
                     </div>
                     <div>
-                        <img alt="Gerard" className="img5" src={gerardSixImg} width="235" />
-                        <img alt="Gerard" className="img6" src={gerardSevenImg} width="164" />
+                        <img className="about__image" alt="Gerard" src={gerardFiveImg} />
+                        <img className="about__image" alt="Gerard" src={gerardSixImg} />
                     </div>
                 </div>
-                <div className="about__row about__row--five">
-                    <div>
+                <div className="about__row">
+                    <div className="about__row--text">
                         <div>
                             <strong><em>{t("text-pop-1")}</em></strong>
                         </div>
-                        <div>– <em>{t("text-pop-2")}</em></div>
-                    </div>
-                    <div className="about__row-content">
-                        <div className="leftSide">
+                        <div> – <em>{t("text-pop-2")}</em></div>
+                        <p>
                             {t("text-discovery-1")}
-                        </div>
-                        <img alt="Gerard" className="mobile-only" src={gerardEightImg} width="199" style={{ maxWidth: "199px", marginLeft: "auto", marginRight: "auto" }} />
-                        <div>
+                        </p>
+                        <p>
                             {t("text-discovery-2")}
-                            <a href="https://vimeo.com/156622742" className="about__button" rel="noreferrer" target="_blank">
-                                {t("anchor-trailer")} 1
-                            </a>
-                            <a href="https://www.youtube.com/watch?v=2O4fdZZQV8Q" className="about__button"
-                                rel="noreferrer" target="_blank">
-                                {t("anchor-trailer")} 2
-                            </a>
-                        </div>
+                            <div className="about__link-container">
+                                <a href="https://vimeo.com/156622742" className="about__button" rel="noreferrer" target="_blank">
+                                    {t("anchor-trailer")} 1
+                                </a>
+                                <a href="https://www.youtube.com/watch?v=2O4fdZZQV8Q" className="about__button" rel="noreferrer" target="_blank">
+                                    {t("anchor-trailer")} 2
+                                </a>
+                            </div>
+                        </p>
                     </div>
-                    <img alt="Gerard" className="desktop-only" src={gerardEightImg} width="199" />
+                    <div>
+
+
+                        <img className="about__image" alt="Gerard" src={gerardSevenImg} />
+                        <img className="about__image" alt="Gerard" src={gerardEightImg} />
+                    </div>
                 </div>
             </div>
             <div className="about__banner--bodywork">
