@@ -2,6 +2,7 @@
 
 .contact-banner {
     @include flex-center;
+    flex-direction: column;
     background: url(/assets/images/purple-flower.jpg) no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -11,29 +12,34 @@
     line-height: 2em;
     width: 100%;
 
-    &__inner {
-        width: 100%;
-        max-width: 596px;
-        font-size: $text-md;
-        line-height: 2em;
-        text-align: center;
-    }
     &__title {
         font-family: $secondary-font-family;
         font-size: $text-xl * 2;
-        line-height: 70px;
         text-align: center;
         text-transform: none;
-        margin-bottom: 26px;
+        margin-bottom: $space-md;
     }
     &__links {
         display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
+        justify-content: space-around;
+        margin: $space-sm auto 0;
+        max-width: 260px;
+        width: 100%;
+
+        svg {
+            font-size: $text-xl;
+        }
     }
 
     a {
         color: $site-color;
+        padding: $space-xs;
         text-decoration: none;
+    }
+
+    @media (max-width: 425px) {
+        &__email {
+            font-size: $text-sm;
+        }
     }
 }
