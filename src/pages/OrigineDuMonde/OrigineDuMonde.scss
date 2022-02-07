@@ -13,6 +13,11 @@
         position: relative;
         width: 100%;
     }
+
+    &__image--full {
+        margin-bottom: $space-lg;
+    }
+
     &__logo--header {
         display: block;
         max-width: 452px;
@@ -41,19 +46,19 @@
     &__content {
         @include flex-center;
         flex-direction: column;
-        margin: 100px 0;
+        margin: $space-xl 0;
     }
     &__text {
         font-size: $text-md;
         line-height: 2.5rem;
-        margin-bottom: $space-xl;
+        margin-bottom: $space-lg;
         max-width: 696px;
         width: 100%;
     }
 
     &__logos-container {
         background-color: #272528;
-        margin-bottom: 100px;
+        margin-bottom: $space-xxl;
         padding: $space-lg;
     }
     &__logos-row {
@@ -79,12 +84,12 @@
         justify-content: space-evenly;
         max-width: 1440px;
         width: 100%;
-        padding: $space-lg;
+        padding: 0 $space-lg $space-lg;
 
         .origine__video-column,
         img {
             width: 50%;
-            padding: 0 $space-sm;
+            margin: 0 $space-sm;
         }
     }
 
@@ -103,15 +108,16 @@
         background-repeat: no-repeat;
         background-size: cover;
         flex-direction: column;
+        margin-bottom: $space-lg;
         min-height: 572px;
     }
     &__quote-container {
         max-width: 823px;
-        padding-left: 33px;
-        padding-right: 33px;
+        padding: 0 $space-lg;
     }
     &__quote-text {
         font-family: $secondary-font-family;
+        font-weight: $bold-font-weight;
         font-size: $text-xl * 2;
         line-height: 70px;
     }
@@ -119,11 +125,15 @@
     &__quote-author {
         font-size: $text-sm;
         line-height: 4rem;
-        margin-top: 10px;
+        margin-top: $space-sm;
         max-width: 374px;
     }
 
     @media (max-width: 768px) {
+        &__image--full {
+            margin-bottom: $space-xxs;
+        }
+
         &__logos-row {
             align-items: center;
             flex-direction: column;
@@ -136,23 +146,31 @@
         &__media-row {
             align-items: center;
             flex-direction: column;
+            margin-bottom: $space-md;
             padding: 0;
-            img {
-                padding: $space-sm 0;
-                width: 80%;
-            }
+
+            img,
             .origine__video-column {
-                margin-top: $space-sm;
+                margin-top: $space-md;
                 padding: 0;
                 width: 80%;
             }
         }
+
+        &__quote {
+            margin-bottom: 0;
+        }
+
+        &__quote-text {
+            font-size: $text-xxl;
+        }
+
+        &__text {
+            padding: 0 $space-md;
+        }
     }
 
     @media (max-width: 446px) {
-        &__content {
-            padding: $space-lg 0;
-        }
         &__text {
             font-size: $text-sm;
             line-height: 20px;
@@ -162,15 +180,15 @@
             flex-direction: column;
         }
         &__button-spacer {
-            height: 51px;
+            height: 50px;
         }
 
         &__quote {
-            height: 401px;
+            height: 400px;
         }
 
         &__quote-text {
-            font-size: 2.9rem;
+            font-size: $text-xl;
             line-height: 50px;
         }
     }

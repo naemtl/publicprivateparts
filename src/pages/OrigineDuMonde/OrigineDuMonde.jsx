@@ -56,7 +56,7 @@ const OrigineDuMonde = () => {
                 <div className="origine__text">
                     {t("main.text-premiere")}
                 </div>
-                <img src={odmImg3} alt="Origine Du Monde promo" />
+                <img className="origine__image--full" src={odmImg3} alt="Origine Du Monde promo" />
 
                 <div className="origine__media-row">
                     <img src={odmImg4} alt="Origine Du Monde promo" />
@@ -85,7 +85,7 @@ const OrigineDuMonde = () => {
                     <YoutubeVimeoEmbed isVimeo={true} embedId="542702988" />
                 </div>
             </div>
-            <OriginePersonnel t={t} />
+            {/* <OriginePersonnel t={t} /> */}
             <div className="origine__logos-container">
                 <div className="origine__logos-row">
                     <div className="origine__personnel-heading">
