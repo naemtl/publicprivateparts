@@ -2,6 +2,7 @@
 import { Trans, useTranslation } from "react-i18next";
 
 import Footer from '../../components/Footer/Footer';
+import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
 
 import hollowBodyVid from "../../assets/videos/hollow-body.mp4";
 import calqLogo from "../../assets/svg/calq-logo.svg";
@@ -36,112 +37,72 @@ const Interviews = () => {
                             {t("main.paragraph-caritia")}
                         </p>
                     </div>
-                    <iframe
-                        src="https://www.youtube-nocookie.com/embed/vu4VlfqlECE"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen className="interviews__video-player"
-                    >
-                    </iframe>
+                    <div className="interviews__video-container">
+                        <YoutubeVimeoEmbed embedId="vu4VlfqlECE" />
+                    </div>
                 </div>
                 <div className="interviews__videos-row interviews__videos-row--right">
                     <div className="interviews__videos-text">
                         <h2>{t("main.heading-valentin")}</h2>
                         <p>{t("main.paragraph-valentin")}</p>
                     </div>
-                    <iframe
-                        src="https://www.youtube-nocookie.com/embed/1PhKa24YoQY"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen className="interviews__video-player"
-                    >
-                    </iframe>
+                    <div className="interviews__video-container">
+                        <YoutubeVimeoEmbed embedId="1PhKa24YoQY" />
+                    </div>
                 </div>
                 <div className="interviews__videos-row interviews__videos-row--center">
                     <div className="interviews__videos-text">
                         <h2>{t("main.heading-kay-1")}</h2>
                         <p>{t("main.paragraph-kay-1")}</p>
                     </div>
-                    <iframe
-                        src="https://www.youtube-nocookie.com/embed/ddnhgNwgJNE"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen className="interviews__video-player"
-                    >
-                    </iframe>
+                    <div className="interviews__video-container">
+                        <YoutubeVimeoEmbed embedId="ddnhgNwgJNE" />
+                    </div>
                 </div>
                 <div className="interviews__videos-row interviews__videos-row--left">
                     <div className="interviews__videos-text">
                         <h2>{t("main.heading-kay-2")}</h2>
                         <p>{t("main.paragraph-kay-2")}</p>
                     </div>
-                    <iframe
-                        src="https://www.youtube-nocookie.com/embed/NqhzBKG94W8"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen className="interviews__video-player"
-
-                    >
-                    </iframe>
+                    <div className="interviews__video-container">
+                        <YoutubeVimeoEmbed embedId="NqhzBKG94W8" />
+                    </div>
                 </div>
                 <div className="interviews__videos-row interviews__videos-row--right">
                     <div className="interviews__videos-text">
                         <h2>{t("main.heading-bishop")}</h2>
                         <p>{t("main.paragraph-bishop")}</p>
                     </div>
-                    <iframe
-                        src="https://www.youtube-nocookie.com/embed/IIBsRHuYAq4"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen className="interviews__video-player">
-                    </iframe>
+                    <div className="interviews__video-container">
+                        <YoutubeVimeoEmbed embedId="IIBsRHuYAq4" />
+                    </div>
                 </div>
                 <div className="interviews__videos-row interviews__videos-row--center">
                     <div className="interviews__videos-text">
                         <h2>{t("main.heading-jasko")}</h2>
                         <p>{t("main.paragraph-jasko")}</p>
                     </div>
-                    <iframe
-                        src="https://www.youtube-nocookie.com/embed/OQHlxfWdW9Q"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen className="interviews__video-player"
-                    >
-                    </iframe>
+                    <div className="interviews__video-container">
+                        <YoutubeVimeoEmbed embedId="OQHlxfWdW9Q" />
+                    </div>
                 </div>
                 <div className="interviews__videos-row interviews__videos-row--left">
                     <div className="interviews__videos-text">
                         <h2>{t("main.heading-pina")}</h2>
                         <p>{t("main.paragraph-pina")}</p>
                     </div>
-                    <iframe
-                        src="https://www.youtube-nocookie.com/embed/CZGj7oKBnXo"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen className="interviews__video-player"
-                    >
-                    </iframe>
+                    <div className="interviews__video-container">
+                        <YoutubeVimeoEmbed embedId="CZGj7oKBnXo" />
+                    </div>
                 </div>
                 <div className="interviews__videos-row interviews__videos-row--right">
                     <div className="interviews__videos-text">
                         <h2>{t("main.heading-mareen")}</h2>
                         <p>{t("main.paragraph-mareen")}</p>
                     </div>
-                    <iframe
-                        src="https://www.youtube-nocookie.com/embed/9rH27gpU_40"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen className="interviews__video-player"
-                    >
-                    </iframe>
+                    <div className="interviews__video-container">
+                        <YoutubeVimeoEmbed embedId="9rH27gpU_40" />
+                    </div>
                 </div>
             </div>
             <InterviewPersonnel t={t} />

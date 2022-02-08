@@ -41,14 +41,11 @@
     &__video-header-overlay {
         background-color: rgba(0, 0, 122, 0.2);
     }
-    @media (max-width: 700px) {
-        &__header {
-            height: 400px;
-            font-family: $secondary-font-family;
-            font-size: 3rem;
-            line-height: 4rem;
-        }
+
+    &__video-container {
+        width: 50%;
     }
+
     &__intro {
         max-width: 729px;
         font-size: 2.5rem;
@@ -76,11 +73,7 @@
         max-width: 729px;
         margin-bottom: $space-lg;
     }
-    &__video-player {
-        width: 100%;
-        max-width: 620px;
-        height: 300px;
-    }
+
     @media (min-width: 1170px) {
         &__videos-row {
             flex-direction: row;
@@ -107,9 +100,6 @@
         &__videos-row--center &__video-player {
             max-width: 802px;
             height: 451px;
-        }
-        &__video-player {
-            height: 350px;
         }
     }
     &__videos-text h2 {
@@ -151,7 +141,15 @@
     .goethe-logo {
         width: 217px;
     }
-    @media (max-width: 700px) {
+
+    @media (max-width: 768px) {
+        &__header {
+            height: 400px;
+            font-family: $secondary-font-family;
+            font-size: 3rem;
+            line-height: 4rem;
+        }
+
         .interviewsLogos-row {
             flex-direction: column;
             padding-top: 0;
@@ -160,6 +158,9 @@
         }
         .interviewsLogos img {
             margin: $space-lg 0;
+        }
+        &__video-container {
+            width: 100%;
         }
     }
 }
