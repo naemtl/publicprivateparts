@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import "./SubscribeForm.scss"
+import "./MailchimpForm.scss"
 
-const SubscribeForm = ({ status, message, onValidated }) => {
+const MailchimpForm = ({ status, message, onValidated }) => {
     const { t } = useTranslation("homepage");
     const [email, setEmail] = useState("");
     const [firstName, setFirstName] = useState("");
@@ -11,7 +11,7 @@ const SubscribeForm = ({ status, message, onValidated }) => {
     const [languagePreference, setLanguagePreference] = useState("");
 
     return (
-        <form className="subscribe-form">
+        <form className="mailchimp-form">
             <input
                 type="text"
                 name="FNAME"
@@ -49,9 +49,6 @@ const SubscribeForm = ({ status, message, onValidated }) => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
             />
-            <div style={{ position: "absolute", left: "-5000px" }} aria-hidden="true">
-                <input type="text" name="b_1ceba19e26d5a0f14904f257e_0d6becde98" tabIndex="-1" value="" />
-            </div>
             <input
                 className="button"
                 type="submit"
@@ -62,4 +59,4 @@ const SubscribeForm = ({ status, message, onValidated }) => {
     );
 };
 
-export default SubscribeForm;
+export default MailchimpForm;

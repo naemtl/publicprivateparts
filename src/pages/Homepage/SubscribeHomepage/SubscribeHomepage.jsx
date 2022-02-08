@@ -1,6 +1,6 @@
 import { Trans } from "react-i18next";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
-import SubscribeForm from "../../../components/SubscribeForm/SubscribeForm";
+import MailchimpForm from "../../../components/MailchimpForm/MailchimpForm";
 
 import './SubscribeHomepage.scss'
 
@@ -18,7 +18,7 @@ const SubscribeHomepage = ({ t }) => {
             <MailchimpSubscribe
                 url={postUrl}
                 render={({ subscribe, status, message }) => (
-                    <SubscribeForm
+                    <MailchimpForm
                     />
                 )}
             />
