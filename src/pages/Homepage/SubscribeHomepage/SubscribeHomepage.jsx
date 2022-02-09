@@ -19,6 +19,9 @@ const SubscribeHomepage = ({ t }) => {
                 url={postUrl}
                 render={({ subscribe, status, message }) => (
                     <MailchimpForm
+                        message={message}
+                        status={status}
+                        onValidated={formData => subscribe(formData)}
                     />
                 )}
             />
