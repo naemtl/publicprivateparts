@@ -30,6 +30,38 @@
     }
 }
 
+@mixin input {
+    width: 100%;
+    margin-bottom: $space-lg;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid $site-color;
+    padding: $space-md;
+    color: $site-color-light;
+    appearance: none;
+    font-size: $text-lg;
+
+    &:hover {
+        border-color: $site-color-light;
+    }
+    &::placeholder {
+        color: $site-color;
+        text-transform: uppercase;
+    }
+    &:invalid {
+        color: $site-color;
+    }
+}
+
+@mixin select-arrow {
+    background-image: linear-gradient(45deg, transparent 50%, $site-color 50%),
+        linear-gradient(135deg, $site-color 50%, transparent 50%), linear-gradient(to right, transparent, transparent);
+    background-position: calc(100% - 25px) calc(1em + 11px), calc(100% - 15px) calc(1em + 11px), 100% 0;
+    background-size: 8px 8px, 10px 8px, 2.5em 2.5em;
+    background-repeat: no-repeat;
+}
+
 @mixin gradientHomepage {
     background-image: linear-gradient(
         0deg,

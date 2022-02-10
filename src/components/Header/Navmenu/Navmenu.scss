@@ -73,7 +73,7 @@
     &__contact a:hover,
     &__list-item a:hover {
         text-decoration: none;
-        color: #fff49e;
+        color: $site-color-light;
     }
     &__list-item--numeral {
         font-family: $primary-font-family;

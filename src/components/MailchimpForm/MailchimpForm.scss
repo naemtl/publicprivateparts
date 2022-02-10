@@ -1,64 +1,33 @@
 @import "/src/assets/styles/common";
 
 .mailchimp-form {
-    margin-top: 64px;
-    max-width: 504px;
-    width: 100%;
-
-    input:not([type="submit"]),
-    select {
+    margin-top: $space-xl;
+    &__form {
+        padding: 0 $space-md;
+        max-width: 500px;
         width: 100%;
-        margin-bottom: $space-lg;
-        display: block;
-        background: none;
-        outline: none;
-        border-bottom: 1px solid #9d8b02;
-        padding: 32px 26px;
-        color: #fff49e;
-        -webkit-appearance: none;
-        appearance: none;
-        font-weight: 300;
-        font-size: $text-lg;
-        line-height: 27px;
     }
-    select {
-        text-transform: uppercase;
+
+    &__input {
+        @include input;
     }
-    select:invalid {
-        color: #9d8b02;
-    }
-    input:focus,
-    select:focus {
-        border-color: #fff49e;
-    }
-    input::placeholder {
-        color: #9d8b02;
-        text-transform: uppercase;
-    }
-    input[type="submit"] {
+
+    &__input--submit {
         @include button;
-        font-size: $text-sm;
-        letter-spacing: 0;
-        line-height: 23px;
-        font-style: italic;
         margin: 0 auto;
+    }
+
+    select {
+        @include select-arrow;
+        cursor: pointer;
+        text-transform: uppercase;
     }
 
     @media (max-width: 446px) {
         font-size: $text-sm;
-        font-weight: 300;
-        line-height: 27px;
 
-        input:not([type="submit"]),
-        select {
-            font-weight: 300;
+        &__input {
             font-size: $text-sm;
-            line-height: 27px;
-        }
-        input[type="submit"] {
-            font-size: $text-lg;
-            line-height: 4rem;
-            font-style: italic;
         }
     }
 }
