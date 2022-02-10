@@ -30,9 +30,19 @@ const MailchimpForm = ({ status, message, onValidated }) => {
     }
 
     const displaySubmitMessage = () => (
-        status === "success" ?
-            <div>Success! We'll be in touch.</div>
-            : <div>Error! Verify that you're using a valid email, and that you're not already signed up.</div>
+        <div className="mailchimp-form__status-message">
+            {status === "sending" && (
+                <div>
+                    sending...
+                </div>
+            )}
+            {status === "error" && (
+                <span>Error! Verify that you're using a valid email, and that you're not already signed up.</span>
+            )}
+            {status === "success" && (
+                <span>Success! We'll be in touch.</span>
+            )}
+        </div>
     )
 
     const clearFields = () => {
@@ -44,9 +54,7 @@ const MailchimpForm = ({ status, message, onValidated }) => {
 
     return (
         <div className="mailchimp-form">
-            <div className="mailchimp-form__status-message">
-                {status !== null ? displaySubmitMessage() : ""}
-            </div>
+            {displaySubmitMessage()}
             <form className="mailchimp-form__form" onSubmit={(e) => handleSubmit(e)}>
                 <input
                     className="mailchimp-form__input"
