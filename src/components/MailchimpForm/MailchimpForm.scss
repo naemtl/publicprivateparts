@@ -2,6 +2,7 @@
 
 .mailchimp-form {
     margin-top: $space-xl;
+
     &__form {
         padding: 0 $space-md;
         max-width: 500px;
@@ -15,6 +16,12 @@
     &__input--submit {
         @include button;
         margin: 0 auto;
+    }
+
+    &__status-message {
+        height: 50px;
+        text-align: center;
+        width: 100%;
     }
 
     select {
