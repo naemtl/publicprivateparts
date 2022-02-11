@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { FaSpinner } from "react-icons/fa";
 
 import "./MailchimpForm.scss"
 
@@ -32,9 +33,7 @@ const MailchimpForm = ({ status, message, onValidated }) => {
     const displaySubmitMessage = () => (
         <div className="mailchimp-form__status-message">
             {status === "sending" && (
-                <div>
-                    sending...
-                </div>
+                <FaSpinner />
             )}
             {status === "error" && (
                 <span>Error! Verify that you're using a valid email, and that you're not already signed up.</span>

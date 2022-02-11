@@ -13,9 +13,6 @@
     }
 
     svg {
-        animation: spinner 2s infinite linear;
-        color: $site-color;
-        font-size: $text-xxl;
-        margin-top: $space-lg;
+        @include spinning-loader;
     }
 }

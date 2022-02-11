@@ -19,8 +19,9 @@
     }
 
     &__status-message {
+        display: flex;
+        justify-content: center;
         height: 50px;
-        text-align: center;
         width: 100%;
     }
 
@@ -28,6 +29,11 @@
         @include select-arrow;
         cursor: pointer;
         text-transform: uppercase;
+    }
+
+    svg {
+        @include spinning-loader;
+        margin-top: 0;
     }
 
     @media (max-width: 446px) {
