@@ -4,7 +4,7 @@
     background-color: #232023;
     font-family: $primary-font-family;
     color: $site-color;
-    font-size: 2rem;
+    font-size: $text-md;
     line-height: 2.5rem;
 
     &__header {
@@ -13,7 +13,7 @@
         background-size: cover;
         background-position: 50%;
         flex-direction: column;
-        font-size: 4rem;
+        font-size: $text-lg * 2;
         font-family: $secondary-font-family;
         line-height: 5rem;
         min-height: 90vh;
@@ -29,14 +29,36 @@
 
     &__contact {
         border-bottom: 1px solid $site-color;
-        margin-bottom: 10px;
-        padding-bottom: 10px;
+        margin-bottom: $space-md;
+        padding-bottom: $space-md;
     }
 
     h2 {
-        margin: 2rem 0;
+        margin: $space-lg 0;
     }
+
     p {
-        margin-bottom: 10px;
+        margin-bottom: $space-md;
+    }
+
+    a {
+        color: $site-color;
+
+        &:hover {
+            color: $site-color-light;
+        }
+    }
+
+    @media (max-width: 768px) {
+        font-size: $text-sm;
+
+        &__content,
+        &__header {
+            padding: 0 $space-sm;
+        }
+
+        &__header {
+            font-size: $text-xxl;
+        }
     }
 }
