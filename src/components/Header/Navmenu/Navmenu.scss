@@ -89,6 +89,7 @@
     }
 
     @media (max-width: 768px) {
+        padding: $space-md;
         &__list-item {
             font-size: $text-xl;
         }
