@@ -1,9 +1,10 @@
 @import "/src/assets/styles/common";
 
 .interviews {
-    background-color: #0f1214;
+    background-color: $black;
     color: $site-color;
     font-family: $primary-font-family;
+    font-size: $text-md;
 
     &__button {
         @include button;
@@ -14,14 +15,12 @@
         position: relative;
         height: 100vh;
         font-family: $secondary-font-family;
-        font-size: 5.2rem;
-        line-height: 80px;
     }
     &__header-text {
-        z-index: 2;
+        font-size: $text-xl * 2;
         padding: 0 $space-lg;
         text-align: center;
-        color: #d2ba3b;
+        z-index: 2;
     }
     &__video-header {
         width: 100%;
@@ -47,15 +46,14 @@
     }
 
     &__intro {
-        max-width: 729px;
-        font-size: 2.5rem;
-        line-height: 4rem;
-        margin: 123px auto 117px;
+        max-width: 730px;
+        margin: $space-xl auto;
+
+        p:first-of-type {
+            margin-bottom: $space-sm;
+        }
     }
-    &__intro,
-    &__videos {
-        padding: 0 $space-lg;
-    }
+
     &__videos {
         max-width: 1135px;
         margin: 0 auto;
@@ -64,57 +62,56 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 68px;
+        margin-bottom: $space-xl;
     }
     &__videos-text {
         flex: 1;
-        font-size: 1.9rem;
-        line-height: 25px;
-        max-width: 729px;
+        font-size: $text-md;
+        max-width: 730px;
         margin-bottom: $space-lg;
     }
 
     @media (min-width: 1170px) {
         &__videos-row {
             flex-direction: row;
-            margin-bottom: 225px;
+            margin-bottom: $space-xxl;
         }
         &__videos-text {
             margin-bottom: 0;
         }
         &__videos-row--left &__videos-text {
-            margin-left: 66px;
+            margin-left: $space-lg;
             order: 2;
         }
         &__videos-row--right &__videos-text {
-            margin-right: 66px;
+            margin-right: $space-lg;
         }
         &__videos-row--center {
             flex-direction: column;
         }
         &__videos-row--center &__videos-text {
-            max-width: 802px;
+            max-width: 800px;
             margin-top: $space-lg;
             order: 2;
         }
         &__videos-row--center &__video-player {
-            max-width: 802px;
-            height: 451px;
+            max-width: 800px;
+            height: 450px;
         }
     }
     &__videos-text h2 {
         font-family: $secondary-font-family;
         font-size: $text-xl * 2;
         letter-spacing: 2px;
-        line-height: 70px;
-        margin: 0 0 17px;
+        line-height: 50px;
+        margin-bottom: $space-md;
         padding: 0;
     }
 
     .interviewsLogos {
         background-color: #171b1d;
         padding: $space-lg 0;
-        margin-bottom: 100px;
+        margin-bottom: $space-xxl;
     }
     .interviewsLogos-row {
         display: flex;
@@ -143,11 +140,20 @@
     }
 
     @media (max-width: 768px) {
+        font-size: $text-sm;
+
         &__header {
             height: 400px;
             font-family: $secondary-font-family;
-            font-size: 3rem;
-            line-height: 4rem;
+        }
+
+        &__header-text {
+            font-size: $text-lg * 2;
+        }
+
+        &__intro,
+        &__videos {
+            padding: 0 $space-lg;
         }
 
         .interviewsLogos-row {
@@ -161,6 +167,15 @@
         }
         &__video-container {
             width: 100%;
+        }
+
+        &__videos-text {
+            font-size: $text-sm;
+        }
+
+        &__videos-text h2 {
+            font-size: $text-sm * 2;
+            line-height: 35px;
         }
     }
 }

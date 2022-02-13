@@ -27,7 +27,7 @@ const Interviews = () => {
             </div>
             <div className="interviews__intro">
                 <p><Trans t={t} i18nKey={"main.paragraph-intro-1"} /></p>
-                <p>{t("main.paragraph-intro-1")}</p>
+                <p>{t("main.paragraph-intro-2")}</p>
             </div>
             <div className="interviews__videos">
                 <div className="interviews__videos-row interviews__videos-row--left">
@@ -105,7 +105,7 @@ const Interviews = () => {
                     </div>
                 </div>
             </div>
-            <InterviewPersonnel t={t} />
+            {/* <InterviewPersonnel t={t} /> */}
             <div className="interviewsLogos">
                 <h2><em>{t("main.heading-support")}</em></h2>
                 <div className="interviewsLogos-row">
