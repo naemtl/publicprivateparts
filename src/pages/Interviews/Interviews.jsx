@@ -105,16 +105,16 @@ const Interviews = () => {
                     </div>
                 </div>
             </div>
-            {/* <InterviewPersonnel t={t} /> */}
-            <div className="interviewsLogos">
+            <InterviewPersonnel t={t} />
+            <div className="interviews__support">
                 <h2><em>{t("main.heading-support")}</em></h2>
-                <div className="interviewsLogos-row">
-                    <img src={calqLogo} className="calq-logo" alt="Conseil des arts et des lettres du Québec" />
-                    <img src={goetheLogo} className="goethe-logo" alt="Goethe-Institut" />
+                <div className="interviews__logos-row">
+                    <img src={calqLogo} alt="Conseil des arts et des lettres du Québec" />
+                    <img src={goetheLogo} alt="Goethe-Institut" />
                 </div>
-                <div className="interviewsLogos-row">
-                    <img src={ccaLogo} className="cca-logo" alt="Canada Council for the Arts" />
-                    <img src={sacdLogo} className="sacd-logo" alt="SACD Canada" />
+                <div className="interviews__logos-row">
+                    <img src={ccaLogo} alt="Canada Council for the Arts" />
+                    <img src={sacdLogo} alt="SACD Canada" />
                 </div>
             </div>
             <Footer />

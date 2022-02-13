@@ -108,35 +108,21 @@
         padding: 0;
     }
 
-    .interviewsLogos {
+    &__support {
         background-color: #171b1d;
-        padding: $space-lg 0;
+        padding: $space-lg;
         margin-bottom: $space-xxl;
     }
-    .interviewsLogos-row {
+    &__logos-row {
         display: flex;
         justify-content: space-between;
         align-items: center;
         max-width: 900px;
-        margin: 0 auto;
-        padding: $space-lg;
-    }
-    .calq-logo {
-        width: 204px;
-    }
-    .cca-logo {
-        max-width: 357px;
-        width: 100%;
-    }
-    .logoThc {
-        width: 158px;
-    }
-    .sacd-logo {
-        width: 117px;
-        height: 84px;
-    }
-    .goethe-logo {
-        width: 217px;
+        margin: $space-lg auto;
+
+        img {
+            max-height: 60px;
+        }
     }
 
     @media (max-width: 768px) {
@@ -156,13 +142,11 @@
             padding: 0 $space-lg;
         }
 
-        .interviewsLogos-row {
-            flex-direction: column;
-            padding-top: 0;
-            padding-bottom: 0;
+        &__logos-row {
             align-items: center;
+            flex-direction: column;
         }
-        .interviewsLogos img {
+        &__support img {
             margin: $space-lg 0;
         }
         &__video-container {
