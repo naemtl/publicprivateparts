@@ -5,10 +5,13 @@
     @include flex-center;
     flex-direction: column;
     font-family: $primary-font-family;
-    padding: 128px 0;
+    padding: $space-xxl 0;
 
     &__title {
+        font-family: $secondary-font-family;
+        font-size: $text-md * 2;
         margin-bottom: 16px;
+        padding: 0 $space-sm;
         text-align: center;
     }
 
@@ -19,12 +22,7 @@
     }
 
     @media (max-width: 446px) {
-        padding-top: 106px;
-        padding-bottom: 115px;
-
         &__title {
-            font-family: $secondary-font-family;
-            font-size: 2.9rem;
             line-height: 50px;
         }
         &__text {
