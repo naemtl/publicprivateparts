@@ -42,11 +42,7 @@
     }
 
     a {
-        color: $site-color;
-
-        &:hover {
-            color: $site-color-light;
-        }
+        @include anchor;
     }
 
     @media (max-width: 768px) {

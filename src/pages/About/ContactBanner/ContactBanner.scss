@@ -32,13 +32,8 @@
     }
 
     a {
-        color: $site-color;
+        @include anchor;
         padding: $space-xs;
-        text-decoration: none;
-
-        &:hover {
-            color: $site-color-light;
-        }
     }
 
     @media (max-width: 425px) {

@@ -61,20 +61,16 @@
 
     &__list-item a {
         align-items: baseline;
-        color: $site-color;
         display: flex;
-        text-decoration: none;
         text-transform: none;
     }
+
+    &__list-item a,
     &__contact a {
+        @include anchor;
         text-decoration: none;
-        color: $site-color;
     }
-    &__contact a:hover,
-    &__list-item a:hover {
-        text-decoration: none;
-        color: $site-color-light;
-    }
+
     &__list-item--numeral {
         font-family: $primary-font-family;
         font-size: 1.9rem;

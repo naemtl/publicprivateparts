@@ -4,13 +4,24 @@
     font-family: $primary-font-family;
     font-size: $text-sm;
     line-height: 27px;
-    max-width: 662px;
+    margin: 0 auto;
+    margin-bottom: $space-xxl;
+    max-width: 860px;
     padding: 0 $space-lg;
-    margin: auto auto 150px;
+
+    &__link {
+        @include anchor;
+    }
 
     &__row {
         display: flex;
         width: 100%;
+    }
+
+    &__row span:nth-of-type(2) {
+        width: 100%;
+        border-bottom: 2px dotted #9d8b02;
+        margin: 0 2px 9px;
     }
 
     &__row span:nth-of-type(1),
@@ -18,13 +29,35 @@
         white-space: nowrap;
     }
 
-    &__row span:nth-of-type(2) {
-        width: 100%;
-        border-bottom: 2px dotted #9d8b02;
-        margin: 0 2px 6px;
+    &__row--special {
+        margin-top: $space-lg;
     }
 
-    &__row--special {
-        margin-top: 2rem;
+    @media (max-width: 1024px) {
+        max-width: 660px;
+        padding: 0 $space-sm;
+
+        &__row {
+            flex-direction: column;
+            margin: $space-sm 0;
+        }
+
+        &__row span:nth-of-type(1) {
+            font-weight: $bold-font-weight;
+        }
+
+        &__row span:nth-of-type(2) {
+            border: none;
+            margin: 0;
+        }
+
+        &__row span:nth-of-type(3) {
+            line-height: 20px;
+        }
+
+        &__row span:nth-of-type(1),
+        &__row span:nth-of-type(3) {
+            white-space: normal;
+        }
     }
 }

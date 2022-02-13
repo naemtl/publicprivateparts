@@ -4,9 +4,9 @@ import "../../../assets/styles/personnel.scss"
 const OriginePersonnel = ({ t }) => {
     return (
         <div className="personnel">
-            <div className="personnel__heading">
+            <h3 className="personnel__heading">
                 <em>{t("personnel.heading-main")}</em>
-            </div>
+            </h3>
             <div className="personnel__row">
                 <span>{t("personnel.roles.co-prod")}</span>
                 <span></span>
@@ -18,9 +18,9 @@ const OriginePersonnel = ({ t }) => {
                 <span>Gerard X Reyes</span>
             </div>
             <div className="personnel__row">
-                <span>{t("personnel.heading-collab")}:</span>
+                <h4>{t("personnel.heading-collab")}:</h4>
             </div>
-            <div className="personnel__heading">{t("personnel.heading-video")}</div>
+            <h4 className="personnel__heading">{t("personnel.heading-video")}</h4>
             <div className="personnel__row">
                 <span>{t("personnel.roles.editor-video")}</span>
                 <span></span>
@@ -96,7 +96,7 @@ const OriginePersonnel = ({ t }) => {
                 <span></span>
                 <span>Elisa Hengen</span>
             </div>
-            <div className="personnel__heading">{t("personnel.heading-live-performance")}</div>
+            <h4 className="personnel__heading">{t("personnel.heading-live-performance")}</h4>
             <div className="personnel__row">
                 <span>{t("personnel.roles.live-performers")}</span>
                 <span></span>
@@ -147,7 +147,7 @@ const OriginePersonnel = ({ t }) => {
                 <span></span>
                 <span>Alice Renucci, Lucie Juneau</span>
             </div>
-            <div className="personnel__heading">{t("personnel.heading-comms-promotion")}</div>
+            <h4 className="personnel__heading">{t("personnel.heading-comms-promotion")}</h4>
             <div className="personnel__row">
                 <span>{t("personnel.roles.branding")}</span>
                 <span></span>
@@ -178,7 +178,7 @@ const OriginePersonnel = ({ t }) => {
                 <span></span>
                 <span>Denis Farley</span>
             </div>
-            <div className="personnel__heading">{t("personnel.heading-support")}</div>
+            <h4 className="personnel__heading">{t("personnel.heading-support")}</h4>
             <div className="personnel__row">Canada Council for the Arts</div>
             <div className="personnel__row">Le Conseil des arts et des lettres du Québec</div>
             <div className="personnel__row">Goethe Institut-Montréal</div>
@@ -187,14 +187,14 @@ const OriginePersonnel = ({ t }) => {
             <div className="personnel__row">
                 {t("personnel.text-gratitude")}
             </div>
-            <div className="personnel__heading">{t("personnel.heading-residencies")}</div>
+            <h4 className="personnel__heading">{t("personnel.heading-residencies")}</h4>
             <div className="personnel__row">
                 Fabrik Potsdam, Tanzfabrik Berlin, Tanzhaus Zürich, Grand Studio (Bruxelles), Espace Marie Chouinard, Par B.L.eux/Benoît Lachambre, Compagnie Flak/José Navas, Montréal arts interculturels, Département de danse de l'UQAM, Musée d'art de Joliette
             </div>
-            <div className="personnel__heading">{t("personnel.heading-international-distro")}</div>
+            <h4 className="personnel__heading">{t("personnel.heading-international-distro")}</h4>
             <div>
                 <Trans t={t} i18nKey={"personnel.text-contact-plan-b"}>
-                    PLEASE CONTACT <a className="inline-link" href="mailto:info@planbhamburg.com">PLAN B</a> (HAMBURG, GERMANY) - <em>CREATIVE AGENCY FOR PERFORMING ARTS</em>
+                    PLEASE CONTACT <a className="personnel__link" href="mailto:info@planbhamburg.com">PLAN B</a> (HAMBURG, GERMANY) - <em>CREATIVE AGENCY FOR PERFORMING ARTS</em>
                 </Trans>
             </div>
         </div>

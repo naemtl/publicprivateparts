@@ -4,6 +4,14 @@
     align-items: center;
 }
 
+@mixin anchor {
+    color: $site-color;
+
+    &:hover {
+        color: $site-color-light;
+    }
+}
+
 @mixin button {
     @include flex-center;
     background-color: transparent;
