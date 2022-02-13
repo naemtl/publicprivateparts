@@ -10,14 +10,14 @@
     &__title {
         font-family: $secondary-font-family;
         font-size: $text-md * 2;
-        margin-bottom: 16px;
+        margin-bottom: $space-sm;
         padding: 0 $space-sm;
         text-align: center;
     }
 
     &__text {
-        max-width: 592px;
-        padding: 0 $space-md;
+        max-width: 595px;
+        padding: 0 $space-sm;
         text-align: center;
     }
 
