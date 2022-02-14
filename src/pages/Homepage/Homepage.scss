@@ -38,34 +38,7 @@
         z-index: 0;
         width: 100%;
     }
-    @media (max-width: 1024px) {
-        &__video--banner {
-            top: unset;
-        }
-    }
-    @media (max-width: 768px) {
-        &__title {
-            font-size: 1.6rem;
-        }
-    }
-    @media (max-width: 446px) {
-        &__header {
-            height: 85vh;
-            background-repeat: no-repeat;
-            background-position: bottom;
-            background-size: contain;
-            padding-top: $space-lg;
-            box-sizing: border-box;
-            align-items: flex-start;
-        }
-        &__spacer--header {
-            width: 20px;
-        }
-        &__video--banner {
-            min-height: 30vh;
-            object-fit: cover;
-        }
-    }
+
     &__content {
         @include flex-center;
         height: 475px;
@@ -90,7 +63,7 @@
     }
 
     &__text {
-        font-size: $text-lg;
+        font-size: $text-md;
         max-width: 696px;
         text-align: center;
         z-index: 2;
@@ -100,13 +73,42 @@
         }
     }
 
-    @media (max-width: 768px) {
-        &__content {
-            padding: 2.8rem;
+    @media (max-width: 1024px) {
+        &__video--banner {
+            top: unset;
         }
     }
+    @media (max-width: 768px) {
+        &__title {
+            font-size: 1.6rem;
+        }
 
-    @media (max-width: 470px) {
+        &__content {
+            padding: $space-sm;
+        }
+
+        &__text {
+            font-size: $text-sm;
+        }
+    }
+    @media (max-width: 425px) {
+        &__header {
+            height: 85vh;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-size: contain;
+            padding-top: $space-lg;
+            box-sizing: border-box;
+            align-items: flex-start;
+        }
+        &__spacer--header {
+            width: 20px;
+        }
+        &__video--banner {
+            min-height: 30vh;
+            object-fit: cover;
+        }
+
         &__content {
             background-position: 0 100%;
             background-size: 544px;

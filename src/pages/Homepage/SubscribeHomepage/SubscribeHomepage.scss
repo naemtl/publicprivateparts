@@ -9,29 +9,29 @@
 
     &__title {
         font-family: $secondary-font-family;
-        font-size: $text-md * 2;
+        font-size: $text-xl * 2;
         margin-bottom: $space-sm;
         padding: 0 $space-sm;
         text-align: center;
     }
 
     &__text {
-        max-width: 595px;
-        padding: 0 $space-sm;
+        font-size: $text-md;
+        max-width: 610px;
+        padding: 0 $space-md;
         text-align: center;
     }
 
-    @media (max-width: 446px) {
+    @media (max-width: 768px) {
         &__title {
+            font-size: $text-xl;
+            font-weight: $bold-font-weight;
             line-height: 50px;
         }
         &__text {
+            font-size: $text-sm;
             line-height: 20px;
             padding: 0 $space-sm;
-        }
-
-        &__text {
-            font-size: $text-sm;
         }
     }
 }

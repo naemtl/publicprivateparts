@@ -14,12 +14,14 @@
     }
     &__title {
         font-family: $secondary-font-family;
-        font-size: 5rem;
+        font-size: $text-xl * 2;
+        font-weight: $bold-font-weight;
         margin-bottom: $space-sm;
     }
     &__text {
-        width: 50%;
+        font-size: $text-md;
         margin-bottom: $space-sm;
+        width: 50%;
     }
     &__column {
         z-index: 2;
@@ -77,13 +79,14 @@
             justify-content: center;
         }
         &__title {
-            font-family: $secondary-font-family;
-            font-size: 3.2rem;
+            font-size: $text-xl;
         }
         &__text {
-            width: 100%;
+            font-size: $text-sm;
+            margin-bottom: $space-lg;
+            padding: 0 $space-sm;
             text-align: center;
-            margin: 5px 0 $space-lg;
+            width: 100%;
         }
         &__image {
             background-size: contain;

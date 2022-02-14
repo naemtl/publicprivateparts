@@ -5,7 +5,6 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    font-size: $text-lg;
     height: 100%;
 
     &__button {
@@ -20,6 +19,7 @@
         text-align: center;
     }
     &__text {
+        font-size: $text-md;
         margin-bottom: $space-md;
         max-width: 680px;
         text-align: center;
@@ -41,6 +41,16 @@
     }
 
     @media (max-width: 768px) {
+        &__title {
+            font-size: $text-xl;
+            font-weight: $bold-font-weight;
+            padding: 0 $space-sm;
+            margin-bottom: $space-sm;
+        }
+        &__text {
+            font-size: $text-sm;
+            padding: 0 $space-sm;
+        }
         &__videos {
             align-items: center;
             flex-direction: column;
