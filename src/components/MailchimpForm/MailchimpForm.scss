@@ -1,7 +1,7 @@
 @import "/src/assets/styles/common";
 
 .mailchimp-form {
-    margin-top: $space-xl;
+    margin: $space-lg 0;
 
     &__form {
         padding: 0 $space-md;
@@ -20,9 +20,10 @@
     }
 
     &__status-message {
-        display: flex;
-        justify-content: center;
+        @include flex-center;
         height: 50px;
+        margin-bottom: $space-md;
+        padding: 0 $space-sm;
         width: 100%;
     }
 
@@ -42,6 +43,10 @@
 
         &__input {
             font-size: $text-sm;
+        }
+
+        &__status-message {
+            font-size: $text-xs;
         }
     }
 }
