@@ -7,7 +7,7 @@
     font-family: $primary-font-family;
     font-size: $text-md;
     justify-content: center;
-    padding: em(142px) 0 em(62px);
+    margin: $space-xxl 0;
 
     &__button {
         @include button;
@@ -68,7 +68,7 @@
         }
         &__content {
             align-items: center;
-            padding-top: 0;
+            padding: 0 $space-sm;
             text-align: center;
         }
         &__logo {

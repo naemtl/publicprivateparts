@@ -22,8 +22,9 @@
         font-size: 1.7rem;
         justify-content: space-between;
         max-width: 726px;
-        padding: 0 $space-lg 275px;
+        position: absolute;
         text-transform: uppercase;
+        top: 20%;
         z-index: 1;
     }
     &__spacer--header {
@@ -41,7 +42,7 @@
 
     &__content {
         @include flex-center;
-        height: 475px;
+        height: 80vh;
         padding: $space-lg;
         position: relative;
         overflow: hidden;
@@ -74,6 +75,12 @@
     }
 
     @media (max-width: 1024px) {
+        &__content {
+            height: 60vh;
+        }
+        &__title {
+            top: 25%;
+        }
         &__video--banner {
             top: unset;
         }
@@ -81,9 +88,12 @@
     @media (max-width: 768px) {
         &__title {
             font-size: 1.6rem;
+            top: 30%;
         }
 
         &__content {
+            height: 45vh;
+            margin-top: $space-lg;
             padding: $space-sm;
         }
 
@@ -93,7 +103,6 @@
     }
     @media (max-width: 425px) {
         &__header {
-            height: 85vh;
             background-repeat: no-repeat;
             background-position: bottom;
             background-size: contain;
@@ -110,6 +119,7 @@
         }
 
         &__content {
+            height: 70vh;
             background-position: 0 100%;
             background-size: 544px;
         }
