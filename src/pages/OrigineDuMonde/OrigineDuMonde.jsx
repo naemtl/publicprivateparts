@@ -101,9 +101,9 @@ const OrigineDuMonde = () => {
                     </div>
                     <img src={goetheLogo} className="origine__logo--goethe" alt="Goethe-Institut" />
                 </div>
-            </div>
-            <div className="origine__personnel-row">
-                {t("main.paragraph-thanks")}
+                <div className="origine__logos-row">
+                    {t("main.paragraph-thanks")}
+                </div>
             </div>
             <Footer />
         </div>
