@@ -100,4 +100,10 @@
             width: 100%;
         }
     }
+
+    @media (max-width: 425px) {
+        &__image {
+            height: 20.5em;
+        }
+    }
 }
