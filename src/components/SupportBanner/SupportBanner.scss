@@ -5,25 +5,48 @@
     margin-bottom: $space-xxl;
     padding: $space-lg;
 
-    &__logos-row {
+    &__heading {
+        font-size: $text-sm;
+        margin-right: $space-md;
+        width: 180px;
+    }
+
+    &__logo {
+        height: 100%;
+        max-height: 60px;
+        max-width: 100%;
+    }
+
+    &__logo-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    &__row {
         align-items: center;
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
         max-width: 900px;
-        padding: $space-lg;
+        padding: $space-lg $space-sm;
     }
 
-    &__logo--calq,
-    &__logo--cca,
-    &__logo--sacd,
-    &__logo--goethe {
-        height: 100%;
-        max-height: 60px;
-        max-width: 100%;
+    @media (max-width: 1024px) {
+        &__logo {
+            max-height: 50px;
+        }
     }
+
     @media (max-width: 768px) {
-        &__logos-row {
+        &__heading {
+            margin-right: 0;
+            text-align: center;
+            width: 180px;
+        }
+
+        &__row,
+        &__logo-container {
             align-items: center;
             flex-direction: column;
             padding: 0;

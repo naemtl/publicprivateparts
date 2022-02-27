@@ -13,19 +13,23 @@ const SupportBanner = () => {
 
     return (
         <div className="support-banner">
-            <div className="support-banner__logos-row">
-                <div className="support-banner__personnel-heading">
+            <div className="support-banner__row">
+                <div className="support-banner__heading">
                     {t("heading-1")}
                 </div>
-                <img src={calqLogo} className="support-banner__logo--calq" alt="Conseil des arts et des lettres du Québec" />
-                <img src={ccaLogo} className="support-banner__logo--cca" alt="Canada Council for the Arts" />
-                <img src={sacdLogo} className="support-banner__logo--sacd" alt="SACD Canada" />
+                <div className="support-banner__logo-container">
+                    <img src={calqLogo} className="support-banner__logo" alt="Conseil des arts et des lettres du Québec" />
+                    <img src={ccaLogo} className="support-banner__logo" alt="Canada Council for the Arts" />
+                    <img src={sacdLogo} className="support-banner__logo" alt="SACD Canada" />
+                </div>
             </div>
-            <div className="support-banner__logos-row">
-                <div className="support-banner__personnel-heading">
+            <div className="support-banner__row">
+                <div className="support-banner__heading">
                     {t("heading-2")}
                 </div>
-                <img src={goetheLogo} className="support-banner__logo--goethe" alt="Goethe-Institut" />
+                <div className="support-banner__logo-container">
+                    <img src={goetheLogo} className="support-banner__logo" alt="Goethe-Institut" />
+                </div>
             </div>
         </div>
     )

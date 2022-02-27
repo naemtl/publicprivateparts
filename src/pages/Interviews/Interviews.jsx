@@ -12,6 +12,7 @@ import sacdLogo from "../../assets/images/sacd-logo.png";
 
 import './Interviews.scss'
 import InterviewPersonnel from "./InterviewPersonnel/InterviewPersonnel";
+import SupportBanner from "../../components/SupportBanner/SupportBanner";
 
 const Interviews = () => {
     const { t } = useTranslation('interviews')
@@ -106,17 +107,7 @@ const Interviews = () => {
                 </div>
             </div>
             <InterviewPersonnel t={t} />
-            <div className="interviews__support">
-                <h2><em>{t("main.heading-support")}</em></h2>
-                <div className="interviews__logos-row">
-                    <img src={calqLogo} alt="Conseil des arts et des lettres du Québec" />
-                    <img src={goetheLogo} alt="Goethe-Institut" />
-                </div>
-                <div className="interviews__logos-row">
-                    <img src={ccaLogo} alt="Canada Council for the Arts" />
-                    <img src={sacdLogo} alt="SACD Canada" />
-                </div>
-            </div>
+            <SupportBanner />
             <Footer />
         </div>
     );
