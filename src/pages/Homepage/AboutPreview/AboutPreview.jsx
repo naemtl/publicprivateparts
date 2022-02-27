@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import { Link } from 'react-router-dom';
 
 import './AboutPreview.scss'
 
@@ -13,12 +14,12 @@ const AboutPreview = ({ t }) => {
                     <div className="about-preview__text">
                         {t('about.desc')}
                     </div>
-                    <a href="en-about.html" className="about-preview__button">
+                    <Link to="/about" className="about-preview__button">
                         {t('about.button-1')}
-                    </a>
-                    <a href="en-about.html" className="about-preview__button">
+                    </Link>
+                    <Link to="/bodywork" className="about-preview__button">
                         {t('about.button-2')}
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div className="about-preview__image"></div>

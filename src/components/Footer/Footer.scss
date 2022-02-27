@@ -14,7 +14,7 @@
     }
 
     &__anchor--icon {
-        font-size: $text-lg;
+        font-size: $text-xxl;
         margin: $space-xxs;
         padding: $space-xxs;
         width: 50px;
@@ -28,7 +28,7 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        width: 200px;
+        width: 205px;
     }
 
     &__socials {
@@ -54,10 +54,6 @@
         height: 600px;
         margin-top: 0;
         text-align: center;
-
-        &__anchor--icon {
-            font-size: 3rem;
-        }
 
         &__column {
             width: unset;

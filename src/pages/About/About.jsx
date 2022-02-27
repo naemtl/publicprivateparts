@@ -21,36 +21,37 @@ const About = () => {
     return (
         <div className="about">
             <div className="about__content">
-                <h1 className="about__heading">
-                    {t("heading-title")}
-                    <span className=""> Gerard X Reyes</span>
-                </h1>
+
                 <div className="about__row">
                     <div className="about__row--text">
+                        <h1 className="about__heading">
+                            {t("heading-title")}
+                            <span> Gerard X Reyes</span>
+                        </h1>
                         <p>
                             <Trans t={t} i18nKey={"paragraph-intro"} />
                         </p>
                     </div>
                     <div>
-                        <img className="about__image" alt='Gerard' src={gerardProfileImg} />
+                        <img className="about__image--profile" alt='Gerard' src={gerardProfileImg} />
                     </div>
                 </div>
                 <div className="about__row">
                     <div className="about__row--text">
                         <Trans t={t} i18nKey={"paragraph-chouinard"} />
                     </div>
-                    <div className="">
-                        <img className="about__image" alt="Gerard" src={gerardOneImg} />
-                        <img className="about__image" alt='Gerard' src={gerardTwoImg} />
+                    <div className="about__image-overlap">
+                        <img className="about__image--one" alt="Gerard" src={gerardOneImg} />
+                        <img className="about__image--two" alt='Gerard' src={gerardTwoImg} />
                     </div>
                 </div>
                 <div className="about__row">
                     <div className="about__row--text">
                         <Trans t={t} i18nKey={"paragraph-pop"} />
                     </div>
-                    <div>
-                        <img className="about__image" alt="Gerard" src={gerardThreeImg} />
-                        <img className="about__image" alt="Gerard" src={gerardFourImg} />
+                    <div className="about__image-overlap">
+                        <img className="about__image--three" alt="Gerard" src={gerardThreeImg} />
+                        <img className="about__image--four" alt="Gerard" src={gerardFourImg} />
                     </div>
                 </div>
                 <div className="about__row">
@@ -59,8 +60,7 @@ const About = () => {
                         <p>{t("paragraph-bodywork")}</p>
                     </div>
                     <div>
-                        <img className="about__image" alt="Gerard" src={gerardFiveImg} />
-                        <img className="about__image" alt="Gerard" src={gerardSixImg} />
+                        <img className="about__image--five" alt="Gerard" src={gerardFiveImg} />
                     </div>
                 </div>
                 <div className="about__row">
@@ -84,11 +84,14 @@ const About = () => {
                             </div>
                         </p>
                     </div>
+                    <div className="about__image-overlap">
+                        <img className="about__image--six" alt="Gerard" src={gerardSixImg} />
+                        <img className="about__image--seven" alt="Gerard" src={gerardSevenImg} />
+                    </div>
+                </div>
+                <div className="about__row">
                     <div>
-
-
-                        <img className="about__image" alt="Gerard" src={gerardSevenImg} />
-                        <img className="about__image" alt="Gerard" src={gerardEightImg} />
+                        <img className="about__image--eight" alt="Gerard" src={gerardEightImg} />
                     </div>
                 </div>
             </div>

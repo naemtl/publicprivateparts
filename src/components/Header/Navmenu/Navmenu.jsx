@@ -31,15 +31,15 @@ const Navmenu = ({ menuOpen, toggleMenu }) => {
                     </Link>
                 </li>
                 <li className="navmenu__list-item">
-                    <Link onClick={toggleMenu} to="/bodywork">
+                    <Link onClick={toggleMenu} to="/interviews">
                         <span className="navmenu__list-item--numeral">03</span>
-                        {t('anchors.bodywork')}
+                        {t('anchors.interviews')}
                     </Link>
                 </li>
                 <li className="navmenu__list-item">
-                    <Link onClick={toggleMenu} to="/interviews">
+                    <Link onClick={toggleMenu} to="/bodywork">
                         <span className="navmenu__list-item--numeral">04</span>
-                        {t('anchors.interviews')}
+                        {t('anchors.bodywork')}
                     </Link>
                 </li>
                 <li className="navmenu__list-item">
