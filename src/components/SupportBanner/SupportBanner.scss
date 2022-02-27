@@ -1,0 +1,36 @@
+@import "/src/assets/styles/common";
+
+.support-banner {
+    background-color: #272528;
+    margin-bottom: $space-xxl;
+    padding: $space-lg;
+
+    &__logos-row {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 900px;
+        padding: $space-lg;
+    }
+
+    &__logo--calq,
+    &__logo--cca,
+    &__logo--sacd,
+    &__logo--goethe {
+        height: 100%;
+        max-height: 60px;
+        max-width: 100%;
+    }
+    @media (max-width: 768px) {
+        &__logos-row {
+            align-items: center;
+            flex-direction: column;
+            padding: 0;
+        }
+
+        img {
+            margin: $space-lg 0;
+        }
+    }
+}

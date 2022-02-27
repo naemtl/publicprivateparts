@@ -10,15 +10,12 @@ import odmImg4 from "../../assets/images/odm-4.png";
 import odmImg5 from "../../assets/images/odm-5.png";
 import odmImg6 from "../../assets/images/odm-6.png";
 import odmImg7 from "../../assets/images/odm-7.png";
-import calqLogo from "../../assets/svg/calq-logo.svg";
-import ccaLogo from "../../assets/svg/cca-logo.svg";
-import goetheLogo from "../../assets/svg/goethe-logo.svg";
 import odmLogo from "../../assets/svg/odm-logo.svg";
-import sacdLogo from "../../assets/images/sacd-logo.png";
 import purpleBodyVid from "../../assets/videos/purple-body.mp4";
 
 import './OrigineDuMonde.scss'
 import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
+import SupportBanner from "../../components/SupportBanner/SupportBanner";
 
 const OrigineDuMonde = () => {
     const { t } = useTranslation('origine')
@@ -86,25 +83,7 @@ const OrigineDuMonde = () => {
                 </div>
             </div>
             <OriginePersonnel t={t} />
-            <div className="origine__logos-container">
-                <div className="origine__logos-row">
-                    <div className="origine__personnel-heading">
-                        {t("main.heading-1")}
-                    </div>
-                    <img src={calqLogo} className="origine__logo--calq" alt="Conseil des arts et des lettres du Québec" />
-                    <img src={ccaLogo} className="origine__logo--cca" alt="Canada Council for the Arts" />
-                    <img src={sacdLogo} className="origine__logo--sacd" alt="SACD Canada" />
-                </div>
-                <div className="origine__logos-row">
-                    <div className="origine__personnel-heading">
-                        {t("main.heading-2")}
-                    </div>
-                    <img src={goetheLogo} className="origine__logo--goethe" alt="Goethe-Institut" />
-                </div>
-                <div className="origine__logos-row">
-                    {t("main.paragraph-thanks")}
-                </div>
-            </div>
+            <SupportBanner />
             <Footer />
         </div>
     );

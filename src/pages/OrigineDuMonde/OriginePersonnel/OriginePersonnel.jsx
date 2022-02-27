@@ -185,7 +185,7 @@ const OriginePersonnel = ({ t }) => {
             <div className="personnel__row">La Société des arts et des compositeurs dramatiques (SACD)</div>
             <div className="personnel__row">Théâtre Hector-Charland</div>
             <div className="personnel__row">
-                {t("personnel.text-gratitude")}
+                {t("main.paragraph-thanks")}
             </div>
             <h4 className="personnel__heading">{t("personnel.heading-residencies")}</h4>
             <div className="personnel__row">

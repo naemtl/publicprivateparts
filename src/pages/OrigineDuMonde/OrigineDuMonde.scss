@@ -56,29 +56,6 @@
         width: 100%;
     }
 
-    &__logos-container {
-        background-color: #272528;
-        margin-bottom: $space-xxl;
-        padding: $space-lg;
-    }
-    &__logos-row {
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-        margin: 0 auto;
-        max-width: 900px;
-        padding: $space-lg;
-    }
-
-    &__logo--calq,
-    &__logo--cca,
-    &__logo--sacd,
-    &__logo--goethe {
-        height: 100%;
-        max-height: 60px;
-        max-width: 100%;
-    }
-
     &__media-row {
         display: flex;
         justify-content: space-evenly;
@@ -132,15 +109,6 @@
     @media (max-width: 768px) {
         &__image--full {
             margin-bottom: $space-xxs;
-        }
-
-        &__logos-row {
-            align-items: center;
-            flex-direction: column;
-            padding: 0;
-        }
-        &__logos-container img {
-            margin: $space-lg 0;
         }
 
         &__media-row {
