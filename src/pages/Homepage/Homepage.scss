@@ -42,8 +42,7 @@
 
     &__content {
         @include flex-center;
-        height: 80vh;
-        padding: $space-lg;
+        height: 93vh;
         position: relative;
         overflow: hidden;
     }
@@ -74,6 +73,12 @@
         }
     }
 
+    @media (max-width: 1440px) {
+        &__content {
+            height: 80vh;
+        }
+    }
+
     @media (max-width: 1024px) {
         &__content {
             height: 60vh;
@@ -85,6 +90,7 @@
             top: unset;
         }
     }
+
     @media (max-width: 768px) {
         &__title {
             font-size: 1.6rem;

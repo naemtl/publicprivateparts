@@ -53,7 +53,6 @@ const MailchimpForm = ({ status, message, onValidated }) => {
 
     return (
         <div className="mailchimp-form">
-            {displaySubmitMessage()}
             <form className="mailchimp-form__form" onSubmit={(e) => handleSubmit(e)}>
                 <input
                     className="mailchimp-form__input"
@@ -104,6 +103,7 @@ const MailchimpForm = ({ status, message, onValidated }) => {
                     value={t("subscribe.button")}
                 />
             </form>
+            {displaySubmitMessage()}
         </div>
     );
 };

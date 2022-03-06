@@ -22,7 +22,7 @@
     &__status-message {
         @include flex-center;
         height: 50px;
-        margin-bottom: $space-md;
+        margin: $space-md 0;
         padding: 0 $space-sm;
         width: 100%;
     }
