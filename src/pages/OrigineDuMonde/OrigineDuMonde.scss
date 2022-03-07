@@ -89,21 +89,22 @@
         min-height: 572px;
     }
     &__quote-container {
-        max-width: 823px;
+        max-width: 1200px;
         padding: 0 $space-lg;
+        text-shadow: 1px 1px 2px $black;
     }
     &__quote-text {
         font-family: $secondary-font-family;
         font-weight: $bold-font-weight;
         font-size: $text-xl * 2;
-        line-height: 70px;
+        line-height: 60px;
     }
 
     &__quote-author {
         font-size: $text-sm;
-        line-height: 4rem;
+        line-height: 25px;
         margin-top: $space-sm;
-        max-width: 374px;
+        max-width: 500px;
     }
 
     @media (max-width: 768px) {
@@ -131,6 +132,7 @@
 
         &__quote-text {
             font-size: $text-xxl;
+            line-height: 45px;
         }
 
         &__text {
@@ -157,7 +159,7 @@
 
         &__quote-text {
             font-size: $text-xl;
-            line-height: 50px;
+            line-height: 32px;
         }
     }
 }
