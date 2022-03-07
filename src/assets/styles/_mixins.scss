@@ -38,11 +38,6 @@
     }
 }
 
-@mixin header {
-    font-family: $secondary-font-family;
-    font-weight: $bold-font-weight;
-}
-
 @mixin input {
     width: 100%;
     margin-bottom: $space-lg;
@@ -80,6 +75,11 @@
     color: $site-color;
     font-size: $text-xxl;
     margin-top: $space-lg;
+}
+
+@mixin title-text {
+    font-family: $secondary-font-family;
+    font-weight: $bold-font-weight;
 }
 
 @mixin gradientHomepage {

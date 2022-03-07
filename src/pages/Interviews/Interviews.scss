@@ -11,7 +11,7 @@
     }
 
     &__header {
-        @include header;
+        @include title-text;
         @include flex-center;
         position: relative;
         height: 100vh;

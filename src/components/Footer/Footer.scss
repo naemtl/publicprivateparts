@@ -14,12 +14,12 @@
     }
 
     &__anchor--icon {
-        font-size: $text-xxl;
         margin: $space-xxs;
         padding: $space-xxs;
         width: 50px;
 
         svg {
+            font-size: $text-xxl;
             margin: 0 auto;
         }
     }

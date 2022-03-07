@@ -7,13 +7,12 @@
     background-size: cover;
     background-position: 50%;
     padding: 0 $space-lg;
-    height: 418px;
-    text-transform: uppercase;
+    height: 420px;
     line-height: 2em;
     width: 100%;
 
     &__title {
-        font-family: $secondary-font-family;
+        @include title-text;
         font-size: $text-xl * 2;
         text-align: center;
         text-transform: none;
@@ -22,12 +21,12 @@
     &__links {
         display: flex;
         justify-content: space-around;
-        margin: $space-sm auto 0;
+        margin-top: $space-sm;
         max-width: 260px;
         width: 100%;
 
         svg {
-            font-size: $text-xl;
+            font-size: $text-xxl;
         }
     }
 

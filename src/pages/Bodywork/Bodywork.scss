@@ -9,7 +9,7 @@
 
     &__header {
         @include flex-center;
-        @include header;
+        @include title-text;
         background: url(/assets/images/hands-on-head.jpg);
         background-size: cover;
         background-position: 50%;

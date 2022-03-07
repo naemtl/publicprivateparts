@@ -24,6 +24,7 @@
     &__banner--bodywork span {
         max-width: 520px;
         margin-bottom: $space-md;
+        text-shadow: $text-shadow;
         width: 100%;
     }
 
@@ -116,7 +117,7 @@
 
     &__banner--bodywork,
     &__heading {
-        font-family: $secondary-font-family;
+        @include title-text;
     }
 
     @media (max-width: 1024px) {
