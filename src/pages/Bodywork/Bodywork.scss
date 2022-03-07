@@ -9,16 +9,17 @@
 
     &__header {
         @include flex-center;
+        @include header;
         background: url(/assets/images/hands-on-head.jpg);
         background-size: cover;
         background-position: 50%;
         flex-direction: column;
         font-size: $text-lg * 2;
-        font-family: $secondary-font-family;
         line-height: 5rem;
         min-height: 100vh;
         padding: 0 $space-lg;
         text-align: center;
+        text-shadow: $text-shadow;
 
         div {
             font-size: $text-xxl;

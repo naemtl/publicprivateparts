@@ -5,10 +5,6 @@ import Footer from '../../components/Footer/Footer';
 import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
 
 import hollowBodyVid from "../../assets/videos/hollow-body.mp4";
-import calqLogo from "../../assets/svg/calq-logo.svg";
-import ccaLogo from "../../assets/svg/cca-logo.svg";
-import goetheLogo from "../../assets/svg/goethe-logo.svg";
-import sacdLogo from "../../assets/images/sacd-logo.png";
 
 import './Interviews.scss'
 import InterviewPersonnel from "./InterviewPersonnel/InterviewPersonnel";

@@ -11,10 +11,11 @@
     }
 
     &__header {
+        @include header;
         @include flex-center;
         position: relative;
         height: 100vh;
-        font-family: $secondary-font-family;
+        text-shadow: $text-shadow;
     }
     &__header-text {
         font-size: $text-xl * 2;

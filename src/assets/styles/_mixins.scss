@@ -38,6 +38,11 @@
     }
 }
 
+@mixin header {
+    font-family: $secondary-font-family;
+    font-weight: $bold-font-weight;
+}
+
 @mixin input {
     width: 100%;
     margin-bottom: $space-lg;
