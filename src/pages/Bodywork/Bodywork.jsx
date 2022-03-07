@@ -76,7 +76,7 @@ const Bodywork = () => {
                         <span>{t("list-session.integration.label")}</span> – {t("list-session.integration.desc")}
                     </li>
                 </ol>
-                <div>
+                <div className="bodywork__message">
                     <h2>
                         <em>{t("heading-message")}</em>
                     </h2>

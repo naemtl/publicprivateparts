@@ -1,11 +1,11 @@
 {
     "page-title": "Sesiones de Educación Sexual Somática y de Trabajo Corporal",
-    "page-title-gerard": "CON GERARD",
+    "page-title-gerard": "con Gerard",
     "heading-society": "La Relación de la Sociedad con el Placer",
     "heading-somatic": "¿Qué es la Educación Sexual Somática?",
     "heading-reasons": "15 Razones por las que las personas podrían ver un Sexological Bodyworker",
     "heading-session": "¿Qué pasa en una sesión?",
-    "heading-message": "MENSAJE DE GERARD",
+    "heading-message": "Mensaje de Gerard",
     "heading-pricing": "Precios para individuos",
     "list-reasons": {
         "accepting": "Aceptar y amar tu cuerpo, tu género y/o tu sexualidad",
@@ -30,7 +30,7 @@
             "desc": "Discutimos sobre tus intenciones, intereses, desafíos e historia sensual/sexual."
         },
         "body-scan": {
-            "label": "ESCANEO CORPORAL",
+            "label": "Escaneo corporal",
             "desc": "Te guío en un escaneo corporal para tomar conciencia de las sensaciones en tu cuerpo, como una práctica para aprender a tomar decisiones desde un lugar encarnado."
         },
         "options": {
@@ -60,6 +60,6 @@
     "paragraph-copyright": "Reservados todos los derechos.",
     "text-pricing-1": "1 sesión (90 min): <strong>$110</strong>",
     "text-pricing-2": "3 sesiones (90 min cada una): <strong>$300</strong>",
-    "anchor-contact": "CONTACTA A GERARD",
-    "anchor-book": "RESERVE UNA LLAMADA DE CONSULTA GRATUITA"
+    "anchor-contact": "Contacta a Gerard",
+    "anchor-book": "Reserve una llamada de consulta gratuita"
 }

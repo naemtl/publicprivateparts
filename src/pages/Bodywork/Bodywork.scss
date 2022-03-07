@@ -19,6 +19,10 @@
         min-height: 100vh;
         padding: 0 $space-lg;
         text-align: center;
+
+        div {
+            font-size: $text-xxl;
+        }
     }
 
     &__content {
@@ -31,6 +35,10 @@
         border-bottom: 1px solid $site-color;
         margin-bottom: $space-md;
         padding-bottom: $space-md;
+    }
+
+    &__message {
+        font-style: italic;
     }
 
     h2 {
@@ -55,6 +63,10 @@
 
         &__header {
             font-size: $text-xxl;
+
+            div {
+                font-size: $text-xl;
+            }
         }
     }
 }
