@@ -18,6 +18,7 @@
         width: 2em;
         height: 2px;
         background-color: $site-color;
+        box-shadow: $text-shadow;
     }
 
     &__burger::before,
