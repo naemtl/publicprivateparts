@@ -32,10 +32,17 @@
         padding: 0 $space-lg;
     }
 
-    &__contact {
+    &__text--accommodate {
         border-bottom: 1px solid $site-color;
-        margin-bottom: $space-md;
+        margin: $space-md 0;
         padding-bottom: $space-md;
+    }
+
+    &__text--consult {
+        a {
+            @include button;
+            text-decoration: none;
+        }
     }
 
     &__message {

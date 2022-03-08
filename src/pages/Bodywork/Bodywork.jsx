@@ -92,35 +92,19 @@ const Bodywork = () => {
                         {t("paragraph-message-3")}
                     </p>
                 </div>
-                <h2>
-                    {t("heading-pricing")}
+                <h2 className="bodywork__text--consult">
+                    <a href="https://calendly.com/gerardxreyes/10-min-consultation-call-appel">
+                        {t("anchor-book")}
+                    </a>
                 </h2>
-                <div>
-                    <div>
-                        <Trans t={t} i18nKey={"text-pricing-1"} />
-                    </div>
-                    <div>
-                        <Trans t={t} i18nKey={"text-pricing-2"} />
-                    </div>
+                <div className="bodywork__text--contact">
+                    <a href="mailto:gerardxreyes@gmail.com">
+                        {t("anchor-contact")}
+                    </a>
                 </div>
-                <p>
-                    {t('paragraph-pricing-1')}
-                </p>
-                <p>
+                <p className="bodywork__text--accommodate">
                     {t('paragraph-pricing-2')}
                 </p>
-                <div className="bodywork__contact">
-                    <div>
-                        <a href="mailto:gerardxreyes@gmail.com">
-                            {t("anchor-contact")}
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://calendly.com/gerardxreyes/10-min-consultation-call-appel">
-                            {t("anchor-book")}
-                        </a>
-                    </div>
-                </div>
                 <p>
                     {t("paragraph-covid")}
                 </p>
