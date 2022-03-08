@@ -23,6 +23,11 @@
         text-align: center;
         z-index: 2;
     }
+
+    &__heading {
+        display: flex;
+        flex-direction: column;
+    }
     &__video-header {
         width: 100%;
         height: 100%;

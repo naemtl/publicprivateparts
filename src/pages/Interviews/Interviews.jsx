@@ -29,7 +29,10 @@ const Interviews = () => {
             <div className="interviews__videos">
                 <div className="interviews__videos-row interviews__videos-row--left">
                     <div className="interviews__videos-text">
-                        <h2>{t("main.heading-caritia")}</h2>
+                        <h2 className="interviews__heading">
+                            <span>Caritia:</span>
+                            <span>{t("main.heading-caritia")}</span>
+                        </h2>
                         <p>
                             {t("main.paragraph-caritia")}
                         </p>
@@ -40,7 +43,10 @@ const Interviews = () => {
                 </div>
                 <div className="interviews__videos-row interviews__videos-row--right">
                     <div className="interviews__videos-text">
-                        <h2>{t("main.heading-valentin")}</h2>
+                        <h2 className="interviews__heading">
+                            <span>Valentin:</span>
+                            <span>{t("main.heading-valentin")}</span>
+                        </h2>
                         <p>{t("main.paragraph-valentin")}</p>
                     </div>
                     <div className="interviews__video-container">
@@ -49,7 +55,10 @@ const Interviews = () => {
                 </div>
                 <div className="interviews__videos-row interviews__videos-row--center">
                     <div className="interviews__videos-text">
-                        <h2>{t("main.heading-kay-1")}</h2>
+                        <h2 className="interviews__heading">
+                            <span>KAy:</span>
+                            <span>{t("main.heading-kay-1")}</span>
+                        </h2>
                         <p>{t("main.paragraph-kay-1")}</p>
                     </div>
                     <div className="interviews__video-container">
@@ -58,7 +67,10 @@ const Interviews = () => {
                 </div>
                 <div className="interviews__videos-row interviews__videos-row--left">
                     <div className="interviews__videos-text">
-                        <h2>{t("main.heading-kay-2")}</h2>
+                        <h2 className="interviews__heading">
+                            <span>KAy:</span>
+                            <span>{t("main.heading-kay-2")}</span>
+                        </h2>
                         <p>{t("main.paragraph-kay-2")}</p>
                     </div>
                     <div className="interviews__video-container">
@@ -67,7 +79,10 @@ const Interviews = () => {
                 </div>
                 <div className="interviews__videos-row interviews__videos-row--right">
                     <div className="interviews__videos-text">
-                        <h2>{t("main.heading-bishop")}</h2>
+                        <h2 className="interviews__heading">
+                            <span>Bishop:</span>
+                            <span>{t("main.heading-bishop")}</span>
+                        </h2>
                         <p>{t("main.paragraph-bishop")}</p>
                     </div>
                     <div className="interviews__video-container">
@@ -76,7 +91,10 @@ const Interviews = () => {
                 </div>
                 <div className="interviews__videos-row interviews__videos-row--center">
                     <div className="interviews__videos-text">
-                        <h2>{t("main.heading-jasko")}</h2>
+                        <h2 className="interviews__heading">
+                            <span>Jasko:</span>
+                            <span>{t("main.heading-jasko")}</span>
+                        </h2>
                         <p>{t("main.paragraph-jasko")}</p>
                     </div>
                     <div className="interviews__video-container">
@@ -85,7 +103,10 @@ const Interviews = () => {
                 </div>
                 <div className="interviews__videos-row interviews__videos-row--left">
                     <div className="interviews__videos-text">
-                        <h2>{t("main.heading-pina")}</h2>
+                        <h2 className="interviews__heading">
+                            <span>Pina:</span>
+                            <span>{t("main.heading-pina")}</span>
+                        </h2>
                         <p>{t("main.paragraph-pina")}</p>
                     </div>
                     <div className="interviews__video-container">
@@ -94,7 +115,10 @@ const Interviews = () => {
                 </div>
                 <div className="interviews__videos-row interviews__videos-row--right">
                     <div className="interviews__videos-text">
-                        <h2>{t("main.heading-mareen")}</h2>
+                        <h2 className="interviews__heading">
+                            <span>Mareen:</span>
+                            <span>{t("main.heading-mareen")}</span>
+                        </h2>
                         <p>{t("main.paragraph-mareen")}</p>
                     </div>
                     <div className="interviews__video-container">
