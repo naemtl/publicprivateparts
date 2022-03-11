@@ -113,9 +113,9 @@ const Bodywork = () => {
                         text={"gerardxreyes@gmail.com"}
                         onCopy={onCopyText}
                     >
-                        <button className="bodywork__text--contact">
+                        <span className="bodywork__text--contact">
                             {t("anchor-contact")}
-                        </button>
+                        </span>
                     </CopyToClipboard>
                     <div className={`${isCopied ? "bodywork__text-copied--show" : "bodywork__text-copied--hide"}`}>
                         email copied!

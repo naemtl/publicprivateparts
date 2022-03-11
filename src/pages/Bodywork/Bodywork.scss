@@ -51,18 +51,15 @@
         padding-bottom: $space-md;
     }
 
-    &__text--contact,
     &__text--consult a {
         @include button;
         text-decoration: none;
     }
 
     &__text--contact {
-        border: none;
-        font-style: normal;
-        padding: 0;
+        @include anchor;
+        cursor: pointer;
         text-decoration: underline;
-        height: unset;
     }
 
     &__text-copied--hide {
