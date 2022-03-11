@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { Trans, useTranslation } from "react-i18next";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 import Footer from '../../components/Footer/Footer';
 
@@ -6,6 +8,15 @@ import './Bodywork.scss'
 
 const Bodywork = () => {
     const { t } = useTranslation('bodywork')
+
+    const [isCopied, setIsCopied] = useState(false)
+
+    const onCopyText = () => {
+        setIsCopied(true);
+        setTimeout(() => {
+            setIsCopied(false)
+        }, 1000);
+    }
 
     return (
         <div className="bodywork">
@@ -92,15 +103,23 @@ const Bodywork = () => {
                         {t("paragraph-message-3")}
                     </p>
                 </div>
-                <h2 className="bodywork__text--consult">
+                <div className="bodywork__text--consult">
                     <a href="https://calendly.com/gerardxreyes/10-min-consultation-call-appel">
                         {t("anchor-book")}
                     </a>
-                </h2>
-                <div className="bodywork__text--contact">
-                    <a href="mailto:gerardxreyes@gmail.com">
-                        {t("anchor-contact")}
-                    </a>
+                </div>
+                <div className="bodywork__copy-clipboard">
+                    <CopyToClipboard
+                        text={"gerardxreyes@gmail.com"}
+                        onCopy={onCopyText}
+                    >
+                        <button className="bodywork__text--contact">
+                            {t("anchor-contact")}
+                        </button>
+                    </CopyToClipboard>
+                    <div className={`${isCopied ? "bodywork__text-copied--show" : "bodywork__text-copied--hide"}`}>
+                        email copied!
+                    </div>
                 </div>
                 <p className="bodywork__text--accommodate">
                     {t('paragraph-pricing-2')}

@@ -7,6 +7,21 @@
     font-size: $text-md;
     line-height: 2.5rem;
 
+    &__content {
+        margin: 0 auto;
+        max-width: 696px;
+        padding: 0 $space-lg;
+    }
+
+    &__copy-clipboard {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-top: $space-md;
+        max-width: 280px;
+        width: 100%;
+    }
+
     &__header {
         @include flex-center;
         @include title-text;
@@ -26,10 +41,8 @@
         }
     }
 
-    &__content {
-        margin: 0 auto;
-        max-width: 696px;
-        padding: 0 $space-lg;
+    &__message {
+        font-style: italic;
     }
 
     &__text--accommodate {
@@ -38,15 +51,26 @@
         padding-bottom: $space-md;
     }
 
-    &__text--consult {
-        a {
-            @include button;
-            text-decoration: none;
-        }
+    &__text--contact,
+    &__text--consult a {
+        @include button;
+        text-decoration: none;
     }
 
-    &__message {
-        font-style: italic;
+    &__text--contact {
+        border: none;
+        font-style: normal;
+        padding: 0;
+        text-decoration: underline;
+        height: unset;
+    }
+
+    &__text-copied--hide {
+        color: transparent;
+    }
+
+    &__text-copied--show {
+        color: $site-color-light;
     }
 
     h2 {
@@ -75,6 +99,11 @@
             div {
                 font-size: $text-xl;
             }
+        }
+
+        &__text--contact,
+        &__text--consult a {
+            font-size: $text-sm;
         }
     }
 }
