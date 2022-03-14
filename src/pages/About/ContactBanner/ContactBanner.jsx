@@ -7,7 +7,7 @@ const ContactBanner = ({ t }) => {
         <div className="contact-banner">
             <div className="contact-banner__title">{t("text-contact")}</div>
             <div className="contact-banner__email">
-                <a href="mailto:gerardxreyes@gmail.com">gerardxreyes@gmail.com</a>
+                gerardxreyes@gmail.com
             </div>
             <div className="contact-banner__links">
                 <a href="https://vimeo.com/gerardxreyes">

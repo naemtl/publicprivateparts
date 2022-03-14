@@ -32,9 +32,16 @@ const Homepage = () => {
                     <span className="homepage__spacer--header"></span>
                     <span>Parts</span>
                 </h1>
-                <video className="homepage__video--banner" src={`${isMobile === "mobile" ? landingBannerMobile : landingBannerCropped}`} autoPlay muted loop
-                    controlsList="nofullscreen" playsInline=""></video>
             </div>
+            <video
+                className="homepage__video--banner"
+                src={`${isMobile === "mobile" ? landingBannerMobile : landingBannerCropped}`}
+                autoPlay
+                muted
+                loop
+                controlsList="nofullscreen"
+                playsInline="">
+            </video>
             <div className="homepage__content">
                 <div className="homepage__text">
                     <p>
