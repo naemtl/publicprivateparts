@@ -40,7 +40,7 @@ const Homepage = () => {
                 muted
                 loop
                 controlsList="nofullscreen"
-                playsInline="">
+                playsInline>
             </video>
             <div className="homepage__content">
                 <div className="homepage__text">
@@ -52,7 +52,7 @@ const Homepage = () => {
                     </p>
                 </div>
                 <video className="homepage__video--about" src={breathingVid} autoPlay muted loop
-                    controlsList="nofullscreen" playsInline=""></video>
+                    controlsList="nofullscreen" playsInline></video>
             </div>
             <OriginePreview t={t} />
             <InterviewsPreview t={t} />

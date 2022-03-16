@@ -32,7 +32,7 @@ const OriginePreview = ({ t }) => {
                     </Link>
                 </div>
                 <video className="origine-preview__video" src={originePromo} autoPlay muted loop
-                    controlsList="nofullscreen" playsInline=""></video>
+                    controlsList="nofullscreen" playsInline></video>
             </div>
         </div>
     );
