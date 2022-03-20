@@ -25,14 +25,16 @@ const OrigineDuMonde = () => {
             <div className="origine__header">
                 <img className="origine__logo--header" src={odmLogo} alt='Origine du Monde' />
                 <div className="origine__video-overlay--header"></div>
-                <video className="origine__video-player--header"
+                <video
+                    className="origine__video-player--header"
                     src={purpleBodyVid}
                     autoPlay={true}
                     loop={true}
                     controls={false}
-                    defaultMuted
+                    muted
                     controlsList="nofullscreen"
-                    playsinline={true}>
+                    playsInline
+                >
                 </video>
             </div>
             <div className="origine__content">

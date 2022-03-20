@@ -25,9 +25,9 @@ const Interviews = () => {
                     autoPlay={true}
                     loop={true}
                     controls={false}
-                    defaultMuted
+                    muted
                     controlsList="nofullscreen"
-                    playsinline={true}
+                    playsInline
                 >
                 </video>
                 <div className="interviews__video-header-overlay"></div>

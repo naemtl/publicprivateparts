@@ -37,11 +37,12 @@ const Homepage = () => {
                 className="homepage__video--banner"
                 src={`${isMobile === "mobile" ? landingBannerMobile : landingBannerCropped}`}
                 autoPlay={true}
-                defaultMuted
+                muted
                 loop={true}
                 controlsList="nofullscreen"
                 controls={false}
-                playsinline={true}>
+                playsInline
+            >
             </video>
             <div className="homepage__content">
                 <div className="homepage__text">
@@ -56,11 +57,11 @@ const Homepage = () => {
                     className="homepage__video--about"
                     src={breathingVid}
                     autoPlay={true}
-                    defaultMuted
+                    muted
                     loop={true}
                     controlsList="nofullscreen"
                     controls={false}
-                    playsinline={true}
+                    playsInline
                 >
                 </video>
             </div>
