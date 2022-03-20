@@ -31,8 +31,17 @@ const OriginePreview = ({ t }) => {
                         {t('origine.anchor-1')}
                     </Link>
                 </div>
-                <video className="origine-preview__video" src={originePromo} autoPlay muted loop
-                    controlsList="nofullscreen" playsInline></video>
+                <video
+                    className="origine-preview__video"
+                    src={originePromo}
+                    autoPlay={true}
+                    loop={true}
+                    controls={false}
+                    muted
+                    controlsList="nofullscreen"
+                    playsInline
+                >
+                </video>
             </div>
         </div>
     );

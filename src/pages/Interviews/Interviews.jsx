@@ -19,7 +19,17 @@ const Interviews = () => {
                 <div className="interviews__header-text">
                     {t("main.heading-banner")}
                 </div>
-                <video className="interviews__video-header" src={hollowBodyVid} autoPlay muted loop controlsList="nofullscreen" playsInline></video>
+                <video
+                    className="interviews__video-header"
+                    src={hollowBodyVid}
+                    autoPlay={true}
+                    loop={true}
+                    controls={false}
+                    muted
+                    controlsList="nofullscreen"
+                    playsInline
+                >
+                </video>
                 <div className="interviews__video-header-overlay"></div>
             </div>
             <div className="interviews__intro">

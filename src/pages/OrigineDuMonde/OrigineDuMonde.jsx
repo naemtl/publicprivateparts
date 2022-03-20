@@ -27,9 +27,10 @@ const OrigineDuMonde = () => {
                 <div className="origine__video-overlay--header"></div>
                 <video className="origine__video-player--header"
                     src={purpleBodyVid}
-                    autoPlay
+                    autoPlay={true}
+                    loop={true}
+                    controls={false}
                     muted
-                    loop
                     controlsList="nofullscreen"
                     playsInline>
                 </video>

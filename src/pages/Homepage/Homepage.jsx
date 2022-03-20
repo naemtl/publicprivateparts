@@ -36,10 +36,11 @@ const Homepage = () => {
             <video
                 className="homepage__video--banner"
                 src={`${isMobile === "mobile" ? landingBannerMobile : landingBannerCropped}`}
-                autoPlay
+                autoPlay={true}
                 muted
-                loop
+                loop={true}
                 controlsList="nofullscreen"
+                controls={false}
                 playsInline>
             </video>
             <div className="homepage__content">
@@ -51,8 +52,17 @@ const Homepage = () => {
                         <Trans t={t} i18nKey={'intro.paragraph-2'} />
                     </p>
                 </div>
-                <video className="homepage__video--about" src={breathingVid} autoPlay muted loop
-                    controlsList="nofullscreen" playsInline></video>
+                <video
+                    className="homepage__video--about"
+                    src={breathingVid}
+                    autoPlay={true}
+                    muted
+                    loop={true}
+                    controlsList="nofullscreen"
+                    controls={false}
+                    playsInline
+                >
+                </video>
             </div>
             <OriginePreview t={t} />
             <InterviewsPreview t={t} />
