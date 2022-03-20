@@ -37,9 +37,9 @@ const OriginePreview = ({ t }) => {
                     autoPlay={true}
                     loop={true}
                     controls={false}
-                    muted
+                    defaultMuted
                     controlsList="nofullscreen"
-                    playsInline
+                    playsinline={true}
                 >
                 </video>
             </div>

@@ -30,9 +30,9 @@ const OrigineDuMonde = () => {
                     autoPlay={true}
                     loop={true}
                     controls={false}
-                    muted
+                    defaultMuted
                     controlsList="nofullscreen"
-                    playsInline>
+                    playsinline={true}>
                 </video>
             </div>
             <div className="origine__content">
