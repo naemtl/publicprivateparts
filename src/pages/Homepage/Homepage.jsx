@@ -68,8 +68,7 @@ const Homepage = () => {
             <OriginePreview t={t} />
             <InterviewsPreview t={t} />
             <AboutPreview t={t} />
-            <SubscribeHomepage t={t} />
-            <Footer backgroundColor={"footer--blue"} />
+            <Footer />
         </div>
     );
 };

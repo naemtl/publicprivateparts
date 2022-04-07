@@ -59,9 +59,10 @@
     &__media-row {
         display: flex;
         justify-content: space-evenly;
+        margin: 0 auto;
         max-width: 1440px;
-        width: 100%;
         padding: 0 $space-lg $space-lg;
+        width: 100%;
 
         .origine__video-column,
         img {
