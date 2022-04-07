@@ -30,6 +30,7 @@
 
     &__button {
         @include button;
+        font-size: $text-md;
     }
 
     &__content {
