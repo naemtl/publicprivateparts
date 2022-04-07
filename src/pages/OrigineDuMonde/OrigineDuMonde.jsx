@@ -72,7 +72,7 @@ const OrigineDuMonde = () => {
                     <div className="origine__quote-text">
                         {t("main.text-quote")}
                     </div>
-                    <div className="origine__quote-author">
+                    <div className="origine__quote-source">
                         <Trans t={t} i18nKey={"main.text-quote-source"} />
                     </div>
                 </div>
