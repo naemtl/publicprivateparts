@@ -34,9 +34,7 @@ const Bodywork = () => {
                     {t("paragraph-society-1")}
                 </p>
                 <p>
-                    <Trans t={t} i18nKey={"paragraph-society-2"}>
-                        In 2019, I graduated from the esteemed <a href="https://instituteofsomaticsexology.com">Institute of Somatic Sexology</a> in Australia to become a Certified Sexological Bodyworker. I warmly welcome people of all genders, races, cultures, religions, sexual orientations and relationship choices to work with me.
-                    </Trans>
+                    <Trans t={t} i18nKey={"paragraph-society-2"} />
                 </p>
                 <h2>
                     {t("heading-somatic")}
@@ -95,16 +93,14 @@ const Bodywork = () => {
                         <Trans t={t} i18nKey={"paragraph-message-1"} />
                     </p>
                     <p>
-                        <Trans t={t} i18nKey={"paragraph-message-2"}>
-                            In 2019, I became a Certified Sexological Bodyworker by completing a six-month course at the Australian <a href="https://instituteofsomaticsexology.com/">Institute of Somatic Sexology</a>, which was facilitated by master educators Deej Juventin and Uma Ayelet. In 2020, I continued my studies via a mentorship with Ron Stuart and Pono Stuart – two Certified Sexological Bodyworkers who are associated with the Institute for the Study of Somatic Sex Education in Victoria, Canada.
-                        </Trans>
+                        <Trans t={t} i18nKey={"paragraph-message-2"} />
                     </p>
                     <p>
                         {t("paragraph-message-3")}
                     </p>
                 </div>
                 <div className="bodywork__text--consult">
-                    <a href="https://calendly.com/gerardxreyes/10-min-consultation-call-appel">
+                    <a href="https://calendly.com/gerardxreyes/10-min-consultation-call-appel" rel="noreferrer" target="_blank">
                         {t("anchor-book")}
                     </a>
                 </div>

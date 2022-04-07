@@ -5,7 +5,6 @@ import useCheckMobileScreen from "../../hooks/useCheckMobileScreen";
 import AboutPreview from "./AboutPreview/AboutPreview";
 import InterviewsPreview from "./InterviewsPreview/InterviewsPreview";
 import OriginePreview from "./OriginePreview/OriginePreview";
-import SubscribeHomepage from "./SubscribeHomepage/SubscribeHomepage";
 
 import Footer from "../../components/Footer/Footer";
 
