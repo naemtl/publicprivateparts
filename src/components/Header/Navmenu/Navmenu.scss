@@ -85,7 +85,8 @@
     }
 
     @media (max-width: 768px) {
-        padding: $space-md;
+        padding: $space-sm;
+
         &__list-item {
             font-size: $text-xl;
         }
@@ -109,7 +110,7 @@
         &__list-item {
             font-size: $text-lg;
             line-height: $text-xl;
-            max-width: 250px;
+            max-width: 300px;
         }
 
         &__contact {
