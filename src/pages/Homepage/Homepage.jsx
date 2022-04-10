@@ -8,9 +8,11 @@ import OriginePreview from "./OriginePreview/OriginePreview";
 
 import Footer from "../../components/Footer/Footer";
 
+import breathingVid from "../../assets/videos/breathing.mp4";
 import landingBannerCropped from "../../assets/videos/landing-banner-cropped.mp4";
 import landingBannerMobile from "../../assets/videos/landing-banner-mobile.mp4";
-import breathingVid from "../../assets/videos/breathing.mp4";
+import landingBannerTransition from "../../assets/images/landing-banner-transition.jpeg";
+import landingSlash from "../../assets/svg/landing-slash.svg";
 
 import './Homepage.scss'
 
@@ -24,9 +26,9 @@ const Homepage = () => {
             <div className="homepage__header">
                 <h1 className="homepage__title">
                     <span>Public</span>
-                    <svg viewBox="0 0 205 214" height="214" xmlns="http://www.w3.org/2000/svg" className="homepage__spacer--header">
-                        <path d="M1 214 204 8" stroke="#9D8B02" strokeWidth={`${isMobile ? '1' : '0.3'}`} fill="none" fillRule="evenodd"></path>
-                    </svg>
+                    <div className="homepage__spacer--header">
+                        <img src={landingSlash} alt="Logo spacer" />
+                    </div>
                     <span>Private</span>
                     <span className="homepage__spacer--header"></span>
                     <span>Parts</span>
@@ -43,6 +45,7 @@ const Homepage = () => {
                 playsInline
             >
             </video>
+            <img src={landingBannerTransition} alt="Landing banner transition" />
             <div className="homepage__content">
                 <div className="homepage__text">
                     <p>
