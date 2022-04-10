@@ -18,7 +18,7 @@
         display: flex;
         justify-content: space-between;
         margin-top: $space-md;
-        max-width: 310px;
+        max-width: 400px;
         width: 100%;
     }
 
@@ -101,6 +101,16 @@
         &__text--contact,
         &__text--consult a {
             font-size: $text-sm;
+        }
+    }
+
+    @media (max-width: 425px) {
+        &__text--contact {
+            font-size: $text-xs;
+        }
+        
+        &__text--consult a {
+            font-size: $text-xxs;
         }
     }
 }
