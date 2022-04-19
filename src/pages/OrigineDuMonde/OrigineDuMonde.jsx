@@ -38,7 +38,7 @@ const OrigineDuMonde = () => {
                 </video>
             </div>
             <div className="origine__content">
-                <div className="origine__media-row origine__media-row--single">
+                <div className="origine__media-row origine__media-row--one">
                     <div className="origine__video-column">
                         <YoutubeVimeoEmbed embedId="bz1l-WIPnNY" />
                     </div>
@@ -46,7 +46,7 @@ const OrigineDuMonde = () => {
                 <div className="origine__text">
                     <Trans t={t} i18nKey={"main.paragraph-main-1"} />
                 </div>
-                <div className="origine__media-row">
+                <div className="origine__media-row origine__media-row--two">
                     <img src={odmImg1} alt="Origine Du Monde promo" />
                     <img src={odmImg2} alt="Origine Du Monde promo" />
                 </div>
@@ -58,11 +58,11 @@ const OrigineDuMonde = () => {
                 </div>
                 <img className="origine__image--full" src={odmImg3} alt="Origine Du Monde promo" />
 
-                <div className="origine__media-row">
+                <div className="origine__media-row origine__media-row--three">
                     <img src={odmImg4} alt="Origine Du Monde promo" />
                     <img src={odmImg5} alt="Origine Du Monde promo" />
                 </div>
-                <div className="origine__media-row">
+                <div className="origine__media-row origine__media-row--four">
                     <img src={odmImg6} alt="Origine Du Monde promo" />
                     <img src={odmImg7} alt="Origine Du Monde promo" />
                 </div>
@@ -77,7 +77,7 @@ const OrigineDuMonde = () => {
                     </div>
                 </div>
             </div>
-            <div className="origine__media-row">
+            <div className="origine__media-row origine__media-row--five">
                 <div className="origine__video-column">
                     <YoutubeVimeoEmbed embedId="VtbsfRlr2yU" />
                 </div>

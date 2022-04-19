@@ -15,7 +15,7 @@
     }
 
     &__image--full {
-        margin-bottom: $space-lg;
+        margin-top: 135px;
     }
 
     &__logo--header {
@@ -43,15 +43,16 @@
         width: 100%;
         z-index: 0;
     }
+
     &__content {
         @include flex-center;
         flex-direction: column;
-        margin: $space-xl 0;
+        margin: 120px 0 100px;
     }
+
     &__text {
         font-size: $text-md;
         line-height: 2.5rem;
-        margin-bottom: $space-lg;
         max-width: 696px;
         width: 100%;
     }
@@ -59,26 +60,62 @@
     &__media-row {
         display: flex;
         justify-content: space-evenly;
-        margin: 0 auto;
-        max-width: 1440px;
-        padding: 0 $space-lg $space-lg;
+        padding: 0 $space-lg;
         width: 100%;
 
-        .origine__video-column,
         img {
             width: 50%;
-            margin: 0 $space-sm;
+            margin: $space-sm;
+        }
+        
+        &--one {
+            justify-content: center;
+            margin-top: 0;
+            margin-bottom: 65px;
+            padding-bottom: 0;
+            
+            .origine__video-column {
+                width: 80%;
+            }
+        }
+        
+        &--two {
+            margin: 135px auto;
+            padding: 0;
+            img {
+                margin: 0;
+            }
+        }
+        
+        &--three {
+            margin-top: 100px;
+        }
+        
+        &--five {
+            display: flex;
+            justify-content: center;
+            background-color: #1e1b1e;
+            margin: 0 auto 120px;
+            padding: 100px 0;
+
+            .origine__video-column {
+                max-width: 600px;
+                width: 100%;
+
+                &:first-of-type {
+                    margin-right: $space-sm;
+                }
+            }
+        }
+
+        &--one,
+        &--three,
+        &--four {
+            max-width: 1440px;
         }
     }
 
-    &__media-row--single {
-        justify-content: center;
-
-        .origine__video-column {
-            width: 80%;
-        }
-    }
-
+        
     &__quote {
         @include flex-center;
         background: url(/assets/images/purple-stems.jpg);
@@ -86,7 +123,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         flex-direction: column;
-        margin-bottom: $space-lg;
         min-height: 572px;
     }
     &__quote-container {
@@ -124,6 +160,15 @@
                 margin-top: $space-md;
                 padding: 0;
                 width: 80%;
+            }
+
+            &--five {
+                padding: 100px 0;
+                .origine__video-column {
+                    &:first-of-type {
+                        margin-right: 0;
+                    }
+                }
             }
         }
 
