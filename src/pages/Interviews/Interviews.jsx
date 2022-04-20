@@ -71,7 +71,7 @@ const Interviews = () => {
                         </h2>
                         <p>{t("main.paragraph-kay-1")}</p>
                     </div>
-                    <div className="interviews__video-container">
+                    <div className="interviews__video-container--wide">
                         <YoutubeVimeoEmbed embedId="ddnhgNwgJNE" />
                     </div>
                 </div>
@@ -107,7 +107,7 @@ const Interviews = () => {
                         </h2>
                         <p>{t("main.paragraph-jasko")}</p>
                     </div>
-                    <div className="interviews__video-container">
+                    <div className="interviews__video-container--wide">
                         <YoutubeVimeoEmbed embedId="OQHlxfWdW9Q" />
                     </div>
                 </div>
