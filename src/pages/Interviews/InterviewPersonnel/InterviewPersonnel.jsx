@@ -3,7 +3,7 @@ import "../../../assets/styles/personnel.scss"
 const InterviewPersonnel = ({ t }) => {
     return (
         <div className="personnel">
-            <h2>{t("main.heading-production")}</h2>
+            <h2 className="personnel__heading">{t("main.heading-production")}</h2>
             <div className="personnel__row">
                 <span>{t("prod-roles.prod-director")}</span>
                 <span></span>

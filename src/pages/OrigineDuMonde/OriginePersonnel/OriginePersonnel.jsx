@@ -18,7 +18,7 @@ const OriginePersonnel = ({ t }) => {
                 <span>Gerard X Reyes</span>
             </div>
             <div className="personnel__row">
-                <h4>{t("personnel.heading-collab")}:</h4>
+                <h4 className="personnel__heading--collab">{t("personnel.heading-collab")}:</h4>
             </div>
             <h4 className="personnel__heading">{t("personnel.heading-video")}</h4>
             <div className="personnel__row">

@@ -5,9 +5,23 @@
     font-size: $text-sm;
     line-height: 27px;
     margin: 0 auto;
-    margin-bottom: $space-xxl;
+    margin-bottom: $space-xl * 4;
     max-width: 860px;
     padding: 0 $space-lg;
+
+    &__heading {
+        font-weight: $bold-font-weight;
+        margin-top: $space-xl + 8;
+        margin-bottom: $space-lg - 2;
+
+        &:first-of-type {
+            margin-top: unset
+        }
+    }
+
+    &__heading--collab {
+        margin-top: $space-lg - 2;
+    }
 
     &__link {
         @include anchor;
