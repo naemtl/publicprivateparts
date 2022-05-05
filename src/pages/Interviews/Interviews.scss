@@ -27,6 +27,9 @@
     &__heading {
         display: flex;
         flex-direction: column;
+        font-size: 4.6rem;
+        font-weight: $base-font-weight;
+        line-height: 48px;
     }
     &__video-header {
         width: 100%;
@@ -59,6 +62,7 @@
     &__intro {
         max-width: 730px;
         margin: 130px auto 150px;
+        font-size: $text-xl;
 
         p:first-of-type {
             margin-bottom: $space-sm;
@@ -79,6 +83,7 @@
     &__videos-text {
         flex: 1;
         font-size: $text-md;
+        line-height: 25px;
         max-width: 730px;
         margin-bottom: $space-lg;
     }
@@ -112,9 +117,7 @@
     }
     &__videos-text h2 {
         font-family: $secondary-font-family;
-        font-size: $text-xl * 2;
         letter-spacing: 2px;
-        line-height: 50px;
         margin-bottom: $space-md;
         padding: 0;
     }
