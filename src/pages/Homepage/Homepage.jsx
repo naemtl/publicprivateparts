@@ -3,6 +3,7 @@ import { Trans, useTranslation } from "react-i18next";
 import useCheckMobileScreen from "../../hooks/useCheckMobileScreen";
 
 import AboutPreview from "./AboutPreview/AboutPreview";
+import CalendarHomepage from "./CalendarHomepage/CalendarHomepage";
 import InterviewsPreview from "./InterviewsPreview/InterviewsPreview";
 import OriginePreview from "./OriginePreview/OriginePreview";
 
@@ -69,6 +70,7 @@ const Homepage = () => {
             </div>
             <OriginePreview t={t} />
             <InterviewsPreview t={t} />
+            <CalendarHomepage />
             <AboutPreview t={t} />
             <Footer />
         </div>
