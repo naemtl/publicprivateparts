@@ -126,10 +126,10 @@
         min-height: 572px;
     }
     &__quote-container {
-        max-width: 1200px;
+        max-width: 1250px;
         padding: 0 $space-lg;
-        text-shadow: $text-shadow;
     }
+
     &__quote-text {
         font-family: $secondary-font-family;
         font-weight: $bold-font-weight;
@@ -141,7 +141,7 @@
         font-size: $text-sm;
         line-height: 25px;
         margin-top: $space-sm;
-        max-width: 500px;
+        max-width: 580px;
     }
 
     @media (max-width: 768px) {
