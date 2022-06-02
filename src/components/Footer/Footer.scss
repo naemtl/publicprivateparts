@@ -31,12 +31,8 @@
         width: 205px;
     }
 
-    &__socials {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: $space-xxs;
-        width: 150px;
+    &__twitter-container {
+        margin-bottom: $space-sm;
     }
 
     a {
@@ -54,9 +50,5 @@
         height: 600px;
         margin-top: 0;
         text-align: center;
-
-        &__column {
-            width: unset;
-        }
     }
 }
