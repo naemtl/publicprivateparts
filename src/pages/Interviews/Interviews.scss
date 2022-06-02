@@ -96,11 +96,11 @@
             margin-bottom: 0;
         }
         &__videos-row--left &__videos-text {
-            margin-left: $space-lg;
+            margin-left: $space-lg * 3;
             order: 2;
         }
         &__videos-row--right &__videos-text {
-            margin-right: $space-lg;
+            margin-right: $space-lg * 3;
         }
         &__videos-row--center {
             flex-direction: column;
