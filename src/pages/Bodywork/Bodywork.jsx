@@ -27,25 +27,25 @@ const Bodywork = () => {
                 </div>
             </h1>
             <div className="bodywork__content">
-                <h2>
+                <h2 className="bodywork__heading bodywork__heading--society">
                     {t("heading-society")}
                 </h2>
-                <p>
+                <p className="bodywork__text">
                     {t("paragraph-society-1")}
                 </p>
-                <p>
+                <p className="bodywork__text">
                     <Trans t={t} i18nKey={"paragraph-society-2"} />
                 </p>
-                <h2>
+                <h2 className="bodywork__heading">
                     {t("heading-somatic")}
                 </h2>
-                <p>
+                <p className="bodywork__text">
                     <Trans t={t} i18nKey={"paragraph-somatic-1"} />
                 </p>
-                <p>
+                <p className="bodywork__text">
                     <Trans t={t} i18nKey={"paragraph-somatic-2"} />
                 </p>
-                <h2>
+                <h2 className="bodywork__heading">
                     {t("heading-reasons")}
                 </h2>
                 <ol>
@@ -65,7 +65,7 @@ const Bodywork = () => {
                     <li>{t("list-reasons.understanding-anal")}</li>
                     <li>{t("list-reasons.referred-by")}</li>
                 </ol>
-                <h2>
+                <h2 className="bodywork__heading">
                     {t("heading-session")}
                 </h2>
                 <ol>
@@ -86,20 +86,20 @@ const Bodywork = () => {
                     </li>
                 </ol>
                 <div className="bodywork__message">
-                    <h2>
+                    <h2 className="bodywork__heading">
                         <em>{t("heading-message")}</em>
                     </h2>
-                    <p>
+                    <p className="bodywork__text">
                         <Trans t={t} i18nKey={"paragraph-message-1"} />
                     </p>
-                    <p>
+                    <p className="bodywork__text">
                         <Trans t={t} i18nKey={"paragraph-message-2"} />
                     </p>
-                    <p>
+                    <p className="bodywork__text">
                         {t("paragraph-message-3")}
                     </p>
                 </div>
-                <div className="bodywork__text--consult">
+                <div className="bodywork__button--consult">
                     <a href="https://calendly.com/gerardxreyes/10-min-consultation-call-appel" rel="noreferrer" target="_blank">
                         {t("anchor-book")}
                     </a>
@@ -120,13 +120,13 @@ const Bodywork = () => {
                 <p className="bodywork__text--accommodate">
                     {t('paragraph-pricing-2')}
                 </p>
-                <p>
+                <p className="bodywork__text">
                     {t("paragraph-covid")}
                 </p>
-                <p>
+                <p className="bodywork__text">
                     <Trans t={t} i18nKey={"paragraph-thanks"} />
                 </p>
-                <p>
+                <p className="bodywork__text">
                     <em>&copy; 2014 ACSB. {t("paragraph-copyright")}</em>
                 </p>
             </div>

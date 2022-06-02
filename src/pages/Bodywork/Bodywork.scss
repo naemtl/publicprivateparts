@@ -7,6 +7,15 @@
     font-size: $text-md;
     line-height: 2.5rem;
 
+    &__button--consult {
+        margin: ($space-xs * 6) 0;
+
+        a {
+            @include button;
+            text-decoration: none;
+        }
+    }
+
     &__content {
         margin: 0 auto;
         max-width: 696px;
@@ -40,20 +49,27 @@
             font-size: $text-xxl;
         }
     }
+    
+    &__heading {
+        margin: ($space-lg * 2) 0 $space-lg;
+    }
 
+    &__heading--society {
+        margin: ($space-lg * 4) 0 $space-lg;
+    }
+    
     &__message {
         font-style: italic;
     }
 
-    &__text--accommodate {
-        border-bottom: 1px solid $site-color;
-        margin: $space-md 0;
-        padding-bottom: $space-md;
+    &__text {
+        margin-bottom: $space-md;
     }
 
-    &__text--consult a {
-        @include button;
-        text-decoration: none;
+    &__text--accommodate {
+        border-bottom: 1px solid $site-color;
+        margin: $space-md 0 ($space-xs * 6);
+        padding-bottom: $space-xs * 6;
     }
 
     &__text--contact {
@@ -68,14 +84,6 @@
 
     &__text-copied--show {
         color: $site-color-light;
-    }
-
-    h2 {
-        margin: $space-lg 0;
-    }
-
-    p {
-        margin-bottom: $space-md;
     }
 
     a {
@@ -99,7 +107,7 @@
         }
 
         &__text--contact,
-        &__text--consult a {
+        &__button--consult a {
             font-size: $text-sm;
         }
     }
@@ -109,7 +117,7 @@
             font-size: $text-xs;
         }
         
-        &__text--consult a {
+        &__button--consult a {
             font-size: $text-xxs;
         }
     }
