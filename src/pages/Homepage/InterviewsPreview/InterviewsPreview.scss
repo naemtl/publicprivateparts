@@ -28,7 +28,7 @@
     &__videos {
         display: flex;
         justify-content: space-evenly;
-        margin-bottom: $space-md;
+        margin: ($space-xl * 2) 0 $space-xl;
         width: 100%;
     }
 

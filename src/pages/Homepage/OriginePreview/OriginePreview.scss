@@ -57,6 +57,10 @@
     @media (max-width: 768px) {
         font-size: $text-sm;
 
+        &__button {
+            font-size: $text-md;
+        }
+
         &__section {
             align-items: center;
             flex-direction: column;
