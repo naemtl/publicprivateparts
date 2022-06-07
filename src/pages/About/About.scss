@@ -6,7 +6,6 @@
     font-family: $primary-font-family;
     font-size: $text-md;
     line-height: 2.5rem;
-    padding-top: 80px;
 
     &__banner--bodywork {
         @include flex-center;
@@ -34,16 +33,27 @@
     }
 
     &__content {
-        max-width: 1024px;
-        margin: 0 auto;
         padding: 0 $space-sm;
         width: 100%;
     }
+
+    &__header {
+        background-color: $black;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 80px;
+    }
+
     &__heading {
+        align-items: center;
+        display: flex;
         font-size: $text-xl * 2;
+        justify-content: space-evenly;
         line-height: 50px;
-        margin: $space-md 0;
-        text-align: center;
+        margin-bottom: $space-xl;
+        width: 480px;
+        // margin: $space-md 0;
+        // text-align: center;
     }
 
     &__image {
@@ -71,10 +81,7 @@
         &--profile,
         &--three,
         &--four,
-        &--five,
-        &--six,
-        &--seven,
-        &--eight {
+        &--five {
             width: 100%;
         }
     }
@@ -90,19 +97,16 @@
         margin: $space-md 0;
     }
 
-    &__row {
+    &__row,
+    &__row--ballroom, 
+    &__row--discovery,
+    &__row--pop,
+    &__row--intro {
         display: flex;
         justify-content: space-between;
         margin: $space-xxl auto;
         max-width: 1024px;
         width: 100%;
-
-        &:nth-of-type(even) {
-            flex-direction: row;
-        }
-        &:nth-of-type(odd) {
-            flex-direction: row-reverse;
-        }
 
         &--text {
             max-width: 465px;
@@ -113,6 +117,36 @@
             &:first-of-type {
                 margin-bottom: $space-md;
             }
+        }
+    }
+
+    &__row--ballroom {
+        flex-direction: column;
+        max-width: 680px;
+    }
+
+    &__row--discovery {
+        flex-direction: row;
+        margin-top: $space-md;
+    } 
+    
+    &__row--pop {
+        margin-bottom: $space-md;
+    }
+
+    &__row--intro {
+        max-width: 630px;
+        text-align: center;
+    }
+
+    &__image-row {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        max-width: 1400px;
+        img {
+            max-width: 640px;
+            width: 100%;
         }
     }
 
