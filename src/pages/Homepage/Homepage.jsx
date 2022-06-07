@@ -70,7 +70,6 @@ const Homepage = () => {
             </div>
             <OriginePreview t={t} />
             <InterviewsPreview t={t} />
-            <CalendarHomepage />
             <AboutPreview t={t} />
             <Footer />
         </div>
