@@ -28,7 +28,7 @@ const About = () => {
                 <div className="about__row--intro">
                     <Trans t={t} i18nKey={"paragraph-intro"} />
                 </div>
-                <div className="about__row">
+                <div className="about__row--chouinard">
                     <div className="about__row--text">
                         <Trans t={t} i18nKey={"paragraph-chouinard"} />
                     </div>
@@ -37,14 +37,14 @@ const About = () => {
                         <img className="about__image--two" alt='Gerard' src={gerardTwoImg} />
                     </div>
                 </div>
-                <div className="about__row">
-                    <img className="about__image--four" alt="Gerard" src={gerardFourImg} />
-                </div>
-                <div className="about__row">                        
-                    <Trans t={t} i18nKey={"paragraph-pop"} />
+                <div className="about__row--pop-1">
+                    <img className="about__image--three" alt="Gerard" src={gerardThreeImg} />
+                    <div className="about__row--text">
+                        <Trans t={t} i18nKey={"paragraph-pop"} />
+                    </div>                     
                 </div>
                 <div className="about__image-row">
-                    <img className="about__image--three" alt="Gerard" src={gerardThreeImg} />
+                    <img className="about__image--four" alt="Gerard" src={gerardFourImg} />
                     <img className="about__image--five" alt="Gerard" src={gerardFiveImg} />
                 </div>
                 <div className="about__row--ballroom">
@@ -53,7 +53,7 @@ const About = () => {
                     </p>
                     <p>{t("paragraph-bodywork")}</p>
                 </div>
-                <div className="about__row--pop">
+                <div className="about__row--pop-2">
                     <div className="about__row--text">
                         <div>
                             <strong><em>{t("text-pop-1")}</em></strong>
