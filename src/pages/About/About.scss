@@ -60,18 +60,21 @@
         }
 
         &--one {
-            height: 350px;
+            max-height: 350px;
+            height: 100%;
         }
 
         &--two {
-            height: 200px;
+            height: 160px;
             position: absolute;
             top: 200px;
             right: 0px;
-            left: 50px;
+            left: -10px;
         }
+
         &--three {
             width: 50%;
+            margin-right: $space-xl * 2;
             padding-right: $space-sm;
         }
 
@@ -91,10 +94,12 @@
     }
 
     &__image-overlap {
-        position: relative;
-        width: 100%;
         display: flex;
         justify-content: flex-end;
+        margin: 0 auto;
+        position: relative;
+        width: -moz-fit-content;
+        width: fit-content;
     }
 
     &__link-container {
@@ -129,6 +134,8 @@
 
     &__row--chouinard {
         div:first-of-type {
+            margin-right: $space-xl * 2;
+            padding-right: $space-sm;
             width: 50%;
         }
     }
@@ -142,10 +149,18 @@
         flex-direction: row;
         margin-top: $space-md;
     } 
+
+    &__row--discovery &__row--text:first-of-type {
+        margin-right: $space-xxl;
+    }
+
+    &__row--discovery &__row--text {
+        width: 50%;
+    } 
     
     &__row--pop-1 {
         align-items: center;
-        margin-bottom: $space-md;
+        margin: ($space-xl * 3) auto ($space-lg * 3);
         div {
             width: 50%;
         }
@@ -176,10 +191,7 @@
         @include title-text;
     }
 
-    @media (max-width: 1024px) {
-        &__content {
-            padding: 0 $space-md;
-        }
+    @media (max-width: 1100px) {
 
         &__header {
             flex-direction: column-reverse;
@@ -190,11 +202,24 @@
             flex-direction: column;
             justify-content: center;
             width: 100%;
+
+            span {
+                margin-top: $space-xs;
+            }
+        }
+
+        &__image--profile {
+            margin: 0 auto;
+            padding: 0 $space-sm;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        &__content {
+            padding: 0 $space-md;
         }
 
         &__image-row {
-            flex-direction: column;
-
             img:first-of-type {
                 margin-bottom: $space-md;
             }
@@ -204,9 +229,35 @@
             }
         }
 
-        &__image--profile {
-            margin: 0 auto;
-            padding: 0 $space-sm;
+        &__image--two {
+            height: 200px;
+            position: absolute;
+            left: -20px;
+        }
+
+        &__image--three {
+            margin-right: 0;
+            margin-bottom: $space-md;
+            width: 80%;
+        }
+
+        &__row--chouinard {
+            div:first-of-type {
+                margin: 0 auto $space-md;
+            }
+        }
+
+        &__row--pop-1,
+        &__row--chouinard {
+            div:first-of-type {
+                width: 80%;
+            }
+        }
+
+        &__row--chouinard,
+        &__row--pop-1,
+        &__image-row {
+            flex-direction: column;
         }
         
     }
@@ -227,18 +278,71 @@
         }
 
         &__image-row {
+            padding: 0;
             img { 
                 width: 100%;
             }
         }
 
+        &__image--one {
+            max-height: unset;
+            width: 100%;
+        }
+
+        &__image--two {
+            display: none;
+        }
+
         &__image--three {
-            padding-right: 0;
             margin-bottom: $space-md;
+            margin-right: 0;
+            padding-right: 0;
+        }
+
+        &__link-container {
+            margin: 20px auto;
+            max-width: 300px;
+            width: 100%;
         }
 
         &__row--pop-1 {
+            margin: ($space-xl * 2) 0;
+            div:first-of-type, img {
+                width: 100%;
+            }
+        }
+
+        &__row--chouinard {
+            div:first-of-type {
+                width: 100%;
+            }
+        }
+
+        &__row--discovery {
+            align-items: center;
+        }
+
+        &__row--discovery &__row--text {
+            width: 100%;
+        }
+
+        &__row--discovery &__row--text:first-of-type {
+            margin: 0;
+        }
+
+        &__row--pop-2 {
+            justify-content: center;
+        }
+
+        &__row--pop-1, 
+        &__row--discovery {
             flex-direction: column;
+        }
+    }
+
+    @media (max-width: 425px) {
+        .about__content {
+            padding: 0 $space-sm;
         }
     }
 }
