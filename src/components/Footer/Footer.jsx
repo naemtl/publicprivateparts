@@ -25,7 +25,7 @@ const Footer = ({ backgroundColor }) => {
             <div className="footer__column">
                 <div>
                     <div className="footer__label">{t("text-follow")} Public / Private Parts</div>
-                    <a className="footer__anchor--text" href="/">@publicprivateparts</a>
+                    <a className="footer__anchor--text" href="https://www.instagram.com/public_private_parts/">@public_private_parts</a>
                 </div>
             </div>
         </div>
