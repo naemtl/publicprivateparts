@@ -4,21 +4,17 @@ import "../../../assets/styles/personnel.scss"
 const OriginePersonnel = ({ t }) => {
     return (
         <div className="personnel">
-            <h3 className="personnel__heading">
+            <h3 className="personnel__heading personnel__heading--main">
                 <em>{t("personnel.heading-main")}</em>
             </h3>
             <div className="personnel__row">
-                <span>{t("personnel.roles.co-prod")}</span>
-                <span></span>
-                <span>Festival Transamériques</span>
+                <span><em>{t("personnel.roles.co-prod")} Festival Transamériques</em></span>
             </div>
+            {/* // FIXME: remove this and check checklist */}
             <div className="personnel__row">
                 <span>{t("personnel.roles.director-choreog")}</span>
                 <span></span>
                 <span>Gerard X Reyes</span>
-            </div>
-            <div className="personnel__row">
-                <h4 className="personnel__heading--collab">{t("personnel.heading-collab")}:</h4>
             </div>
             <h4 className="personnel__heading">{t("personnel.heading-video")}</h4>
             <div className="personnel__row">
@@ -156,7 +152,7 @@ const OriginePersonnel = ({ t }) => {
             <div className="personnel__row">
                 <span>{t("personnel.roles.web-dev")}</span>
                 <span></span>
-                <span>Valentin Tsatskin</span>
+                <span>Matthew Stinis</span>
             </div>
             <div className="personnel__row">
                 <span>{t("personnel.roles.community-translation-es")}</span>
@@ -169,7 +165,7 @@ const OriginePersonnel = ({ t }) => {
                 <span>Tiah Coxon, Alice Renucci</span>
             </div>
             <div className="personnel__row">
-                <span>{t("personnel.roles.comms-videographer")}</span>
+                <span style={{textTransform: 'uppercase'}}>{t("personnel.roles.comms-videographer")}</span>
                 <span></span>
                 <span>Juan David Padilla Vega</span>
             </div>
@@ -178,15 +174,6 @@ const OriginePersonnel = ({ t }) => {
                 <span></span>
                 <span>Denis Farley</span>
             </div>
-            <h4 className="personnel__heading">{t("personnel.heading-support")}</h4>
-            <div className="personnel__row">Canada Council for the Arts</div>
-            <div className="personnel__row">Le Conseil des arts et des lettres du Québec</div>
-            <div className="personnel__row">Goethe Institut-Montréal</div>
-            <div className="personnel__row">La Société des arts et des compositeurs dramatiques (SACD)</div>
-            <div className="personnel__row">Théâtre Hector-Charland</div>
-            <div className="personnel__row">
-                {t("main.paragraph-thanks")}
-            </div>
             <h4 className="personnel__heading">{t("personnel.heading-residencies")}</h4>
             <div className="personnel__row">
                 Fabrik Potsdam, Tanzfabrik Berlin, Tanzhaus Zürich, Grand Studio (Bruxelles), Espace Marie Chouinard, Par B.L.eux/Benoît Lachambre, Compagnie Flak/José Navas, Montréal arts interculturels, Département de danse de l'UQAM, Musée d'art de Joliette
@@ -194,7 +181,7 @@ const OriginePersonnel = ({ t }) => {
             <h4 className="personnel__heading">{t("personnel.heading-international-distro")}</h4>
             <div>
                 <Trans t={t} i18nKey={"personnel.text-contact-plan-b"}>
-                    PLEASE CONTACT <a className="personnel__link" href="mailto:info@planbhamburg.com">PLAN B</a> (HAMBURG, GERMANY) - <em>CREATIVE AGENCY FOR PERFORMING ARTS</em>
+                    PLEASE CONTACT <a className="personnel__link" href="http://planbhamburg.com/#artists">PLAN B</a> (HAMBURG, GERMANY) - <em>CREATIVE AGENCY FOR PERFORMING ARTS</em>
                 </Trans>
             </div>
         </div>

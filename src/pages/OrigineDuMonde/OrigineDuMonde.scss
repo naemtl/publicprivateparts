@@ -152,7 +152,6 @@
         &__media-row {
             align-items: center;
             flex-direction: column;
-            margin-bottom: $space-md;
             padding: 0;
 
             img,
@@ -174,6 +173,10 @@
 
         &__quote {
             margin-bottom: 0;
+        }
+
+        &__quote-source {
+            text-align: right;
         }
 
         &__quote-text {
@@ -203,9 +206,14 @@
             height: 400px;
         }
 
+        &__quote-container {
+            padding: 0 $space-xs;
+        }
+
         &__quote-text {
-            font-size: $text-xl;
+            font-size: $text-lg;
             line-height: 32px;
         }
+
     }
 }

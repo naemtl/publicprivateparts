@@ -1,6 +1,7 @@
 @import "/src/assets/styles/common";
 
 .personnel {
+    background-color: #222023;
     font-family: $primary-font-family;
     font-size: $text-sm;
     line-height: 27px;
@@ -13,10 +14,15 @@
         font-weight: $bold-font-weight;
         margin-top: $space-xl + 8;
         margin-bottom: $space-lg - 2;
+        text-transform: uppercase;
 
         &:first-of-type {
             margin-top: unset
         }
+    }
+
+    &__heading--main {
+        text-transform: unset;
     }
 
     &__heading--collab {
