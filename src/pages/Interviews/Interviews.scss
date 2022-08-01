@@ -15,7 +15,6 @@
         @include flex-center;
         position: relative;
         height: 100vh;
-        text-shadow: $text-shadow;
     }
     &__header-text {
         font-size: $text-xl * 2;
@@ -147,17 +146,18 @@
 
     @media (max-width: 768px) {
         font-size: $text-sm;
-
+        
         &__header {
             height: 400px;
             font-family: $secondary-font-family;
         }
-
+        
         &__header-text {
             font-size: $text-lg * 2;
         }
-
+        
         &__intro {
+            font-size: $text-sm;
             padding: 0 $space-sm;
         }
 

@@ -33,6 +33,10 @@
         @include anchor;
     }
 
+    &__role--interview {
+        text-transform: capitalize;
+    }
+
     &__row {
         display: flex;
         width: 100%;
@@ -55,7 +59,7 @@
 
     @media (max-width: 1024px) {
         max-width: 660px;
-        padding: 0 $space-sm;
+        padding: $space-sm;
 
         &__row {
             flex-direction: column;
