@@ -10,27 +10,21 @@ const OriginePersonnel = ({ t }) => {
             <div className="personnel__row">
                 <span><em>{t("personnel.roles.co-prod")} Festival Transamériques</em></span>
             </div>
-            {/* // FIXME: remove this and check checklist */}
-            <div className="personnel__row">
-                <span>{t("personnel.roles.director-choreog")}</span>
-                <span></span>
-                <span>Gerard X Reyes</span>
-            </div>
             <h4 className="personnel__heading">{t("personnel.heading-video")}</h4>
             <div className="personnel__row">
-                <span>{t("personnel.roles.editor-video")}</span>
+                <span>{t("personnel.roles.director")}</span>
                 <span></span>
-                <span>Julie Favreau</span>
-            </div>
-            <div className="personnel__row">
-                <span>{t("personnel.roles.video-install")}</span>
-                <span></span>
-                <span>Stéphane Gladyszewski</span>
+                <span>Gerard X Reyes</span>
             </div>
             <div className="personnel__row">
                 <span>{t("personnel.roles.co-director")}</span>
                 <span></span>
                 <span>Poppy Sanchez</span>
+            </div>
+            <div className="personnel__row">
+                <span>{t("personnel.roles.editor-video")}</span>
+                <span></span>
+                <span>Julie Favreau</span>
             </div>
             <div className="personnel__row">
                 <span>{t("personnel.roles.performers")}</span>
@@ -63,6 +57,11 @@ const OriginePersonnel = ({ t }) => {
                 <span>Kaitlyn Smeeth</span>
             </div>
             <div className="personnel__row">
+                <span>{t("personnel.roles.video-install")}</span>
+                <span></span>
+                <span>Stéphane Gladyszewski</span>
+            </div>
+            <div className="personnel__row">
                 <span>{t("personnel.roles.sound-editor")}</span>
                 <span></span>
                 <span>Devon Bate</span>
@@ -93,6 +92,11 @@ const OriginePersonnel = ({ t }) => {
                 <span>Elisa Hengen</span>
             </div>
             <h4 className="personnel__heading">{t("personnel.heading-live-performance")}</h4>
+            <div className="personnel__row">
+                <span>{t("personnel.roles.choreog")}</span>
+                <span></span>
+                <span>Gerard X Reyes</span>
+            </div>
             <div className="personnel__row">
                 <span>{t("personnel.roles.live-performers")}</span>
                 <span></span>

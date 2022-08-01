@@ -19,7 +19,7 @@
         "heading-international-distro": "International distribution",
         "roles": {
             "co-prod": "Co-production with",
-            "director-choreog": "Director, Choreographer Interviewer, Co-editor",
+            "director": "Director, Co-editor, Interviewer",
             "editor-video": "Editor, Video dramaturgical advice",
             "video-install": "Video installation, Projection and Programming",
             "co-director": "Co-director",
@@ -35,6 +35,7 @@
             "subtitles-fr": "Subtitles Translation (French)",
             "camera-interviews": "Camera operator (interviews)",
             "vid-prod-manager": "Production Manager",
+            "choreog": "Choreographer",
             "live-performers": "Performers",
             "movement-research": "Movement research assistant",
             "drama-advice": "Dramaturgical advice",

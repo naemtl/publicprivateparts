@@ -19,7 +19,7 @@
         "heading-international-distro": "Distribution Internationale",
         "roles": {
             "co-prod": "Coproduction avec",
-            "director-choreog": "RÉALISATEUR, CHORÉGRAPHE, INTERVIEWEUR, CO-MONTEUR",
+            "director": "RÉALISATEUR, CO-MONTEUR, INTERVIEWEUR",
             "editor-video": "MONTEUSE, CONSEILS EN DRAMATURGIE",
             "video-install": "INSTALLATION VIDÉO, PROJECTION ET PROGRAMMATION",
             "co-director": "CO-RÉALISATRICE",
@@ -35,6 +35,7 @@
             "subtitles-fr": "TRADUCTION SOUS-TITRES (FRANÇAIS)",
             "camera-interviews": "OPÉRATEUR (ENTREVUES)",
             "vid-prod-manager": "DIRECTRICE DE PRODUCTION",
+            "choreog": "CHORÉGRAPHE",
             "live-performers": "INTERPRÈTES",
             "movement-research": "ASSISTANTE DE RECHERCHE",
             "drama-advice": "CONSEILS EN DRAMATURGIE",
