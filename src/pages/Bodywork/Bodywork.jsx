@@ -99,11 +99,12 @@ const Bodywork = () => {
                         {t("paragraph-message-3")}
                     </p>
                 </div>
-                <div className="bodywork__button--consult">
-                    <a href="https://calendly.com/gerardxreyes/10-min-consultation-call-appel" rel="noreferrer" target="_blank">
-                        {t("anchor-book")}
-                    </a>
-                </div>
+                <p className="bodywork__text--accommodate">
+                    <em>
+                        {t('paragraph-pricing-2')}
+                    </em>
+                </p>
+                {/* FIXME: fix alignment on mobile */}
                 <div className="bodywork__copy-clipboard">
                     <CopyToClipboard
                         text={"gerardxreyes@gmail.com"}
@@ -117,9 +118,11 @@ const Bodywork = () => {
                         email copied!
                     </div>
                 </div>
-                <p className="bodywork__text--accommodate">
-                    {t('paragraph-pricing-2')}
-                </p>
+                <div className="bodywork__button--consult">
+                    <a href="https://calendly.com/gerardxreyes/10-min-consultation-call-appel" rel="noreferrer" target="_blank">
+                        {t("anchor-book")}
+                    </a>
+                </div>
                 <p className="bodywork__text">
                     {t("paragraph-covid")}
                 </p>

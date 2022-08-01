@@ -8,7 +8,9 @@
     line-height: 2.5rem;
 
     &__button--consult {
+        border-bottom: 1px solid $site-color;
         margin: ($space-xs * 6) 0;
+        padding-bottom: $space-xs * 6;
 
         a {
             @include button;
@@ -67,9 +69,7 @@
     }
 
     &__text--accommodate {
-        border-bottom: 1px solid $site-color;
-        margin: $space-md 0 ($space-xs * 6);
-        padding-bottom: $space-xs * 6;
+        margin: $space-md 0 ($space-xs * 6)
     }
 
     &__text--contact {
@@ -95,7 +95,7 @@
 
         &__content,
         &__header {
-            padding: 0 $space-sm;
+            padding: 0 $space-xs;
         }
 
         &__header {
@@ -114,11 +114,14 @@
 
     @media (max-width: 425px) {
         &__text--contact {
-            font-size: $text-xs;
+            font-size: $text-xxs;
         }
         
-        &__button--consult a {
-            font-size: $text-xxs;
+        &__button--consult {
+            @include flex-center;
+            a {
+                font-size: $text-xxs;
+            }
         }
     }
 }
