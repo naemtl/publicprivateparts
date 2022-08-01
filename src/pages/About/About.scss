@@ -111,7 +111,7 @@
     &__row--ballroom, 
     &__row--discovery,
     &__row--pop-1,
-    &__row--pop-2,
+    &__row--pop-discovery,
     &__row--intro {
         display: flex;
         justify-content: space-between;
@@ -168,6 +168,11 @@
 
     &__row--pop-2 {
         margin: $space-md 0;
+    }
+
+    &__row--pop-discovery {
+        margin-top: $space-lg;
+        flex-direction: column;
     }
 
     &__row--intro {

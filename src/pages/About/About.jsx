@@ -53,32 +53,34 @@ const About = () => {
                     <img className="about__image--four" alt="Gerard" src={gerardFourImg} />
                     <img className="about__image--five" alt="Gerard" src={gerardFiveImg} />
                 </div>
-                <div className="about__row--pop-2">
-                    <div className="about__row--text">
-                        <div>
-                            <strong><em>{t("text-pop-1")}</em></strong>
-                        </div>
-                        <div> – <em>{t("text-pop-2")}</em></div>
-                    </div>
-                </div>
-                <div className="about__row--discovery">
-                    <div className="about__row--text">
-                        <p>
-                            {t("text-discovery-1")}
-                        </p>
-                    </div>
-                    <div className="about__row--text">
-                        <p>
-                            {t("text-discovery-2")}
-                            <div className="about__link-container">
-                                <a href="https://vimeo.com/156622742" className="about__button" rel="noreferrer" target="_blank">
-                                    {t("anchor-trailer")} 1
-                                </a>
-                                <a href="https://www.youtube.com/watch?v=2O4fdZZQV8Q" className="about__button" rel="noreferrer" target="_blank">
-                                    {t("anchor-trailer")} 2
-                                </a>
+                <div className="about__row--pop-discovery">
+                    <div className="about__row--pop-2">
+                        <div className="about__row--text">
+                            <div>
+                                <strong><em>{t("text-pop-1")}</em></strong>
                             </div>
-                        </p>
+                            <div> – <em>{t("text-pop-2")}</em></div>
+                        </div>
+                    </div>
+                    <div className="about__row--discovery">
+                        <div className="about__row--text">
+                            <p>
+                                {t("text-discovery-1")}
+                            </p>
+                        </div>
+                        <div className="about__row--text">
+                            <p>
+                                {t("text-discovery-2")}
+                                <div className="about__link-container">
+                                    <a href="https://vimeo.com/156622742" className="about__button" rel="noreferrer" target="_blank">
+                                        {t("anchor-trailer")} 1
+                                    </a>
+                                    <a href="https://www.youtube.com/watch?v=2O4fdZZQV8Q" className="about__button" rel="noreferrer" target="_blank">
+                                        {t("anchor-trailer")} 2
+                                    </a>
+                                </div>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
