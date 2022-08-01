@@ -11,12 +11,29 @@
     line-height: 2em;
     width: 100%;
 
+    &__text-copied {
+        text-align: center;
+    }
+
+    &__text-copied--hide {
+        color: transparent;
+    }
+
+    &__text-copied--show {
+        color: $site-color-light;
+    }
+
     &__title {
         @include title-text;
+        cursor: pointer;
         font-size: $text-xl * 2;
         text-align: center;
         text-transform: none;
         margin-bottom: $space-md;
+
+        &:hover {
+            color: $site-color-light;
+        }
     }
 
     a {
@@ -24,7 +41,15 @@
         padding: $space-xs;
     }
 
+    @media (max-width: 768px) {
+        &__title {
+            font-size: $text-xl * 1.5;
+        }
+    }
+
     @media (max-width: 425px) {
+        padding: 0 $space-sm;
+
         &__email {
             font-size: $text-sm;
         }
