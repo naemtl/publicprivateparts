@@ -43,15 +43,15 @@ const About = () => {
                         <Trans t={t} i18nKey={"paragraph-pop"} />
                     </div>                     
                 </div>
-                <div className="about__image-row">
-                    <img className="about__image--four" alt="Gerard" src={gerardFourImg} />
-                    <img className="about__image--five" alt="Gerard" src={gerardFiveImg} />
-                </div>
                 <div className="about__row--ballroom">
                     <p>
                         <Trans t={t} i18nKey={"paragraph-ballroom"} />
                     </p>
                     <p>{t("paragraph-bodywork")}</p>
+                </div>
+                <div className="about__image-row">
+                    <img className="about__image--four" alt="Gerard" src={gerardFourImg} />
+                    <img className="about__image--five" alt="Gerard" src={gerardFiveImg} />
                 </div>
                 <div className="about__row--pop-2">
                     <div className="about__row--text">
@@ -83,7 +83,7 @@ const About = () => {
                 </div>
             </div>
             <div className="about__banner--bodywork">
-                <span>{t("text-somatic")}</span>
+                <span>{t("text-somatic")} Gerard</span>
                 <Link to="/bodywork" className="about__button">
                     {t("anchor-read-more")}
                 </Link>

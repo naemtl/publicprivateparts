@@ -143,6 +143,7 @@
     &__row--ballroom {
         flex-direction: column;
         max-width: 680px;
+        margin-top: $space-md;
     }
 
     &__row--discovery {
@@ -167,12 +168,11 @@
     }
 
     &__row--pop-2 {
-        margin-bottom: $space-md;
+        margin: $space-md 0;
     }
 
     &__row--intro {
         max-width: 630px;
-        text-align: center;
     }
 
     &__image-row {
@@ -306,7 +306,8 @@
         }
 
         &__row--pop-1 {
-            margin: ($space-xl * 2) 0;
+            margin: $space-md 0;
+
             div:first-of-type, img {
                 width: 100%;
             }
