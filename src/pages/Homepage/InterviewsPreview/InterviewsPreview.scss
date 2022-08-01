@@ -15,6 +15,7 @@
     &__title {
         font-family: $secondary-font-family;
         font-size: $text-xl * 2;
+        font-weight: $bold-font-weight;
         line-height: 5rem;
         margin-bottom: $space-lg;
         text-align: center;
@@ -43,7 +44,7 @@
 
     @media (max-width: 768px) {
         &__title {
-            font-size: $text-xl;
+            font-size: $text-xl + 0.4;
             font-weight: $bold-font-weight;
             padding: 0 $space-sm;
             margin-bottom: $space-sm;
@@ -55,6 +56,7 @@
         &__videos {
             align-items: center;
             flex-direction: column;
+            margin: $space-xl 0 $space-md;
         }
 
         &__videos-column {

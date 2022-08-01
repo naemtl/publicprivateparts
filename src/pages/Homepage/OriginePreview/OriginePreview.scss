@@ -56,19 +56,19 @@
     }
     @media (max-width: 768px) {
         font-size: $text-sm;
-
+        
         &__button {
             font-size: $text-md;
         }
-
+        
         &__section {
             align-items: center;
-            flex-direction: column;
+            flex-direction: column-reverse;
         }
         &__video {
             order: 1;
             max-width: 100%;
-            margin: $space-xl 0;
+            margin: $space-md 0;
         }
         &__content {
             align-items: center;
@@ -98,9 +98,13 @@
         &__logo--odm {
             font-size: 2.8rem;
         }
-
+        
         &__text {
             padding: 0;
         }
+    }
+    
+    @media (max-width: 425px) {
+        margin: $space-xl 0;
     }
 }

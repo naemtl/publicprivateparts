@@ -81,7 +81,7 @@
             justify-content: center;
         }
         &__title {
-            font-size: $text-xl;
+            font-size: $text-xl + 0.4;
         }
         &__text {
             font-size: $text-sm;
@@ -102,6 +102,7 @@
     }
 
     @media (max-width: 425px) {
+        padding: 0;
         &__image {
             height: 20.5em;
         }
