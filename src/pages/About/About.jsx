@@ -11,6 +11,7 @@ import gerardFourImg from "../../assets/images/gerard-4.png";
 import gerardFiveImg from "../../assets/images/gerard-5.png";
 
 import './About.scss'
+import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
 
 const About = () => {
     const { t } = useTranslation("about")
@@ -71,16 +72,16 @@ const About = () => {
                         <div className="about__row--text">
                             <p>
                                 {t("text-discovery-2")}
-                                <div className="about__link-container">
-                                    <a href="https://vimeo.com/156622742" className="about__button" rel="noreferrer" target="_blank">
-                                        {t("anchor-trailer")} 1
-                                    </a>
-                                    <a href="https://www.youtube.com/watch?v=2O4fdZZQV8Q" className="about__button" rel="noreferrer" target="_blank">
-                                        {t("anchor-trailer")} 2
-                                    </a>
-                                </div>
                             </p>
                         </div>
+                    </div>
+                </div>
+                <div className="about__row--trailers">
+                    <div className="about__video-column">
+                        <YoutubeVimeoEmbed embedId="156622742" isVimeo={true}/>
+                    </div>
+                    <div className="about__video-column">
+                        <YoutubeVimeoEmbed embedId="2O4fdZZQV8Q" />
                     </div>
                 </div>
             </div>

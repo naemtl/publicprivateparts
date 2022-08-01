@@ -112,7 +112,8 @@
     &__row--discovery,
     &__row--pop-1,
     &__row--pop-discovery,
-    &__row--intro {
+    &__row--intro,
+    &__row--trailers {
         display: flex;
         justify-content: space-between;
         margin: $space-xxl auto;
@@ -148,6 +149,7 @@
     &__row--discovery {
         flex-direction: row;
         margin-top: $space-md;
+        margin-bottom: 0;
     } 
 
     &__row--discovery &__row--text:first-of-type {
@@ -179,6 +181,10 @@
         max-width: 630px;
     }
 
+    &__row--trailers {
+        margin-top: 0;
+    }
+
     &__image-row {
         display: flex;
         justify-content: space-evenly;
@@ -193,6 +199,10 @@
     &__banner--bodywork,
     &__heading {
         @include title-text;
+    }
+
+    &__video-column {
+        width: 45%;
     }
 
     @media (max-width: 1100px) {
@@ -263,7 +273,18 @@
         &__image-row {
             flex-direction: column;
         }
-        
+                
+        &__row--trailers {
+            flex-direction: column;
+        }    
+
+        &__video-column {
+            width: 100%;
+
+            &:first-child {
+                margin-bottom: $space-md;
+            }
+        }
     }
 
     @media (max-width: 768px) {
