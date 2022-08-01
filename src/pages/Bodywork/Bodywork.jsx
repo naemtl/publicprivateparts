@@ -104,7 +104,6 @@ const Bodywork = () => {
                         {t('paragraph-pricing-2')}
                     </em>
                 </p>
-                {/* FIXME: fix alignment on mobile */}
                 <div className="bodywork__copy-clipboard">
                     <CopyToClipboard
                         text={"gerardxreyes@gmail.com"}
