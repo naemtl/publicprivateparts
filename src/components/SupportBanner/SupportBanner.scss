@@ -56,4 +56,8 @@
             margin: $space-lg 0;
         }
     }
+
+    @media (max-width: 425px) {
+        margin-bottom: 0;
+    }
 }

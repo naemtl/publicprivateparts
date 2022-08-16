@@ -190,6 +190,12 @@
     }
 
     @media (max-width: 446px) {
+        &__content {
+            @include flex-center;
+            flex-direction: column;
+            margin: $space-xl 0 $space-lg;
+        }
+
         &__text {
             font-size: $text-sm;
             line-height: 20px;
@@ -200,6 +206,27 @@
         }
         &__button-spacer {
             height: 50px;
+        }
+
+        &__image--full {
+            margin-top: $space-xl;
+        }
+
+        &__media-row {
+            margin: $space-xl auto;
+        }
+
+        &__media-row--three {
+            margin-bottom: 0;
+        }
+        
+        &__media-row--four {
+            margin-top: 0;
+            margin-bottom: $space-sm;
+        }
+
+        &__media-row--five {
+            padding: 0;
         }
 
         &__quote {

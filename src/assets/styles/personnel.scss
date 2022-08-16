@@ -84,4 +84,8 @@
             white-space: normal;
         }
     }
+
+    @media (max-width: 425px) {
+        margin-bottom: $space-xl;
+    }
 }
