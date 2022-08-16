@@ -60,7 +60,7 @@
 
     &__intro {
         max-width: 730px;
-        margin: 130px auto 150px;
+        margin: ($space-lg * 4) auto ($space-lg * 5);
         font-size: $text-xl;
 
         p:first-of-type {
@@ -183,6 +183,12 @@
         &__videos-text h2 {
             font-size: $text-sm * 2;
             line-height: 35px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        &__intro {
+            margin: $space-lg auto $space-xl;
         }
     }
 }
