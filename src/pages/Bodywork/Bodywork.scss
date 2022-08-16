@@ -118,6 +118,10 @@
             justify-content: center;
         }
 
+        &__heading--society {
+            margin-top: $space-lg;
+        }    
+
         &__text--contact {
             font-size: $text-xs;
         }
