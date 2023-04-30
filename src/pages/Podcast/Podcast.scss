@@ -7,18 +7,54 @@
     font-size: $text-md;
 
     &__banner {
-
+        height: 100vh;
     }
-
+    
     &__content {
-
+        @include flex-center;
+        flex-direction: column;
+        max-width: 1440px;
     }
 
-    &__text{
-
+    &__episode-container {
+        @include flex-center;
+        flex-direction: column;
+        margin-bottom: $space-xxl;
+        max-width: 1133px;
+        width: 100%;
     }
 
-    &__player {
-        
+    &__episode-heading {
+        font-family: $secondary-font-family;
+        font-size: $text-xxl;
+        margin-bottom: $space-lg;
     }
+
+    &__episode-text {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    &__intro-container {
+        @include flex-center;
+        flex-direction: column;
+        margin-bottom: $space-xxl;
+        max-width: 600px;
+        width: 100%;
+    }
+
+    &__intro-heading {
+        font-family: $secondary-font-family;
+        font-size: $text-lg * 2;
+        margin-bottom: $space-lg;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+    @media (max-width: 768px) {
+        &__content {
+            padding: 0 $space-md;
+        }
+    }
+
 }
