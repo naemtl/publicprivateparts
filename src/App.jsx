@@ -9,6 +9,7 @@ import Homepage from "./pages/Homepage/Homepage";
 import About from "./pages/About/About";
 import Bodywork from "./pages/Bodywork/Bodywork";
 import Interviews from "./pages/Interviews/Interviews";
+import Podcast from "./pages/Podcast/Podcast";
 import OrigineDuMonde from "./pages/OrigineDuMonde/OrigineDuMonde";
 
 import Header from "./components/Header/Header";
@@ -25,6 +26,7 @@ const App = () => {
 				<Route path="/about" element={<About />} />
 				<Route path="/bodywork" element={<Bodywork />} />
 				<Route path="/interviews" element={<Interviews />} />
+				<Route path="/podcast" element={<Podcast />} />
 				<Route path="/odm" element={<OrigineDuMonde />} />
 			</Routes>
 		</BrowserRouter>
