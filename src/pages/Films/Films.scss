@@ -1,1 +1,63 @@
 @import "/src/assets/styles/common";
+
+.films {
+    background-color: #141414;
+    color: $site-color;
+    font-family: $primary-font-family;
+    font-size: $text-md;
+
+    &__banner {
+        height: 100vh;
+    }
+    
+    &__content {
+        @include flex-center;
+        flex-direction: column;
+    }
+
+    &__film-container {
+        @include flex-center;
+        flex-direction: column;
+        margin-bottom: $space-xxl;
+        max-width: 1133px;
+        width: 100%;
+    }
+
+    &__film-heading {
+        font-family: $secondary-font-family;
+        font-size: $text-lg * 2;
+        margin-bottom: $space-lg;
+    }
+
+    &__film-player {
+        margin-bottom: $space-lg;
+    }
+
+    &__film-text {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    &__intro-container {
+        @include flex-center;
+        flex-direction: column;
+        margin-bottom: $space-xxl;
+        max-width: 600px;
+        width: 100%;
+    }
+
+    &__intro-heading {
+        font-family: $secondary-font-family;
+        font-size: $text-xxl * 2;
+        margin-bottom: $space-lg;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+    @media (max-width: 768px) {
+        &__content {
+            padding: 0 $space-md;
+        }
+    }
+
+}

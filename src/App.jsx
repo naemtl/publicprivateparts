@@ -8,6 +8,7 @@ import {
 import Homepage from "./pages/Homepage/Homepage";
 import About from "./pages/About/About";
 import Bodywork from "./pages/Bodywork/Bodywork";
+import Films from "./pages/Films/Films";
 import Interviews from "./pages/Interviews/Interviews";
 import Podcast from "./pages/Podcast/Podcast";
 import OrigineDuMonde from "./pages/OrigineDuMonde/OrigineDuMonde";
@@ -25,6 +26,7 @@ const App = () => {
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/bodywork" element={<Bodywork />} />
+				<Route path="/films" element={<Films />} />
 				<Route path="/interviews" element={<Interviews />} />
 				<Route path="/podcast" element={<Podcast />} />
 				<Route path="/odm" element={<OrigineDuMonde />} />

@@ -13,7 +13,6 @@
     &__content {
         @include flex-center;
         flex-direction: column;
-        max-width: 1440px;
     }
 
     &__episode-container {
@@ -26,7 +25,11 @@
 
     &__episode-heading {
         font-family: $secondary-font-family;
-        font-size: $text-xxl;
+        font-size: $text-lg * 2;
+        margin-bottom: $space-lg;
+    }
+
+    &__episode-player {
         margin-bottom: $space-lg;
     }
 
@@ -45,7 +48,7 @@
 
     &__intro-heading {
         font-family: $secondary-font-family;
-        font-size: $text-lg * 2;
+        font-size: $text-xxl * 2;
         margin-bottom: $space-lg;
         text-align: center;
         word-wrap: break-word;
