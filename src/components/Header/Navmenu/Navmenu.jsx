@@ -37,14 +37,26 @@ const Navmenu = ({ menuOpen, toggleMenu }) => {
                     </Link>
                 </li>
                 <li className="navmenu__list-item">
-                    <Link onClick={toggleMenu} to="/bodywork">
+                    <Link onClick={toggleMenu} to="/films">
                         <span className="navmenu__list-item--numeral">04</span>
+                        {t('anchors.films')}
+                    </Link>
+                </li>
+                <li className="navmenu__list-item">
+                    <Link onClick={toggleMenu} to="/podcast">
+                        <span className="navmenu__list-item--numeral">05</span>
+                        {t('anchors.podcast')}
+                    </Link>
+                </li>
+                <li className="navmenu__list-item">
+                    <Link onClick={toggleMenu} to="/bodywork">
+                        <span className="navmenu__list-item--numeral">06</span>
                         {t('anchors.bodywork')}
                     </Link>
                 </li>
                 <li className="navmenu__list-item">
                     <Link onClick={toggleMenu} to="/about">
-                        <span className="navmenu__list-item--numeral">05</span>
+                        <span className="navmenu__list-item--numeral">07</span>
                         {t('anchors.about')}
                     </Link>
                 </li>
