@@ -11,6 +11,7 @@ import Bodywork from "./pages/Bodywork/Bodywork";
 import Films from "./pages/Films/Films";
 import Interviews from "./pages/Interviews/Interviews";
 import Podcast from "./pages/Podcast/Podcast";
+import PublicPrivateParts from "./pages/PublicPrivateParts/PublicPrivateParts";
 import OrigineDuMonde from "./pages/OrigineDuMonde/OrigineDuMonde";
 
 import Header from "./components/Header/Header";
@@ -29,6 +30,7 @@ const App = () => {
 				<Route path="/films" element={<Films />} />
 				<Route path="/interviews" element={<Interviews />} />
 				<Route path="/podcast" element={<Podcast />} />
+				<Route path="/publicprivateparts" element={<PublicPrivateParts />} />
 				<Route path="/odm" element={<OrigineDuMonde />} />
 			</Routes>
 		</BrowserRouter>

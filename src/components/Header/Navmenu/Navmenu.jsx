@@ -25,38 +25,52 @@ const Navmenu = ({ menuOpen, toggleMenu }) => {
                     </Link>
                 </li>
                 <li className="navmenu__list-item">
-                    <Link onClick={toggleMenu} to="/odm">
+                    <Link onClick={toggleMenu} to="/publicprivateparts">
                         <span className="navmenu__list-item--numeral">02</span>
-                        {t('anchors.odm')}
+                        {t('anchors.publicprivate')}
                     </Link>
                 </li>
+                <ul className="navmenu__list-item navmenu__inner-list">
+                    <li className="navmenu__list-item">
+                        <Link onClick={toggleMenu} to="/interviews">
+                            <span className="navmenu__list-item--numeral">03</span>
+                            {t('anchors.interviews')}
+                        </Link>
+                    </li>
+                    <li className="navmenu__list-item">
+                        <Link onClick={toggleMenu} to="/films">
+                            <span className="navmenu__list-item--numeral">04</span>
+                            {t('anchors.films')}
+                        </Link>
+                    </li>
+                    <li className="navmenu__list-item">
+                        <Link onClick={toggleMenu} to="/podcast">
+                            <span className="navmenu__list-item--numeral">05</span>
+                            {t('anchors.podcast')}
+                        </Link>
+                    </li>
+                    <li className="navmenu__list-item">
+                        <Link onClick={toggleMenu} to="/odm">
+                            <span className="navmenu__list-item--numeral">06</span>
+                            {t('anchors.odm')}
+                        </Link>
+                    </li>
+                </ul>
                 <li className="navmenu__list-item">
-                    <Link onClick={toggleMenu} to="/interviews">
-                        <span className="navmenu__list-item--numeral">03</span>
-                        {t('anchors.interviews')}
-                    </Link>
-                </li>
-                <li className="navmenu__list-item">
-                    <Link onClick={toggleMenu} to="/films">
-                        <span className="navmenu__list-item--numeral">04</span>
-                        {t('anchors.films')}
-                    </Link>
-                </li>
-                <li className="navmenu__list-item">
-                    <Link onClick={toggleMenu} to="/podcast">
-                        <span className="navmenu__list-item--numeral">05</span>
-                        {t('anchors.podcast')}
+                    <Link onClick={toggleMenu} to="/">
+                        <span className="navmenu__list-item--numeral">07</span>
+                        {t('anchors.pop')}
                     </Link>
                 </li>
                 <li className="navmenu__list-item">
                     <Link onClick={toggleMenu} to="/bodywork">
-                        <span className="navmenu__list-item--numeral">06</span>
+                        <span className="navmenu__list-item--numeral">08</span>
                         {t('anchors.bodywork')}
                     </Link>
                 </li>
                 <li className="navmenu__list-item">
                     <Link onClick={toggleMenu} to="/about">
-                        <span className="navmenu__list-item--numeral">07</span>
+                        <span className="navmenu__list-item--numeral">09</span>
                         {t('anchors.about')}
                     </Link>
                 </li>

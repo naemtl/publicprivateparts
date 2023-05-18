@@ -1,11 +1,13 @@
 {
     "anchors": {
         "home": "Home",
-        "odm": "Public / Private Parts ou L’Origine du monde",
-        "bodywork": "Somatic Sex Education",
+        "publicprivate": "Public / Private Parts",
         "interviews": "Documentary Interviews",
         "films": "Films",
         "podcast": "Podcast",
+        "odm": "Public / Private Parts ou L’Origine du monde",
+        "pop": "Principle of Pleasure",
+        "bodywork": "Somatic Sex Education",
         "about": "About",
         "contact": "Get in touch"
     }

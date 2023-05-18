@@ -1,11 +1,13 @@
 {
     "anchors": {
         "home": "Page d’accueil",
-        "odm": "Public / Private Parts ou L’Origine du monde",
-        "bodywork": "Séances D'Éducation Sexuelle",
+        "publicprivate": "Public / Private Parts",
         "interviews": "Entrevues Documentaires",
         "films": "Films",
         "podcast": "Podcast",
+        "odm": "Public / Private Parts ou L’Origine du monde",
+        "pop": "Principle of Pleasure",
+        "bodywork": "Séances D'Éducation Sexuelle",
         "about": "À Propos de",
         "contact": "Entrez en contact"
     }

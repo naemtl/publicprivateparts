@@ -1,0 +1,102 @@
+@import "/src/assets/styles/common";
+
+.publicprivate {
+    background-color: $black;
+    color: $site-color;
+    font-family: $primary-font-family;
+
+    &__header {
+        @include flex-center;
+        background-color: $black;
+        height: 400px;
+        margin: 0 auto;
+        padding-top: $space-xl;
+        width: 100%;
+        z-index: 2;
+    }
+
+    &__title {
+        align-items: center;
+        color: #9d8b02;
+        display: flex;
+        flex: 1;
+        font-size: 1.7rem;
+        justify-content: space-between;
+        max-width: 425px;
+        text-transform: uppercase;
+        z-index: 1;
+    }
+
+    &__spacer--header {
+        flex: 1;
+    }
+
+    &__video--banner {
+        width: 100%;
+    }
+
+    &__content {
+        @include flex-center;
+        height: 700px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    &__spacer--about {
+        z-index: 2;
+    }
+
+    &__video--about {
+        height: 100%;
+        left: 0;
+        top: 0;
+        object-fit: cover;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
+
+    &__text {
+        font-size: $text-md;
+        max-width: 696px;
+        text-align: center;
+        z-index: 2;
+
+        p:first-of-type {
+            margin-bottom: 1rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        &__content {
+            height: 500px;
+            padding: $space-sm;
+        }
+
+        &__header {
+            max-width: 260px;
+        }
+
+        &__title {
+            font-size: 1.6rem;
+        }
+
+        &__text {
+            font-size: $text-sm;
+        }
+    }
+
+    @media (max-width: 425px) {
+        &__content {
+            height: 600px;
+        }
+
+        &__header {
+            padding-top: $space-lg;
+        }
+
+        &__spacer--header {
+            width: 20px;
+        }
+    }
+}

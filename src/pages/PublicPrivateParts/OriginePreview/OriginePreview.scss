@@ -1,0 +1,110 @@
+@import "/src/assets/styles/common";
+
+.origine-preview {
+    background-color: $black;
+    display: flex;
+    flex-direction: column;
+    font-family: $primary-font-family;
+    font-size: $text-md;
+    justify-content: center;
+    margin: $space-xxl 0;
+
+    &__button {
+        @include button;
+    }
+
+    &__section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    &__video {
+        flex: 1;
+        max-width: calc(50% - 24px);
+        order: -1;
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex: 1;
+        padding: 0 $space-lg;
+        padding-top: 4%;
+    }
+    &__logo {
+        background-image: url(/assets/svg/odm-logo.svg);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: contain;
+        height: 150px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: $space-lg;
+    }
+    &__logo--lower,
+    &__logo--upper {
+        display: none;
+    }
+    &__text {
+        margin-bottom: $space-md;
+        max-width: 521px;
+    }
+    &__spacer {
+        height: 35px;
+    }
+    @media (max-width: 768px) {
+        font-size: $text-sm;
+        
+        &__button {
+            font-size: $text-md;
+        }
+        
+        &__section {
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+        &__video {
+            order: 1;
+            max-width: 100%;
+            margin: $space-md 0;
+        }
+        &__content {
+            align-items: center;
+            padding: 0 $space-sm;
+            text-align: center;
+        }
+        &__logo {
+            background: none;
+            height: fit-content;
+        }
+        &__logo--upper {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            max-width: 280px;
+            text-transform: uppercase;
+        }
+        &__logo--lower {
+            display: block;
+            font-family: $secondary-font-family;
+            text-align: center;
+        }
+        &__logo--ou {
+            margin-right: $space-xs;
+            vertical-align: 7px;
+        }
+        &__logo--odm {
+            font-size: 2.8rem;
+        }
+        
+        &__text {
+            padding: 0;
+        }
+    }
+    
+    @media (max-width: 425px) {
+        margin: $space-xl 0;
+    }
+}
