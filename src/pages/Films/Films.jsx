@@ -2,6 +2,7 @@ import React from "react"
 import { useTranslation } from "react-i18next";
 
 import Footer from "../../components/Footer/Footer";
+import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
 
 import './Films.scss'
 
@@ -21,7 +22,7 @@ const Films = () => {
         </div>
         <div className="films__film-container">
           <div className="films__film-player">
-            <img src="https://placehold.co/800x400" alt="Placeholder" />
+            <YoutubeVimeoEmbed embedId="OQHlxfWdW9Q" />
           </div>
           <h3 className="films__film-heading">
             {t("film-1.heading")}
@@ -32,7 +33,7 @@ const Films = () => {
         </div>
         <div className="films__film-container">
           <div className="films__film-player">
-            <img src="https://placehold.co/800x400" alt="Placeholder" />
+            <YoutubeVimeoEmbed embedId="OQHlxfWdW9Q" />
           </div>
           <h3 className="films__film-heading">
             {t("film-2.heading")}
