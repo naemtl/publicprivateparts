@@ -6,6 +6,8 @@
     color: $site-color;
     cursor: pointer;
     margin-right: $space-lg;
+    position: relative;
+    text-align: center;
     text-shadow: $text-shadow;
     z-index: 2;
 }
