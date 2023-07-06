@@ -1,6 +1,7 @@
 {
     "anchors": {
         "home": "Home",
+        "calendar": "Calendar",
         "publicprivate": "Public / Private Parts",
         "interviews": "Documentary Interviews",
         "films": "Films",
