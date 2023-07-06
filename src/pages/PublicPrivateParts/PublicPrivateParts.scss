@@ -5,6 +5,10 @@
     color: $site-color;
     font-family: $primary-font-family;
 
+    &__button {
+        @include button;
+    }
+
     &__header {
         @include flex-center;
         background-color: $black;
@@ -12,6 +16,12 @@
         margin: 0 auto;
         padding-top: $space-xl;
         width: 100%;
+        z-index: 2;
+    }
+
+    &__links {
+        display: flex;
+        justify-content: space-between;
         z-index: 2;
     }
 
@@ -36,10 +46,14 @@
     }
 
     &__content {
-        @include flex-center;
-        height: 700px;
         position: relative;
         overflow: hidden;
+    }
+
+    &__content--inner {
+        @include flex-center;
+        flex-direction: column;
+        height: 700px;
     }
 
     &__spacer--about {
