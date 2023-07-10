@@ -5,8 +5,9 @@
     color: $site-color;
     font-family: $primary-font-family;
 
-    &__button {
-        @include button;
+    &__button a {
+        @include button;         
+        font-style: normal;
     }
 
     &__header {
@@ -22,6 +23,9 @@
     &__links {
         display: flex;
         justify-content: space-between;
+        max-width: 720px;
+        margin-bottom: $space-xxl;
+        width: 100%;
         z-index: 2;
     }
 
@@ -47,13 +51,11 @@
 
     &__content {
         position: relative;
-        overflow: hidden;
     }
 
     &__content--inner {
         @include flex-center;
         flex-direction: column;
-        height: 700px;
     }
 
     &__spacer--about {
@@ -64,9 +66,7 @@
         height: 100%;
         left: 0;
         top: 0;
-        object-fit: cover;
         position: absolute;
-        width: 100%;
         z-index: 1;
     }
 
@@ -75,20 +75,31 @@
         max-width: 696px;
         text-align: center;
         z-index: 2;
+        margin-bottom: $space-xxl * 2;
 
         p:first-of-type {
-            margin-bottom: 1rem;
+            margin-bottom: 16px;
         }
     }
 
     @media (max-width: 768px) {
+        &__button a {
+            font-size: $text-sm;
+        }
+
         &__content {
-            height: 500px;
             padding: $space-sm;
         }
 
         &__header {
             max-width: 260px;
+        }
+
+        &__links {
+            align-items: center;
+            flex-direction: column;
+            height: 300px;
+            margin-bottom: $space-xs;
         }
 
         &__title {
@@ -97,14 +108,16 @@
 
         &__text {
             font-size: $text-sm;
+            margin-bottom: $space-xxl;
+        }
+
+
+        &__video--about {
+            object-fit: contain;
         }
     }
 
     @media (max-width: 425px) {
-        &__content {
-            height: 600px;
-        }
-
         &__header {
             padding-top: $space-lg;
         }
