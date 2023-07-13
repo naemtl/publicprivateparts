@@ -52,7 +52,7 @@ const PublicPrivateParts = () => {
               <Trans t={t} i18nKey={"intro.paragraph-2"} />
             </p>
           </div>
-          <div className="publicprivate__links">
+          <div className="publicprivate__link-container">
             <div className="publicprivate__button">
               <Link to="/interviews">{t("anchors.interviews")}</Link>
             </div>

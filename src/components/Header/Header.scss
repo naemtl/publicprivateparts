@@ -16,6 +16,9 @@
     z-index: 10;
 
     &__branding {
+        font-family: $secondary-font-family;
+        font-size: $text-lg;
+        font-weight: $bold-font-weight;
         z-index: 2;
     }
 

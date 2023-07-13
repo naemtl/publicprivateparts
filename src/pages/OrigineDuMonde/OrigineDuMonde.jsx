@@ -88,10 +88,8 @@ const OrigineDuMonde = () => {
         </div>
         <OriginePersonnel t={t} />
         <SupportBanner />
-        <div
-          ref={imagesRef}
-          className="origine__media-row origine__media-row--three"
-        >
+        <h3 ref={imagesRef}>Images</h3>
+        <div className="origine__media-row origine__media-row--three">
           <img src={odmImg4} alt="Origine Du Monde promo" />
           <img src={odmImg5} alt="Origine Du Monde promo" />
         </div>
@@ -108,15 +106,36 @@ const OrigineDuMonde = () => {
           </div>
         </div>
       </div>
-      <div
-        ref={videosRef}
-        className="origine__media-row origine__media-row--five"
-      >
+      <h3 ref={videosRef}>Videos</h3>
+      <div className="origine__media-row origine__media-row--five">
         <div className="origine__video-column">
           <YoutubeVimeoEmbed embedId="VtbsfRlr2yU" />
         </div>
         <div className="origine__video-column">
           <YoutubeVimeoEmbed isVimeo={true} embedId="559539428" />
+        </div>
+      </div>
+      <h3 ref={pressRef}>Press</h3>
+      <div className="origine__press">
+        <div className="origine__text">
+          {`"${t("press.pat-white")}"`}
+          <div className="origine__press-source">
+            <span>Pat White</span>
+            <span>Thomas Bastien, Patwhite.com, 06-13-2021</span>
+          </div>
+        </div>
+        <div className="origine__text">
+          {`"${t("press.spirale-magazine")}"`}
+          <div className="origine__press-source">
+            <span>Spirale Magazine</span>
+            <span>Etienne Bergeron, Spiralemagazine.com, 06-13-2021</span>
+          </div>
+        </div>
+        <div className="origine__text">
+          {`"${t("press.jeu-revue")}"`}
+          <div className="origine__press-source">
+            <span>JEU Revue de Théâtre</span>
+          </div>
         </div>
       </div>
       <Footer />

@@ -20,7 +20,7 @@
         z-index: 2;
     }
 
-    &__links {
+    &__link-container {
         display: flex;
         justify-content: space-between;
         max-width: 720px;
@@ -95,7 +95,7 @@
             max-width: 260px;
         }
 
-        &__links {
+        &__link-container {
             align-items: center;
             flex-direction: column;
             height: 300px;

@@ -18,6 +18,24 @@
         margin-top: 135px;
     }
 
+    &__link-container {
+        @include flex-center;
+        justify-content: space-between;
+        margin: $space-xxl 0;
+        max-width: 600px;
+        width: 100%;
+    }
+
+    &__link {
+        cursor: pointer;
+        font-size: $text-lg;
+        padding: $space-sm;
+        text-transform: uppercase;
+        &:hover {
+            color: $site-color-light;
+        }
+    }
+
     &__logo--header {
         display: block;
         max-width: 452px;
@@ -48,6 +66,26 @@
         @include flex-center;
         flex-direction: column;
         margin: 120px 0 100px;
+    }
+
+    &__press {
+        @include flex-center;
+        flex-direction: column;
+    }
+    
+    &__press > div {
+        margin-bottom: $space-xl;
+    }
+
+    &__press-source {
+        display: flex;
+        flex-direction: column;
+        margin: $space-md 0;
+
+        span:first-child {
+            font-size: $text-lg;
+            font-weight: $bold-font-weight;
+        }
     }
 
     &__text {
@@ -94,7 +132,6 @@
         &--five {
             display: flex;
             justify-content: center;
-            background-color: #1e1b1e;
             margin: 0 auto 120px;
             padding: 100px 0;
 
