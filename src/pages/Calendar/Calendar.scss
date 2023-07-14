@@ -1,0 +1,34 @@
+@import "/src/assets/styles/common";
+
+
+.calendar {
+    background-color: $black;
+    height: 100vh;
+    @include flex-center;
+
+    &__container {
+        color: $white;
+        max-width: 1000px;
+        padding: 0 $space-xl;
+        width: 100%;
+    }
+
+    &__entry, &__heading {
+        display: flex;
+        justify-content: space-between;
+        padding: $space-lg 0;
+        width: 100%;
+    }
+
+    &__entry {
+        border-bottom: 1px solid $white;
+
+        &:last-of-type {
+            border-bottom: none;
+        }
+    }
+
+    &__heading {
+        border-bottom: 3px solid $white;
+    }
+}
