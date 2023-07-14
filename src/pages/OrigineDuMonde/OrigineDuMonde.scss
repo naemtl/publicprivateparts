@@ -125,15 +125,10 @@
             }
         }
         
-        &--three {
-            margin-top: 100px;
-        }
-        
         &--five {
             display: flex;
             justify-content: center;
             margin: 0 auto 120px;
-            padding: 100px 0;
 
             .origine__video-column {
                 max-width: 600px;
@@ -161,7 +156,9 @@
         background-size: cover;
         flex-direction: column;
         min-height: 572px;
+        margin-bottom: $space-lg * 4;
     }
+
     &__quote-container {
         max-width: 1250px;
         padding: 0 $space-lg;
@@ -179,6 +176,12 @@
         line-height: 25px;
         margin-top: $space-sm;
         max-width: 580px;
+    }
+
+    &__scroll-heading {
+        @include flex-center;
+        margin: $space-xl 0;
+        width: 100%;
     }
 
     @media (max-width: 768px) {
@@ -199,7 +202,6 @@
             }
 
             &--five {
-                padding: 100px 0;
                 .origine__video-column {
                     &:first-of-type {
                         margin-right: 0;
@@ -260,10 +262,6 @@
         &__media-row--four {
             margin-top: 0;
             margin-bottom: $space-sm;
-        }
-
-        &__media-row--five {
-            padding: 0;
         }
 
         &__quote {

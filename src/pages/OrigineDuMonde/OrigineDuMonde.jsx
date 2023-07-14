@@ -88,7 +88,9 @@ const OrigineDuMonde = () => {
         </div>
         <OriginePersonnel t={t} />
         <SupportBanner />
-        <h3 ref={imagesRef}>Images</h3>
+        <h3 className="origine__scroll-heading" ref={imagesRef}>
+          Images
+        </h3>
         <div className="origine__media-row origine__media-row--three">
           <img src={odmImg4} alt="Origine Du Monde promo" />
           <img src={odmImg5} alt="Origine Du Monde promo" />
@@ -106,7 +108,9 @@ const OrigineDuMonde = () => {
           </div>
         </div>
       </div>
-      <h3 ref={videosRef}>Videos</h3>
+      <h3 className="origine__scroll-heading" ref={videosRef}>
+        Videos
+      </h3>
       <div className="origine__media-row origine__media-row--five">
         <div className="origine__video-column">
           <YoutubeVimeoEmbed embedId="VtbsfRlr2yU" />
@@ -115,7 +119,9 @@ const OrigineDuMonde = () => {
           <YoutubeVimeoEmbed isVimeo={true} embedId="559539428" />
         </div>
       </div>
-      <h3 ref={pressRef}>Press</h3>
+      <h3 className="origine__scroll-heading" ref={pressRef}>
+        Press
+      </h3>
       <div className="origine__press">
         <div className="origine__text">
           {`"${t("press.pat-white")}"`}
