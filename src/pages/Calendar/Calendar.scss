@@ -46,6 +46,7 @@
             @include button;
             font-size: $text-xs;
             height: unset;
+            padding: 0 $space-sm;
         }
     }
 
