@@ -1,22 +1,19 @@
-import { Trans, useTranslation } from "react-i18next";
-
-import useCheckMobileScreen from "../../hooks/useCheckMobileScreen";
-
 import Footer from "../../components/Footer/Footer";
 
-import './Homepage.scss'
+import gxrBackground from "../../assets/images/gxr-background.jpg";
+
+import "./Homepage.scss";
 
 const Homepage = () => {
-    const { t } = useTranslation('homepage')
-
-    const isMobile = useCheckMobileScreen()
-
-    return (
-        <div className='homepage'>
-            <div>TEST</div>
-            <Footer />
-        </div>
-    );
+  return (
+    <div className="homepage">
+      <img
+        className="homepage__background"
+        src={gxrBackground}
+        alt="GXR homepage background"
+      />
+    </div>
+  );
 };
 
 export default Homepage;
