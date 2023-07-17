@@ -37,4 +37,10 @@
     &--transparent {
         background-color: transparent;
     }
+
+    @media (max-width: 768px) {
+        &__branding {
+            font-size: $text-md;
+        }
+    }
 }

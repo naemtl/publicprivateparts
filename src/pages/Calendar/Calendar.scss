@@ -31,4 +31,18 @@
     &__heading {
         border-bottom: 3px solid $white;
     }
+
+    @media (max-width: 768px) {
+        &__container {
+            margin-top: $space-xxl;
+        }    
+
+        &__entry {
+            flex-direction: column;
+        }
+    
+        &__heading {
+            display: none;
+        }
+    }
 }

@@ -1,9 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 
 import LanguageButton from "../LanguageButton/LanguageButton";
 import HamburgerButton from "../HamburgerButton/HamburgerButton";
 import Navmenu from "./Navmenu/Navmenu";
 
+import useCheckMobileScreen from "../../hooks/useCheckMobileScreen";
 import { supportedLanguages } from "../../utils/localization";
 
 import "./Header.scss";
@@ -11,6 +12,12 @@ import "./Header.scss";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [solidBackground, setSolidBackground] = useState(false);
+  const isMobile = useCheckMobileScreen();
+
+  const branding = useMemo(
+    () => (isMobile ? "GRX" : "Gerard X Reyes"),
+    [isMobile]
+  );
 
   const changeBackground = () =>
     window.scrollY >= 1 ? setSolidBackground(true) : setSolidBackground(false);
@@ -39,7 +46,7 @@ const Header = () => {
         solidBackground ? "header--black" : "header--transparent"
       }`}
     >
-      <div className="header__branding">Gerard X Reyes</div>
+      <div className="header__branding">{branding}</div>
       <div className="header__controls">
         {displayLanguageButtons()}
         <HamburgerButton menuOpen={menuOpen} clickCallback={toggleMenu} />
