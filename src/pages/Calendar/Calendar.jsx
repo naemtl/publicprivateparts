@@ -33,12 +33,12 @@ const Calendar = () => {
       const { date, project, venue, city, country, link } = entry;
       return (
         <div className="calendar__entry">
-          <div>{date}</div>
-          <div>{project}</div>
-          <div>{venue}</div>
-          <div>{city}</div>
-          <div>{country}</div>
-          <div>{link}</div>
+          <div className="calendar__cell">{date}</div>
+          <div className="calendar__cell--project">{project}</div>
+          <div className="calendar__cell">{venue}</div>
+          <div className="calendar__cell">{city}</div>
+          <div className="calendar__cell">{country}</div>
+          <div className="calendar__cell">{link}</div>
         </div>
       );
     });
@@ -47,12 +47,12 @@ const Calendar = () => {
     <div className="calendar">
       <div className="calendar__container">
         <div className="calendar__heading">
-          <div>Date</div>
-          <div>Project</div>
-          <div>Venue</div>
-          <div>City</div>
-          <div>Country</div>
-          <div>Link</div>
+          <div className="calendar__cell">Date</div>
+          <div className="calendar__cell--project">Project</div>
+          <div className="calendar__cell">Venue</div>
+          <div className="calendar__cell">City</div>
+          <div className="calendar__cell">Country</div>
+          <div className="calendar__cell">Link</div>
         </div>
         {buildGrid(data)}
       </div>
