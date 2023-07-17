@@ -7,7 +7,7 @@ const data = [
     venue: "Usine C",
     city: "Montreal",
     country: "Canada",
-    link: "test-1",
+    link: "https://www.gerardxreyes.com/",
   },
   {
     date: "2023.01.01",
@@ -15,7 +15,7 @@ const data = [
     venue: "Usine C",
     city: "Montreal",
     country: "Canada",
-    link: "test-2",
+    link: "https://www.gerardxreyes.com/",
   },
   {
     date: "2023.01.01",
@@ -23,7 +23,7 @@ const data = [
     venue: "Usine C",
     city: "Montreal",
     country: "Canada",
-    link: "test-3",
+    link: "https://www.gerardxreyes.com/",
   },
 ];
 
@@ -38,7 +38,9 @@ const Calendar = () => {
           <div className="calendar__cell">{venue}</div>
           <div className="calendar__cell">{city}</div>
           <div className="calendar__cell">{country}</div>
-          <div className="calendar__cell">{link}</div>
+          <a href={link} className="calendar__cell calendar__link">
+            <div>Info</div>
+          </a>
         </div>
       );
     });

@@ -41,6 +41,14 @@
         border-bottom: 3px solid $white;
     }
 
+    &__link {
+        div {
+            @include button;
+            font-size: $text-xs;
+            height: unset;
+        }
+    }
+
     @media (max-width: 768px) {
         &__container {
             margin-top: $space-xxl;
