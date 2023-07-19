@@ -20,9 +20,9 @@
 
     &__link-container {
         @include flex-center;
-        justify-content: space-between;
+        justify-content: space-around;
         margin: $space-xxl 0;
-        max-width: 600px;
+        max-width: 720px;
         width: 100%;
     }
 
@@ -210,10 +210,6 @@
             }
         }
 
-        &__quote {
-            margin-bottom: 0;
-        }
-
         &__quote-source {
             text-align: right;
         }
@@ -251,9 +247,6 @@
             margin-top: $space-xl;
         }
 
-        &__media-row {
-            margin: $space-xl auto;
-        }
 
         &__media-row--three {
             margin-bottom: 0;
