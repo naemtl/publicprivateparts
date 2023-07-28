@@ -61,7 +61,7 @@ const Navmenu = ({ menuOpen, toggleMenu }) => {
           </li>
         </ul>
         <li className="navmenu__list-item">
-          <Link onClick={toggleMenu} to="/">
+          <Link onClick={toggleMenu} to="/principleofpleasure">
             <span className="navmenu__list-item--numeral">08</span>
             {t("anchors.pop")}
           </Link>

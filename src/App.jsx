@@ -8,6 +8,7 @@ import Calendar from "./pages/Calendar/Calendar";
 import Films from "./pages/Films/Films";
 import Interviews from "./pages/Interviews/Interviews";
 import Podcast from "./pages/Podcast/Podcast";
+import Principle from "./pages/Principle/Principle";
 import PublicPrivateParts from "./pages/PublicPrivateParts/PublicPrivateParts";
 import OrigineDuMonde from "./pages/OrigineDuMonde/OrigineDuMonde";
 
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/films" element={<Films />} />
         <Route path="/interviews" element={<Interviews />} />
         <Route path="/podcast" element={<Podcast />} />
+        <Route path="/principleofpleasure" element={<Principle />} />
         <Route path="/publicprivateparts" element={<PublicPrivateParts />} />
         <Route path="/odm" element={<OrigineDuMonde />} />
       </Routes>
