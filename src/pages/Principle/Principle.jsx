@@ -1,12 +1,17 @@
 import { Trans, useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-import gerardProfileImg from "../../assets/images/gerard-profile.png";
-import gerardOneImg from "../../assets/images/gerard-1.png";
-import gerardTwoImg from "../../assets/images/gerard-2.png";
-import gerardThreeImg from "../../assets/images/gerard-3.png";
-import gerardFourImg from "../../assets/images/gerard-4.png";
-import gerardFiveImg from "../../assets/images/gerard-5.png";
+import popBanner from "../../assets/images/pop-banner.png";
+import popTitle from "../../assets/images/pop-title.png";
+import popIntro from "../../assets/images/pop-intro.png";
+import popBg from "../../assets/images/pop-bg.png";
+import popOneImg from "../../assets/images/pop-1.png";
+import popTwoImg from "../../assets/images/pop-2.png";
+import popThreeImg from "../../assets/images/pop-3.png";
+import popFourImg from "../../assets/images/pop-4.png";
+import popFiveImg from "../../assets/images/pop-5.png";
+import popSixImg from "../../assets/images/pop-6.png";
+import popSevenImg from "../../assets/images/pop-7.png";
 
 import "./Principle.scss";
 import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
@@ -18,14 +23,15 @@ const Principle = () => {
     <div className="principle">
       <div className="principle__header">
         <img
-          className="principle__image--profile"
-          alt="Gerard"
-          src={gerardProfileImg}
+          className="principle__image--banner"
+          alt="Page banner"
+          src={popBanner}
         />
-        <h1 className="principle__heading">
-          {t("heading-title")}
-          <span> Gerard X Reyes</span>
-        </h1>
+        <img
+          className="principle__image--title"
+          alt="Page title"
+          src={popTitle}
+        />
       </div>
       <div className="principle__content">
         <div className="principle__row--intro">
@@ -39,12 +45,12 @@ const Principle = () => {
             <img
               className="principle__image--one"
               alt="Gerard"
-              src={gerardOneImg}
+              src={popOneImg}
             />
             <img
               className="principle__image--two"
               alt="Gerard"
-              src={gerardTwoImg}
+              src={popTwoImg}
             />
           </div>
         </div>
@@ -52,7 +58,7 @@ const Principle = () => {
           <img
             className="principle__image--three"
             alt="Gerard"
-            src={gerardThreeImg}
+            src={popThreeImg}
           />
           <div className="principle__row--text">
             <Trans t={t} i18nKey={"paragraph-pop"} />
@@ -68,12 +74,12 @@ const Principle = () => {
           <img
             className="principle__image--four"
             alt="Gerard"
-            src={gerardFourImg}
+            src={popFourImg}
           />
           <img
             className="principle__image--five"
             alt="Gerard"
-            src={gerardFiveImg}
+            src={popFiveImg}
           />
         </div>
         <div className="principle__row--pop-discovery">
@@ -107,12 +113,6 @@ const Principle = () => {
             <YoutubeVimeoEmbed embedId="2O4fdZZQV8Q" />
           </div>
         </div>
-      </div>
-      <div className="principle__banner--bodywork">
-        <span>{t("text-somatic")} Gerard</span>
-        <Link to="/bodywork" className="principle__button">
-          {t("anchor-read-more")}
-        </Link>
       </div>
     </div>
   );
