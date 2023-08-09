@@ -33,26 +33,23 @@ const Principle = () => {
           src={popTitle}
         />
       </div>
-      <div className="principle__content">
-        <div className="principle__image-row">
-          <img
-            className="principle__image--four"
-            alt="Gerard"
-            src={popFourImg}
-          />
-          <img
-            className="principle__image--five"
-            alt="Gerard"
-            src={popFiveImg}
-          />
+      <div className="principle__intro">
+        <img
+          className="principle__image--one"
+          src={popIntro}
+          alt="Gerard mirrored"
+        />
+      </div>
+      <div className="principle__image-row">
+        <img className="principle__image--four" alt="Gerard" src={popFourImg} />
+        <img className="principle__image--five" alt="Gerard" src={popFiveImg} />
+      </div>
+      <div className="principle__row--trailers">
+        <div className="principle__video-column">
+          <YoutubeVimeoEmbed embedId="156622742" isVimeo={true} />
         </div>
-        <div className="principle__row--trailers">
-          <div className="principle__video-column">
-            <YoutubeVimeoEmbed embedId="156622742" isVimeo={true} />
-          </div>
-          <div className="principle__video-column">
-            <YoutubeVimeoEmbed embedId="2O4fdZZQV8Q" />
-          </div>
+        <div className="principle__video-column">
+          <YoutubeVimeoEmbed embedId="2O4fdZZQV8Q" />
         </div>
       </div>
     </div>
