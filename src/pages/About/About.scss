@@ -173,16 +173,15 @@
     }
 
     &__row--pop-discovery {
-        margin-top: $space-lg;
         flex-direction: column;
     }
-
+    
     &__row--intro {
         max-width: 630px;
     }
-
+    
     &__row--trailers {
-        margin-top: 0;
+        margin-top: $space-xxl;
     }
 
     &__image-row {

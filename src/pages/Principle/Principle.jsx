@@ -34,42 +34,6 @@ const Principle = () => {
         />
       </div>
       <div className="principle__content">
-        <div className="principle__row--intro">
-          <Trans t={t} i18nKey={"paragraph-intro"} />
-        </div>
-        <div className="principle__row--chouinard">
-          <div className="principle__row--text">
-            <Trans t={t} i18nKey={"paragraph-chouinard"} />
-          </div>
-          <div className="principle__image-overlap">
-            <img
-              className="principle__image--one"
-              alt="Gerard"
-              src={popOneImg}
-            />
-            <img
-              className="principle__image--two"
-              alt="Gerard"
-              src={popTwoImg}
-            />
-          </div>
-        </div>
-        <div className="principle__row--pop-1">
-          <img
-            className="principle__image--three"
-            alt="Gerard"
-            src={popThreeImg}
-          />
-          <div className="principle__row--text">
-            <Trans t={t} i18nKey={"paragraph-pop"} />
-          </div>
-        </div>
-        <div className="principle__row--ballroom">
-          <p>
-            <Trans t={t} i18nKey={"paragraph-ballroom"} />
-          </p>
-          <p>{t("paragraph-bodywork")}</p>
-        </div>
         <div className="principle__image-row">
           <img
             className="principle__image--four"
@@ -81,29 +45,6 @@ const Principle = () => {
             alt="Gerard"
             src={popFiveImg}
           />
-        </div>
-        <div className="principle__row--pop-discovery">
-          <div className="principle__row--pop-2">
-            <div className="principle__row--text">
-              <div>
-                <strong>
-                  <em>{t("text-pop-1")}</em>
-                </strong>
-              </div>
-              <div>
-                {" "}
-                – <em>{t("text-pop-2")}</em>
-              </div>
-            </div>
-          </div>
-          <div className="principle__row--discovery">
-            <div className="principle__row--text">
-              <p>{t("text-discovery-1")}</p>
-            </div>
-            <div className="principle__row--text">
-              <p>{t("text-discovery-2")}</p>
-            </div>
-          </div>
         </div>
         <div className="principle__row--trailers">
           <div className="principle__video-column">
