@@ -48,15 +48,20 @@ const Principle = () => {
         />
       </div>
       <div className="principle__text-section">
+        <div>{t("text-discovery")}</div>
         <div></div>
-        <div></div>
-        <div></div>
+        <div className="principle__credits">
+          <h2>{t("credits-heading")}</h2>
+          <div>{t("credits-body-1")}</div>
+          <div>{t("credits-body-2")}</div>
+          <div>{t("credits-body-3")}</div>
+        </div>
       </div>
-      <div className="principle__image-row">
+      <div className="principle__media">
         <img className="principle__image--four" alt="Gerard" src={popFourImg} />
         <img className="principle__image--five" alt="Gerard" src={popFiveImg} />
       </div>
-      <div className="principle__row--trailers">
+      <div className="principle__trailers">
         <div className="principle__video-column">
           <YoutubeVimeoEmbed embedId="156622742" isVimeo={true} />
         </div>
