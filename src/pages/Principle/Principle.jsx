@@ -24,7 +24,7 @@ const Principle = () => {
       <div className="principle__header">
         <img
           className="principle__image--banner"
-          alt="Page banner"
+          alt="Page banner - Gerard posing"
           src={popBanner}
         />
         <img
@@ -39,6 +39,18 @@ const Principle = () => {
           src={popIntro}
           alt="Gerard mirrored"
         />
+      </div>
+      <div>
+        <img
+          className="principle__image--banner"
+          alt="Page background banner - Gerard performing"
+          src={popBg}
+        />
+      </div>
+      <div className="principle__text-section">
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
       <div className="principle__image-row">
         <img className="principle__image--four" alt="Gerard" src={popFourImg} />
