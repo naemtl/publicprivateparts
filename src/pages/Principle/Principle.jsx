@@ -47,14 +47,16 @@ const Principle = () => {
           src={popBg}
         />
       </div>
-      <div className="principle__text-section">
-        <div>{t("text-discovery")}</div>
-        <div></div>
-        <div className="principle__credits">
-          <h2>{t("credits-heading")}</h2>
-          <div>{t("credits-body-1")}</div>
-          <div>{t("credits-body-2")}</div>
-          <div>{t("credits-body-3")}</div>
+      <div className="principle__text-container">
+        <div className="principle__text">
+          <div>{t("text-discovery")}</div>
+          <div></div>
+          <div className="principle__credits">
+            <h2>{t("credits-heading")}</h2>
+            <div>{t("credits-body-1")}</div>
+            <div>{t("credits-body-2")}</div>
+            <div>{t("credits-body-3")}</div>
+          </div>
         </div>
       </div>
       <div className="principle__media">
