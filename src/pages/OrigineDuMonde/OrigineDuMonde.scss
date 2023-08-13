@@ -26,16 +26,6 @@
         width: 100%;
     }
 
-    &__link {
-        cursor: pointer;
-        font-size: $text-lg;
-        padding: $space-sm;
-        text-transform: uppercase;
-        &:hover {
-            color: $site-color-light;
-        }
-    }
-
     &__logo--header {
         display: block;
         max-width: 452px;

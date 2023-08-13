@@ -1,0 +1,12 @@
+@import "/src/assets/styles/common";
+
+.smooth-scroll-button {
+    border-bottom: 1px solid;
+    cursor: pointer;
+    font-size: $text-lg;
+    padding: $space-sm;
+    text-transform: uppercase;
+    &:hover {
+        color: $site-color-light;
+    }
+}

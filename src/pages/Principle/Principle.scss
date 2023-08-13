@@ -19,6 +19,26 @@
         width: 100%;
     }
 
+    &__images {
+        background-color: #A60046;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 1400px;
+        padding: $space-md;
+        img {
+            margin: $space-xs 0;
+            max-width: 475px;
+            width: 100%;
+        }
+        
+        .principle__image--seven {
+            max-width: 985px;
+            width: 100%;
+        }
+    }
+
     &__image {
         &--title {
             left: 50%;
@@ -29,19 +49,10 @@
             width: 100%;
         }
 
-    }
-
-
-    &__media {
-        background-color: #A60046;
-        display: flex;
-        justify-content: space-evenly;
-        margin: 0 auto;
-        max-width: 1400px;
-        padding: $space-sm;
-        img {
-            width: 50%;
+        &--seven {
+          
         }
+
     }
 
     &__intro {
@@ -60,12 +71,22 @@
         }
     }
 
+    &__link-container {
+        @include flex-center;
+        justify-content: space-around;
+        margin: $space-xxl 0;
+        max-width: 720px;
+        width: 100%;
+    }
+
     &__trailers {
+        background-color: #A60046;
         display: flex;
         justify-content: space-between;
         margin: $space-xxl auto;
         max-width: 1024px;
         margin-top: 0;
+        padding: $space-sm;
         width: 100%;
     }
     

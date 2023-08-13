@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { Trans, useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
@@ -15,9 +16,14 @@ import popSevenImg from "../../assets/images/pop-7.png";
 
 import "./Principle.scss";
 import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
+import SmoothScrollButton from "../../components/SmoothScrollButton/SmoothScrollButton";
 
 const Principle = () => {
   const { t } = useTranslation("principle");
+
+  const imagesRef = useRef(null);
+  const videosRef = useRef(null);
+  const pressRef = useRef(null);
 
   return (
     <div className="principle">
@@ -50,7 +56,11 @@ const Principle = () => {
       <div className="principle__text-container">
         <div className="principle__text">
           <div>{t("text-discovery")}</div>
-          <div></div>
+          <div className="principle__link-container">
+            <SmoothScrollButton targetRef={imagesRef} label="Images" />
+            <SmoothScrollButton targetRef={videosRef} label="Videos" />
+            <SmoothScrollButton targetRef={pressRef} label="Press" />
+          </div>
           <div className="principle__credits">
             <h2>{t("credits-heading")}</h2>
             <div>{t("credits-body-1")}</div>
@@ -59,16 +69,29 @@ const Principle = () => {
           </div>
         </div>
       </div>
-      <div className="principle__media">
+      <div className="principle__images">
+        <img className="principle__image--one" alt="Gerard" src={popOneImg} />
+        <img className="principle__image--two" alt="Gerard" src={popTwoImg} />
+        <img
+          className="principle__image--three"
+          alt="Gerard"
+          src={popThreeImg}
+        />
         <img className="principle__image--four" alt="Gerard" src={popFourImg} />
         <img className="principle__image--five" alt="Gerard" src={popFiveImg} />
+        <img className="principle__image--six" alt="Gerard" src={popSixImg} />
+        <img
+          className="principle__image--seven"
+          alt="Gerard"
+          src={popSevenImg}
+        />
       </div>
       <div className="principle__trailers">
         <div className="principle__video-column">
           <YoutubeVimeoEmbed embedId="156622742" isVimeo={true} />
         </div>
         <div className="principle__video-column">
-          <YoutubeVimeoEmbed embedId="2O4fdZZQV8Q" />
+          <YoutubeVimeoEmbed embedId="SbQXWGYp9EA" />
         </div>
       </div>
     </div>

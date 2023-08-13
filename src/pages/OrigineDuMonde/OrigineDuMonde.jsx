@@ -16,15 +16,14 @@ import purpleBodyVid from "../../assets/videos/purple-body.mp4";
 import "./OrigineDuMonde.scss";
 import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
 import SupportBanner from "../../components/SupportBanner/SupportBanner";
+import SmoothScrollButton from "../../components/SmoothScrollButton/SmoothScrollButton";
 
 const OrigineDuMonde = () => {
   const { t } = useTranslation("origine");
+
   const imagesRef = useRef(null);
   const videosRef = useRef(null);
   const pressRef = useRef(null);
-
-  const handleClickToScroll = (ref) =>
-    ref.current?.scrollIntoView({ behavior: "smooth" });
 
   return (
     <div className="origine">
@@ -64,27 +63,9 @@ const OrigineDuMonde = () => {
         </div>
         <div className="origine__text">{t("main.text-premiere")}</div>
         <div className="origine__link-container">
-          <div
-            onClick={() => handleClickToScroll(imagesRef)}
-            className="origine__link"
-            role="button"
-          >
-            Images
-          </div>
-          <div
-            onClick={() => handleClickToScroll(videosRef)}
-            className="origine__link"
-            role="button"
-          >
-            Videos
-          </div>
-          <div
-            onClick={() => handleClickToScroll(pressRef)}
-            className="origine__link"
-            role="button"
-          >
-            Press
-          </div>
+          <SmoothScrollButton targetRef={imagesRef} label="Images" />
+          <SmoothScrollButton targetRef={videosRef} label="Videos" />
+          <SmoothScrollButton targetRef={pressRef} label="Press" />
         </div>
         <OriginePersonnel t={t} />
         <SupportBanner />
