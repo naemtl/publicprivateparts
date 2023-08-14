@@ -3,13 +3,24 @@
 .principle {
     background-color: #232023;
     color: $site-color;
-    font-family: $primary-font-family;
+    font-family: $secondary-font-family;
     font-size: $text-md;
+    font-weight: $bold-font-weight;
     line-height: 2.5rem;
 
     &__button {
         @include button;
         font-size: $text-md;
+    }
+
+    &__credits {
+        div {
+            margin: $space-xs 0;
+        }
+
+        h2 {
+            margin-bottom: $space-xl;
+        }
     }
 
     &__header {
@@ -20,26 +31,22 @@
     }
 
     &__images {
+        align-items: center;
         background-color: #A60046;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         flex-wrap: wrap;
         margin: 0 auto;
-        max-width: 1400px;
-        padding: $space-md;
-        img {
-            margin: $space-xs 0;
-            max-width: 475px;
-            width: 100%;
-        }
-        
-        .principle__image--seven {
-            max-width: 985px;
-            width: 100%;
-        }
+        max-width: 1000px;
+        padding: $space-sm;
     }
-
+    
     &__image {
+        margin: $space-xs 0;
+        max-width: 475px;
+        padding: 0 $space-xs;
+        width: 100%;
+
         &--title {
             left: 50%;
             max-width: 500px;
@@ -50,7 +57,7 @@
         }
 
         &--seven {
-          
+            max-width: 985px;
         }
 
     }
@@ -73,18 +80,29 @@
 
     &__link-container {
         @include flex-center;
+        color: #F14A4A;
         justify-content: space-around;
-        margin: $space-xxl 0;
+        margin: $space-xl * 2 0;
         max-width: 720px;
         width: 100%;
     }
 
+    &__link-target {
+        color: $black;
+        padding: $space-xxl 0 $space-xl;
+        text-align: center;
+    }
+
+    &__media {
+       background-color: #A60046; 
+       width: 100%;
+    }
+
     &__trailers {
-        background-color: #A60046;
         display: flex;
         justify-content: space-between;
-        margin: $space-xxl auto;
-        max-width: 1024px;
+        margin: 0 auto;
+        max-width: 1000px;
         margin-top: 0;
         padding: $space-sm;
         width: 100%;
@@ -100,8 +118,9 @@
     &__text {
         bottom: 100px;
         background-color: transparent;
-        max-width: 640px;
+        max-width: 650px;
         position: relative;
+        text-align: center;
         width: 100%;
     }
 
@@ -109,12 +128,17 @@
         width: 45%;
     }
 
-    @media (max-width: 1100px) {
-
-    }
-
     @media (max-width: 1024px) {
-        
+    }
+    
+    @media (max-width: 973px) {
+        &__images {
+            justify-content: center;
+        }
+
+        &__image--seven {
+            max-width: 475px;
+        }
     }
 
     @media (max-width: 768px) {
