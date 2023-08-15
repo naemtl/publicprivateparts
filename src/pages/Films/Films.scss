@@ -5,10 +5,6 @@
     color: $site-color;
     font-family: $primary-font-family;
     font-size: $text-md;
-
-    &__banner {
-        height: 100vh;
-    }
     
     &__content {
         @include flex-center;
@@ -31,7 +27,7 @@
 
     &__film-player {
         margin-bottom: $space-lg;
-        max-width: 800px;
+        max-width: 1230px;
         width: 100%;
     }
 
@@ -46,14 +42,6 @@
         margin-bottom: $space-xxl;
         max-width: 600px;
         width: 100%;
-    }
-
-    &__intro-heading {
-        font-family: $secondary-font-family;
-        font-size: $text-xxl * 2;
-        margin-bottom: $space-lg;
-        text-align: center;
-        word-wrap: break-word;
     }
 
     @media (max-width: 768px) {

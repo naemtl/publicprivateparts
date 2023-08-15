@@ -1,6 +1,8 @@
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 
+import PageBanner from "../../components/PageBanner/PageBanner";
+
 import popBanner from "../../assets/images/pop-banner.png";
 import popTitle from "../../assets/images/pop-title.png";
 import popIntro from "../../assets/images/pop-intro.png";
@@ -26,18 +28,13 @@ const Principle = () => {
 
   return (
     <div className="principle">
-      <div className="principle__header">
-        <img
-          className="principle__image--banner"
-          alt="Page banner - Gerard posing"
-          src={popBanner}
-        />
+      <PageBanner background={`url(${popBanner})`}>
         <img
           className="principle__image--title"
           alt="Page title"
           src={popTitle}
         />
-      </div>
+      </PageBanner>
       <div className="principle__intro">
         <img
           className="principle__image--one"

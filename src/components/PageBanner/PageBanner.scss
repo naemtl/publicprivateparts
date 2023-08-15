@@ -1,0 +1,19 @@
+@import "/src/assets/styles/common";
+
+.page-banner {
+    @include flex-center;
+    @include title-text;
+    background-size: cover;
+    background-position: 50%;
+    flex-direction: column;
+    font-size: $text-lg * 2;
+    line-height: 5rem;
+    min-height: 100vh;
+    padding: 0 $space-lg;
+    text-align: center;
+    text-shadow: $text-shadow;
+
+    div {
+        font-size: $text-xxl;
+    }
+}
