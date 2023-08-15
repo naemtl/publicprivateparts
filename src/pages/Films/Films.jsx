@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
+import FilmsPodcastEntry from "../../components/FilmsPodcastEntry/FilmsPodcastEntry";
 import Footer from "../../components/Footer/Footer";
 import PageBanner from "../../components/PageBanner/PageBanner";
 // import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
@@ -10,7 +11,6 @@ import ecstaticScreen from "../../assets/images/films-ecstatic.png";
 import keyScreen from "../../assets/images/films-key.png";
 
 import "./Films.scss";
-import FilmsPodcastEntry from "../../components/FilmsPodcastEntry/FilmsPodcastEntry";
 
 const Films = () => {
   const { t } = useTranslation("films");
