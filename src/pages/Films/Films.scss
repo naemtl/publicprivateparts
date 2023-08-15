@@ -9,19 +9,38 @@
     &__content {
         @include flex-center;
         flex-direction: column;
+        margin-top: $space-xl;
+        padding: 0 $space-xl;
+    }
+
+    &__credits {
+        font-size: $text-xs;
+    }
+
+    &__credits-container {
+        margin-top: $space-lg;
+
+        h5 {
+            margin-bottom: $space-sm;
+        }
     }
 
     &__film-container {
         @include flex-center;
         flex-direction: column;
-        margin-bottom: $space-xxl;
+        margin-bottom: $space-xxl * 2;
         max-width: 1133px;
         width: 100%;
+
+        &:last-of-type {
+            margin-bottom: $space-xxl;
+        }
     }
 
     &__film-heading {
         font-family: $secondary-font-family;
-        font-size: $text-lg * 2;
+        font-size: $text-xl * 2;
+        font-weight: $base-font-weight;
         margin-bottom: $space-lg;
     }
 
@@ -33,6 +52,7 @@
 
     &__film-text {
         max-width: 700px;
+        text-align: center;
         width: 100%;
     }
 
@@ -47,6 +67,10 @@
     @media (max-width: 768px) {
         &__content {
             padding: 0 $space-md;
+        }
+
+        &__film-heading {
+            font-size: $text-xxl;
         }
     }
 

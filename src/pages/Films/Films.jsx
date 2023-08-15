@@ -22,25 +22,37 @@ const Films = () => {
           <div className="films__film-player">
             {/* <YoutubeVimeoEmbed embedId="OQHlxfWdW9Q" /> */}
             <img
-              className="principle__image"
+              className="films__image"
               alt="Films - Ecstatic Unity"
               src={ecstaticScreen}
             />
           </div>
           <h3 className="films__film-heading">{t("film-1.heading")}</h3>
-          <div className="films__film-text">{t("film-1.text")}</div>
+          <div className="films__film-text">
+            <div>{t("film-1.text")}</div>
+            <div className="films__credits-container">
+              <h5>{t("credits-heading")}</h5>
+              <div className="films__credits">{t("film-1.credits")}</div>
+            </div>
+          </div>
         </div>
         <div className="films__film-container">
           <div className="films__film-player">
             {/* <YoutubeVimeoEmbed embedId="OQHlxfWdW9Q" /> */}
             <img
-              className="principle__image"
+              className="films__image"
               alt="Films - The Key to Dreams"
               src={keyScreen}
             />
           </div>
           <h3 className="films__film-heading">{t("film-2.heading")}</h3>
-          <div className="films__film-text">{t("film-2.text")}</div>
+          <div className="films__film-text">
+            <div>{t("film-2.text")}</div>
+            <div className="films__credits-container">
+              <h5>{t("credits-heading")}</h5>
+              <div className="films__credits">{t("film-2.credits")}</div>
+            </div>
+          </div>
         </div>
       </div>
       <Footer />
