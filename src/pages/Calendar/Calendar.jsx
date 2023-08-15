@@ -2,7 +2,7 @@ import "./Calendar.scss";
 
 const data = [
   {
-    date: "2023.01.01",
+    date: "2024-01-01",
     project: "Principle of Pleasure",
     venue: "Usine C",
     city: "Montreal",
@@ -10,7 +10,7 @@ const data = [
     link: "https://www.gerardxreyes.com/",
   },
   {
-    date: "2023.01.01",
+    date: "2024-01-01",
     project: "Principle of Pleasure",
     venue: "Usine C",
     city: "Montreal",
@@ -18,7 +18,15 @@ const data = [
     link: "https://www.gerardxreyes.com/",
   },
   {
-    date: "2023.01.01",
+    date: "2023-01-01",
+    project: "Principle of Pleasure",
+    venue: "Usine C",
+    city: "Montreal",
+    country: "Canada",
+    link: "https://www.gerardxreyes.com/",
+  },
+  {
+    date: "2022-01-01",
     project: "Principle of Pleasure",
     venue: "Usine C",
     city: "Montreal",
@@ -31,8 +39,10 @@ const Calendar = () => {
   const buildGrid = (data) =>
     data.map((entry) => {
       const { date, project, venue, city, country, link } = entry;
+
+      const pastEntry = checkIfDateHasPast(date) ? "calendar__entry--past" : "";
       return (
-        <div className="calendar__entry">
+        <div className={`calendar__entry ${pastEntry}`}>
           <div className="calendar__cell">{date}</div>
           <div className="calendar__cell--project">{project}</div>
           <div className="calendar__cell">{venue}</div>
@@ -44,6 +54,13 @@ const Calendar = () => {
         </div>
       );
     });
+
+  const checkIfDateHasPast = (date) => {
+    const currentDate = new Date();
+    const calendarDate = new Date(date);
+
+    return calendarDate < currentDate;
+  };
 
   return (
     <div className="calendar">

@@ -35,6 +35,11 @@
         &:last-of-type {
             border-bottom: none;
         }
+
+        &--past {
+            border-color: $gray;
+            color: $gray;
+        }
     }
 
     &__heading {
