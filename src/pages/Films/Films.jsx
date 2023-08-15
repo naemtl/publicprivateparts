@@ -10,6 +10,7 @@ import ecstaticScreen from "../../assets/images/films-ecstatic.png";
 import keyScreen from "../../assets/images/films-key.png";
 
 import "./Films.scss";
+import FilmsPodcastEntry from "../../components/FilmsPodcastEntry/FilmsPodcastEntry";
 
 const Films = () => {
   const { t } = useTranslation("films");
@@ -18,42 +19,24 @@ const Films = () => {
     <div className="films">
       <PageBanner background={`url(${filmsBg})`}>{t("heading")}</PageBanner>
       <div className="films__content">
-        <div className="films__film-container">
-          <div className="films__film-player">
-            {/* <YoutubeVimeoEmbed embedId="OQHlxfWdW9Q" /> */}
-            <img
-              className="films__image"
-              alt="Films - Ecstatic Unity"
-              src={ecstaticScreen}
-            />
-          </div>
-          <h3 className="films__film-heading">{t("film-1.heading")}</h3>
-          <div className="films__film-text">
-            <div>{t("film-1.text")}</div>
-            <div className="films__credits-container">
-              <h5>{t("credits-heading")}</h5>
-              <div className="films__credits">{t("film-1.credits")}</div>
-            </div>
-          </div>
-        </div>
-        <div className="films__film-container">
-          <div className="films__film-player">
-            {/* <YoutubeVimeoEmbed embedId="OQHlxfWdW9Q" /> */}
-            <img
-              className="films__image"
-              alt="Films - The Key to Dreams"
-              src={keyScreen}
-            />
-          </div>
-          <h3 className="films__film-heading">{t("film-2.heading")}</h3>
-          <div className="films__film-text">
-            <div>{t("film-2.text")}</div>
-            <div className="films__credits-container">
-              <h5>{t("credits-heading")}</h5>
-              <div className="films__credits">{t("film-2.credits")}</div>
-            </div>
-          </div>
-        </div>
+        <FilmsPodcastEntry
+          imgSrc={ecstaticScreen}
+          imgAlt="Films - Ecstatic Unity"
+          entryHeading={t("film-1.heading")}
+          entryDesc={t("film-1.text")}
+          creditsHeading={t("credits-heading")}
+          creditsBody={t("film-1.credits")}
+        />
+        {/* <YoutubeVimeoEmbed embedId="OQHlxfWdW9Q" /> */}
+        <FilmsPodcastEntry
+          imgSrc={keyScreen}
+          imgAlt="Films - The Key to Dreams"
+          entryHeading={t("film-2.heading")}
+          entryDesc={t("film-2.text")}
+          creditsHeading={t("credits-heading")}
+          creditsBody={t("film-2.credits")}
+        />
+        {/* <YoutubeVimeoEmbed embedId="OQHlxfWdW9Q" /> */}
       </div>
       <Footer />
     </div>

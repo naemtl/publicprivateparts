@@ -1,0 +1,50 @@
+@import "/src/assets/styles/common";
+
+.films-podcast-entry {
+    @include flex-center;
+    flex-direction: column;
+    margin-bottom: $space-xxl * 2;
+    max-width: 1133px;
+    width: 100%;
+
+    &:last-of-type {
+        margin-bottom: $space-xxl;
+    }
+
+    &__credits {
+        font-size: $text-xs;
+    }
+
+    &__credits-container {
+        margin-top: $space-lg;
+
+        h5 {
+            margin-bottom: $space-sm;
+        }
+    }
+
+    &__heading {
+        font-family: $secondary-font-family;
+        font-size: $text-xl * 2;
+        font-weight: $base-font-weight;
+        margin-bottom: $space-lg;
+    }
+
+    &__player {
+        margin-bottom: $space-lg;
+        max-width: 1230px;
+        width: 100%;
+    }
+
+    &__text {
+        max-width: 700px;
+        text-align: center;
+        width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        &__film-heading {
+            font-size: $text-xxl;
+        }
+    }
+}
