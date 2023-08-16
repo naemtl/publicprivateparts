@@ -7,13 +7,21 @@ const FilmsPodcastEntry = ({
   imgAlt,
   entryHeading,
   entryDesc,
+  children,
   creditsHeading,
   creditsBody,
 }) => {
   return (
     <div className="films-podcast-entry">
       <div className="films-podcast-entry__player">
-        <img className="films-podcast-entry__image" alt={imgAlt} src={imgSrc} />
+        {imgSrc && (
+          <img
+            className="films-podcast-entry__image"
+            alt={imgAlt}
+            src={imgSrc}
+          />
+        )}
+        {children}
       </div>
       <h3 className="films-podcast-entry__heading">{entryHeading}</h3>
       <div className="films-podcast-entry__text">

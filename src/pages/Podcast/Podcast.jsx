@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import ReactPlayer from "react-player/soundcloud";
 
 import FilmsPodcastEntry from "../../components/FilmsPodcastEntry/FilmsPodcastEntry";
 import Footer from "../../components/Footer/Footer";
@@ -24,27 +25,27 @@ const Podcast = () => {
           <div className="podcast__intro-text">{t("intro")}</div>
         </div>
         <FilmsPodcastEntry
-          imgSrc="https://placehold.co/800x200"
-          imgAlt="FIXME"
           entryHeading={t("episode-1.heading")}
           entryDesc={t("episode-1.text")}
-        />
+        >
+          <ReactPlayer url="https://soundcloud.com/possessiontechno/possession-podcast-klangkuenstler" />
+        </FilmsPodcastEntry>
         <FilmsPodcastEntry
-          imgSrc="https://placehold.co/800x200"
-          imgAlt="FIXME"
           entryHeading={t("episode-2.heading")}
           entryDesc={t("episode-2.text")}
-        />
+        >
+          <ReactPlayer url="https://soundcloud.com/drumtrip/all-source-direct-mix" />
+        </FilmsPodcastEntry>
         <FilmsPodcastEntry
-          imgSrc="https://placehold.co/800x200"
-          imgAlt="FIXME"
           entryHeading={t("episode-3.heading")}
           entryDesc={t("episode-3.text")}
-        />
-      </div>
-      <div className="podcast__credits-container">
-        <h5>{t("credits-heading")}</h5>
-        <div className="podcast__credits">{t("credits")}</div>
+        >
+          <ReactPlayer url="https://soundcloud.com/takaaki_itoh/takaaki-itoh-live-at-klubnacht" />
+        </FilmsPodcastEntry>
+        <div className="podcast__credits-container">
+          <h5>{t("credits-heading")}</h5>
+          <div className="podcast__credits">{t("credits")}</div>
+        </div>
       </div>
       <Footer />
     </div>

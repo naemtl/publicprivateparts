@@ -31,6 +31,7 @@
     }
 
     &__player {
+        @include flex-center;
         margin-bottom: $space-lg;
         max-width: 1230px;
         width: 100%;

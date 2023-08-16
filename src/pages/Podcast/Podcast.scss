@@ -17,8 +17,7 @@
     }
 
     &__credits-container {
-        margin: 0 auto;
-        margin-top: $space-lg;
+        margin: 0 auto $space-xxl;
         max-width: 700px;
         text-align: center;
         width: 100%;
@@ -67,14 +66,24 @@
     &__intro-heading {
         font-family: $secondary-font-family;
         font-size: $text-xxl * 2;
-        margin-bottom: $space-lg;
+        font-weight: $base-font-weight;
+        line-height: 80px;
+        margin: $space-xl 0;
+        max-width: 500px;
         text-align: center;
+        width: 100%;
         word-wrap: break-word;
     }
 
     @media (max-width: 768px) {
         &__content {
             padding: 0 $space-md;
+        }
+
+        &__intro-heading {
+            font-size: $text-lg * 2;
+            line-height: 50px;
+            max-width: 400px;
         }
     }
 
