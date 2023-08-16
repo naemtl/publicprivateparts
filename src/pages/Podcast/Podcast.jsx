@@ -28,25 +28,23 @@ const Podcast = () => {
           imgAlt="FIXME"
           entryHeading={t("episode-1.heading")}
           entryDesc={t("episode-1.text")}
-          creditsHeading={t("credits-heading")}
-          creditsBody={t("episode-1.credits")}
         />
         <FilmsPodcastEntry
           imgSrc="https://placehold.co/800x200"
           imgAlt="FIXME"
           entryHeading={t("episode-2.heading")}
           entryDesc={t("episode-2.text")}
-          creditsHeading={t("credits-heading")}
-          creditsBody={t("episode-2.credits")}
         />
         <FilmsPodcastEntry
           imgSrc="https://placehold.co/800x200"
           imgAlt="FIXME"
           entryHeading={t("episode-3.heading")}
           entryDesc={t("episode-3.text")}
-          creditsHeading={t("credits-heading")}
-          creditsBody={t("episode-3.credits")}
         />
+      </div>
+      <div className="podcast__credits-container">
+        <h5>{t("credits-heading")}</h5>
+        <div className="podcast__credits">{t("credits")}</div>
       </div>
       <Footer />
     </div>

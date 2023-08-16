@@ -18,10 +18,12 @@ const FilmsPodcastEntry = ({
       <h3 className="films-podcast-entry__heading">{entryHeading}</h3>
       <div className="films-podcast-entry__text">
         <div>{entryDesc}</div>
-        <div className="films-podcast-entry__credits-container">
-          <h5>{creditsHeading}</h5>
-          <div className="films-podcast-entry__credits">{creditsBody}</div>
-        </div>
+        {creditsBody && (
+          <div className="films-podcast-entry__credits-container">
+            <h5>{creditsHeading}</h5>
+            <div className="films-podcast-entry__credits">{creditsBody}</div>
+          </div>
+        )}
       </div>
     </div>
   );
