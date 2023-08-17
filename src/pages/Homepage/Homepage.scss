@@ -8,6 +8,8 @@
 
     &__background {
         bottom: 0;
+        left: 50%;
         position: fixed;
+        transform: translate(-50%, 0);
     }
 }
