@@ -23,8 +23,8 @@ const Homepage = () => {
       >
         <MouseParallaxChild
           className="homepage__parallax-child"
-          factorX={0.5}
-          factorY={0.5}
+          factorX={0.3}
+          factorY={0.3}
         >
           <div className="homepage__left-group">
             <img className="homepage__img-1" src={gxrLeft1} alt="" />
@@ -34,8 +34,8 @@ const Homepage = () => {
         </MouseParallaxChild>
         <MouseParallaxChild
           className="homepage__parallax-child"
-          factorX={0.7}
-          factorY={0.5}
+          factorX={0.3}
+          factorY={0.3}
         >
           <img className="homepage__img-4" src={gxrRight1} alt="" />
         </MouseParallaxChild>
