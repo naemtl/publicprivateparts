@@ -5,11 +5,46 @@
     display: flex;
     height: 100vh;
     justify-content: center;
+    width: 100%;
 
     &__background {
         bottom: 0;
         left: 50%;
         position: fixed;
         transform: translate(-50%, 0);
+    }
+    
+    &__img-1 {
+        height: 135px;
+        left: 30px;
+        position: relative;
+        top: 30px;
+        width: 130px;
+    }
+    &__img-2 {
+        height: 200px;
+        width: 320px;
+    }
+    &__img-3 {
+        bottom: 20px;
+        height: 135px;
+        left: 80px;
+        position: relative;
+        width: 160px;
+    }
+    &__img-4 {
+        height: 210px;
+        width: 280px;
+    }
+
+    &__parallax-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        z-index: 2;
+    }
+
+    &__parallax-child {
+        @include flex-center;
     }
 }
