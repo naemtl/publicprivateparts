@@ -5,25 +5,29 @@ import "yet-another-react-lightbox/styles.css";
 
 import "./LightboxGallery.scss";
 
-const LightboxGallery = ({ albumContainer, lightboxSlides }) => {
+const LightboxGallery = ({ photos }) => {
   const [index, setIndex] = useState(-1);
 
   return (
-    <>
-      <PhotoAlbum
-        renderContainer={albumContainer}
-        photos={lightboxSlides}
-        targetRowHeight={150}
-        onClick={({ index: current }) => setIndex(current)}
-      />
+    <div className="lightbox-gallery">
+      <div className="lightbox-gallery__photo-album">
+        <PhotoAlbum
+          layout="rows"
+          photos={photos}
+          padding={0}
+          spacing={14}
+          targetRowHeight={300}
+          onClick={({ index: current }) => setIndex(current)}
+        />
+      </div>
 
       <Lightbox
         index={index}
-        slides={lightboxSlides}
+        slides={photos}
         open={index >= 0}
         close={() => setIndex(-1)}
       />
-    </>
+    </div>
   );
 };
 

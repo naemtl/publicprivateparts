@@ -42,6 +42,17 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+<script>
+  // FIXME: needed to prevent "ResizeObserver loop completed with undelivered notifications." error as a result of react-photo-album usage. Check lib's github for possible solution
+  
+   window.addEventListener('error', function (e) {
+    console.error(e.message);
+       // prevent React's listener from firing
+    e.stopImmediatePropagation();
+      // prevent the browser's console error message
+    e.preventDefault();
+ });
+</script>
 </body>
 
 </html>

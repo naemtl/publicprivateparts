@@ -1,7 +1,10 @@
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 
+import LightboxGallery from "../../components/LightboxGallery/LightboxGallery";
 import PageBanner from "../../components/PageBanner/PageBanner";
+import SmoothScrollButton from "../../components/SmoothScrollButton/SmoothScrollButton";
+import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
 
 import popBanner from "../../assets/images/pop-banner.png";
 import popTitle from "../../assets/images/pop-title.png";
@@ -16,8 +19,6 @@ import popSixImg from "../../assets/images/pop-6.png";
 import popSevenImg from "../../assets/images/pop-7.png";
 
 import "./Principle.scss";
-import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
-import SmoothScrollButton from "../../components/SmoothScrollButton/SmoothScrollButton";
 
 const Principle = () => {
   const { t } = useTranslation("principle");
@@ -69,19 +70,17 @@ const Principle = () => {
         <h3 className="principle__link-target" ref={imagesRef}>
           Images
         </h3>
-        <div className="principle__images">
-          <img className="principle__image" alt="Gerard" src={popOneImg} />
-          <img className="principle__image" alt="Gerard" src={popTwoImg} />
-          <img className="principle__image" alt="Gerard" src={popThreeImg} />
-          <img className="principle__image" alt="Gerard" src={popFourImg} />
-          <img className="principle__image" alt="Gerard" src={popFiveImg} />
-          <img className="principle__image" alt="Gerard" src={popSixImg} />
-          <img
-            className="principle__image principle__image--seven"
-            alt="Gerard"
-            src={popSevenImg}
-          />
-        </div>
+        <LightboxGallery
+          photos={[
+            { src: popOneImg, width: 950, height: 650 },
+            { src: popTwoImg, width: 950, height: 650 },
+            { src: popThreeImg, width: 950, height: 650 },
+            { src: popFourImg, width: 950, height: 650 },
+            { src: popFiveImg, width: 950, height: 650 },
+            { src: popSixImg, width: 950, height: 650 },
+            { src: popSevenImg, width: 985, height: 660 },
+          ]}
+        />
         <h3 className="principle__link-target" ref={videosRef}>
           Videos
         </h3>

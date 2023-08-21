@@ -1,5 +1,11 @@
 @import "/src/assets/styles/common";
 
 .lightbox-gallery {
+    @include flex-center;
+    padding: $space-sm;
     
+    &__photo-album {
+        max-width: 600px;
+        width: 100%;
+    }
 }
