@@ -5,12 +5,14 @@ import "yet-another-react-lightbox/styles.css";
 
 import "./LightboxGallery.scss";
 
-const LightboxGallery = ({ photos }) => {
+const LightboxGallery = ({ parentName, photos }) => {
   const [index, setIndex] = useState(-1);
 
   return (
     <div className="lightbox-gallery">
-      <div className="lightbox-gallery__photo-album">
+      <div
+        className={`lightbox-gallery__album lightbox-gallery__album--${parentName}`}
+      >
         <PhotoAlbum
           layout="rows"
           photos={photos}

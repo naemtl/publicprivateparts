@@ -71,6 +71,7 @@ const Principle = () => {
           Images
         </h3>
         <LightboxGallery
+          parentName="principle"
           photos={[
             { src: popOneImg, width: 950, height: 650 },
             { src: popTwoImg, width: 950, height: 650 },

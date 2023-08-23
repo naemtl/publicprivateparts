@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { Trans, useTranslation } from "react-i18next";
 
+import LightboxGallery from "../../components/LightboxGallery/LightboxGallery";
 import OriginePersonnel from "./OriginePersonnel/OriginePersonnel";
 import Footer from "../../components/Footer/Footer";
 
@@ -72,14 +73,15 @@ const OrigineDuMonde = () => {
         <h3 className="origine__scroll-heading" ref={imagesRef}>
           Images
         </h3>
-        <div className="origine__media-row origine__media-row--three">
-          <img src={odmImg4} alt="Origine Du Monde promo" />
-          <img src={odmImg5} alt="Origine Du Monde promo" />
-        </div>
-        <div className="origine__media-row origine__media-row--four">
-          <img src={odmImg6} alt="Origine Du Monde promo" />
-          <img src={odmImg7} alt="Origine Du Monde promo" />
-        </div>
+        <LightboxGallery
+          parentName="origine"
+          photos={[
+            { src: odmImg4, width: 688, height: 458 },
+            { src: odmImg5, width: 688, height: 458 },
+            { src: odmImg6, width: 688, height: 458 },
+            { src: odmImg7, width: 688, height: 458 },
+          ]}
+        />
       </div>
       <div className="origine__quote">
         <div className="origine__quote-container">

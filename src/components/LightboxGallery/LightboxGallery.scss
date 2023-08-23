@@ -3,9 +3,17 @@
 .lightbox-gallery {
     @include flex-center;
     padding: $space-sm;
+    width: 100%;
     
-    &__photo-album {
-        max-width: 600px;
+    &__album {
         width: 100%;
+        
+        &--origine {
+            max-width: 1000px;
+        }
+
+        &--principle {
+            max-width: 600px;
+        }
     }
 }
