@@ -1,7 +1,7 @@
 @import "/src/assets/styles/common";
 
 .interviews {
-    background-color: #101214;
+    @include gradientPublicPrivate;
     color: $site-color;
     font-family: $primary-font-family;
     font-size: $text-md;

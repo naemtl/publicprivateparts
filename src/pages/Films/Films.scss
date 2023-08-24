@@ -1,7 +1,7 @@
 @import "/src/assets/styles/common";
 
 .films {
-    background-color: #141414;
+    @include gradientPublicPrivate;
     color: $site-color;
     font-family: $primary-font-family;
     font-size: $text-md;

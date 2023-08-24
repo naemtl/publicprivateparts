@@ -139,6 +139,34 @@
     );
 }
 
+@mixin gradientPublicPrivate {
+    background-image: linear-gradient(
+        180deg,
+        hsl(241deg 76% 15%) 0%,
+        hsl(244deg 73% 15%) 13%,
+        hsl(248deg 71% 16%) 19%,
+        hsl(251deg 70% 16%) 24%,
+        hsl(254deg 68% 16%) 28%,
+        hsl(256deg 67% 17%) 32%,
+        hsl(259deg 66% 17%) 35%,
+        hsl(261deg 64% 18%) 39%,
+        hsl(263deg 63% 18%) 42%,
+        hsl(265deg 62% 18%) 45%,
+        hsl(267deg 60% 19%) 48%,
+        hsl(269deg 59% 19%) 52%,
+        hsl(271deg 58% 19%) 55%,
+        hsl(273deg 57% 20%) 58%,
+        hsl(275deg 55% 20%) 61%,
+        hsl(277deg 54% 21%) 65%,
+        hsl(278deg 53% 21%) 68%,
+        hsl(280deg 52% 21%) 72%,
+        hsl(282deg 51% 22%) 76%,
+        hsl(284deg 49% 22%) 81%,
+        hsl(285deg 48% 23%) 87%,
+        hsl(287deg 47% 23%) 100%
+    );
+}
+
 @keyframes spinner {
     from {
         transform: rotate(0deg);

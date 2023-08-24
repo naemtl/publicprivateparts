@@ -5,6 +5,7 @@
     @include title-text;
     background-size: cover;
     background-position: 50%;
+    background-color: $black;
     flex-direction: column;
     font-size: $text-lg * 2;
     line-height: 5rem;

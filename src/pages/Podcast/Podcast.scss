@@ -1,7 +1,7 @@
 @import "/src/assets/styles/common";
 
 .podcast {
-    background-color: #111426;
+    @include gradientPublicPrivate;
     color: $site-color;
     font-family: $primary-font-family;
     font-size: $text-md;

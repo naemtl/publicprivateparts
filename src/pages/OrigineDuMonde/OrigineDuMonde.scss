@@ -1,7 +1,7 @@
 @import "/src/assets/styles/common";
 
 .origine {
-    background-color: #222023;
+    @include gradientPublicPrivate;
     color: $site-color;
     font-family: $primary-font-family;
 
