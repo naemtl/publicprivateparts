@@ -1,0 +1,18 @@
+@import "/src/assets/styles/common";
+
+.origine-personnel {
+    font-family: "AktivGrotesk", "Questrial", sans-serif;
+    font-size: 1.6rem;
+    line-height: 27px;
+    margin: 0 auto;
+    margin-bottom: 104px;
+    max-width: 860px;
+    padding: 0 $space-md;
+
+    &__heading {
+        font-weight: 700;
+        margin-top: $space-lg;
+        margin-bottom: $space-sm;
+        text-transform: none;
+    }
+}
