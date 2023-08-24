@@ -42,7 +42,7 @@
     &__parallax-container {
         display: grid;
         grid-template-columns: auto auto;
-        padding: 0 $space-xl;
+        padding: 0 $space-xl * 2;
         width: 100%;
         z-index: 2;
     }
@@ -52,6 +52,7 @@
 
         &:first-of-type{
             justify-content: flex-start;
+            margin-top: $space-xxl * 2;
         }
         &:last-of-type{
             justify-content: flex-end;
