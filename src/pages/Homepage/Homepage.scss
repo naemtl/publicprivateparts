@@ -10,8 +10,10 @@
     &__background {
         bottom: 0;
         left: 50%;
+        max-width: 600px;
         position: fixed;
         transform: translate(-50%, 0);
+        width: 100%;
     }
     
     &__img-1 {
@@ -38,13 +40,28 @@
     }
 
     &__parallax-container {
-        width: 100%;
         display: grid;
         grid-template-columns: auto auto;
+        padding: 0 $space-xl;
+        width: 100%;
         z-index: 2;
     }
 
     &__parallax-child {
         @include flex-center;
+
+        &:first-of-type{
+            justify-content: flex-start;
+        }
+        &:last-of-type{
+            justify-content: flex-end;
+        }
+    }
+
+
+    @media (max-width: 768px) {
+        &__parallax-container {
+            display: none;
+        }
     }
 }

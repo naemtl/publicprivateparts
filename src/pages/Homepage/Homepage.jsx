@@ -4,7 +4,6 @@ import {
 } from "react-parallax-mouse";
 
 import gxrBackground from "../../assets/images/gxr-background.jpg";
-import gxrDummy from "../../assets/images/gxr-dummy.png";
 import gxrLeft1 from "../../assets/images/gxr-left-1.png";
 import gxrLeft2 from "../../assets/images/gxr-left-2.png";
 import gxrLeft3 from "../../assets/images/gxr-left-3.png";
@@ -42,7 +41,7 @@ const Homepage = () => {
       </MouseParallaxContainer>
       <img
         className="homepage__background"
-        src={gxrDummy}
+        src={gxrBackground}
         alt="GXR homepage background"
       />
     </div>
