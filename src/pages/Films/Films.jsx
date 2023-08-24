@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import FilmsPodcastEntry from "../../components/FilmsPodcastEntry/FilmsPodcastEntry";
 import Footer from "../../components/Footer/Footer";
 import PageBanner from "../../components/PageBanner/PageBanner";
+import PublicPrivateSupport from "../../components/PublicPrivateSupport/PublicPrivateSupport";
 // import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
 
 import filmsBg from "../../assets/images/films-bg.png";
@@ -40,6 +41,7 @@ const Films = () => {
         />
         {/* <YoutubeVimeoEmbed embedId="OQHlxfWdW9Q" /> */}
       </div>
+      <PublicPrivateSupport />
       <Footer />
     </div>
   );

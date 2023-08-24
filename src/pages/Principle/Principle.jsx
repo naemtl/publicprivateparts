@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import LightboxGallery from "../../components/LightboxGallery/LightboxGallery";
 import PageBanner from "../../components/PageBanner/PageBanner";
+import PublicPrivateSupport from "../../components/PublicPrivateSupport/PublicPrivateSupport";
 import SmoothScrollButton from "../../components/SmoothScrollButton/SmoothScrollButton";
 import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
 
@@ -96,6 +97,7 @@ const Principle = () => {
         <h3 className="principle__link-target" ref={pressRef}>
           Press
         </h3>
+        <PublicPrivateSupport />
       </div>
     </div>
   );

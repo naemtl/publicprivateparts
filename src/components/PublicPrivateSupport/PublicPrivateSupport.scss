@@ -1,0 +1,13 @@
+@import "/src/assets/styles/common";
+
+.public-private-support {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto $space-xl;
+    max-width: 610px;
+    width: 100%;
+    
+    &__logo {
+        width: 120px;
+    }
+}

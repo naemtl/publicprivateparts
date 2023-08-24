@@ -5,6 +5,7 @@ import ReactPlayer from "react-player/soundcloud";
 import FilmsPodcastEntry from "../../components/FilmsPodcastEntry/FilmsPodcastEntry";
 import Footer from "../../components/Footer/Footer";
 import PageBanner from "../../components/PageBanner/PageBanner";
+import PublicPrivateSupport from "../../components/PublicPrivateSupport/PublicPrivateSupport";
 
 import podcastBanner from "../../assets/images/podcast-banner.png";
 import podcastIcon from "../../assets/images/podcast-icon.png";
@@ -50,6 +51,7 @@ const Podcast = () => {
           </div>
         </div>
       </div>
+      <PublicPrivateSupport />
       <Footer />
     </div>
   );
