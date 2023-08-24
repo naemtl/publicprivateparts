@@ -9,7 +9,8 @@ const FilmsPodcastEntry = ({
   entryDesc,
   children,
   creditsHeading,
-  creditsBody,
+  creditsBody1,
+  creditsBody2,
 }) => {
   return (
     <div className="films-podcast-entry">
@@ -26,10 +27,13 @@ const FilmsPodcastEntry = ({
       <h3 className="films-podcast-entry__heading">{entryHeading}</h3>
       <div className="films-podcast-entry__text">
         <div>{entryDesc}</div>
-        {creditsBody && (
+        {creditsBody1 && (
           <div className="films-podcast-entry__credits-container">
             <h5>{creditsHeading}</h5>
-            <div className="films-podcast-entry__credits">{creditsBody}</div>
+            <div className="films-podcast-entry__credits">
+              <div>{creditsBody1}</div>
+              <div>{creditsBody2}</div>
+            </div>
           </div>
         )}
       </div>

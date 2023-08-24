@@ -14,6 +14,10 @@
 
     &__credits {
         font-size: $text-xs;
+
+        div:first-of-type{
+            margin-bottom: $space-sm;
+        }
     }
 
     &__credits-container {
@@ -30,29 +34,6 @@
     &__content {
         @include flex-center;
         flex-direction: column;
-    }
-
-    &__episode-container {
-        @include flex-center;
-        flex-direction: column;
-        margin-bottom: $space-xxl;
-        max-width: 1133px;
-        width: 100%;
-    }
-
-    &__episode-heading {
-        font-family: $secondary-font-family;
-        font-size: $text-lg * 2;
-        margin-bottom: $space-lg;
-    }
-
-    &__episode-player {
-        margin-bottom: $space-lg;
-    }
-
-    &__episode-text {
-        max-width: 700px;
-        width: 100%;
     }
 
     &__intro-container {

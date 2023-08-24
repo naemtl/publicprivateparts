@@ -25,7 +25,8 @@ const Films = () => {
           entryHeading={t("film-1.heading")}
           entryDesc={t("film-1.text")}
           creditsHeading={t("credits-heading")}
-          creditsBody={t("film-1.credits")}
+          creditsBody1={t("film-1.credits-1")}
+          creditsBody2={t("film-1.credits-2")}
         />
         {/* <YoutubeVimeoEmbed embedId="OQHlxfWdW9Q" /> */}
         <FilmsPodcastEntry
@@ -34,7 +35,8 @@ const Films = () => {
           entryHeading={t("film-2.heading")}
           entryDesc={t("film-2.text")}
           creditsHeading={t("credits-heading")}
-          creditsBody={t("film-2.credits")}
+          creditsBody1={t("film-2.credits-1")}
+          creditsBody2={t("film-2.credits-2")}
         />
         {/* <YoutubeVimeoEmbed embedId="OQHlxfWdW9Q" /> */}
       </div>

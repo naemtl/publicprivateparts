@@ -13,6 +13,10 @@
 
     &__credits {
         font-size: $text-xs;
+        
+        div:first-of-type {
+            margin-bottom: $space-sm;
+        }
     }
 
     &__credits-container {
@@ -25,7 +29,7 @@
 
     &__heading {
         font-family: $secondary-font-family;
-        font-size: $text-xl * 2;
+        font-size: $text-xxl;
         font-weight: $base-font-weight;
         margin-bottom: $space-lg;
     }

@@ -1,15 +1,17 @@
 {
-    "credits-heading": "",
-    "heading": "",
-    "intro": "",
+    "credits-heading": "Crédits",
+    "heading": "FILMS",
+    "intro": "Deux courts métrages de la série Public/Private Parts, qui va au-delà des binaires restrictifs du public/privé et de l’art/la pornographie pour honorer tous.tes ceux.celles qui travaillent avec leur corps.",
     "film-1": {
-        "credits": "",
-        "heading": "",
-        "text": ""
+        "credits-1": "Co-réalisateurs: Gerard X Reyes, Poppy Sanchez | Directeur de la photographie: Kevin Klein | Distribution et co-auteurs: Gerard X Reyes, Jorge Benavides | Monteuse: Poppy Sanchez | Enregistrement: Toni V Monge | Concepteur sonore: Devon Bate | Coloriste : Max Hilsamer | Conceptrice des titres: Vina Goh | Sous-titres: T&S Coop | Directrices de production: Elisa Hengen, Poppy Sanchez, Alice Renucci | Assistant producteur: Max Kutschenreuter | Assistant: Johannes D. Täufer | Musique: « High », écrite et interprétée par Bendik Giske. Smalltown Supermusic (STIM)/Sony Music Publishing (Scandinavie) KB (STIM). Administré au Canada par Sony Music Publishing (Canada) Ltd. (SOCAN). Tous les droits sont réservés. Utilisé avec permission.",
+        "credits-2": "Ecstatic Unity est une production de Gerard X Reyes | Financé par : Conseil des arts et des lettres du Québec, Conseil des arts du Canada",
+        "heading": "Ecstatic Unity",
+        "text": "S'il existe une chose telle que la Terre a des chakras, alors Berlin pourrait être le chakra sexuel. En été, les lacs de Berlin deviennent des lieux mystiques où les gens vont pour se connecter et transcender leur vie quotidienne. Ecstatic Unity est un court métrage docu-fiction qui suit Jorge et Gerard lors d'un voyage rituel vers un lac. Envoûtés par leur environnement naturel et guidés par leurs instincts primaires, les garçons barbus s'emmêlent dans un tourbillon ludique de respiration béate et de toucher tantrique."
     },
     "film-2": {
-        "credits": "",
-        "heading": "",
-        "text": ""
+        "credits-1": "Co-réalisateurs: Gerard X Reyes, Poppy Sanchez | Directeur de la photographie: Kevin Klein | En collaboration avec le casting: Bishop Black, Jasko Fide, Gerard X Reyes | Cadreurs: Kevin Klein, Bishop Black, Jasko Fide, Poppy Sanchez | Preneur de son: Toni V Monge | Scénographe: Jasmine Reimer | Assistante à la scénographe: Kaitlyn Smeeth | Monteuse: Poppy Sanchez | Concepteur sonore: Devon Bate | Poète: Pina Brutal | Coloriste: Stasys Žak | Conceptrice des titres: Vina Goh | Directrices de production: Elisa Hengen, Alice Renucci | Restauration: Alessandro Ubirajara Pinto Leivas | Musique: \"All Flowers\", écrite par Devon Bate, Pina Brutal, Gerard X Reyes. Interprétée par Gérard X Reyes. Tous les droits sont réservés.",
+        "credits-2": "The Key to Dreams est une production de Gerard X Reyes | Tourné aux studios HVH, Berlin, Allemagne | Financé par: Conseil des arts et des lettres du Québec, Conseil des arts du Canada",
+        "heading": "The Key to Dreams",
+        "text": "Un conte de fées queer sur la première incursion d'un réalisateur-interprète dans le monde onirique mais intimidant du cinéma érotique. Entre dans son esprit pour connaître ses pensées intimes, écoute des conversations en coulisses entre les acteurs, et regarde l'action depuis leurs points de vue."
     }
 }

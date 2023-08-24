@@ -44,7 +44,10 @@ const Podcast = () => {
         </FilmsPodcastEntry>
         <div className="podcast__credits-container">
           <h5>{t("credits-heading")}</h5>
-          <div className="podcast__credits">{t("credits")}</div>
+          <div className="podcast__credits">
+            <div>{t("credits-1")}</div>
+            <div>{t("credits-2")}</div>
+          </div>
         </div>
       </div>
       <Footer />
