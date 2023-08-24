@@ -14,36 +14,38 @@ import "./Homepage.scss";
 const Homepage = () => {
   return (
     <div className="homepage">
-      <MouseParallaxContainer
-        className="homepage__parallax-container"
-        globalFactorX={0.3}
-        globalFactorY={0.3}
-        resetOnLeave
-      >
-        <MouseParallaxChild
-          className="homepage__parallax-child"
-          factorX={0.3}
-          factorY={0.3}
+      <div className="homepage__container">
+        <MouseParallaxContainer
+          className="homepage__parallax-container"
+          globalFactorX={0.3}
+          globalFactorY={0.3}
+          resetOnLeave
         >
-          <div className="homepage__left-group">
-            <img className="homepage__img-1" src={gxrLeft1} alt="" />
-            <img className="homepage__img-2" src={gxrLeft2} alt="" />
-            <img className="homepage__img-3" src={gxrLeft3} alt="" />
-          </div>
-        </MouseParallaxChild>
-        <MouseParallaxChild
-          className="homepage__parallax-child"
-          factorX={0.3}
-          factorY={0.3}
-        >
-          <img className="homepage__img-4" src={gxrRight1} alt="" />
-        </MouseParallaxChild>
-      </MouseParallaxContainer>
-      <img
-        className="homepage__background"
-        src={gxrBackground}
-        alt="GXR homepage background"
-      />
+          <MouseParallaxChild
+            className="homepage__parallax-child"
+            factorX={0.3}
+            factorY={0.3}
+          >
+            <div className="homepage__left-group">
+              <img className="homepage__img-1" src={gxrLeft1} alt="" />
+              <img className="homepage__img-2" src={gxrLeft2} alt="" />
+              <img className="homepage__img-3" src={gxrLeft3} alt="" />
+            </div>
+          </MouseParallaxChild>
+          <MouseParallaxChild
+            className="homepage__parallax-child"
+            factorX={0.3}
+            factorY={0.3}
+          >
+            <img className="homepage__img-4" src={gxrRight1} alt="" />
+          </MouseParallaxChild>
+        </MouseParallaxContainer>
+        <img
+          className="homepage__background"
+          src={gxrBackground}
+          alt="GXR homepage background"
+        />
+      </div>
     </div>
   );
 };
