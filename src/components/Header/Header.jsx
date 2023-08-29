@@ -15,7 +15,7 @@ const Header = () => {
   const isMobile = useCheckMobileScreen();
 
   const branding = useMemo(
-    () => (isMobile ? "GRX" : "Gerard X Reyes"),
+    () => (isMobile ? "GXR" : "Gerard X Reyes"),
     [isMobile]
   );
 
