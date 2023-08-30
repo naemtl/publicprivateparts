@@ -1,39 +1,6 @@
 import "./Calendar.scss";
 
-const data = [
-  {
-    date: "2024-01-01",
-    project: "Principle of Pleasure",
-    venue: "Usine C",
-    city: "Montreal",
-    country: "Canada",
-    link: "https://www.gerardxreyes.com/",
-  },
-  {
-    date: "2024-01-01",
-    project: "Principle of Pleasure",
-    venue: "Usine C",
-    city: "Montreal",
-    country: "Canada",
-    link: "https://www.gerardxreyes.com/",
-  },
-  {
-    date: "2023-01-01",
-    project: "Principle of Pleasure",
-    venue: "Usine C",
-    city: "Montreal",
-    country: "Canada",
-    link: "https://www.gerardxreyes.com/",
-  },
-  {
-    date: "2022-01-01",
-    project: "Principle of Pleasure",
-    venue: "Usine C",
-    city: "Montreal",
-    country: "Canada",
-    link: "https://www.gerardxreyes.com/",
-  },
-];
+import { data } from "./data.js";
 
 const Calendar = () => {
   const buildGrid = (data) =>
