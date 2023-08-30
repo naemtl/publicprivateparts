@@ -57,8 +57,14 @@
     }
 
     @media (max-width: 768px) {
+        &__cell, &__cell--project {
+            margin-bottom: $space-xs;
+            width: 100%;
+        }
+
         &__container {
             margin-top: $space-xxl;
+            padding: 0 $space-md;
         }    
 
         &__entry {

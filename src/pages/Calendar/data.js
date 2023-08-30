@@ -3,7 +3,7 @@ export const data = [
         date: "2023-09-03",
         project: "Public/Private Parts podcast - episode 1",
         venue: "Online",
-        city: "",
+        city: "-",
         country: "worldwide",
         link: "https://soundcloud.com/gerardxreyes/episode-1-lets-talk-about-porn?si=42f0370b066d4588b5f3c6549115cc9a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
     },
@@ -11,7 +11,7 @@ export const data = [
         date: "2023-09-10",
         project: "Public/Private Parts podcast - episode 2",
         venue: "Online",
-        city: "",
+        city: "-",
         country: "worldwide",
         link: "https://soundcloud.com/gerardxreyes/episode-2-somatic-sexology?si=d70e2a3b6a974951b479a91b26c59db0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
     },
@@ -37,13 +37,13 @@ export const data = [
         venue: "Imperial Theatre",
         city: "Montréal",
         country: "Canada",
-        link: ""
+        link: "-"
     },
     {
         date: "2023-09-17",
         project: "Public/Private Parts podcast - episode 3",
         venue: "Online",
-        city: "",
+        city: "-",
         country: "worldwide",
         link: "https://soundcloud.com/gerardxreyes/episode-3-curiosity-trauma-and-healing?si=7569f5ef1777466c9217bf1bbcc5f2a9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
     },
@@ -149,7 +149,7 @@ export const data = [
         venue: "Sziget Festival",
         city: "Budapest",
         country: "Hungary",
-        link: ""
+        link: "-"
     },
     {
         date: "2022-04-(19-30)",
@@ -213,7 +213,7 @@ export const data = [
         venue: "Porny Days Festival / Gessnerallee",
         city: "Zürich",
         country: "Switzerland",
-        link: ""
+        link: "-"
     },
     {
         date: "2019-11-29",
@@ -221,7 +221,7 @@ export const data = [
         venue: "Porny Days Festival / Gessnerallee",
         city: "Zürich",
         country: "Switzerland",
-        link: ""
+        link: "-"
     },
     {
         date: "2019-03-22",
@@ -245,7 +245,7 @@ export const data = [
         venue: "OFF CINARS / Café Cléopâtre",
         city: "Montréal",
         country: "Canada",
-        link: ""
+        link: "-"
     },
     {
         date: "2018-10-25",
@@ -253,7 +253,7 @@ export const data = [
         venue: "Fabrik Potsdam",
         city: "Potsdam",
         country: "Germany",
-        link: ""
+        link: "-"
     },
     {
         date: "2018-10-24",
@@ -261,7 +261,7 @@ export const data = [
         venue: "Fabrik Potsdam",
         city: "Potsdam",
         country: "Germany",
-        link: ""
+        link: "-"
     },
     {
         date: "2018-09-26",
@@ -269,7 +269,7 @@ export const data = [
         venue: "Fabrik Potsdam",
         city: "Potsdam",
         country: "Germany",
-        link: ""
+        link: "-"
     },
     {
         date: "2018-08-12",
@@ -285,7 +285,7 @@ export const data = [
         venue: "Tanzhaus Zürich",
         city: "Zürich",
         country: "Switzerland",
-        link: ""
+        link: "-"
     },
     {
         date: "2017-08-13",
@@ -301,7 +301,7 @@ export const data = [
         venue: "SummerWorks Festival / The Theatre Centre",
         city: "Toronto",
         country: "Canada",
-        link: ""
+        link: "-"
     },
     {
         date: "2017-08-11",
@@ -309,7 +309,7 @@ export const data = [
         venue: "SummerWorks Festival / The Theatre Centre",
         city: "Toronto",
         country: "Canada",
-        link: ""
+        link: "-"
     },
     {
         date: "2017-08-10",
@@ -317,7 +317,7 @@ export const data = [
         venue: "SummerWorks Festival / The Theatre Centre",
         city: "Toronto",
         country: "Canada",
-        link: ""
+        link: "-"
     },
     {
         date: "2017-08-09",
@@ -325,7 +325,7 @@ export const data = [
         venue: "SummerWorks Festival / The Theatre Centre",
         city: "Toronto",
         country: "Canada",
-        link: ""
+        link: "-"
     },
     {
         date: "2017-08-08",
@@ -333,7 +333,7 @@ export const data = [
         venue: "SummerWorks Festival / The Theatre Centre",
         city: "Toronto",
         country: "Canada",
-        link: ""
+        link: "-"
     },
     {
         date: "2017-08-05",
@@ -341,7 +341,7 @@ export const data = [
         venue: "SummerWorks Festival / The Theatre Centre",
         city: "Toronto",
         country: "Canada",
-        link: ""
+        link: "-"
     },
     {
         date: "2017-08-04",
@@ -349,7 +349,7 @@ export const data = [
         venue: "SummerWorks Festival / The Theatre Centre",
         city: "Toronto",
         country: "Canada",
-        link: ""
+        link: "-"
     },
     {
         date: "2017-06-07",
@@ -357,7 +357,7 @@ export const data = [
         venue: "Festival TransAmériques / QG",
         city: "Montréal",
         country: "Canada",
-        link: ""
+        link: "-"
     },
     {
         date: "2017-06-04",
@@ -397,14 +397,14 @@ export const data = [
         venue: "La Fête du Slip / Arsenic",
         city: "Lausanne",
         country: "Switzerland",
-        link: ""
+        link: "-"
     },
     {
         date: "2017-02-18",
         project: "SKIN Kiki Ball",
-        venue: "",
-        city: "",
-        country: "",
+        venue: "-",
+        city: "-",
+        country: "-",
         link: "https://cultmtl.com/2017/02/kiki-vogue-ball-montreal/"
     },
     {
@@ -413,7 +413,7 @@ export const data = [
         venue: "Hollins University MFA Dance Program",
         city: "Frankfurt",
         country: "Germany",
-        link: ""
+        link: "-"
     },
     {
         date: "2016-07-23",
@@ -437,7 +437,7 @@ export const data = [
         venue: "La Chapelle",
         city: "Montréal",
         country: "Canada",
-        link: ""
+        link: "-"
     },
     {
         date: "2015-09-16",
@@ -445,7 +445,7 @@ export const data = [
         venue: "La Chapelle",
         city: "Montréal",
         country: "Canada",
-        link: ""
+        link: "-"
     },
     {
         date: "2015-09-15",
@@ -453,7 +453,7 @@ export const data = [
         venue: "La Chapelle",
         city: "Montréal",
         country: "Canada",
-        link: ""
+        link: "-"
     },
     {
         date: "2014-02-19",
@@ -461,6 +461,6 @@ export const data = [
         venue: "Rhubarb Festival / Buddies in Bad Times",
         city: "Toronto",
         country: "Canada",
-        link: ""
+        link: "-"
     }
 ];
