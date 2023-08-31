@@ -1,14 +1,14 @@
 {
     "anchors": {
         "home": "Page d’accueil",
-        "calendar": "Calendar",
+        "calendar": "Calendrier",
         "publicprivate": "Public / Private Parts",
         "interviews": "Entrevues Documentaires",
         "films": "Films",
         "podcast": "Podcast",
         "odm": "Public / Private Parts ou L’Origine du monde",
         "pop": "Principle of Pleasure",
-        "bodywork": "Séances D'Éducation Sexuelle",
+        "bodywork": "Séances de sexologie somatique",
         "about": "À Propos de",
         "contact": "Entrez en contact"
     }

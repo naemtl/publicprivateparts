@@ -48,6 +48,8 @@
     }
 
     &__link {
+        text-decoration: none;
+
         div {
             @include button;
             font-size: $text-xs;
