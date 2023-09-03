@@ -8,7 +8,7 @@
 
     &__banner--inner {
         border-radius: 20px;
-        max-width: 400px;
+        max-width: 450px;
         width: 100%;
     }
 
@@ -49,11 +49,15 @@
         font-size: $text-xxl * 2;
         font-weight: $base-font-weight;
         line-height: 80px;
-        margin: $space-xl 0;
+        margin: $space-xl * 2 0 $space-xl;
         max-width: 500px;
         text-align: center;
         width: 100%;
         word-wrap: break-word;
+    }
+
+    &__intro-text {
+        text-align: center;
     }
 
     @media (max-width: 768px) {

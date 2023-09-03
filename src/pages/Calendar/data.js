@@ -1,27 +1,19 @@
 export const data = [
     {
-        date: "2023-09-03",
-        project: "Public/Private Parts podcast - episode 1",
+        date: "2023-09-22",
+        project: "Ecstatic Unity (Norwegian premiere)",
+        venue: "Oslo/Fusion International Film Festival",
+        city: "Oslo",
+        country: "Norway",
+        link: "https://oslofusion.no/"
+    },
+    {
+        date: "2023-09-17",
+        project: "Public/Private Parts podcast - episode 3",
         venue: "Online",
         city: "-",
         country: "worldwide",
-        link: "https://soundcloud.com/gerardxreyes/episode-1-lets-talk-about-porn?si=42f0370b066d4588b5f3c6549115cc9a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
-    },
-    {
-        date: "2023-09-10",
-        project: "Public/Private Parts podcast - episode 2",
-        venue: "Online",
-        city: "-",
-        country: "worldwide",
-        link: "https://soundcloud.com/gerardxreyes/episode-2-somatic-sexology?si=d70e2a3b6a974951b479a91b26c59db0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
-    },
-    {
-        date: "2023-09-10",
-        project: "SOLO film (choreographer) director Sophie Dupuis",
-        venue: "Toronto International Film Festival / Roy Thompson Hall",
-        city: "Toronto",
-        country: "Canada",
-        link: "https://tiff.net/events/solo"
+        link: "https://soundcloud.com/gerardxreyes/episode-3-curiosity-trauma-and-healing?si=7569f5ef1777466c9217bf1bbcc5f2a9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
     },
     {
         date: "2023-09-11",
@@ -40,20 +32,28 @@ export const data = [
         link: "-"
     },
     {
-        date: "2023-09-17",
-        project: "Public/Private Parts podcast - episode 3",
+        date: "2023-09-10",
+        project: "Public/Private Parts podcast - episode 2",
         venue: "Online",
         city: "-",
         country: "worldwide",
-        link: "https://soundcloud.com/gerardxreyes/episode-3-curiosity-trauma-and-healing?si=7569f5ef1777466c9217bf1bbcc5f2a9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+        link: "https://soundcloud.com/gerardxreyes/episode-2-somatic-sexology?si=d70e2a3b6a974951b479a91b26c59db0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
     },
     {
-        date: "2023-09-22",
-        project: "Ecstatic Unity (Norwegian premiere)",
-        venue: "Oslo/Fusion International Film Festival",
-        city: "Oslo",
-        country: "Norway",
-        link: "https://oslofusion.no/"
+        date: "2023-09-10",
+        project: "SOLO film (choreographer) director Sophie Dupuis",
+        venue: "Toronto International Film Festival / Roy Thompson Hall",
+        city: "Toronto",
+        country: "Canada",
+        link: "https://tiff.net/events/solo"
+    },
+    {
+        date: "2023-09-03",
+        project: "Public/Private Parts podcast - episode 1",
+        venue: "Online",
+        city: "-",
+        country: "worldwide",
+        link: "https://soundcloud.com/gerardxreyes/episode-1-lets-talk-about-porn?si=42f0370b066d4588b5f3c6549115cc9a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
     },
     {
         date: "2023-08-(07-11)",
