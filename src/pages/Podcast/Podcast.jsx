@@ -9,6 +9,8 @@ import PublicPrivateSupport from "../../components/PublicPrivateSupport/PublicPr
 
 import podcastBanner from "../../assets/images/podcast-banner.png";
 import podcastIcon from "../../assets/images/podcast-icon.png";
+import spotifyLogo from "../../assets/images/spotify-logo.png";
+import appleMusicLogo from "../../assets/images/apple-logo.png";
 
 import "./Podcast.scss";
 
@@ -19,6 +21,16 @@ const Podcast = () => {
     <div className="podcast">
       <PageBanner background={`url(${podcastBanner})`}>
         <img className="podcast__banner--inner" src={podcastIcon} alt="" />
+        <div className="podcast__host">
+          <div>
+            <strong>{t("hosted")}</strong>
+          </div>
+          <div>Gerard X Reyes</div>
+        </div>
+        <div className="podcast__platforms">
+          <img src={spotifyLogo} alt="" />
+          <img src={appleMusicLogo} alt="" />
+        </div>
       </PageBanner>
       <div className="podcast__content">
         <div className="podcast__intro-container">
@@ -32,16 +44,16 @@ const Podcast = () => {
           <ReactPlayer url="https://soundcloud.com/gerardxreyes/episode-1-lets-talk-about-porn" />
         </FilmsPodcastEntry>
         <FilmsPodcastEntry
-          entryHeading={t("episode-2.heading")}
+          entryHeading={`${t("episode-2.heading")} (10/9/23)`}
           entryDesc={t("episode-2.text")}
         >
-          <ReactPlayer url="https://soundcloud.com/gerardxreyes/episode-2-somatic-sexology" />
+          {/* <ReactPlayer url="https://soundcloud.com/gerardxreyes/episode-2-somatic-sexology" /> */}
         </FilmsPodcastEntry>
         <FilmsPodcastEntry
-          entryHeading={t("episode-3.heading")}
+          entryHeading={`${t("episode-3.heading")} (17/9/23)`}
           entryDesc={t("episode-3.text")}
         >
-          <ReactPlayer url="https://soundcloud.com/gerardxreyes/episode-3-curiosity-trauma-and-healing" />
+          {/* <ReactPlayer url="https://soundcloud.com/gerardxreyes/episode-3-curiosity-trauma-and-healing" /> */}
         </FilmsPodcastEntry>
         <div className="podcast__credits-container">
           <h5>{t("credits-heading")}</h5>
