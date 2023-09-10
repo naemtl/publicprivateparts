@@ -44,10 +44,10 @@ const Podcast = () => {
           <ReactPlayer url="https://soundcloud.com/gerardxreyes/episode-1-lets-talk-about-porn" />
         </FilmsPodcastEntry>
         <FilmsPodcastEntry
-          entryHeading={`${t("episode-2.heading")} (10/9/23)`}
+          entryHeading={t("episode-2.heading")}
           entryDesc={t("episode-2.text")}
         >
-          {/* <ReactPlayer url="https://soundcloud.com/gerardxreyes/episode-2-somatic-sexology" /> */}
+          <ReactPlayer url="https://soundcloud.com/gerardxreyes/episode-2-somatic-sexology" />
         </FilmsPodcastEntry>
         <FilmsPodcastEntry
           entryHeading={`${t("episode-3.heading")} (17/9/23)`}
