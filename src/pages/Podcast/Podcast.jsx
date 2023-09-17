@@ -50,10 +50,10 @@ const Podcast = () => {
           <ReactPlayer url="https://soundcloud.com/gerardxreyes/episode-2-somatic-sexology" />
         </FilmsPodcastEntry>
         <FilmsPodcastEntry
-          entryHeading={`${t("episode-3.heading")} (17/9/23)`}
+          entryHeading={t("episode-3.heading")}
           entryDesc={t("episode-3.text")}
         >
-          {/* <ReactPlayer url="https://soundcloud.com/gerardxreyes/episode-3-curiosity-trauma-and-healing" /> */}
+          <ReactPlayer url="https://soundcloud.com/gerardxreyes/episode-3-curiosity-trauma-and-healing" />
         </FilmsPodcastEntry>
         <div className="podcast__credits-container">
           <h5>{t("credits-heading")}</h5>
