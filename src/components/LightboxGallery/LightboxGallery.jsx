@@ -5,7 +5,7 @@ import "yet-another-react-lightbox/styles.css";
 
 import "./LightboxGallery.scss";
 
-const LightboxGallery = ({ parentName, photos }) => {
+const LightboxGallery = ({ imgSpacing, parentName, photos }) => {
   const [index, setIndex] = useState(-1);
 
   return (
@@ -17,7 +17,7 @@ const LightboxGallery = ({ parentName, photos }) => {
           layout="rows"
           photos={photos}
           padding={0}
-          spacing={14}
+          spacing={imgSpacing}
           targetRowHeight={300}
           onClick={({ index: current }) => setIndex(current)}
         />

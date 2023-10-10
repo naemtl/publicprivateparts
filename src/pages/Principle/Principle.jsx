@@ -53,7 +53,7 @@ const Principle = () => {
       </div>
       <div className="principle__text-container">
         <div className="principle__text">
-          <div>{t("text-discovery")}</div>
+          <div className="principle__discover">{t("text-discovery")}</div>
           <div className="principle__link-container">
             <SmoothScrollButton targetRef={imagesRef} label="Images" />
             <SmoothScrollButton targetRef={videosRef} label="Videos" />
@@ -72,6 +72,7 @@ const Principle = () => {
           Images
         </h3>
         <LightboxGallery
+          imgSpacing={14}
           parentName="principle"
           photos={[
             { src: popOneImg, width: 950, height: 650 },

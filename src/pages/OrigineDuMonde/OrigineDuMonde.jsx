@@ -74,6 +74,7 @@ const OrigineDuMonde = () => {
           Images
         </h3>
         <LightboxGallery
+          imgSpacing={14}
           parentName="origine"
           photos={[
             { src: odmImg4, width: 688, height: 458 },

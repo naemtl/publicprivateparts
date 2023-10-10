@@ -29,7 +29,7 @@
 
     &__heading {
         font-family: $secondary-font-family;
-        font-size: $text-xxl;
+        font-size: $text-xl * 2;
         font-weight: $base-font-weight;
         margin-bottom: $space-lg;
     }
@@ -48,7 +48,7 @@
     }
 
     @media (max-width: 768px) {
-        &__film-heading {
+        &__heading {
             font-size: $text-xxl;
         }
     }
