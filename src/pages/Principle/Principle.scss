@@ -96,6 +96,27 @@
        width: 100%;
     }
 
+    &__press {
+        color: #000225;
+        margin: 0 auto;  
+        max-width: 900px;
+        padding: 0 $space-sm;
+        width: 100%;
+    }
+
+    &__press-entry {
+        margin-bottom: $space-xl;
+
+        div:first-of-type {
+            margin-bottom: $space-md;
+        }
+    }
+
+    &__press-source {
+        display: flex;
+        flex-direction: column;
+    }
+
     &__trailers {
         display: flex;
         justify-content: space-between;

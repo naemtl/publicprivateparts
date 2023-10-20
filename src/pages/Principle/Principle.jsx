@@ -98,6 +98,22 @@ const Principle = () => {
         <h3 className="principle__link-target" ref={pressRef}>
           Press
         </h3>
+        <div className="principle__press">
+          <div className="principle__press-entry">
+            <div>{`"${t("press.emma-simon")}"`}</div>
+            <div className="principle__press-source">
+              <span>Emma Simon</span>
+              <span>Dfdanse.com, 04-06-2017</span>
+            </div>
+          </div>
+          <div className="principle__press-entry">
+            <div>{`"${t("press.marine-durand")}"`}</div>
+            <div className="principle__press-source">
+              <span>Marine Durand</span>
+              <span>Montheatre.qc.ca, 03-06-2017</span>
+            </div>
+          </div>
+        </div>
         <PublicPrivateSupport />
       </div>
     </div>
