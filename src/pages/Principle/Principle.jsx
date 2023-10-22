@@ -65,6 +65,7 @@ const Principle = () => {
             <div>{t("credits-body-2")}</div>
             <div>{t("credits-body-3")}</div>
           </div>
+          <PublicPrivateSupport />
         </div>
       </div>
       <div className="principle__media">
@@ -114,7 +115,6 @@ const Principle = () => {
             </div>
           </div>
         </div>
-        <PublicPrivateSupport />
       </div>
     </div>
   );

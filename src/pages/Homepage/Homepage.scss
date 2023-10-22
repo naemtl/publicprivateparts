@@ -61,6 +61,18 @@
         width: 100%;
     }
 
+    &__logo--ppp, &__logo--pop, &__overlay {
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    &__logo--ppp, &__logo--pop {
+        width: 95%;
+        z-index: 2;
+    }
+
     &__mobile-links {
         align-items: center;
         display: none;
@@ -69,6 +81,17 @@
         justify-content: space-evenly;
         margin-top: $space-md;
         width: 100%;
+        z-index: 1;
+    }
+
+    &__overlay-container {
+        position: relative;
+    }
+    
+    &__overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.653);
         z-index: 1;
     }
 

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   MouseParallaxContainer,
   MouseParallaxChild,
@@ -16,6 +17,8 @@ import gxrRight1 from "../../assets/images/gxr-right-1.png";
 import "./Homepage.scss";
 
 const Homepage = () => {
+  const [showOverlay, setShowOverlay] = useState(false);
+
   return (
     <div className="homepage">
       <div className="homepage__container">
@@ -32,12 +35,31 @@ const Homepage = () => {
           >
             <Link to="/publicprivateparts">
               <div className="homepage__left-group">
-                <img className="homepage__img-1" src={gxrLeft1} alt="" />
-                <div>
-                  <img className="homepage__img-2" src={gxrLeft2} alt="" />
-                  {/* <img className="homepage__logo--ppp" src={gxrPpp} alt="" /> */}
+                <div className="homepage__overlay-container">
+                  {showOverlay && <div className="homepage__overlay" />}
+                  <img className="homepage__img-1" src={gxrLeft1} alt="" />
                 </div>
-                <img className="homepage__img-3" src={gxrLeft3} alt="" />
+                <div
+                  className="homepage__overlay-container"
+                  onMouseEnter={() => setShowOverlay(true)}
+                  onMouseLeave={() => setShowOverlay(false)}
+                >
+                  {showOverlay && (
+                    <>
+                      <div className="homepage__overlay" />
+                      <img
+                        className="homepage__logo--ppp"
+                        src={gxrPpp}
+                        alt=""
+                      />
+                    </>
+                  )}
+                  <img className="homepage__img-2" src={gxrLeft2} alt="" />
+                </div>
+                <div className="homepage__overlay-container">
+                  {showOverlay && <div className="homepage__overlay" />}
+                  <img className="homepage__img-3" src={gxrLeft3} alt="" />
+                </div>
               </div>
             </Link>
           </MouseParallaxChild>
@@ -47,9 +69,18 @@ const Homepage = () => {
             factorY={0.3}
           >
             <Link to="/principleofpleasure">
-              <div>
+              <div
+                className="homepage__overlay-container"
+                onMouseEnter={() => setShowOverlay(true)}
+                onMouseLeave={() => setShowOverlay(false)}
+              >
+                {showOverlay && (
+                  <>
+                    <div className="homepage__overlay" />
+                    <img className="homepage__logo--pop" src={gxrPop} alt="" />
+                  </>
+                )}
                 <img className="homepage__img-4" src={gxrRight1} alt="" />
-                {/* <img className="homepage__logo--pop" src={gxrPop} alt="" /> */}
               </div>
             </Link>
           </MouseParallaxChild>
