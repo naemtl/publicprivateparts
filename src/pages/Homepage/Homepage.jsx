@@ -17,7 +17,8 @@ import gxrRight1 from "../../assets/images/gxr-right-1.png";
 import "./Homepage.scss";
 
 const Homepage = () => {
-  const [showOverlay, setShowOverlay] = useState(false);
+  const [showRightOverlay, setShowRightOverlay] = useState(false);
+  const [showLeftOverlay, setShowLeftOverlay] = useState(false);
 
   return (
     <div className="homepage">
@@ -35,16 +36,20 @@ const Homepage = () => {
           >
             <Link to="/publicprivateparts">
               <div className="homepage__left-group">
-                <div className="homepage__overlay-container">
-                  {showOverlay && <div className="homepage__overlay" />}
+                <div
+                  className="homepage__overlay-container"
+                  onMouseEnter={() => setShowRightOverlay(true)}
+                  onMouseLeave={() => setShowRightOverlay(false)}
+                >
+                  {showRightOverlay && <div className="homepage__overlay" />}
                   <img className="homepage__img-1" src={gxrLeft1} alt="" />
                 </div>
                 <div
                   className="homepage__overlay-container"
-                  onMouseEnter={() => setShowOverlay(true)}
-                  onMouseLeave={() => setShowOverlay(false)}
+                  onMouseEnter={() => setShowRightOverlay(true)}
+                  onMouseLeave={() => setShowRightOverlay(false)}
                 >
-                  {showOverlay && (
+                  {showRightOverlay && (
                     <>
                       <div className="homepage__overlay" />
                       <img
@@ -56,8 +61,12 @@ const Homepage = () => {
                   )}
                   <img className="homepage__img-2" src={gxrLeft2} alt="" />
                 </div>
-                <div className="homepage__overlay-container">
-                  {showOverlay && <div className="homepage__overlay" />}
+                <div
+                  className="homepage__overlay-container"
+                  onMouseEnter={() => setShowRightOverlay(true)}
+                  onMouseLeave={() => setShowRightOverlay(false)}
+                >
+                  {showRightOverlay && <div className="homepage__overlay" />}
                   <img className="homepage__img-3" src={gxrLeft3} alt="" />
                 </div>
               </div>
@@ -71,10 +80,10 @@ const Homepage = () => {
             <Link to="/principleofpleasure">
               <div
                 className="homepage__overlay-container"
-                onMouseEnter={() => setShowOverlay(true)}
-                onMouseLeave={() => setShowOverlay(false)}
+                onMouseEnter={() => setShowLeftOverlay(true)}
+                onMouseLeave={() => setShowLeftOverlay(false)}
               >
-                {showOverlay && (
+                {showLeftOverlay && (
                   <>
                     <div className="homepage__overlay" />
                     <img className="homepage__logo--pop" src={gxrPop} alt="" />

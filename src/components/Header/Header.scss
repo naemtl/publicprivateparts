@@ -15,10 +15,12 @@
     transition: background-color 0.2s ease-in-out;
     z-index: 10;
 
-    &__branding {
+    &__branding a {
+        color: $site-color;
         font-family: $secondary-font-family;
         font-size: $text-lg;
         font-weight: $bold-font-weight;
+        text-decoration: none;
         text-shadow: $text-shadow;
         z-index: 2;
     }

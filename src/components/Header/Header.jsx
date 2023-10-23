@@ -1,4 +1,5 @@
 import { useEffect, useState, useMemo } from "react";
+import { Link } from "react-router-dom";
 
 import LanguageButton from "../LanguageButton/LanguageButton";
 import HamburgerButton from "../HamburgerButton/HamburgerButton";
@@ -46,7 +47,9 @@ const Header = () => {
         solidBackground ? "header--black" : "header--transparent"
       }`}
     >
-      <div className="header__branding">{branding}</div>
+      <div className="header__branding">
+        <Link to="/">{branding}</Link>
+      </div>
       <div className="header__controls">
         {displayLanguageButtons()}
         <HamburgerButton menuOpen={menuOpen} clickCallback={toggleMenu} />
