@@ -25,8 +25,7 @@ const About = () => {
           src={gerardProfileImg}
         />
         <h1 className="about__heading">
-          {t("heading-title")}
-          <span> Gerard X Reyes</span>
+          {`${t("heading-title")} Gerard X Reyes`}
         </h1>
       </div>
       <div className="about__content">

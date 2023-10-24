@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 
+import Footer from "../../components/Footer/Footer";
 import LightboxGallery from "../../components/LightboxGallery/LightboxGallery";
 import PageBanner from "../../components/PageBanner/PageBanner";
 import PublicPrivateSupport from "../../components/PublicPrivateSupport/PublicPrivateSupport";
@@ -116,6 +117,7 @@ const Principle = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

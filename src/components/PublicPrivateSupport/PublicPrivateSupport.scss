@@ -14,14 +14,13 @@
     }
 
     @media (max-width: 768px) {
+        flex-direction: column;
         &__logo {
-            max-height: 40px;
-        }
-    }
+            max-height: 50px;
 
-    @media (max-width: 425px) {
-        &__logo {
-            max-height: 30px;
+            &:first-of-type {
+                margin-bottom: $space-xl;
+            }
         }
     }
 }

@@ -17,6 +17,7 @@
         margin-bottom: $space-xl;
 
         div {
+            font-weight: $base-font-weight;
             margin: $space-xs 0;
         }
 
@@ -95,15 +96,17 @@
 
     &__media {
        background-color: #A60046; 
+       padding: 0 $space-sm;
        width: 100%;
     }
 
     &__press {
         color: #000225;
-        height: 600px;
+        font-weight: $base-font-weight;
+        height: fit-content;
         margin: 0 auto;  
         max-width: 900px;
-        padding: 0 $space-sm;
+        padding-bottom: $space-xl;
         width: 100%;
     }
 
@@ -124,9 +127,9 @@
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
-        max-width: 1000px;
+        max-width: 1200px;
         margin-top: 0;
-        padding: $space-sm;
+        padding: $space-sm 0;
         width: 100%;
     }
     
@@ -174,11 +177,19 @@
         &__link-target {
             font-size: $text-xxl;
         }
+
+        &__trailers {
+            flex-direction: column;
+        }
+
+        &__video-column {
+            width: 100%;
+
+            &:first-of-type {
+                margin-bottom: $space-xl;
+            }
+        }
        
-    }
-
-    @media (max-width: 425px) {
-
     }
 
 }
