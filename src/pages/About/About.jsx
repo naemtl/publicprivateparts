@@ -9,6 +9,7 @@ import gerardTwoImg from "../../assets/images/gerard-2.png";
 import gerardThreeImg from "../../assets/images/gerard-3.png";
 import gerardFourImg from "../../assets/images/gerard-4.png";
 import gerardFiveImg from "../../assets/images/gerard-5.png";
+import gerardSixImg from "../../assets/images/gerard-6.png";
 
 import "./About.scss";
 import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
@@ -59,11 +60,12 @@ const About = () => {
             <Trans t={t} i18nKey={"paragraph-pop"} />
           </div>
         </div>
+        <img className="about__image--six" alt="Gerard" src={gerardSixImg} />
         <div className="about__row--ballroom">
-          <p>
+          <p className="about__row--text">
             <Trans t={t} i18nKey={"paragraph-ballroom"} />
           </p>
-          <p>{t("paragraph-bodywork")}</p>
+          <p className="about__row--text">{t("paragraph-bodywork")}</p>
         </div>
         <div className="about__image-row">
           <img
