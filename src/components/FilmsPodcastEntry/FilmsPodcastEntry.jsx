@@ -5,6 +5,7 @@ import "./FilmsPodcastEntry.scss";
 const FilmsPodcastEntry = ({
   imgSrc,
   imgAlt,
+  imgStyleClass = "",
   entryHeading,
   entryDesc,
   children,
@@ -17,7 +18,7 @@ const FilmsPodcastEntry = ({
       <div className="films-podcast-entry__player">
         {imgSrc && (
           <img
-            className="films-podcast-entry__image"
+            className={`films-podcast-entry__image ${imgStyleClass}`}
             alt={imgAlt}
             src={imgSrc}
           />

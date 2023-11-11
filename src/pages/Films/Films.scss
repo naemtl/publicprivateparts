@@ -6,6 +6,12 @@
     font-family: $primary-font-family;
     font-size: $text-md;
     
+    &__button {
+        @include button;
+        margin: 0 auto;
+        margin-bottom: $space-xxl;
+    }
+
     &__content {
         @include flex-center;
         flex-direction: column;
@@ -13,10 +19,12 @@
         padding: 0 $space-xl;
     }
 
+    &__img--key {
+        border-radius: 3%;
+    }
+
     &__intro-container {
-        @include flex-center;
-        flex-direction: column;
-        margin-bottom: $space-xxl;
+        margin: $space-xxl auto $space-xl;
         max-width: 600px;
         width: 100%;
     }

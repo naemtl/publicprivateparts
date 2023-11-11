@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 import FilmsPodcastEntry from "../../components/FilmsPodcastEntry/FilmsPodcastEntry";
@@ -19,6 +20,10 @@ const Films = () => {
   return (
     <div className="films">
       <PageBanner background={`url(${filmsBg})`}>{t("heading")}</PageBanner>
+      <div className="films__intro-container">{t("intro")}</div>
+      <Link to="/calendar" className="films__button">
+        {t("button")}
+      </Link>
       <div className="films__content">
         <FilmsPodcastEntry
           imgSrc={ecstaticScreen}
@@ -33,6 +38,7 @@ const Films = () => {
         <FilmsPodcastEntry
           imgSrc={keyScreen}
           imgAlt="Films - The Key to Dreams"
+          imgStyleClass="films__img--key"
           entryHeading={t("film-2.heading")}
           entryDesc={t("film-2.text")}
           creditsHeading={t("credits-heading")}
