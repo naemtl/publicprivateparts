@@ -62,10 +62,10 @@ const About = () => {
         </div>
         <img className="about__image--six" alt="Gerard" src={gerardSixImg} />
         <div className="about__row--ballroom">
-          <p className="about__row--text">
+          <p>
             <Trans t={t} i18nKey={"paragraph-ballroom"} />
           </p>
-          <p className="about__row--text">{t("paragraph-bodywork")}</p>
+          <p>{t("paragraph-bodywork")}</p>
         </div>
         <div className="about__image-row">
           <img
