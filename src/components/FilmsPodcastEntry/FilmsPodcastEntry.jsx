@@ -12,6 +12,8 @@ const FilmsPodcastEntry = ({
   creditsHeading,
   creditsBody1,
   creditsBody2,
+  spotifyLink = "",
+  applePodLink = "",
 }) => {
   return (
     <div className="films-podcast-entry">
@@ -35,6 +37,12 @@ const FilmsPodcastEntry = ({
               <div>{creditsBody1}</div>
               <div>{creditsBody2}</div>
             </div>
+          </div>
+        )}
+        {spotifyLink && applePodLink && (
+          <div className="films-podcast-entry__links-container">
+            <a href={spotifyLink}>Spotify</a>
+            <a href={applePodLink}>Apple Podcasts</a>
           </div>
         )}
       </div>

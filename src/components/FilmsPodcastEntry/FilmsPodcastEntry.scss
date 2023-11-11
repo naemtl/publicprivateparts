@@ -34,6 +34,20 @@
         margin-bottom: $space-lg;
     }
 
+    &__links-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        margin-top: $space-xl;
+        max-width: 400px;
+        width: 100%;
+
+        a {
+            @include button;
+        }
+    }
+
+
     &__player {
         @include flex-center;
         margin-bottom: $space-lg;
@@ -50,6 +64,20 @@
     @media (max-width: 768px) {
         &__heading {
             font-size: $text-xxl;
+        }
+
+        &__links-container {
+            a {
+                font-size: $text-md;
+            }
+        }
+    }
+    
+    @media (max-width: 425px) {
+        &__links-container {
+            a {
+                font-size: $text-xs;
+            }
         }
     }
 }

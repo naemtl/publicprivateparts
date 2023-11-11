@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 import Footer from "../../components/Footer/Footer";
@@ -55,6 +56,9 @@ const Principle = () => {
       <div className="principle__text-container">
         <div className="principle__text">
           <div className="principle__discover">{t("text-discovery")}</div>
+          <Link to="/calendar" className="principle__calendar-button">
+            {t("button-calendar")}
+          </Link>
           <div className="principle__link-container">
             <SmoothScrollButton targetRef={imagesRef} label="Images" />
             <SmoothScrollButton targetRef={videosRef} label="Videos" />

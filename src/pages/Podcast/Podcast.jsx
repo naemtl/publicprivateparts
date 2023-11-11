@@ -40,18 +40,24 @@ const Podcast = () => {
         <FilmsPodcastEntry
           entryHeading={t("episode-1.heading")}
           entryDesc={t("episode-1.text")}
+          spotifyLink="https://spotify.link/dbPbvNSn8Db"
+          applePodLink="https://podcasts.apple.com/ca/podcast/public-private-parts/id1705585411?i=1000626572827"
         >
           <ReactPlayer url="https://soundcloud.com/gerardxreyes/episode-1-lets-talk-about-porn" />
         </FilmsPodcastEntry>
         <FilmsPodcastEntry
           entryHeading={t("episode-2.heading")}
           entryDesc={t("episode-2.text")}
+          spotifyLink="https://spotify.link/EnTkgZTn8Db"
+          applePodLink="https://podcasts.apple.com/ca/podcast/public-private-parts/id1705585411?i=1000626575184"
         >
           <ReactPlayer url="https://soundcloud.com/gerardxreyes/episode-2-somatic-sexology" />
         </FilmsPodcastEntry>
         <FilmsPodcastEntry
           entryHeading={t("episode-3.heading")}
           entryDesc={t("episode-3.text")}
+          spotifyLink="https://spotify.link/hYu1g7Un8Db"
+          applePodLink="https://podcasts.apple.com/ca/podcast/public-private-parts/id1705585411?i=1000626575601"
         >
           <ReactPlayer url="https://soundcloud.com/gerardxreyes/episode-3-curiosity-trauma-and-healing" />
         </FilmsPodcastEntry>

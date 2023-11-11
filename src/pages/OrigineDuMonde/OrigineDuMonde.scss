@@ -5,6 +5,11 @@
     color: $site-color;
     font-family: $primary-font-family;
 
+    &__calendar-button {
+        @include button;
+        margin-top: $space-xl;
+    }
+
     &__header {
         @include flex-center;
         flex-direction: column;

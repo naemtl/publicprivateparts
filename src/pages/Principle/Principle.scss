@@ -13,6 +13,14 @@
         font-size: $text-md;
     }
 
+    &__calendar-button {
+        @include button;
+        border-color: #F14A4A;
+        color: #F14A4A;
+        margin: 0 auto;
+        margin-top: $space-xl;
+    }
+
     &__credits {
         margin-bottom: $space-xl;
 

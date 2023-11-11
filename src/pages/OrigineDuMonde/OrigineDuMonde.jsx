@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import { Trans, useTranslation } from "react-i18next";
 
 import LightboxGallery from "../../components/LightboxGallery/LightboxGallery";
@@ -63,6 +64,9 @@ const OrigineDuMonde = () => {
           <Trans t={t} i18nKey={"main.paragraph-main-2"} />
         </div>
         <div className="origine__text">{t("main.text-premiere")}</div>
+        <Link to="/calendar" className="origine__calendar-button">
+          {t("main.button-calendar")}
+        </Link>
         <div className="origine__link-container">
           <SmoothScrollButton targetRef={imagesRef} label="Images" />
           <SmoothScrollButton targetRef={videosRef} label="Videos" />
