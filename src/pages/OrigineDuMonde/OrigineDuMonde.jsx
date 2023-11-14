@@ -6,6 +6,7 @@ import LightboxGallery from "../../components/LightboxGallery/LightboxGallery";
 import OriginePersonnel from "./OriginePersonnel/OriginePersonnel";
 import Footer from "../../components/Footer/Footer";
 
+import ftaLogo from "../../assets/images/fta-logo.png";
 import odmImg1 from "../../assets/images/odm-1.png";
 import odmImg2 from "../../assets/images/odm-2.png";
 import odmImg4 from "../../assets/images/odm-4.png";
@@ -63,7 +64,6 @@ const OrigineDuMonde = () => {
         <div className="origine__text">
           <Trans t={t} i18nKey={"main.paragraph-main-2"} />
         </div>
-        <div className="origine__text">{t("main.text-premiere")}</div>
         <Link to="/calendar" className="origine__calendar-button">
           {t("main.button-calendar")}
         </Link>
@@ -72,8 +72,6 @@ const OrigineDuMonde = () => {
           <SmoothScrollButton targetRef={videosRef} label="Videos" />
           <SmoothScrollButton targetRef={pressRef} label="Press" />
         </div>
-        <OriginePersonnel t={t} />
-        <SupportBanner />
         <h3 className="origine__scroll-heading" ref={imagesRef}>
           Images
         </h3>
@@ -132,6 +130,11 @@ const OrigineDuMonde = () => {
           </div>
         </div>
       </div>
+      <h3 className="origine__heading">Credits</h3>
+      <OriginePersonnel t={t} />
+      <SupportBanner>
+        <img src={ftaLogo} className="support-banner__logo--fta" alt="FTA" />
+      </SupportBanner>
       <Footer />
     </div>
   );

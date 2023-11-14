@@ -15,6 +15,13 @@
         height: 100%;
         max-height: 60px;
         max-width: 100%;
+
+        &--fta {
+            max-width: unset;
+            max-height: unset;
+            height: 125px;
+            width: 125px;
+        }
     }
 
     &__logo-container {

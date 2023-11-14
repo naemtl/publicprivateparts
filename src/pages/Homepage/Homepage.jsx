@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 
 import gxrBackground from "../../assets/images/gxr-background.jpg";
 import gxrLeft1 from "../../assets/images/gxr-left-1.png";
-import gxrLeft2 from "../../assets/images/gxr-left-2.png";
-import gxrLeft3 from "../../assets/images/gxr-left-3.png";
+import ecstaticScreen from "../../assets/images/films-ecstatic.png";
 import gxrLogo from "../../assets/images/gxr-logo.png";
 import gxrPop from "../../assets/images/gxr-pop.png";
 import gxrPpp from "../../assets/images/gxr-ppp.png";
 import gxrRight1 from "../../assets/images/gxr-right-1.png";
+import homepageLoop from "../../assets/videos/homepage-loop.mp4";
 
 import "./Homepage.scss";
 
@@ -59,7 +59,11 @@ const Homepage = () => {
                       />
                     </>
                   )}
-                  <img className="homepage__img-2" src={gxrLeft2} alt="" />
+                  <img
+                    className="homepage__img-2"
+                    src={ecstaticScreen}
+                    alt=""
+                  />
                 </div>
                 <div
                   className="homepage__overlay-container"
@@ -67,7 +71,17 @@ const Homepage = () => {
                   onMouseLeave={() => setShowRightOverlay(false)}
                 >
                   {showRightOverlay && <div className="homepage__overlay" />}
-                  <img className="homepage__img-3" src={gxrLeft3} alt="" />
+                  {/* <img className="homepage__img-3" src={gxrLeft3} alt="" /> */}
+                  <video
+                    className="homepage__video"
+                    src={homepageLoop}
+                    autoPlay={true}
+                    muted
+                    loop={true}
+                    controlsList="nofullscreen"
+                    controls={false}
+                    playsInline
+                  ></video>
                 </div>
               </div>
             </Link>

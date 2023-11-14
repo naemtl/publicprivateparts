@@ -2,9 +2,12 @@ import React from "react";
 
 import "./PageBanner.scss";
 
-const PageBanner = ({ background, children }) => {
+const PageBanner = ({ background, children, extraClassName = "" }) => {
   return (
-    <div style={{ backgroundImage: background }} className="page-banner">
+    <div
+      style={{ backgroundImage: background }}
+      className={`${extraClassName} page-banner`}
+    >
       <h1>{children}</h1>
     </div>
   );

@@ -9,8 +9,8 @@ const OriginePersonnel = ({ t }) => {
         <em>{t("personnel.main-heading")}</em>
       </h3>
       <h3 className="origine-personnel__heading">
-        <em>{t("personnel.coprod-heading-1")}</em>{" "}
-        <span>{t("personnel.coprod-heading-2")}</span>
+        <em>{t("personnel.coprod-heading-1")}</em>
+        <div>{t("personnel.coprod-heading-2")}</div>
       </h3>
       <h3 className="origine-personnel__heading">
         <em>{t("personnel.live-performance-heading")}</em>

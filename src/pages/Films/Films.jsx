@@ -9,6 +9,7 @@ import PublicPrivateSupport from "../../components/PublicPrivateSupport/PublicPr
 // import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
 
 import filmsBg from "../../assets/images/films-bg.png";
+import filmsBg2 from "../../assets/images/films-bg-2.png";
 import ecstaticScreen from "../../assets/images/films-ecstatic.png";
 import keyScreen from "../../assets/images/films-key.png";
 
@@ -19,7 +20,12 @@ const Films = () => {
 
   return (
     <div className="films">
-      <PageBanner background={`url(${filmsBg})`}>{t("heading")}</PageBanner>
+      <PageBanner
+        extraClassName="films__banner"
+        background={`url(${filmsBg2})`}
+      >
+        {t("heading")}
+      </PageBanner>
       <div className="films__intro-container">{t("intro")}</div>
       <Link to="/calendar" className="films__button">
         {t("button")}

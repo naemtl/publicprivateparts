@@ -35,4 +35,9 @@
         }
     }
 
+    @media (max-width: 425px) {
+        &__banner {
+            background-position: 17%;
+        }
+    }
 }

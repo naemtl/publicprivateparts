@@ -28,15 +28,17 @@
     }
     
     &__img-1 {
-        height: 135px;
-        left: 30px;
+        height: 120px;
+        left: 140px;
         position: relative;
-        top: 30px;
-        width: 130px;
+        top: 15px;
+        width: 120px;
+        z-index: 2;
     }
     &__img-2 {
         height: 200px;
         width: 320px;
+        border-radius: 9%;
     }
     &__img-3 {
         bottom: 20px;
@@ -115,6 +117,14 @@
         }
     }
 
+    &__video {
+        border-radius: 14%;
+        height: 100%;
+        width: 240px;
+        bottom: 25px;
+        left: 125px;
+        position: relative;
+    }
 
     @media (max-width: 768px) {
         &__parallax-container {
@@ -125,8 +135,6 @@
     @media (max-width: 425px) {
         &__mobile-links {
             display: flex;
-            flex-direction: column;
         }
-    
     }
 }

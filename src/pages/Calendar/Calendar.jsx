@@ -35,6 +35,7 @@ const Calendar = () => {
 
   return (
     <div className="calendar">
+      <h1 className="calendar__title">{t("title")}</h1>
       <h3>{t("upcoming")}</h3>
       <div className="calendar__container">
         <div className="calendar__heading">
