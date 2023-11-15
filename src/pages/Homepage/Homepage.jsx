@@ -71,7 +71,6 @@ const Homepage = () => {
                   onMouseLeave={() => setShowRightOverlay(false)}
                 >
                   {showRightOverlay && <div className="homepage__overlay" />}
-                  {/* <img className="homepage__img-3" src={gxrLeft3} alt="" /> */}
                   <video
                     className="homepage__video"
                     src={homepageLoop}
