@@ -14,6 +14,8 @@
 
         a {
             @include button;
+            color: $black;
+            font-size: $text-xl;
             text-decoration: none;
         }
     }
@@ -29,7 +31,7 @@
         display: flex;
         justify-content: space-between;
         margin-top: $space-md;
-        max-width: 420px;
+        max-width: 460px;
         width: 100%;
     }
 
@@ -75,6 +77,7 @@
     &__text--contact {
         @include anchor;
         cursor: pointer;
+        font-size: $text-lg;
         text-decoration: underline;
     }
 
@@ -86,7 +89,7 @@
         color: $site-color-light;
     }
 
-    a {
+    &__anchor--text {
         @include anchor;
     }
 
@@ -108,7 +111,7 @@
 
         &__text--contact,
         &__button--consult a {
-            font-size: $text-sm;
+            font-size: $text-md;
         }
     }
 
@@ -121,16 +124,9 @@
         &__heading--society {
             margin-top: $space-lg;
         }    
-
-        &__text--contact {
-            font-size: $text-xs;
-        }
         
         &__button--consult {
             @include flex-center;
-            a {
-                font-size: $text-xs;
-            }
         }
     }
 }

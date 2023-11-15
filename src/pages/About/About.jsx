@@ -9,7 +9,7 @@ import gerardTwoImg from "../../assets/images/gerard-2.png";
 import gerardThreeImg from "../../assets/images/gerard-3.png";
 import gerardFourImg from "../../assets/images/gerard-4.png";
 import gerardFiveImg from "../../assets/images/gerard-5.png";
-import gerardSixImg from "../../assets/images/gerard-6.png";
+import gerardVogue from "../../assets/videos/about-vogue.mp4";
 
 import "./About.scss";
 import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
@@ -60,7 +60,16 @@ const About = () => {
             <Trans t={t} i18nKey={"paragraph-pop"} />
           </div>
         </div>
-        <img className="about__image--six" alt="Gerard" src={gerardSixImg} />
+        <video
+          className="about__image--six"
+          src={gerardVogue}
+          autoPlay={true}
+          muted
+          loop={true}
+          controlsList="nofullscreen"
+          controls={false}
+          playsInline
+        />
         <div className="about__row--ballroom">
           <p>
             <Trans t={t} i18nKey={"paragraph-ballroom"} />
