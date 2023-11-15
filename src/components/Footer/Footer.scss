@@ -13,6 +13,11 @@
         background-color: #051320;
     }
 
+    &--pink {
+        color: #000225;
+        background-color: #A60046;
+    }
+
     &__anchor--icon {
         margin: $space-xxs;
         padding: $space-xxs;
@@ -36,11 +41,11 @@
     }
 
     a {
-        color: $site-color;
+        color: inherit;
         text-decoration: none;
 
         &:hover {
-            color: $site-color-light;
+            color: inherit;
         }
     }
 

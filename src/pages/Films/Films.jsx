@@ -8,7 +8,6 @@ import PageBanner from "../../components/PageBanner/PageBanner";
 import PublicPrivateSupport from "../../components/PublicPrivateSupport/PublicPrivateSupport";
 // import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
 
-import filmsBg from "../../assets/images/films-bg.png";
 import filmsBg2 from "../../assets/images/films-bg-2.png";
 import ecstaticScreen from "../../assets/images/films-ecstatic.png";
 import keyScreen from "../../assets/images/films-key.png";

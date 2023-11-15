@@ -15,10 +15,17 @@
 
     &__calendar-button {
         @include button;
+        background-color: #F14A4A;
         border-color: #F14A4A;
-        color: #F14A4A;
+        color: $black;
         margin: 0 auto;
         margin-top: $space-xl;
+
+        &:hover {
+            background-color: #A60046;
+            border-color: #A60046;
+            color: $black;
+        }
     }
 
     &__credits {
@@ -31,6 +38,7 @@
 
         h2 {
             margin-bottom: $space-xl;
+            text-align: center;
         }
     }
 

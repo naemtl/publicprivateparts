@@ -64,13 +64,6 @@ const Principle = () => {
             <SmoothScrollButton targetRef={videosRef} label="Videos" />
             <SmoothScrollButton targetRef={pressRef} label="Press" />
           </div>
-          <div className="principle__credits">
-            <h2>{t("credits-heading")}</h2>
-            <div>{t("credits-body-1")}</div>
-            <div>{t("credits-body-2")}</div>
-            <div>{t("credits-body-3")}</div>
-          </div>
-          <PublicPrivateSupport />
         </div>
       </div>
       <div className="principle__media">
@@ -119,9 +112,17 @@ const Principle = () => {
               <span>Montheatre.qc.ca, 03-06-2017</span>
             </div>
           </div>
+
+          <div className="principle__credits">
+            <h2>{t("credits-heading")}</h2>
+            <div>{t("credits-body-1")}</div>
+            <div>{t("credits-body-2")}</div>
+            <div>{t("credits-body-3")}</div>
+          </div>
+          <PublicPrivateSupport />
         </div>
       </div>
-      <Footer />
+      <Footer backgroundColor={"footer--pink"} />
     </div>
   );
 };
