@@ -36,6 +36,22 @@
         width: 205px;
     }
 
+    &__email-span {
+        cursor: pointer;
+    }
+
+    &__text-copied {
+        text-align: center;
+    }
+
+    &__text-copied--hide {
+        color: transparent;
+    }
+
+    &__text-copied--show {
+        color: $site-color-light;
+    }
+
     &__twitter-container {
         margin-bottom: $space-sm;
     }

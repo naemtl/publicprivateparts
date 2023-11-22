@@ -1,3 +1,5 @@
+import { useState } from "react";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 import { useTranslation } from "react-i18next";
 
 import SocialsRow from "../SocialsRow/SocialsRow";
@@ -6,18 +8,33 @@ import "./Footer.scss";
 
 const Footer = ({ backgroundColor }) => {
   const { t } = useTranslation("footer");
-  console.log(backgroundColor);
+
+  const [isCopied, setIsCopied] = useState(false);
+
+  const onCopyText = () => {
+    setIsCopied(true);
+    setTimeout(() => {
+      setIsCopied(false);
+    }, 1000);
+  };
+
   return (
     <div className={`footer ${backgroundColor ? backgroundColor : ""}`}>
       <div className="footer__column">
         <div>
           <div className="footer__label">{t("text-contact")} Gerard</div>
-          <a
-            className="footer__anchor--text"
-            href="mailto:gerardxreyes@gmail.com"
+          <CopyToClipboard text={"gerardxreyes@gmail.com"} onCopy={onCopyText}>
+            <span className="footer__email-span">gerardxreyes@gmail.com</span>
+          </CopyToClipboard>
+          <div
+            className={`footer__text-copied ${
+              isCopied
+                ? "footer__text-copied--show"
+                : "footer__text-copied--hide"
+            }`}
           >
-            gerardxreyes@gmail.com
-          </a>
+            {t("text-copied")}!
+          </div>
         </div>
       </div>
       <div className="footer__column">
@@ -25,7 +42,7 @@ const Footer = ({ backgroundColor }) => {
           <div className="footer__label">{t("text-follow")} Gerard</div>
           <a
             className="footer__anchor--text"
-            href="https://twitter.com/gerardxreyes"
+            href="https://www.instagram.com/gerardxreyes/"
           >
             @gerardxreyes
           </a>

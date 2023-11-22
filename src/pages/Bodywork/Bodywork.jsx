@@ -111,7 +111,7 @@ const Bodywork = () => {
                 : "bodywork__text-copied--hide"
             }`}
           >
-            email copied!
+            {t("text-copied")}!
           </div>
         </div>
         <div className="bodywork__button--consult">

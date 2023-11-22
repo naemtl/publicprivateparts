@@ -11,6 +11,15 @@ const Calendar = () => {
     data.map((entry, i) => {
       const { date, project, venue, city, country, link } = entry;
 
+      const displayInfoButton = (link) =>
+        link === "-" ? (
+          <div className="calendar__cell calendar__link">{link}</div>
+        ) : (
+          <a href={link} className="calendar__cell calendar__link">
+            <div>{t("info")}</div>
+          </a>
+        );
+
       const pastEntry = checkIfDateHasPast(date) ? "calendar__entry--past" : "";
       return (
         <div key={i} className={`calendar__entry`}>
@@ -19,9 +28,7 @@ const Calendar = () => {
           <div className="calendar__cell">{venue}</div>
           <div className="calendar__cell">{city}</div>
           <div className="calendar__cell">{country}</div>
-          <a href={link} className="calendar__cell calendar__link">
-            <div>{t("info")}</div>
-          </a>
+          {displayInfoButton(link)}
         </div>
       );
     });
