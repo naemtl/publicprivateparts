@@ -43,18 +43,22 @@ const Calendar = () => {
   return (
     <div className="calendar">
       <h1 className="calendar__title">{t("title")}</h1>
-      <h3>{t("upcoming")}</h3>
-      <div className="calendar__container">
-        <div className="calendar__heading">
-          <div className="calendar__cell">Date</div>
-          <div className="calendar__cell--project">Project</div>
-          <div className="calendar__cell">Venue</div>
-          <div className="calendar__cell">City</div>
-          <div className="calendar__cell">Country</div>
-          <div className="calendar__cell">Link</div>
-        </div>
-        {buildGrid(upcomingData)}
-      </div>
+      {upcomingData.length > 1 && (
+        <>
+          <h3>{t("upcoming")}</h3>
+          <div className="calendar__container">
+            <div className="calendar__heading">
+              <div className="calendar__cell">Date</div>
+              <div className="calendar__cell--project">Project</div>
+              <div className="calendar__cell">Venue</div>
+              <div className="calendar__cell">City</div>
+              <div className="calendar__cell">Country</div>
+              <div className="calendar__cell">Link</div>
+            </div>
+            {buildGrid(upcomingData)}
+          </div>
+        </>
+      )}
       <h3>{t("past")}</h3>
       <div className="calendar__container">
         <div className="calendar__heading">

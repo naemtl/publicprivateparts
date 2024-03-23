@@ -1,5 +1,29 @@
 export const pastData = [
     {
+        date: "2024-03-22",
+        project: "Ecstatic Unity (French premiere)",
+        venue: "FIFA - Festival international du film sur l'art @ Le Livart",
+        city: "Montreal",
+        country: "Canada",
+        link: "https://lefifa.com/en/catalog/ecstatic-unity",
+    },
+    {
+        date: "2023-11-25",
+        project: "Ecstatic Unity (French premiere)",
+        venue: "MK2 Beaubourg, Chéries Chéris Film Festival @ 10:20",
+        city: "Paris",
+        country: "France",
+        link: "https://cheries-cheris.com/festival/"
+    },
+    {
+        date: "2023-11-19",
+        project: "Ecstatic Unity (French premiere)",
+        venue: "MK2 Beaubourg, Chéries Chéris Film Festival @ 21:45",
+        city: "Paris",
+        country: "France",
+        link: "https://cheries-cheris.com/festival/"
+    },
+    {
         date: "2023-09-22",
         project: "Ecstatic Unity (Norwegian premiere)",
         venue: "Oslo/Fusion International Film Festival",
@@ -465,21 +489,5 @@ export const pastData = [
     }
 ];
 
-export const upcomingData = [
-    {
-        date: "2023-11-19",
-        project: "Ecstatic Unity (French premiere)",
-        venue: "MK2 Beaubourg, Chéries Chéris Film Festival @ 21:45",
-        city: "Paris",
-        country: "France",
-        link: "https://cheries-cheris.com/festival/"
-    },
-    {
-        date: "2023-11-25",
-        project: "Ecstatic Unity (French premiere)",
-        venue: "MK2 Beaubourg, Chéries Chéris Film Festival @ 10:20",
-        city: "Paris",
-        country: "France",
-        link: "https://cheries-cheris.com/festival/"
-    }    
+export const upcomingData = [  
 ];
