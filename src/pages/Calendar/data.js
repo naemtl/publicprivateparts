@@ -1,7 +1,7 @@
 export const pastData = [
     {
         date: "2024-03-22",
-        project: "Ecstatic Unity (French premiere)",
+        project: "Ecstatic Unity (North American premiere)",
         venue: "FIFA - Festival international du film sur l'art @ Le Livart",
         city: "Montreal",
         country: "Canada",
