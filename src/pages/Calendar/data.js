@@ -1,7 +1,7 @@
 export const pastData = [
     {
         date: "2024-03-22",
-        project: "Ecstatic Unity (French premiere)",
+        project: "Ecstatic Unity (North American premiere)",
         venue: "FIFA - Festival international du film sur l'art @ Le Livart",
         city: "Montreal",
         country: "Canada",
@@ -489,5 +489,21 @@ export const pastData = [
     }
 ];
 
-export const upcomingData = [  
+export const upcomingData = [
+    {
+        date: "2024-09-20",
+        project: "Ecstatic Unity (UK premiere)",
+        venue: "Fringe Queer Film & Arts Fest @ Rich Mix",
+        city: "London",
+        country: "England",
+        link: "https://www.fringefilmfest.com/festival-programme-1/cruising-utopia"
+    },
+    {
+        date: "2024-09-28",
+        project: "The Key to Dreams (Norwegian premiere)",
+        venue: "Oslo/Fusion International Film Festival @ Cinemateket Lillebil",
+        city: "Oslo",
+        country: "Norway",
+        link: "https://oslofusion.no/en/program/filmprogram/the-pornos"
+    }  
 ];
