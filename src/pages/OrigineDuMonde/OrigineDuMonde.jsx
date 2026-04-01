@@ -7,12 +7,15 @@ import OriginePersonnel from "./OriginePersonnel/OriginePersonnel";
 import Footer from "../../components/Footer/Footer";
 
 import ftaLogo from "../../assets/images/fta-logo.png";
-import odmImg1 from "../../assets/images/odm-1.png";
-import odmImg2 from "../../assets/images/odm-2.png";
-import odmImg4 from "../../assets/images/odm-4.png";
-import odmImg5 from "../../assets/images/odm-5.png";
-import odmImg6 from "../../assets/images/odm-6.png";
-import odmImg7 from "../../assets/images/odm-7.png";
+import odmImg1 from "../../assets/images/odm-1.jpg";
+import odmImg2 from "../../assets/images/odm-2.jpg";
+import odmImg3 from "../../assets/images/odm-3.jpg";
+import odmImg4 from "../../assets/images/odm-4.jpg";
+import odmImg5 from "../../assets/images/odm-5.jpg";
+import odmImg6 from "../../assets/images/odm-6.jpg";
+import odmImg7 from "../../assets/images/odm-7.jpg";
+import odmImg8 from "../../assets/images/odm-8.jpg";
+import odmImg9 from "../../assets/images/odm-9.jpg";
 import odmLogo from "../../assets/svg/odm-logo.svg";
 import purpleBodyVid from "../../assets/videos/purple-body.mp4";
 
@@ -51,7 +54,7 @@ const OrigineDuMonde = () => {
       <div className="origine__content">
         <div className="origine__media-row origine__media-row--one">
           <div className="origine__video-column">
-            <YoutubeVimeoEmbed embedId="bz1l-WIPnNY" />
+            <YoutubeVimeoEmbed embedId="ZzOYIfBtAtg" />
           </div>
         </div>
         <div className="origine__text">
@@ -79,10 +82,13 @@ const OrigineDuMonde = () => {
           imgSpacing={14}
           parentName="origine"
           photos={[
+            { src: odmImg3, width: 688, height: 458 },
             { src: odmImg4, width: 688, height: 458 },
             { src: odmImg5, width: 688, height: 458 },
             { src: odmImg6, width: 688, height: 458 },
             { src: odmImg7, width: 688, height: 458 },
+            { src: odmImg8, width: 688, height: 458 },
+            { src: odmImg9, width: 688, height: 458 },
           ]}
         />
       </div>
@@ -95,14 +101,11 @@ const OrigineDuMonde = () => {
         </div>
       </div>
       <h3 className="origine__scroll-heading" ref={videosRef}>
-        Videos
+        Video
       </h3>
       <div className="origine__media-row origine__media-row--five">
         <div className="origine__video-column">
-          <YoutubeVimeoEmbed embedId="VtbsfRlr2yU" />
-        </div>
-        <div className="origine__video-column">
-          <YoutubeVimeoEmbed isVimeo={true} embedId="559539428" />
+          <YoutubeVimeoEmbed embedId="1173262977" isVimeo />
         </div>
       </div>
       <h3 className="origine__scroll-heading" ref={pressRef}>
@@ -110,17 +113,10 @@ const OrigineDuMonde = () => {
       </h3>
       <div className="origine__press">
         <div className="origine__text">
-          {`"${t("press.pat-white")}"`}
-          <div className="origine__press-source">
-            <span>Pat White</span>
-            <span>Thomas Bastien, Patwhite.com, 06-13-2021</span>
-          </div>
-        </div>
-        <div className="origine__text">
           {`"${t("press.spirale-magazine")}"`}
           <div className="origine__press-source">
             <span>Spirale Magazine</span>
-            <span>Etienne Bergeron, Spiralemagazine.com, 06-13-2021</span>
+            <span>Etienne Bergeron, Spiralemagazine.com</span>
           </div>
         </div>
         <div className="origine__text">
