@@ -71,12 +71,12 @@ const OrigineDuMonde = () => {
           {t("main.button-calendar")}
         </Link>
         <div className="origine__link-container">
-          <SmoothScrollButton targetRef={imagesRef} label="Images" />
-          <SmoothScrollButton targetRef={videosRef} label="Videos" />
-          <SmoothScrollButton targetRef={pressRef} label="Press" />
+          <SmoothScrollButton targetRef={imagesRef} label={t("common.images")} />
+          <SmoothScrollButton targetRef={videosRef} label={t("common.videos")} />
+          <SmoothScrollButton targetRef={pressRef} label={t("common.press")} />
         </div>
         <h3 className="origine__scroll-heading" ref={imagesRef}>
-          Images
+          {t("common.images")}
         </h3>
         <LightboxGallery
           imgSpacing={14}
@@ -101,7 +101,7 @@ const OrigineDuMonde = () => {
         </div>
       </div>
       <h3 className="origine__scroll-heading" ref={videosRef}>
-        Video
+        {t("common.video")}
       </h3>
       <div className="origine__media-row origine__media-row--five">
         <div className="origine__video-column">
@@ -109,7 +109,7 @@ const OrigineDuMonde = () => {
         </div>
       </div>
       <h3 className="origine__scroll-heading" ref={pressRef}>
-        Press
+        {t("common.press")}
       </h3>
       <div className="origine__press">
         <div className="origine__text">
@@ -126,7 +126,7 @@ const OrigineDuMonde = () => {
           </div>
         </div>
       </div>
-      <h3 className="origine__heading">Credits</h3>
+      <h3 className="origine__heading">{t("common.credits")}</h3>
       <OriginePersonnel t={t} />
       <SupportBanner>
         <img src={ftaLogo} className="support-banner__logo--fta" alt="FTA" />

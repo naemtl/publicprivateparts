@@ -40,17 +40,19 @@ const OriginePersonnel = ({ t }) => {
         <em>{t("personnel.live-performance-heading")}</em>
       </h3>
       <div className="origine-personnel__text">
-        {t("personnel.live-performance-text")}
+        <Trans t={t} i18nKey={"personnel.live-performance-text"} />
       </div>
       <h3 className="origine-personnel__heading">
         <em>{t("personnel.video-installation-heading")}</em>
       </h3>
-      <div className="origine-personnel__text">{t("personnel.video-installation-text")}</div>
+      <div className="origine-personnel__text">
+        <Trans t={t} i18nKey={"personnel.video-installation-text"} />
+      </div>
       <h3 className="origine-personnel__heading">
         <em>{t("personnel.comms-promotion-heading")}</em>
       </h3>
       <div className="origine-personnel__text">
-        {t("personnel.comms-promotion-text")}
+        <Trans t={t} i18nKey={"personnel.comms-promotion-text"} />
       </div>
       <h3 className="origine-personnel__heading">
         <em>{t("personnel.world-premier-heading")}</em>

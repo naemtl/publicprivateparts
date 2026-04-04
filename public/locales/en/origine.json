@@ -1,4 +1,11 @@
 {
+    "common": {
+        "credits": "Credits",
+        "images": "Images",
+        "press": "Press",
+        "video": "Video",
+        "videos": "Videos"
+    },
     "main": {
         "button-trailer": "Trailer",
         "button-calendar": "Tour Dates",
@@ -6,18 +13,18 @@
         "paragraph-main-2": "Blurring the boundaries between performance, installation, and ritual, the work transforms erotic imagery into a collective, immersive encounter. Spectators move through cinematic landscapes of bodies, surreal sculptures, and intimate declarations, carried by a soundscape that unfolds across three sonic states: synthetic club pulse, breath and resonance, and ecstatic transcendence. Voyeurism softens into empathy, and critical distance gives way to mutual presence. Bodies gather in proximity; the audience becomes part witness, part participant in a choreography of intimacy. <br><br> <i>Public / Private Parts</i> proposes a queer space where sensuality is celebrated as a form of knowledge — reclaiming the body as a site of sensation, vulnerability, and possibility. <br><br> In doing so, the work imagines new ways of being together, desiring, and relating in an increasingly mediated world.",
         "paragraph-thanks": "Gerard X Reyes would like to thank all of the interviewees and dancers in Montréal, Berlin and Zürich who participated in the research for this work. Special thanks to Guy Cools, Julie Favreau and Andréane Leclerc for their guidance.",
         "text-quote": "“We learned care from exhaustion. We learned love from need, and that healing is a job nobody pays for. We still show up. We still call this work. This is the body of care. This is the body of love.”",
-        "text-quote-source": "— <strong>Nica Rosés</strong><p>Performer in <i>Public / Private Parts</i></p>"
+        "text-quote-source": "— <strong>Nica Rosés,</strong><p>Performer in <i>Public / Private Parts</i></p>"
     },
     "personnel": {
         "comms-promotion-heading": "Communications and Promotion",
-        "comms-promotion-text": "Branding and Design of website and social media Vina Goh | Web Designers Matthew Stinis, Valentin Tsatskin | Videographer for Trailer and Programmers Screener Philip Fortin | Video Editor for Trailer and Programmers Screener Poppy Sanchez | Photographer Felix Bonnevie | Community Manager and Translation (Spanish) Julia Sahagún | Translation (French) Tiah Coxon + Alice Renucci",
+        "comms-promotion-text": "<i>Branding and Design of website and social media</i> Vina Goh | <i>Web Designers</i> Matthew Stinis, Valentin Tsatskin | <i>Videographer for Trailer and Programmers Screener</i> Philip Fortin | <i>Video Editor for Trailer and Programmers Screener</i> Poppy Sanchez | <i>Photographer</i> Felix Bonnevie | <i>Community Manager and Translation (Spanish)</i> Julia Sahagún | <i>Translation (French)</i> Tiah Coxon + Alice Renucci",
         "coprod-heading-1": "Created in collaboration with",
         "coprod-heading-2": "Festival Transamériques. Montréal, Canada. June 10-12, 2021",
         "copyright": "Gerard Reyes © 2021",
         "international-distro-heading": "International distribution",
         "international-distro-text": "PLAN B Creative Agency for Performing Arts",
         "live-performance-heading": "Live Performance Team",
-        "live-performance-text": "Choreographer: Gerard X Reyes | Live Performers (premiere): Gerard X Reyes, Emmanuel Proulx, Justin Gionet | Movement Research Assistant: Andréane Leclerc | Dramaturgical Advice: Guy Cools | Technical Director and Lighting Designer: Karine Gauthier | Music: Bendik Giske | Composition and Sound Design: Devon Bate | Spatialization: Devon Bate, Dominic Jasmin | Props Designer: Jasmine Reimer | Vocal Coach: Ann Dyer | Production Managers: Alice Renucci, Lucie Juneau",
+        "live-performance-text": "<i>Dramaturge and Care Advisor</i> Michèle Steinwald | <i>Dramaturgical Advice</i> Guy Cools | <i>Movement Assistant and Contortion Teacher</i> Andréane Leclerc | <i>Technical Director</i> Louis Martz | <i>Lighting and Set Designer</i> Cédric Delorme-Bouchard | <i>Music</i> Bendik Giske | <i>Composition and Sound Designers</i> Devon Bate + Gabrielle Couillard  | <i>Costume Designer</i> Yso | <i>Prop Designers</i> Jasmine Reimer + Yso | <i>Production Managers</i> Alice Renucci + Lucie Juneau | <i>Performers/Interviewees in the research</i> Emmanuel Proulx + Justin Gionet + Jessyca R. Hauser + Frida Guilia Franceschini + JorgeTheObscene + Kay Garnellen + Caritia + Valentin Braun + Jontae Mccrory + Florianne Philippe-Beauchamp + Susie Paulson + Dustin Segura-Suarez + Justin De Luna",
         "live-performers-heading": "Live Performers",
         "main-heading-1": "Concept, Artistic Direction and Choreography",
         "main-heading-2": "Production, Intimacy Coordination",
@@ -32,7 +39,7 @@
         "text-gratitude": "Gerard would like to thank all the interviewees and artists in Berlin, Zürich and Montréal who participated in the research phase. Special thanks to Julie Favreau, Andréane Leclerc, Guy Cools, David J. Romero, Tyrone Harper and Denise Reyes for their guidance.",
         "video-installation-heading": "Video Installation Team",
         "video-performers-heading": "Video Performers",
-        "video-installation-text": "Director, Interviewer, Co-Editor, Transcriber  Gerard X Reyes | Co-Director Poppy Sanchez | Director of Photography Kevin Klein | Dramaturgical Advice and Editor Julie Favreau | Second Camera Operator Jara Lopez Ballonga | Sound Recordist Antonio Vilchez Monge | Set Designer Jasmine Reimer | Assistant Set Designer Kaitlyn Smeeth | Projection and Video Design Zachary Noël-Ferland + Stéphane Gladyszewski | Color Correction Max Hilsamer | Sound Editor Devon Bate | Subtitles T & S Coop | Translation (French) Ingrid Vallus | Camera Operator (Interviews) David J. Romero | Production Managers Elisa Hengen + Poppy Sanchez",
+        "video-installation-text": "<i>Director, Interviewer, Co-Editor, Transcriber</i>  Gerard X Reyes | <i>Co-Director</i> Poppy Sanchez | <i>Director of Photography</i> Kevin Klein | <i>Dramaturgical Advice and Editor</i> Julie Favreau | <i>Second Camera Operator</i> Jara Lopez Ballonga | <i>Sound Recordist</i> Antonio Vilchez Monge | <i>Set Designer</i> Jasmine Reimer | <i>Assistant Set Designer</i> Kaitlyn Smeeth | <i>Projection and Video Design</i> Zachary Noël-Ferland + Stéphane Gladyszewski | <i>Color Correction</i> Max Hilsamer | <i>Sound Editor</i> Devon Bate | <i>Subtitles</i> T & S Coop | <i>Translation (French)</i> Ingrid Vallus | <i>Camera Operator (Interviews)</i> David J. Romero | <i>Production Managers</i> Elisa Hengen + Poppy Sanchez",
         "world-premier-heading": "World Premiere (2025)"
     },
     "press": {

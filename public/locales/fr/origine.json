@@ -1,36 +1,49 @@
 {
-    "main": {
-        "button-trailer": "Bande-annonce",
-        "button-calendar": "Dates de Tournée",
-        "paragraph-main-1": "<i>L'Origine du monde</i> pourrait être le point de départ d'une histoire mondiale de la censure morale à l'époque moderne. À Paris 1866, la peinture de Gustave Courbet a été cachée à la vue du public tout de suite après avoir été peinte. L’œuvre - qui montre l’abdomen, les organes génitaux, et les jambes d’une femme - était davantage considérée comme un objet pornographique que comme une œuvre d’art. Elle a été vendue et revendue plusieurs fois mais est restée cachée jusqu'à sa première exposition publique à New York en 1988, quand elle est devenue mondialement reconnue. Puis en 2011, Facebook a de nouveau censuré la peinture, cette fois-ci en ligne, sous ses «Standards de la communauté». Que se passerait-il si notre société humaine pouvait enfin apprendre à accepter le corps sensuel? Et si nous reconnaissions le corps comme une ressource précieuse qui cultive la sensation, la connexion et l'empathie avec nous-mêmes et avec le monde?",
-        "paragraph-main-2": "<i>Public / Private Parts ou L'Origine du monde</i> est une performance de  danse et une installation vidéo qui va au-delà des binaires restrictifs du public/privé et de l’art/la pornographie. Une communauté de neuf experts en incarnation (​embodiment​) issus de divers milieux professionnels et culturels crée des pratiques corporelles conscientes pour éveiller les sens. À travers les performances en direct et les vidéos documentaires, le groupe de danseur.euse.s contemporains, travailleur.euse.s du sexe et éducateur.trice.s sexuels, explorent seul.e.s et évoluent ensemble en utilisant les fonctions corporelles essentielles de la respiration, du toucher, du son, du mouvement et de l'imagination. Intimes et innovantes, leurs découvertes révèlent de nouvelles interconnexions pleines d'espoir qui pourraient profiter à tous.tes.",
-        "paragraph-thanks": "Gerard X Reyes tient à remercier tous.tes les interviewé.e.s et danseurs.euses de Montréal, Berlin et Zürich qui ont participé à la recherche pour cette œuvre. Remerciements particuliers à Guy Cools, Julie Favreau et Andréane Leclerc pour leurs conseils",
-        "text-quote": "“Les gens qui ne sont pas alternatifs ils ne discutent pas de sexualité. Et ça je crois que c’est une grosse erreur. Il faut qu’il y ait de la communication.”",
-        "text-quote-source": "— <strong>KAy Garnellen</strong><p>Artiste de porno et interviewé pour <i>Public / Private Parts ou L’Origine du monde</i></p>"
-    },
-    "personnel": {
-        "comms-promotion-heading": "Communications et Promotion",
-        "comms-promotion-text": "Marque et Graphisme du site web et médias sociaux: Vina Goh | Développeurs du site web: Matthew Stinis, Valentin Tsatskin |  Responsable des réseaux sociaux et Traduction (espagnol): Julia Sahagún | Traduction (français): Tiah Coxon, Alice Renucci | Vidéaste, Monteur des vidéos des réseaux sociaux, Photographe promotionnel: Juan David Padilla Vega | Photographe de la performance en direct: Denis Farley",
-        "coprod-heading-1": "Co-production et première",
-        "coprod-heading-2": "Festival Transamériques. Montréal, Canada. 10 au 12 juin, 2021",
-        "copyright": "Gerard Reyes © 2021",
-        "international-distro-heading": "Distribution Internationale",
-        "international-distro-text": "PLAN B Creative Agency for Performing Arts",
-        "live-performance-heading": "Performance en direct",
-        "live-performance-text": "Choreographer: Gerard X Reyes | Interprètes (première): Gerard X Reyes, Emmanuel Proulx, Justin Gionet | Assistante De Recherche: Andréane Leclerc | Conseil En Dramaturgie: Guy Cools | Éclairagiste, Direction Technique: Karine Gauthier | Musique: Bendik Giske | Composition et design sonore: Devon Bate | Spatialisation: Devon Bate, Dominic Jasmin | Accessoiriste: Jasmine Reimer | Coach Vocale: Ann Dyer | Directrices De Production: Alice Renucci, Lucie Juneau",
-        "partners-heading": "Partenaires",
-        "partners-text": "Goethe Institut Montréal | Théâtre Hector-Charland",
-        "residencies-heading": "Résidences",
-        "residencies-text": "Fabrik Potsdam | Tanzfabrik Berlin | Tanzhaus Zürich | Grand Studio Brussels | Espace Marie Chouinard | Par B.L.Eux/Benoît Lachambre | Compagnie Flak/José Navas | Montréal Arts Interculturels | Département de Danse de l'UQAM | Musée d'Art de Joliette",
-        "support-heading": "Avec le soutien de",
-        "support-text": "Le Conseil Des Arts Et Des Lettres Du Québec | Canada Council For The Arts | La Société Des Arts Et Des Compositeurs Dramatiques (SACD)",
-        "text-contact-plan-b": "VEUILLEZ CONTACTER <1>PLAN B</1> (HAMBOURG, ALLEMAGNE) - <i>AGENCE POUR LES ARTS DU SPECTACLE</i>",
-        "text-gratitude": "Gerard tient à remercier tous.tes les interviewé.e.s et artistes de Montréal, Berlin et Zürich qui ont participé à la phase de recherche pour cette œuvre. Remerciements particuliers à Julie Favreau, Andréane Leclerc, Guy Cools, David J. Romero, Tyrone Harper et Denise Reyes pour leur conseils.",
-        "video-heading": "Installation vidéo",
-        "video-text": "Réalisateur, Chorégraphe, Intervieweur, Co-monteur, Transcripteur: Gerard X Reyes | Conseils en dramaturgie vidéo et Monteuse: Julie Favreau | Co-réalisatrice: Poppy Sanchez | Interprètes: Gerard X Reyes, Bishop Black, Jasko Fide, Jorge The Obscene, Mara Morgen, Rebecca Frances | Directeur de la photographie: Kevin Klein | Deuxième cadreuse: Jara Lopez Ballonga | Capteur de son: Antonio Vilchez Monge | Scénographe: Jasmine Reimer | Assistante à la scénographie: Kaitlyn Smeeth | Installation vidéo, Projection et Programmation: Stéphane Gladyszewski | Étalonneur: Max Hilsamer | Concepteur sonore: Devon Bate | Sous-titres: T & S Coop | Traduction sous-titres (français): Ingrid Vallus | Opérateur (entrevues): David J. Romero | Directrice de production: Elisa Hengen"
-    },
-    "press": {
-        "spirale-magazine": "En réinvestissant ainsi la dimension tactile et sensuelle de leur corporéité, les performeurs·euses nous rappellent que toucher une autre personne avec respect est inévitablement un acte de réciprocité, et que cette égalité s’effectue sous une forme de partage qui ne saurait laisser intact le sujet qui s’y soumet. [...] La communion qui s’installe entre les performeurs et le public passe aussi beaucoup par la musicalité du spectacle : par le rythme envoutant de la bande sonore de Bendik Giske et Devon Bate, bien sûr, mais aussi par le rythme corporel, la respiration des interprètes, qui nous absorbe et nous entraîne avec eux dans l’expérience immersive à laquelle ils se dévouent sous nos yeux.",
-        "jeu-revue": "Chef-d'œuvre sensoriel [...] C'est (...) singulièrement libérateur. [...] Brillamment exécuté. [...] Entouré d’interprètes en chair et en os et de performeurs et performeuses numériques généreux, généreuses et fascinant·es, Gérard X Reyes propose un spectacle indéniablement sublime et important. Libératrice et déstabilisante, cette œuvre offre une vue sur nous-mêmes. Elle s’immisce sous notre peau, s’y installe et fait vivre."
-    }
+  "common": {
+    "credits": "Crédits",
+    "images": "Images",
+    "press": "Presse",
+    "video": "Vidéo",
+    "videos": "Vidéos"
+  },
+  "main": {
+    "button-trailer": "Bande-annonce",
+    "button-calendar": "Dates de Tournée",
+    "paragraph-main-1": "<i>Public / Private Parts</i> est une performance sensorielle et une installation vidéo du chorégraphe et sexologue somatique Gerard X Reyes. Elle convie le public à entrer dans un monde où l’intimité déborde de l’écran pour revenir habiter l’espace partagé de la présence vivante. <br><br> Dans une génération qui fantasme à travers les écrans des réseaux sociaux et des applications de rencontre, le corps sensuel s’est peu à peu aplati en images de marketing — offertes, désirables, mais toujours plus lointaines, toujours plus désincarnées. <i>Public / Private Parts</i> ouvre alors une brèche: que devient-il possible si l’on recommence depuis la connexion, depuis l’imaginaire?",
+    "paragraph-main-2": "À la lisière de la performance, de l’installation et du rituel, l’œuvre transfigure les imaginaires érotiques en une expérience collective et immersive. Les spectateur·rice·s circulent au cœur de paysages cinématographiques de corps, de sculptures surréelles et de confidences intimes, portés par une composition sonore en trois états : pulsation synthétique de club, souffle et résonance, puis élévation extatique. Le regard voyeur s’adoucit, devient empathique ; la distance critique se dissout au profit d’une présence partagée. Les corps se rapprochent, s’accordent — et le public devient à la fois témoin et partie prenante d’une chorégraphie de l’intime. <br><br> <i>Public / Private Parts</i> dessine un espace queer où la sensualité se déploie comme une forme de connaissance — réinscrivant le corps comme lieu de sensation, de vulnérabilité et de possibles. <br><br> Ce faisant, l’œuvre esquisse d’autres manières d’être ensemble, de désirer et d’entrer en relation, au cœur d’un monde toujours plus médiatisé.",
+    "paragraph-thanks": "Gerard X Reyes tient à remercier tous.tes les interviewé.e.s et danseurs.euses de Montréal, Berlin et Zürich qui ont participé à la recherche pour cette œuvre. Remerciements particuliers à Guy Cools, Julie Favreau et Andréane Leclerc pour leurs conseils",
+    "text-quote": "“Nous avons appris le soin depuis l’épuisement. Nous avons appris l’amour depuis le besoin, et que guérir est un travail pour lequel personne ne paie. Pourtant, nous sommes toujours là. Nous continuons de faire l’effort. On est le corps du soin. On est le corps de l’amour.”",
+    "text-quote-source": "— <strong>Nica Rosés,</strong><p>Interprète dans <i>Public / Private Parts</i></p>"
+  },
+  "personnel": {
+    "comms-promotion-heading": "Communications et Promotion",
+    "comms-promotion-text": "<i>Identité visuelle et design du site web et des réseaux sociaux</i> Vina Goh | <i>Développeurs du site web</i> Matthew Stinis + Valentin Tsatskin | <i>Vidéaste de la bande-annonce et du screener</i> Philip Fortin | <i>Montage vidéo de la bande-annonce et du screener</i> Poppy Sanchez | <i>Photographie</i> Felix Bonnevie | <i>Photographie promotionnelle (2021)</i> Juan David Padilla Vega | <i>Responsable des réseaux sociaux et traduction (espagnol)</i> Julia Sahagún | <i>Traduction (français)</i> Tiah Coxon + Alice Renucci",
+    "coprod-heading-1": "Créé en collaboration avec",
+    "coprod-heading-2": "Festival Transamériques. Montréal, Canada. 10 au 12 juin, 2021",
+    "copyright": "Gerard Reyes © 2021",
+    "international-distro-heading": "Distribution Internationale",
+    "international-distro-text": "PLAN B Creative Agency for Performing Arts",
+    "live-performance-heading": "Équipe de performance en direct",
+    "live-performance-text": "<i>Conseils en dramaturgie</i> Guy Cools | <i>Dramaturge et conseillère en care</i> Michèle Steinwald | <i>Assistante au mouvement et professeure de contorsion</i> Andréane Leclerc | <i>Directeur technique</i> Louis Martz | <i>Conception lumière et scénographie</i> Cédric Delorme-Bouchard | <i>Musique</i> Bendik Giske | <i>Composition et conception sonore</i> Devon Bate + Gabrielle Couillard | <i>Conception des costumes</i> Yso | <i>Conception des accessoires</i> Jasmine Reimer + Yso | <i>Direction de production</i> Alice Renucci + Lucie Juneau | <i>Interprètes / interviewé·e·s dans la recherche</i> Emmanuel Proulx + Justin Gionet + Jessyca R. Hauser + Frida Guilia Franceschini + JorgeTheObscene + Kay Garnellen + Caritia + Valentin Braun + Jontae Mccrory + Florianne Philippe-Beauchamp + Susie Paulson + Dustin Segura-Suarez + Justin De Luna",
+    "live-performers-heading": "Interprètes en direct",
+    "main-heading-1": "Concept, direction artistique et chorégraphie",
+    "main-heading-2": "Production, et coordination de l’intimité",
+    "partners-heading": "Partenaires",
+    "partners-text": "Goethe Institut Montréal | Théâtre Hector-Charland",
+    "research-heading": "Recherche et coproduction (2021)",
+    "residencies-heading": "Résidences",
+    "residencies-text": "Fabrik Potsdam | Tanzfabrik Berlin | Tanzhaus Zürich | Grand Studio Brussels | Espace Marie Chouinard | Parbleux | Compagnie Flak | Montréal Arts Interculturels (MAI) | Département de danse de l’UQAM | Musée d’art de Joliette | Usine C",
+    "support-heading": "Avec le généreux soutien de",
+    "support-text": "Conseil des arts et des lettres du Québec | Conseil des arts du Canada | Conseil des arts de Montréal | Société des Auteurs et Compositeurs Dramatiques (SACD) | Goethe-Institut Montréal | Théâtre Hector-Charland",
+    "text-contact-plan-b": "VEUILLEZ CONTACTER <1>PLAN B</1> (HAMBOURG, ALLEMAGNE) - <i>AGENCE POUR LES ARTS DU SPECTACLE</i>",
+    "text-gratitude": "Gerard tient à remercier tous.tes les interviewé.e.s et artistes de Montréal, Berlin et Zürich qui ont participé à la phase de recherche pour cette œuvre. Remerciements particuliers à Julie Favreau, Andréane Leclerc, Guy Cools, David J. Romero, Tyrone Harper et Denise Reyes pour leur conseils.",
+    "video-heading": "Équipe de l’installation vidéo",
+    "video-performers-heading": "Interprètes vidéo",
+    "video-text": "<i>Réalisateur, interviewer, et transcripteur</i> Gerard X Reyes | <i>Co-réalisatrice</i> Poppy Sanchez | <i>Directeur de la photographie</i> Kevin Klein | <i>Conseils en dramaturgie et monteuse</i> Julie Favreau | <i>Deuxième cadreuse</i> Jara Lopez Ballonga | <i>Capteur de son</i> Antonio Vilchez Monge | <i>Scénographe</i> Jasmine Reimer | <i>Assistante à la scénographe</i> Kaitlyn Smeeth | <i>Conception projection et programmation</i> Zachary Noël-Ferland + Stéphane Gladyszewski | <i>Étalonneur</i> Max Hilsamer | <i>Concepteur sonore</i> Devon Bate | <i>Sous-titres</i> T & S Coop | <i>Traduction sous-titres (français)</i> Ingrid Vallus | <i>Opérateur caméra (entretiens)</i> David J. Romero | <i>Directrices de production</i> Elisa Hengen + Poppy Sanchez",
+    "world-premier-heading": "Première mondiale (2025)"
+  },
+  "press": {
+    "spirale-magazine": "En réinvestissant ainsi la dimension tactile et sensuelle de leur corporéité, les performeurs·euses nous rappellent que toucher une autre personne avec respect est inévitablement un acte de réciprocité, et que cette égalité s’effectue sous une forme de partage qui ne saurait laisser intact le sujet qui s’y soumet. [...] La communion qui s’installe entre les performeurs et le public passe aussi beaucoup par la musicalité du spectacle : par le rythme envoutant de la bande sonore de Bendik Giske et Devon Bate, bien sûr, mais aussi par le rythme corporel, la respiration des interprètes, qui nous absorbe et nous entraîne avec eux dans l’expérience immersive à laquelle ils se dévouent sous nos yeux.",
+    "jeu-revue": "Chef-d'œuvre sensoriel [...] C'est (...) singulièrement libérateur. [...] Brillamment exécuté. [...] Entouré d’interprètes en chair et en os et de performeurs et performeuses numériques généreux, généreuses et fascinant·es, Gérard X Reyes propose un spectacle indéniablement sublime et important. Libératrice et déstabilisante, cette œuvre offre une vue sur nous-mêmes. Elle s’immisce sous notre peau, s’y installe et fait vivre."
+  }
 }
