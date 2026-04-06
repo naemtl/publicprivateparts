@@ -29,7 +29,7 @@ const Navmenu = ({ menuOpen, toggleMenu }) => {
           </Link>
         </li>
         <li className="navmenu__list-item">
-          <Link onClick={toggleMenu} to="/publicprivateparts">
+          <Link onClick={toggleMenu} to="/ppp">
             <span className="navmenu__list-item--numeral">03</span>
             {t("anchors.publicprivate")}
           </Link>
@@ -54,7 +54,7 @@ const Navmenu = ({ menuOpen, toggleMenu }) => {
             </Link>
           </li>
           <li className="navmenu__list-item">
-            <Link onClick={toggleMenu} to="/odm">
+            <Link onClick={toggleMenu} to="/publicprivateparts">
               <span className="navmenu__list-item--numeral">07</span>
               {t("anchors.odm")}
             </Link>

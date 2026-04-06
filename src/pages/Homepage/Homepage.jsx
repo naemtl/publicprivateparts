@@ -34,7 +34,7 @@ const Homepage = () => {
             factorX={0.3}
             factorY={0.3}
           >
-            <Link to="/publicprivateparts">
+            <Link to="/ppp">
               <div className="homepage__left-group">
                 <div
                   className="homepage__overlay-container"
@@ -108,7 +108,7 @@ const Homepage = () => {
           </MouseParallaxChild>
         </MouseParallaxContainer>
         <div className="homepage__mobile-links">
-          <Link to="/publicprivateparts">
+          <Link to="/ppp">
             <img className="homepage__logo--mobile" src={gxrPpp} alt="" />
           </Link>
           <Link to="/principleofpleasure">

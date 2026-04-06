@@ -30,8 +30,8 @@ const App = () => {
         <Route path="/interviews" element={<Interviews />} />
         <Route path="/podcast" element={<Podcast />} />
         <Route path="/principleofpleasure" element={<Principle />} />
-        <Route path="/publicprivateparts" element={<PublicPrivateParts />} />
-        <Route path="/odm" element={<OrigineDuMonde />} />
+        <Route path="/ppp" element={<PublicPrivateParts />} />
+        <Route path="/publicprivateparts" element={<OrigineDuMonde />} />
       </Routes>
     </BrowserRouter>
   );

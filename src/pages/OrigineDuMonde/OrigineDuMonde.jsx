@@ -16,8 +16,7 @@ import odmImg6 from "../../assets/images/odm-6.jpg";
 import odmImg7 from "../../assets/images/odm-7.jpg";
 import odmImg8 from "../../assets/images/odm-8.jpg";
 import odmImg9 from "../../assets/images/odm-9.jpg";
-import odmLogo from "../../assets/svg/odm-logo.svg";
-import purpleBodyVid from "../../assets/videos/hero-banner.mp4";
+import heroBanner from "../../assets/videos/hero-banner.mp4";
 
 import "./OrigineDuMonde.scss";
 import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
@@ -34,15 +33,10 @@ const OrigineDuMonde = () => {
   return (
     <div className="origine">
       <div className="origine__header">
-        {/* <img
-          className="origine__logo--header"
-          src={odmLogo}
-          alt="Origine du Monde"
-        /> */}
         <div className="origine__video-overlay--header"></div>
         <video
           className="origine__video-player--header"
-          src={purpleBodyVid}
+          src={heroBanner}
           autoPlay={true}
           loop={true}
           controls={false}

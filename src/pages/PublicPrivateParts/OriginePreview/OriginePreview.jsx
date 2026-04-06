@@ -27,7 +27,7 @@ const OriginePreview = ({ t }) => {
                     <p className="origine-preview__text">
                         <Trans t={t} i18nKey={'origine.desc'} />
                     </p>
-                    <Link className='origine-preview__button' to="/odm" >
+                    <Link className='origine-preview__button' to="/publicprivateparts" >
                         {t('origine.anchor-1')}
                     </Link>
                 </div>

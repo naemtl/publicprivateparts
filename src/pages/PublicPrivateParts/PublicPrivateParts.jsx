@@ -63,7 +63,7 @@ const PublicPrivateParts = () => {
               <Link to="/podcast">{t("anchors.podcast")}</Link>
             </div>
             <div className="publicprivate__button">
-              <Link to="/odm">{t("anchors.live")}</Link>
+              <Link to="/publicprivateparts">{t("anchors.live")}</Link>
             </div>
           </div>
         </div>
