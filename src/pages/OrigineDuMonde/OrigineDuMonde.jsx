@@ -2,6 +2,8 @@ import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { Trans, useTranslation } from "react-i18next";
 
+import useCheckMobileScreen from "../../hooks/useCheckMobileScreen";
+
 import LightboxGallery from "../../components/LightboxGallery/LightboxGallery";
 import OriginePersonnel from "./OriginePersonnel/OriginePersonnel";
 import Footer from "../../components/Footer/Footer";
@@ -16,7 +18,8 @@ import odmImg6 from "../../assets/images/odm-6.jpg";
 import odmImg7 from "../../assets/images/odm-7.jpg";
 import odmImg8 from "../../assets/images/odm-8.jpg";
 import odmImg9 from "../../assets/images/odm-9.jpg";
-import heroBanner from "../../assets/videos/hero-banner.mp4";
+import heroBanner from "../../assets/videos/ppp-banner.mp4";
+import heroBannerMobile from "../../assets/videos/ppp-banner-mobile.mp4";
 
 import "./OrigineDuMonde.scss";
 import YoutubeVimeoEmbed from "../../components/YoutubeVimeoEmbed/YoutubeVimeoEmbed";
@@ -25,6 +28,7 @@ import SmoothScrollButton from "../../components/SmoothScrollButton/SmoothScroll
 
 const OrigineDuMonde = () => {
   const { t } = useTranslation("origine");
+  const isMobile = useCheckMobileScreen();
 
   const imagesRef = useRef(null);
   const videosRef = useRef(null);
@@ -36,7 +40,9 @@ const OrigineDuMonde = () => {
         <div className="origine__video-overlay--header"></div>
         <video
           className="origine__video-player--header"
-          src={heroBanner}
+          src={`${
+            isMobile === "mobile" ? heroBannerMobile : heroBanner
+          }`}
           autoPlay={true}
           loop={true}
           controls={false}
