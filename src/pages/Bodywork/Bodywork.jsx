@@ -116,7 +116,7 @@ const Bodywork = () => {
         </div>
         <div className="bodywork__button--consult">
           <a
-            href="https://calendly.com/gerardxreyes/10-min-consultation-call-appel"
+            href="https://calendly.com/gerardxreyes/20-minute-check-in"
             rel="noreferrer"
             target="_blank"
           >
