@@ -20,7 +20,7 @@ const Calendar = () => {
           </a>
         );
 
-      const pastEntry = checkIfDateHasPast(date) ? "calendar__entry--past" : "";
+      // const pastEntry = checkIfDateHasPast(date) ? "calendar__entry--past" : "";
       return (
         <div key={i} className={`calendar__entry`}>
           <div className="calendar__cell">{date}</div>
@@ -33,12 +33,12 @@ const Calendar = () => {
       );
     });
 
-  const checkIfDateHasPast = (date) => {
-    const currentDate = new Date();
-    const calendarDate = new Date(date);
+  // const checkIfDateHasPast = (date) => {
+  //   const currentDate = new Date();
+  //   const calendarDate = new Date(date);
 
-    return calendarDate < currentDate;
-  };
+  //   return calendarDate < currentDate;
+  // };
 
   return (
     <div className="calendar">
