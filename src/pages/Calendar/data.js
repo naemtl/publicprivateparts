@@ -1,8 +1,16 @@
 export const pastData = [
     {
+        date: "2026-05-29",
+        project: "The Key to Dreams (German premiere)",
+        venue: "Xposed at Moviemento Kino",
+        city: "Berlin",
+        country: "Germany",
+        link: "https://www.instagram.com/xposedqueerfilmfest/",
+    },
+    {
         date: "2026-(04-01 – 04-08)",
         project: "Caring & Inclusive Leadership (Workshop)",
-        venue: "-",
+        venue: "Regroupement Québécois de la Danse",
         city: "Montreal and online",
         country: "Canada",
         link: "https://www.quebecdanse.org/en/agenda/demonstrating-a-caring-and-inclusive-leadership-within-your-team-or-organization/",
@@ -10,14 +18,14 @@ export const pastData = [
     {
         date: "2026-(03-30 – 04-06)",
         project: "Embodied Consent in the Studio (Workshop)",
-        venue: "-",
+        venue: "Regroupement Québécois de la Danse",
         city: "Montreal and online",
         country: "Canada",
         link: "https://www.quebecdanse.org/en/agenda/promoting-consent-in-the-studio-by-fostering-an-atmosphere-of-trust-and-mutual-respect/",
     },
     {
         date: "2026-(03-07 – 04-19)",
-        project: "New creation (Residency)",
+        project: "Tango residency for new creation",
         venue: "-",
         city: "Montevideo",
         country: "Uruguay",
@@ -97,8 +105,8 @@ export const pastData = [
     },
     {
         date: "2025-10-11",
-        project: "Lust*streifen",
-        venue: "-",
+        project: "The Key to Dreams",
+        venue: "Lust*streifen Festival",
         city: "Basel",
         country: "Switzerland",
         link: "https://www.instagram.com/Luststreifen.festival/",
@@ -251,7 +259,7 @@ export const pastData = [
         date: "2024-07-(15-26)",
         project: "NC2025 Revolutions (Residency)",
         venue: "La Isla de los Monos Sanctuary",
-        city: "-",
+        city: "Iquitos",
         country: "Peru",
         link: "-",
     },
@@ -269,7 +277,7 @@ export const pastData = [
         venue: "Orchestre Symphonique de Montréal, Place des arts",
         city: "Montréal",
         country: "Canada",
-        link: "-",
+        link: "https://www.instagram.com/p/C8cU6ZUMf2t/?img_index=1",
     },
     {
         date: "2024-05-08",
@@ -395,8 +403,8 @@ export const pastData = [
         date: "2023-09-17",
         project: "Public/Private Parts podcast - episode 3",
         venue: "Online",
-        city: "-",
-        country: "worldwide",
+        city: "Berlin",
+        country: "-",
         link: "https://soundcloud.com/gerardxreyes/episode-3-curiosity-trauma-and-healing?si=7569f5ef1777466c9217bf1bbcc5f2a9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
     },
     {
@@ -419,8 +427,8 @@ export const pastData = [
         date: "2023-09-10",
         project: "Public/Private Parts podcast - episode 2",
         venue: "Online",
-        city: "-",
-        country: "worldwide",
+        city: "Berlin",
+        country: "-",
         link: "https://soundcloud.com/gerardxreyes/episode-2-somatic-sexology?si=d70e2a3b6a974951b479a91b26c59db0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
     },
     {
@@ -435,8 +443,8 @@ export const pastData = [
         date: "2023-09-03",
         project: "Public/Private Parts podcast - episode 1",
         venue: "Online",
-        city: "-",
-        country: "worldwide",
+        city: "Berlin",
+        country: "-",
         link: "https://soundcloud.com/gerardxreyes/episode-1-lets-talk-about-porn?si=42f0370b066d4588b5f3c6549115cc9a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
     },
     {
@@ -515,7 +523,7 @@ export const pastData = [
         date: "2022-(10-26 – 11-08)",
         project: "NC2025 Revolutions (Residency)",
         venue: "Na'an ku se Sanctuary",
-        city: "-",
+        city: "Windhoek",
         country: "Namibia",
         link: "-",
     },
@@ -810,9 +818,9 @@ export const pastData = [
     {
         date: "2017-02-18",
         project: "SKIN Kiki Ball",
-        venue: "-",
-        city: "-",
-        country: "-",
+        venue: "Espace Sans Luxe",
+        city: "Montréal",
+        country: "Canada",
         link: "https://cultmtl.com/2017/02/kiki-vogue-ball-montreal/"
     },
     {
@@ -875,11 +883,11 @@ export const pastData = [
 
 export const upcomingData = [
     {
-        date: "2026-05-(21-31)",
-        project: "The Key to Dreams (German premiere)",
-        venue: "Xposed",
-        city: "Berlin",
-        country: "Germany",
-        link: "https://www.instagram.com/xposedqueerfilmfest/",
+        date: "2026-06-23",
+        project: "The Key to Dreams (Greek premiere)",
+        venue: "Anafi International Film Festival",
+        city: "Anafi",
+        country: "Greece",
+        link: "https://www.instagram.com/anafiff/",
     },
 ];
