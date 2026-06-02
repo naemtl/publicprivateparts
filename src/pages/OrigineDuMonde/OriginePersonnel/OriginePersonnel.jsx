@@ -12,8 +12,10 @@ const OriginePersonnel = ({ t }) => {
         <p>
           <em>{t("personnel.main-heading-2")}</em>
         </p>
-        <p><em>Gerard X Reyes</em></p>
-      </h3>
+      </h3>      
+      <div className="origine-personnel__text">
+        <div>Gerard X Reyes</div>
+      </div>
       <h3 className="origine-personnel__heading">
         <em>{t("personnel.coprod-heading-1")}</em>
       </h3>
