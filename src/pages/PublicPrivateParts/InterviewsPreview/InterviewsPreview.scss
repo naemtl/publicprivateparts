@@ -16,7 +16,7 @@
         font-family: $secondary-font-family;
         font-size: $text-xl * 2;
         font-weight: $bold-font-weight;
-        line-height: 5rem;
+        line-height: $line-height-lg;
         margin-bottom: $space-lg;
         text-align: center;
     }

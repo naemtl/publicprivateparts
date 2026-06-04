@@ -90,7 +90,7 @@
 
     &__text {
         font-size: $text-md;
-        line-height: 2.5rem;
+        line-height: $line-height-sm;
         max-width: 696px;
         width: 100%;
     }

@@ -5,7 +5,7 @@
     color: $site-color;
     font-family: $primary-font-family;
     font-size: $text-md;
-    line-height: 2.5rem;
+    line-height: $line-height-sm;
 
     &__banner--bodywork {
         @include flex-center;

@@ -1,11 +1,11 @@
 @import "/src/assets/styles/common";
 
 .bodywork {
-    background-color: #232023;
+    background-color: $site-background-blue;
     font-family: $primary-font-family;
     color: $site-color;
     font-size: $text-md;
-    line-height: 2.5rem;
+    line-height: $line-height-sm;
 
     &__button--consult {
         border-bottom: 1px solid $site-color;
@@ -43,7 +43,7 @@
         background-position: 50%;
         flex-direction: column;
         font-size: $text-lg * 2;
-        line-height: 5rem;
+        line-height: $line-height-lg;
         min-height: 100vh;
         padding: 0 $space-lg;
         text-align: center;

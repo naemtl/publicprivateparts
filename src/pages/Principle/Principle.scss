@@ -6,7 +6,7 @@
     font-family: 'Eczar', serif;
     font-size: $text-lg;
     font-weight: $bold-font-weight;
-    line-height: 2.5rem;
+    line-height: $line-height-sm;
 
     &__button {
         @include button;
