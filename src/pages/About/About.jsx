@@ -90,7 +90,7 @@ const About = () => {
         </div>
         <div className="about__row--trailers">
           <div className="about__video-column">
-            <YoutubeVimeoEmbed embedId="156622742" isVimeo={true} />
+            <YoutubeVimeoEmbed embedId="1188197990" isVimeo={true} />
           </div>
           <div className="about__video-column">
             <YoutubeVimeoEmbed embedId="2O4fdZZQV8Q" />
