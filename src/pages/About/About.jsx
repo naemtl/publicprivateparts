@@ -31,7 +31,10 @@ const About = () => {
       </div>
       <div className="about__content">
         <div className="about__row--intro">
-          <Trans t={t} i18nKey={"paragraph-intro"} />
+          <div>
+            <Trans t={t} i18nKey={"paragraph-intro"} />
+            <span> – Gerard X Reyes</span>
+          </div>
         </div>
         <div className="about__row--chouinard">
           <div className="about__row--text">
@@ -74,7 +77,9 @@ const About = () => {
           <p>
             <Trans t={t} i18nKey={"paragraph-ballroom"} />
           </p>
-          <p>{t("paragraph-bodywork")}</p>
+          <p>
+            <Trans t={t} i18nKey={"paragraph-bodywork"} />
+          </p>
         </div>
         <div className="about__image-row">
           <img
