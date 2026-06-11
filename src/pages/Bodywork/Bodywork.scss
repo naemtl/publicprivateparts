@@ -11,6 +11,8 @@
         border-bottom: 1px solid $site-color;
         margin: ($space-xs * 6) 0;
         padding-bottom: $space-xs * 6;
+        display: flex;
+        justify-content: center;
 
         a {
             @include button;
