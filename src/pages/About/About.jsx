@@ -6,9 +6,9 @@ import ContactBanner from "./ContactBanner/ContactBanner";
 import gerardProfileImg from "../../assets/images/gerard-profile.png";
 import gerardOneImg from "../../assets/images/gerard-1.png";
 import gerardTwoImg from "../../assets/images/gerard-2.png";
-import gerardThreeImg from "../../assets/images/gerard-3.png";
-import gerardFourImg from "../../assets/images/gerard-4.png";
-import gerardFiveImg from "../../assets/images/gerard-5.png";
+import gerardThreeImg from "../../assets/images/gerard-3.jpg";
+import gerardFourImg from "../../assets/images/gerard-4.jpg";
+import gerardFiveImg from "../../assets/images/gerard-5.jpg";
 import gerardVogue from "../../assets/videos/about-vogue.mp4";
 
 import "./About.scss";
