@@ -8,7 +8,7 @@ const SocialsRow = () => {
             <a href="https://instagram.com/gerardxreyes" rel="noreferrer" target="_blank">
                 <FaInstagram />
             </a>
-            <a href="https://www.facebook.com/GerardReyesArtist/" rel="noreferrer" target="_blank">
+            <a href="https://www.facebook.com/gerardxreyes/" rel="noreferrer" target="_blank">
                 <FaFacebookF />
             </a>
             <a href="https://vimeo.com/gerardxreyes" rel="noreferrer" target="_blank">
