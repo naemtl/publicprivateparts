@@ -17,7 +17,7 @@ const SocialsRow = () => {
             <a href="https://www.youtube.com/channel/UCuOTqqnX4obf7HefTmQZyng" rel="noreferrer" target="_blank">
                 <FaYoutube />
             </a>
-            <a href="https://www.linkedin.com/in/gerard-x-reyes-77952a120" rel="noreferrer" target="_blank">
+            <a href="https://www.linkedin.com/in/gerardxreyes/" rel="noreferrer" target="_blank">
                 <FaLinkedinIn />
             </a>
         </div>
