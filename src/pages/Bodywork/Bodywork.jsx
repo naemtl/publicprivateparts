@@ -7,6 +7,18 @@ import bodyworkBg from "../../assets/images/hands-on-head.jpg";
 
 import "./Bodywork.scss";
 
+const IntroCallButton = ({ t }) => (
+    <div className="bodywork__button--consult">
+      <a
+        href="https://calendly.com/gerardxreyes/20-minute-check-in"
+        rel="noreferrer"
+        target="_blank"
+      >
+        {t("anchor-book")}
+      </a>
+    </div>
+  );
+
 const Bodywork = () => {
   const { t } = useTranslation("bodywork");
 
@@ -24,13 +36,15 @@ const Bodywork = () => {
         <p className="bodywork__text">{t("paragraph-home-body-2")}</p>
         <p className="bodywork__text">{t("paragraph-home-body-3")}</p>
 
+        <IntroCallButton t={t} />
+
         <h2 className="bodywork__heading">{t("heading-coaching")}</h2>
         <p className="bodywork__text">{t("paragraph-coaching-1")}</p>
         <p className="bodywork__text">{t("paragraph-coaching-2")}</p>
         <p className="bodywork__text">{t("paragraph-coaching-3")}</p>
 
         <h2 className="bodywork__heading">{t("heading-offerings")}</h2>
-        <h3 className="bodywork__heading">
+        <h3 className="bodywork__subheading">
           {t("section-offerings.words.heading")}
         </h3>
         <p className="bodywork__text">{t("section-offerings.words.text")}</p>
@@ -106,7 +120,14 @@ const Bodywork = () => {
         <h3 className="bodywork__heading">{t("heading-training")}</h3>
         <ul className="bodywork__text">
           <li>
-            {t("list-training.certification")}
+            <Trans t={t} i18nKey={"list-training.certification"} components={
+              {
+                instituteAnchor: (
+                  // eslint-disable-next-line jsx-a11y/anchor-has-content
+                  <a className="bodywork__anchor--text" href="https://instituteofsomaticsexology.com/" target="_blank" rel="noopener noreferrer"/>
+                )
+              }
+            } />
           </li>
           <li>
             {t("list-training.mentorship")}
@@ -119,15 +140,8 @@ const Bodywork = () => {
         <h2 className="bodywork__heading">{t("heading-lets-talk")}</h2>
         <p className="bodywork__text">{t("paragraph-lets-talk")}</p>
 
-        <div className="bodywork__button--consult">
-          <a
-            href="https://calendly.com/gerardxreyes/20-minute-check-in"
-            rel="noreferrer"
-            target="_blank"
-          >
-            {t("anchor-book")}
-          </a>
-        </div>
+        <IntroCallButton t={t} />
+        
         <p className="bodywork__text"><em>{t("text-book-note")}</em></p>
       </div>
       <Footer />

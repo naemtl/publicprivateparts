@@ -8,9 +8,8 @@
     line-height: $line-height-sm;
 
     &__button--consult {
-        border-bottom: 1px solid $site-color;
         margin: ($space-xs * 6) 0;
-        padding-bottom: $space-xs * 6;
+        padding-bottom: $space-xs;
         display: flex;
         justify-content: center;
 
@@ -23,9 +22,10 @@
     }
 
     &__content {
+        border-bottom: 1px solid $site-color;
         margin: 0 auto;
         max-width: 696px;
-        padding: 0 $space-lg;
+        padding: 0 $space-lg $space-lg;
     }
 
     &__copy-clipboard {
@@ -66,6 +66,10 @@
     
     &__message {
         font-style: italic;
+    }
+
+    &__subheading {
+        margin-bottom: $space-lg;
     }
 
     &__text {
