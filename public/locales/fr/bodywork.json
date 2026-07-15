@@ -1,66 +1,143 @@
 {
-    "page-title": "Séances de sexologie somatique",
-    "page-title-gerard": "avec Gerard",
-    "heading-home-body": "La Relation de La Société avec Le Plaisir",
-    "heading-coaching": "Qu'est-ce que L'Éducation Sexuelle Somatique?",
-    "heading-offerings": "15 Raisons de Consulter Un·e Sexological Bodyworker",
-    "heading-boundaries": "Que Se Passe-t-il en Session?",
-    "heading-touch": "À Propos de Gerard",
-    "heading-session": "Prix pour individus",
-    "list-touch": {
-        "accepting": "Accepter et aimer son corps, son genre et/ou sa sexualité",
-        "reconnecting": "Se reconnecter à sa sensualité/sexualité",
-        "pleasure": "Apprendre à demander et à recevoir du plaisir",
-        "habits-patterns": "Prendre conscience des habitudes et des comportements, apprendre à accroître le plaisir dans l’ensemble du corps",
-        "boundaries": "Apprendre les limites et le toucher consensuel",
-        "orgasm-difficulties": "Difficultés avec l'orgasme",
-        "healthy-porn": "Développer une utilisation saine de la pornographie",
-        "ejaculation-choice": "Choix d'éjaculation",
-        "trauma-support": "Soutien post-traumatique",
-        "pain-relief": "Soulagement de la douleur pelvienne ou de l'engourdissement",
-        "transition-support": "Accompagnement lors de la transition de genre",
-        "dysfunction": "Dysfonction erectile",
-        "enhance": "Couples / Triades / Quads voulant améliorer leur vie sexuelle",
-        "understanding-anal": "Comprendre le plaisir anal",
-        "referred-by": "Recommandations de thérapeute, médecin, sexologue, massothérapeute"
+  "page-title": "Intimacy Coaching",
+  "page-title-gerard": "with Gerard",
+
+  "heading-home-body": "Feel at Home in Your Body",
+  "paragraph-home-body-1": "How do you imagine your most alive erotic self? And what is holding you back from that potential? I guide clients towards unlocking new intimacy skills that enrich their lives.",
+  "paragraph-home-body-2": "Confusing, limiting, or shame-based messages and images about sexuality can make it harder to recognize what we want, communicate our boundaries, receive pleasure, or feel fully present in our bodies.",
+  "paragraph-home-body-3": "Somatic sessions offer a caring, supportive, non-judgmental space to learn what most of us were never taught: how to fully relax into your body, intimacy, pleasure, connection, and desire. It’s an opportunity to explore sensation, boundaries and communication. It happens at your own pace and is not about performing.",
+
+  "heading-coaching": "What Is Intimacy Coaching?",
+  "paragraph-coaching-1": "Through conversation, body awareness, experiential exercises, and optional educational touch, I can support you in developing a more connected, curious, and empowered relationship with your body and sexuality.",
+  "paragraph-coaching-2": "Beyond the modes of talk therapy, you are invited to slow down, notice sensations, experiment with new choices, and practice skills that you carry into your intimate life. Together, we identify what you’d like to understand, experience, or change—and find tools to move you towards that.",
+  "paragraph-coaching-3": "I offer a phone call or virtual meeting for you to share with me what you are looking for and ask questions about my practice. After this, you can decide if you want to try a first session with me.",
+  "anchor-book-intro": "Book a Free 20-Minute Intro Call",
+
+  "heading-offerings": "A few of My Offerings to Explore in Sessions",
+  "section-offerings": {
+    "words": {
+      "heading": "Finding the words for what you want",
+      "text": "Imagine being with a lover and, instead of hoping they will read your mind, you can say, “Slower,” “More pressure,” “I want you closer,” or “I don’t want that tonight.” We can practice recognizing your desires, expressing your needs, and communicating limits in ways that feel honest, confident, and connected."
     },
-    "list-session": {
-        "check-in": {
-            "label": "Check-in",
-            "desc": "Nous discutons de vos intentions, intérêts, défis et histoire sensuelle/sexuelle."
-        },
-        "body-scan": {
-            "label": "Scan Corporel",
-            "desc": "Je vous guide dans un scan corporel pour faire prendre conscience des sensations de votre corps, comme une pratique pour apprendre à faire des choix à partir de manière incarnée."
-        },
-        "options": {
-            "label": "Options",
-            "desc": "Basé sur le check-in et le scan corporel, je vous propose 2 options pour le travail corporel ou les pratiques somatiques qui pourraient être utiles pour vos intérêts ou défis spécifiques."
-        },
-        "agreement": {
-            "label": "Accord",
-            "desc": "Vous choisissez 1 pratique somatique ou type de travail corporel et nous nous entendons sur les limites."
-        },
-        "integration": {
-            "label": "Intégration",
-            "desc": "La session se termine par quelques minutes d'intégration pour «sauvegarder l'expérience d'apprentissage dans votre système nerveux (esprit et corps), formant ainsi de nouvelles habitudes saines et élargissant votre potentiel de plaisir."
-        }
+    "presence": {
+      "heading": "Returning to your body instead of performing",
+      "text": "Your mind is racing: Am I doing this right? Do I look good? Are they enjoying themselves? Through breath, movement, and body-awareness practices, you learn to bring your attention back to what is actually happening inside you—the warmth, tension, excitement, hesitation, or pleasure—so that intimacy becomes something you experience rather than perform."
     },
-    "paragraph-home-body-1": "Nous nous fixons tous et toutes des limites sur la quantité et la qualité du plaisir que nous pourrions expérimenter. Les limites du plaisir sont omniprésentes dans une culture qui considère la sexualité honteuse et qui ne nous apprend pas à célébrer notre érotisme. Les blessures sexuelles s’incrustent dans les réactions du corps. L'éducation sexuelle somatique et le travail corporel peuvent aider les clients·es à accroître le plaisir personnel. Ce processus a des avantages physiques, mentaux, émotionnels et relationnels.",
-    "paragraph-home-body-2": "En 2019, j’ai obtenu mon diplôme de Sexological Bodyworker certifié en suivant un cours de six mois à l’Institut de Sexologie Somatique d’Australie J'accueille chaleureusement les personnes de tout·e genre, orientation sexuelle ou relationnelle, race ou culture à travailler avec moi.",
-    "paragraph-coaching-1": "Les <i>Sexological Bodyworkers</i> enseignent l'éducation sexuelle somatique et élaborent des exercices corporels. L’enseignement passe à travers des expériences corporelles conçues pour nourrir, approfondir ou éveiller le soi sensuel. L’apprentissage peut inclure du coaching en respiration, conscience corporelle, mouvement, définition des limites (consentement), communication, anatomie, massage, masturbation consciente, remédiation des tissus cicatriciels et autres pratiques basées sur le corps.",
-    "paragraph-coaching-2": "Tous les enseignements n’impliquent pas nécessairement le toucher, mais lorsque demandé, le toucher est à sens unique (du praticien au ou à la client·e) et est dirigé par le ou la cliente. Nous pratiquons le toucher de manière à aider nos clients·es à accroître leur présence corporelle interne, à ouvrir leur conscience intérieure, à s’affirmer en termes de choix et de voix et à apprendre comment le corps peut se sentir plus en sécurité et plus vivant. Uniquement dans un cadre professionnel, nous sommes formés·es pour offrir des touchers génitaux ou anaux dirigés par le ou la client à des fins d'éducation, de guérison et de plaisir. Les <i>Sexological Bodyworkers</i> sont informés·es des traumatismes et restent habillés·es pendant les séances.",
-    "paragraph-message-1": "En tant que personne non binaire (il/iel) et queer, il m'a fallu des décennies d’effort pour me sentir à l'aise dans ma peau. Les 20 ans de formation en danse, exercices somatiques, yoga et méditation m'ont permis de découvrir le plaisir dans mon corps. Mais ce n'est que lors de ma formation en <i>Sexological Bodywork</i> que j'ai eu les outils pour écouter mon corps plus profondément. J'utilise cette prise de conscience pour faire des choix qui améliorent ma vie sexuelle et quotidienne.",
-    "paragraph-message-2": "En 2019, je suis devenu Sexological Bodyworker certifié en suivant un cours de six mois à l’Institute of Somatic Sexology en Australie, qui était dirigé par les maîtres éducateurs Deej Juventin et Uma Ayelet. En 2020, j'ai poursuivi mes études via un mentorat avec Ron Stuart et Pono Stuart - deux <i>Sexological Bodyworkers</i> certifiés et associés à l’<i>Institute for the Study of Somatic Sex Education</i> à Victoria, Canada.",
-    "paragraph-message-3": "Je suis intéressé à offrir des expériences qui amplifient la conscience et créent des liens plus profonds entre le corps, l'esprit et l'esprit. J'accueille chaleureusement les personnes de  tout·e genre, race, culture, religion, orientation sexuelle ou relationnelle à travailler avec moi.",
-    "paragraph-pricing-1": "* Les prix indiqués sont en dollars canadiens et incluent les taxes.",
-    "paragraph-pricing-2": "Je peux répondre également à des couples / triades, des sessions plus courtes, des difficultés financières, etc. Ecrivez-moi pour me parler de votre situation!",
-    "paragraph-covid": "NOTE: Pour les séances en personne, je respecte les directives de santé publique pour réduire la transmission de la COVID-19 et je demande à tous.tes les client.es de respecter ces directives, qui sont sujettes à changement",
-    "paragraph-thanks": "Merci au <i>Sexological Bodyworker</i> Caffyn Jesse pour sa contribution à la description.",
-    "paragraph-copyright": "Tous droits réservés.",
-    "text-pricing-1": "1 séance (90 min): <strong>$110</strong>",
-    "text-pricing-2": "3 séances (90 min chacune): <strong>$300</strong>",
-    "anchor-contact": "Questions? Entrez en contact avec Gerard",
-    "anchor-book": "Réserver un appel gratuit",
-    "text-copied": "courriel copié"
+    "boundaries": {
+      "heading": "Feeling a boundary before you have to push someone away",
+      "text": "Perhaps you usually say yes automatically and only realize later that something did not feel right. Through consent and choice-making exercises, you can practice noticing the quieter signals of a yes, a no, a maybe, or a desire to ask for something different. Over time, pausing and changing your mind can become natural parts of intimacy rather than moments of conflict or disappointment."
+    },
+    "anatomy-pleasure": {
+      "heading": "Understanding how your body experiences pleasure",
+      "text": "You may know the names of your body parts without truly knowing how they respond. Anatomy and pleasure education can help you understand arousal, sensitivity, erections, lubrication, orgasm, ejaculation, and the many ways bodies differ. This knowledge can replace uncertainty or shame with curiosity—and give you a clearer language for guiding yourself or a partner."
+    },
+    "self-pleasure": {
+      "heading": "Discovering your self pleasure without rushing toward a goal",
+      "text": "Imagine touching yourself without needing to become aroused quickly, reach orgasm, or repeat the same familiar routine. Guided self-touch and mindful masturbation invite you to slow down, experiment, and notice what changes when you vary pressure, rhythm, breath, movement, fantasy, or attention. The goal is not a particular result, but a wider vocabulary of pleasure."
+    },
+    "sensory-exploration": {
+      "heading": "Finding sensation beyond the places you usually focus on",
+      "text": "Pleasure may begin in your genitals, but it does not have to end there. Through sensory exploration, you might discover that your neck, chest, inner arms, back, thighs, or even the space around your body can become part of your erotic experience. Pleasure mapping helps you notice where sensation feels soothing, exciting, surprising, neutral, or too much—so that intimacy becomes more spacious and less predictable."
+    },
+    "reconnection": {
+      "heading": "Reconnecting with body areas that feels unfamiliar or changed",
+      "text": "After surgery, injury, illness, transition, trauma or a long period of disconnection, a part of the body can feel numb, guarded, tender, or no longer fully yours. Gentle massage, scar-tissue awareness, and carefully paced bodywork can support you in approaching that area with patience and curiosity, while remaining within my professional scope and alongside appropriate healthcare when needed."
+    },
+    "receiving": {
+      "heading": "Practising how it feels to receive without reciprocating",
+      "text": "You might be used to putting your attention on your partner, wondering what they expect, or will want in return. With one-way touch, the attention remains on your experience. You get to practice asking for what you want, receiving it, requesting an adjustment, pausing to find your rhythm, or asking to stop—without needing to care for the practitioner’s pleasure. This can help receiving feel less like an obligation and more like an embodied choice."
+    },
+    "role-expansion": {
+      "heading": "Expanding your preferences or the roles you can inhabit",
+      "text": "Maybe you’ve fallen into a familiar role in your erotic life: initiating, following, bottoming, domming, or only enjoying certain kinds of touch. What happens when you step outside those habits? You could practice being more assertive, receptive, playful, vulnerable, or more in control. Expanding your preferences doesn’t mean abandoning what already works—it gives you choices, so your erotic life can feel more adventurous and more alive."
+    }
+  },
+
+  "heading-boundaries": "Consent, Choice, and Professional Boundaries",
+  "paragraph-boundaries-1": "I aim to create a safer environment grounded in honesty, ongoing consent, curiosity, and care. Your desires, sensations, boundaries, uncertainties, and questions are all welcome.",
+  "paragraph-boundaries-2": "<strong>Touch is always optional and never required,</strong> and many meaningful sessions involve no touch at all.",
+  "heading-touch": "When touch is included",
+  "list-touch": {
+    "agree-boundaries": "We discuss and agree upon boundaries beforehand.",
+    "one-way": "Touch is one-way, from practitioner to client.",
+    "clothed": "I remain clothed throughout the session.",
+    "consent-withdraw": "You can change or withdraw consent at any time.",
+    "genital-anal": "Genital or anal touch is included only when specifically requested, relevant to your learning goals, and clearly agreed upon.",
+    "hygiene": "I follow professional hygiene practices, including the use of gloves for internal touch."
+  },
+  "paragraph-boundaries-3": "Every session is adapted to your intentions, comfort, access needs, and how you are feeling that day.",
+
+  "heading-session-length": "Session Length",
+  "paragraph-session-length": "Sessions are available online and in person, currently in Montréal and Toronto. Online sessions are 1 to 1.5 hours, and In-person sessions are 2 hours.",
+
+  "heading-about": "About Gerard",
+  "paragraph-about-1": "As a queer and non-binary person, it has taken me many years to feel comfortable in my skin. My background in dance, yoga, meditation, and somatics helped me discover pleasure, sensitivity, and possibility in my body. Yet it was only through Sexological Bodywork when I began to understand that my erotic self could be integrated into a fuller experience of embodiment.",
+  "paragraph-about-2": "These lessons have shaped not only my sex life, but also how I communicate, collaborate, create, and relate to others. I am passionate about sharing this work because I believe everyone deserves opportunities to feel more present, empowered, and at home in their body.",
+  "paragraph-about-3": "I welcome adults of all genders, cultures, races, religions, sexual orientations, abilities, body types, and levels of experience. Queer, trans, non-monogamous, kinky, of all physical abilities, and neurodivergent experiences are welcome. You do not need to arrive confident, experienced, or certain. We begin wherever you are.",
+
+  "heading-training": "Training & Credentials",
+  "list-training": {
+    "certification": "Sexological Bodywork Certification from the Institute of Somatic Sexology, Australia (Master teachers: Deej Juventin, Uma Ayelet, Joseph Kramer, Ellen Heed)",
+    "mentorship": "Mentorship with Certified Sexological Bodyworkers Ron Stewart and Pono Stewart",
+    "practice": "25 years of embodied practice through dance, somatics, yoga, meditation, massage, performance, and movement education"
+  },
+
+  "heading-lets-talk": "Let’s talk!",
+  "paragraph-lets-talk": "Don’t know what you need or want to learn yet? You don’t have to – curiosity is enough. Since this is a new practice to most people, I’m here to answer your questions or doubts. Our first conversation is a barrier-free, 20-minute call and your chance to ask me questions, imagine what’s possible, and decide whether you want to try a first session with me.",
+  "anchor-book": "Book an Intro Call",
+  "text-book-note": "Audio or video—your choice. No pressure and no obligation to continue.",
+
+  "heading-faq": "Frequently Asked Questions",
+  "heading-getting-started": "How Do I Begin?",
+  "list-getting-started": {
+    "intro-call": {
+      "heading": "Book an Introductory Call",
+      "text": "Our first conversation takes place by audio or video."
+    },
+    "intake-forms": {
+      "heading": "Complete the Intake and Consent Forms",
+      "text": "If it feels like a match, after our call I send you an intake form and agreement. The form allows you to reflect on what you want and gives me more information about your intentions, boundaries, access needs, and relevant history."
+    },
+    "first-session": {
+      "heading": "Schedule Your First Session",
+      "text": "In your first session we discuss your intake form, clarify your intentions, and begin with body-awareness exercises, somatic practices, or bodywork."
+    }
+  },
+  "section-faq": {
+    "touch-required": {
+      "question": "Do sessions have to include touch?",
+      "answer": "No. Touch, either self-touch or touch from me to you are options."
+    },
+    "nudity": {
+      "question": "Do I have to be naked?",
+      "answer": "Nope! You decide what you wear and whether you remove any clothing during exercises. Your choices can change at any point during the session."
+    },
+    "goals": {
+      "question": "Do I need to know exactly what I want?",
+      "answer": "Many clients begin with a physical need, or a desire to learn what else is possible, or from a feeling of disconnection. Part of my role is to help you identify your sexual/sensual/intimacy goals and intentions. We move from there."
+    },
+    "arousal": {
+      "question": "What happens if I become aroused?",
+      "answer": "Arousal is a totally natural bodily response and is welcome. There is no shame around it. That said, it is not a goal. It can be noticed without needing to act on it or make it mean anything in particular."
+    },
+    "therapy": {
+      "question": "Is this therapy?",
+      "answer": "Intimacy Coaching and Sexological Bodywork are educational and experiential practices. They can complement therapy or healthcare, but I do not diagnose or treat medical or psychological conditions."
+    },
+    "partners": {
+      "question": "Can I attend with a partner?",
+      "answer": "Absolutely! In addition to 1:1 sessions, I work with couples, triads, etc. We can discuss what format would best support your intentions during the introductory call and I can send you rates for couples, etc."
+    }
+  },
+
+  "heading-session": "Prices for individuals",
+  "paragraph-pricing-1": "* Prices are in Canadian dollars and include taxes",
+  "paragraph-pricing-2": "I can accommodate couples/triads, shorter sessions, financial difficulty, etc. Write to tell me about your situation!",
+  "paragraph-covid": "NOTE: For in-person sessions, I follow public health guidelines to reduce the transmission of COVID-19 and ask that all clients abide by these guidelines, which are subject to change.",
+  "text-pricing-1": "1 session (90 min): <strong>$110</strong>",
+  "text-pricing-2": "3 sessions (90 min each): <strong>$300</strong>",
+
+  "paragraph-copyright": "All rights reserved.",
+  "anchor-contact": "Questions? Get in touch with Gerard",
+  "text-copied": "email copied"
 }
