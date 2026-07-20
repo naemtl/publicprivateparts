@@ -54,6 +54,19 @@
       // prevent the browser's console error message
     e.preventDefault();
  });
+
+  // react-player's SoundCloud loader doesn't catch failures to load the SoundCloud
+  // widget SDK (e.g. blocked by an ad blocker/tracking protection), which otherwise
+  // surfaces as an unhandled promise rejection on the Podcast page.
+  window.addEventListener('unhandledrejection', function (e) {
+    if (e.reason && /Failed to load .*soundcloud/i.test(e.reason.message || '')) {
+      console.warn('SoundCloud player SDK failed to load (likely blocked by an ad blocker):', e.reason.message);
+      // prevent React's listener (the dev error overlay) from firing
+      e.stopImmediatePropagation();
+      // prevent the browser's default unhandled-rejection console message
+      e.preventDefault();
+    }
+  });
 </script>
 </body>
 
