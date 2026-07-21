@@ -1,5 +1,7 @@
+import { useMemo } from "react";
 import { Trans, useTranslation } from "react-i18next";
 
+import Accordion from "../../components/Accordion/Accordion";
 import Footer from "../../components/Footer/Footer";
 import PageBanner from "../../components/PageBanner/PageBanner";
 
@@ -21,6 +23,15 @@ const IntroCallButton = ({ t }) => (
 
 const Bodywork = () => {
   const { t } = useTranslation("bodywork");
+
+  const faqList = useMemo(() => [
+    { id: 1, header: t("section-faq.touch-required.question"), content: t("section-faq.touch-required.answer") },
+    { id: 2, header: t("section-faq.nudity.question"), content: t("section-faq.nudity.answer") },
+    { id: 3, header: t("section-faq.goals.question"), content: t("section-faq.goals.answer") },
+    { id: 4, header: t("section-faq.arousal.question"), content: t("section-faq.arousal.answer") },
+    { id: 5, header: t("section-faq.therapy.question"), content: t("section-faq.therapy.answer") },
+    { id: 6, header: t("section-faq.partners.question"), content: t("section-faq.partners.answer") },
+  ], [t]);
 
   return (
     <div className="bodywork">
@@ -143,6 +154,24 @@ const Bodywork = () => {
         <IntroCallButton t={t} />
         
         <p className="bodywork__text"><em>{t("text-book-note")}</em></p>
+
+        <div className="bodywork__faq">
+          <h2 className="bodywork__heading">{t("heading-faq")}</h2>
+          <h3 className="bodywork__heading">{t("heading-getting-started")}</h3>
+          <h3 className="bodywork__heading">1. {t("list-getting-started.intro-call.heading")}</h3>
+          <p className="bodywork__text">
+            {t("list-getting-started.intro-call.text")}
+          </p>
+          <h3 className="bodywork__heading">2. {t("list-getting-started.intake-forms.heading")}</h3>
+          <p className="bodywork__text">
+            {t("list-getting-started.intake-forms.text")}
+          </p>
+          <h3 className="bodywork__heading">3. {t("list-getting-started.first-session.heading")}</h3>
+          <p className="bodywork__text">
+            {t("list-getting-started.first-session.text")}
+          </p>
+          <Accordion items={faqList} />
+        </div>
       </div>
       <Footer />
     </div>

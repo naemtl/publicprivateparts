@@ -67,7 +67,7 @@ const Navmenu = ({ menuOpen, toggleMenu }) => {
           </Link>
         </li>
         <li className="navmenu__list-item">
-          <Link onClick={toggleMenu} to="/bodywork">
+          <Link onClick={toggleMenu} to="/intimacycoaching">
             <span className="navmenu__list-item--numeral">09</span>
             {t("anchors.bodywork")}
           </Link>

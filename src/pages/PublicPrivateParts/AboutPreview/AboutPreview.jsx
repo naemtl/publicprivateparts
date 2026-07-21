@@ -17,7 +17,7 @@ const AboutPreview = ({ t }) => {
                     <Link to="/about" className="about-preview__button">
                         {t('about.button-1')}
                     </Link>
-                    <Link to="/bodywork" className="about-preview__button">
+                    <Link to="/intimacycoaching" className="about-preview__button">
                         {t('about.button-2')}
                     </Link>
                 </div>

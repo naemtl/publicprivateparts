@@ -104,7 +104,7 @@ const About = () => {
       </div>
       <div className="about__banner--bodywork">
         <span>{t("text-somatic")} Gerard</span>
-        <Link to="/bodywork" className="about__button">
+        <Link to="/intimacycoaching" className="about__button">
           {t("anchor-read-more")}
         </Link>
       </div>
