@@ -3,9 +3,9 @@
   "name": "Public / Private Parts",
   "icons": [
     {
-      "src": "",
-      "sizes": "",
-      "type": ""
+      "src": "/180x180@1x.jpg",
+      "sizes": "180x180",
+      "type": "image/jpeg"
     }
   ],
   "start_url": ".",
