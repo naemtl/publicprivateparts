@@ -1,5 +1,13 @@
 export const pastData = [
     {
+        date: "2026-06-23",
+        project: "The Key to Dreams (Greek premiere)",
+        venue: "Anafi International Film Festival",
+        city: "Anafi",
+        country: "Greece",
+        link: "https://www.instagram.com/anafiff/",
+    },
+    {
         date: "2026-05-29",
         project: "The Key to Dreams (German premiere)",
         venue: "Xposed at Moviemento Kino",
@@ -882,12 +890,4 @@ export const pastData = [
 ];
 
 export const upcomingData = [
-    {
-        date: "2026-06-23",
-        project: "The Key to Dreams (Greek premiere)",
-        venue: "Anafi International Film Festival",
-        city: "Anafi",
-        country: "Greece",
-        link: "https://www.instagram.com/anafiff/",
-    },
 ];
