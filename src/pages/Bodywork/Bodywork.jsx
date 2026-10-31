@@ -46,6 +46,7 @@ const Bodywork = () => {
         <p className="bodywork__text">{t("paragraph-home-body-1")}</p>
         <p className="bodywork__text">{t("paragraph-home-body-2")}</p>
         <p className="bodywork__text">{t("paragraph-home-body-3")}</p>
+        <p className="bodywork__text">{t("paragraph-home-body-4")}</p>
 
         <IntroCallButton t={t} />
 
@@ -53,12 +54,16 @@ const Bodywork = () => {
         <p className="bodywork__text">{t("paragraph-coaching-1")}</p>
         <p className="bodywork__text">{t("paragraph-coaching-2")}</p>
         <p className="bodywork__text">{t("paragraph-coaching-3")}</p>
+        <p className="bodywork__text">{t("paragraph-coaching-4")}</p>
+        <p className="bodywork__text">{t("paragraph-coaching-5")}</p>
 
         <h2 className="bodywork__heading">{t("heading-offerings")}</h2>
-        <h3 className="bodywork__subheading">
-          {t("section-offerings.words.heading")}
+        <p className="bodywork__text">{t("paragraph-offerings-1")}</p>
+
+        <h3 className="bodywork__heading">
+          {t("section-offerings.expressing.heading")}
         </h3>
-        <p className="bodywork__text">{t("section-offerings.words.text")}</p>
+        <p className="bodywork__text">{t("section-offerings.expressing.text")}</p>
         <h3 className="bodywork__heading">
           {t("section-offerings.presence.heading")}
         </h3>
@@ -68,17 +73,17 @@ const Bodywork = () => {
         </h3>
         <p className="bodywork__text">{t("section-offerings.boundaries.text")}</p>
         <h3 className="bodywork__heading">
-          {t("section-offerings.anatomy-pleasure.heading")}
+          {t("section-offerings.map-pleasure.heading")}
         </h3>
-        <p className="bodywork__text">{t("section-offerings.anatomy-pleasure.text")}</p>
+        <p className="bodywork__text">{t("section-offerings.map-pleasure.text")}</p>
         <h3 className="bodywork__heading">
-          {t("section-offerings.self-pleasure.heading")}
+          {t("section-offerings.navigating.heading")}
         </h3>
-        <p className="bodywork__text">{t("section-offerings.self-pleasure.text")}</p>
+        <p className="bodywork__text">{t("section-offerings.navigating.text")}</p>
         <h3 className="bodywork__heading">
-          {t("section-offerings.sensory-exploration.heading")}
+          {t("section-offerings.expanding.heading")}
         </h3>
-        <p className="bodywork__text">{t("section-offerings.sensory-exploration.text")}</p>
+        <p className="bodywork__text">{t("section-offerings.expanding.text")}</p>
         <h3 className="bodywork__heading">
           {t("section-offerings.reconnection.heading")}
         </h3>
@@ -87,10 +92,7 @@ const Bodywork = () => {
           {t("section-offerings.receiving.heading")}
         </h3>
         <p className="bodywork__text">{t("section-offerings.receiving.text")}</p>
-        <h3 className="bodywork__heading">
-          {t("section-offerings.role-expansion.heading")}
-        </h3>
-        <p className="bodywork__text">{t("section-offerings.role-expansion.text")}</p>
+        <p className="bodywork__text">{t("paragraph-offerings-2")}</p>
         
         <h2 className="bodywork__heading">{t("heading-boundaries")}</h2>
         <p className="bodywork__text">{t("paragraph-boundaries-1")}</p>
@@ -120,8 +122,8 @@ const Bodywork = () => {
         </ul>
         <p className="bodywork__text">{t("paragraph-boundaries-3")}</p>
 
-        <h2 className="bodywork__heading">{t("heading-session-length")}</h2>
-        <p className="bodywork__text">{t("paragraph-session-length")}</p>
+        <h2 className="bodywork__heading">{t("heading-practical-information")}</h2>
+        <p className="bodywork__text">{t("paragraph-practical-information")}</p>
 
         <h2 className="bodywork__heading">{t("heading-about")}</h2>
         <p className="bodywork__text">{t("paragraph-about-1")}</p>
