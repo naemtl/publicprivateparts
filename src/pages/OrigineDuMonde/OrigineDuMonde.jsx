@@ -9,15 +9,15 @@ import OriginePersonnel from "./OriginePersonnel/OriginePersonnel";
 import Footer from "../../components/Footer/Footer";
 
 import ftaLogo from "../../assets/images/fta-logo.png";
-import odmImg1 from "../../assets/images/odm-1.jpg";
-import odmImg2 from "../../assets/images/odm-2.jpg";
-import odmImg3 from "../../assets/images/odm-3.jpg";
+import odmImg1 from "../../assets/images/odm-3.jpg";
+import odmImg2 from "../../assets/images/odm-7.jpg";
+import odmImg3 from "../../assets/images/odm-1.jpg";
 import odmImg4 from "../../assets/images/odm-4.jpg";
-import odmImg5 from "../../assets/images/odm-5.jpg";
+import odmImg5 from "../../assets/images/odm-9.jpg";
 import odmImg6 from "../../assets/images/odm-6.jpg";
-import odmImg7 from "../../assets/images/odm-7.jpg";
+import odmImg7 from "../../assets/images/odm-2.jpg";
 import odmImg8 from "../../assets/images/odm-8.jpg";
-import odmImg9 from "../../assets/images/odm-9.jpg";
+import odmImg9 from "../../assets/images/odm-5.jpg";
 import heroBanner from "../../assets/videos/ppp-banner.mp4";
 import heroBannerMobile from "../../assets/videos/ppp-banner-mobile.mp4";
 
