@@ -1,128 +1,145 @@
 {
-  "page-title": "Intimacy Coaching",
-  "page-title-gerard": "with Gerard",
+  "page-title": "Coaching en intimité",
+  "page-title-gerard": "avec Gérard",
 
-  "heading-home-body": "Feel at Home in Your Body",
-  "paragraph-home-body-1": "How do you imagine your most alive erotic self? And what is holding you back from that potential? I guide clients towards unlocking new intimacy skills that enrich their lives.",
-  "paragraph-home-body-2": "Confusing, limiting, or shame-based messages and images about sexuality can make it harder to recognize what we want, communicate our boundaries, receive pleasure, or feel fully present in our bodies.",
-  "paragraph-home-body-3": "Somatic sessions offer a caring, supportive, non-judgmental space to learn what most of us were never taught: how to fully relax into your body, intimacy, pleasure, connection, and desire. It’s an opportunity to explore sensation, boundaries and communication. It happens at your own pace and is not about performing.",
+  "heading-home-body": "Se sentir chez soi dans son corps",
+  "paragraph-home-body-1": "Imaginez-vous si profondément chez vous dans votre corps que l’intimité ne soit plus quelque chose que vous devez réussir. Au lieu de vous demander si vous êtes suffisamment attirant·e, expérimenté·e ou si vous faites les choses comme il faut, vous commencez à porter attention à ce que vous ressentez. Vous reconnaissez vos désirs plus clairement. Vous apprenez à les exprimer avec assurance. Vous faites confiance à vos limites. Vous devenez plus curieux·se, joueur·se et présent·e — avec vous-même et avec les personnes avec qui vous choisissez de partager votre intimité.",
+  "paragraph-home-body-2": "Pour beaucoup d’entre nous, cela ne vient pas naturellement. Nous grandissons entouré·es de messages sur l’apparence que notre corps devrait avoir, la manière dont les relations devraient se dérouler et ce que serait une « bonne sexualité ». Les applications de rencontre, la pornographie, les réseaux sociaux, les attentes culturelles et la honte nous apprennent souvent à nous comparer, à chercher à plaire ou à nous couper de notre propre expérience.",
+  "paragraph-home-body-3": "Mon travail en tant que coach en intimité somatique ouvre la voie à une autre possibilité. Il ne s’agit pas de devenir quelqu’un d’autre, mais de devenir davantage soi-même. Avec le temps, de nombreuses personnes découvrent que l’intimité peut devenir plus limpide et intuitive. Moins axée sur la performance, plus vivante. Moins centrée sur les attentes à satisfaire, davantage sur une connexion authentique — avec soi-même, ses partenaires et son corps.",
+  "paragraph-home-body-4": "Je crois que la qualité de votre intimité est façonnée par la qualité de votre attention.",
+  "heading-coaching": "Qu’est-ce que le coaching en intimité somatique?",
+  "paragraph-coaching-1": "Le coaching en intimité somatique combine la conversation et l’apprentissage par l’expérience corporelle. Selon vos intentions, les séances peuvent inclure des échanges, des pratiques de conscience corporelle, du mouvement, du travail respiratoire, des exercices expérientiels et, si vous le souhaitez, du travail corporel. Chaque séance est adaptée à vos objectifs et se déroule entièrement à votre rythme.",
+  "paragraph-coaching-2": "Contrairement aux approches qui privilégient principalement la parole, ce travail vous invite à porter attention à ce qui se passe dans votre corps, au moment même où cela se produit. Ensemble, nous prenons le temps de ralentir, d’explorer les sensations, d’expérimenter de nouvelles possibilités et de développer des compétences qui peuvent transformer votre rapport à l’intimité, bien au-delà de nos séances.",
+  "paragraph-coaching-3": "Que vous souhaitiez communiquer plus ouvertement, vous sentir plus à l’aise de recevoir du plaisir, renouer avec votre corps après une période de changement ou simplement découvrir de nouvelles possibilités, notre travail commence par la curiosité plutôt que par des idées préconçues.",
+  "paragraph-coaching-4": "Je vous accompagne dans le développement de compétences que la plupart d’entre nous n’avons jamais appris à cultiver : écouter les signaux du corps, comprendre le désir, communiquer ses limites, recevoir le toucher, approfondir le plaisir et faire des choix qui nous ressemblent plutôt que d’agir par automatisme.",
+  "paragraph-coaching-5": "Si vous vous demandez si cette approche pourrait vous convenir, je vous invite à réserver une première conversation gratuite de 20 minutes. C’est l’occasion de faire connaissance, de poser vos questions, de parler de ce que vous souhaitez explorer et de déterminer ensemble si un accompagnement vous semble approprié.",
+  
+  "anchor-book-intro": "Réserver une conversation découverte gratuite",
 
-  "heading-coaching": "What Is Intimacy Coaching?",
-  "paragraph-coaching-1": "Through conversation, body awareness, experiential exercises, and optional educational touch, I can support you in developing a more connected, curious, and empowered relationship with your body and sexuality.",
-  "paragraph-coaching-2": "Beyond the modes of talk therapy, you are invited to slow down, notice sensations, experiment with new choices, and practice skills that you carry into your intimate life. Together, we identify what you’d like to understand, experience, or change—and find tools to move you towards that.",
-  "paragraph-coaching-3": "I offer a phone call or virtual meeting for you to share with me what you are looking for and ask questions about my practice. After this, you can decide if you want to try a first session with me.",
-  "anchor-book-intro": "Book a Free 20-Minute Intro Call",
-
-  "heading-offerings": "A few of My Offerings to Explore in Sessions",
+  "heading-offerings": "Par où pourrions-nous commencer?",
+  "paragraph-offerings-1": "Chacun·e trouve son propre chemin vers l’intimité. Certaines personnes arrivent avec une question précise. D’autres savent simplement qu’elles souhaitent se sentir davantage connectées à elles-mêmes ou aux personnes qu’elles aiment. Voici quelques exemples de points de départ possibles pour notre travail ensemble — non pas une liste de choses à accomplir, mais autant d’invitations à explorer de nouvelles possibilités.",
   "section-offerings": {
-    "words": {
-      "heading": "Finding the words for what you want",
-      "text": "Imagine being with a lover and, instead of hoping they will read your mind, you can say, “Slower,” “More pressure,” “I want you closer,” or “I don’t want that tonight.” We can practice recognizing your desires, expressing your needs, and communicating limits in ways that feel honest, confident, and connected."
+    "expressing": {
+      "heading": "Exprimer ses désirs avec confiance",
+      "text": "Imaginez-vous avec un·e partenaire et, plutôt que d’espérer que cette personne devine vos pensées, être capable de lui dire : « Plus lentement », « Un peu plus de pression », « J’aimerais que tu te rapproches » ou « Ce soir, j’aurais envie d’autre chose ». Ensemble, nous pouvons explorer comment reconnaître vos désirs, communiquer vos besoins et exprimer vos limites avec clarté et assurance, afin que l’intimité devienne une expérience de collaboration plutôt que d’incertitude."
     },
     "presence": {
-      "heading": "Returning to your body instead of performing",
-      "text": "Your mind is racing: Am I doing this right? Do I look good? Are they enjoying themselves? Through breath, movement, and body-awareness practices, you learn to bring your attention back to what is actually happening inside you—the warmth, tension, excitement, hesitation, or pleasure—so that intimacy becomes something you experience rather than perform."
+      "heading": "Passer de la performance à la présence",
+      "text": "Pendant le sexe, nombreuses sont les personnes qui se demandent : « Est-ce que je fais ça bien? », « Est-ce que j’ai l’air désirable ? », « Est-ce que mon ou ma partenaire apprécie ? ». Lorsque l’attention se tourne vers la performance, il devient difficile de percevoir sa propre expérience. À travers la respiration, le mouvement et la conscience somatique, vous pouvez apprendre à revenir à ce qui se passe à l’intérieur de votre corps — chaleur, tension, excitation, hésitation, plaisir — pour que l’intimité devienne quelque chose que vous vivez pleinement plutôt que quelque chose que vous cherchez à réussir."
     },
     "boundaries": {
-      "heading": "Feeling a boundary before you have to push someone away",
-      "text": "Perhaps you usually say yes automatically and only realize later that something did not feel right. Through consent and choice-making exercises, you can practice noticing the quieter signals of a yes, a no, a maybe, or a desire to ask for something different. Over time, pausing and changing your mind can become natural parts of intimacy rather than moments of conflict or disappointment."
+      "heading": "Être à l’écoute de ses limites",
+      "text": "Il nous arrive parfois d’accepter quelque chose avant de réaliser que cela ne nous convient pas vraiment. Ensemble, nous pouvons pratiquer l’écoute des signaux parfois subtils qui nous indiquent un véritable oui, un non, un peut-être, ou encore le désir de faire une pause, de ralentir ou de changer de direction, simplement en demandant : « Est-ce qu’on pourrait essayer autrement ? ». Avec le temps, faire des choix dans l’instant présent peut devenir une expression naturelle de la connaissance de soi, plutôt qu’une source de conflit ou de culpabilité."
     },
-    "anatomy-pleasure": {
-      "heading": "Understanding how your body experiences pleasure",
-      "text": "You may know the names of your body parts without truly knowing how they respond. Anatomy and pleasure education can help you understand arousal, sensitivity, erections, lubrication, orgasm, ejaculation, and the many ways bodies differ. This knowledge can replace uncertainty or shame with curiosity—and give you a clearer language for guiding yourself or a partner."
+    "map-pleasure": {
+      "heading": "Découvrir sa propre cartographie du plaisir",
+      "text": "Chaque corps éprouve le plaisir à sa manière. Ensemble, nous explorons comment votre corps réagit au toucher, à l’excitation, aux fantasmes, à la respiration, au mouvement et aux sensations. Au fil de ce processus, vous en apprendrez davantage sur la physiologie du plaisir — du désir et de l’excitation aux érections, à la lubrification, aux orgasmes et à l’éjaculation — ainsi que sur la diversité naturelle des corps et de leurs réponses. Remplacer l’incertitude par la curiosité permet de mieux se comprendre et de communiquer aux autres ce qui nous procure du plaisir."
     },
-    "self-pleasure": {
-      "heading": "Discovering your self pleasure without rushing toward a goal",
-      "text": "Imagine touching yourself without needing to become aroused quickly, reach orgasm, or repeat the same familiar routine. Guided self-touch and mindful masturbation invite you to slow down, experiment, and notice what changes when you vary pressure, rhythm, breath, movement, fantasy, or attention. The goal is not a particular result, but a wider vocabulary of pleasure."
+    "navigating": {
+      "heading": "Naviguer les rencontres, les aventures et les connexions érotiques",
+      "text": "Que vous soyez en train de faire des rencontres, d’explorer les relations occasionnelles, de naviguer dans des relations ouvertes, de découvrir le kink ou de rechercher une intimité plus profonde, il peut être difficile de savoir ce que vous désirez réellement. Nous pouvons explorer comment communiquer vos intentions — « Je cherche quelque chose de léger », « J’aimerais prendre mon temps », « Je ne souhaite pas être en couple pour le moment » —, gérer les attentes, reconnaître l’attirance, rester ancré·e dans votre corps et faire des choix en accord avec vos ressentis, plutôt que dictés par la solitude, l’urgence ou la pression sociale."
+    },
+    "expanding": {
+      "heading": "Élargir son répertoire érotique",
+      "text": "Nous avons souvent tendance à reproduire des schémas familiers : toujours prendre l’initiative, toujours suivre l’autre, toujours prendre soin de quelqu’un, ou toujours jouer le même rôle. Que se passe-t-il lorsque vous prenez l’initiative plutôt que d’attendre ? Lorsque vous demandez plutôt que de deviner ? Lorsque vous ralentissez plutôt que de vous précipiter ? Lorsque vous recevez plutôt que de toujours donner ? Élargir son répertoire érotique ne signifie pas remplacer ce qui fonctionne déjà, mais découvrir de nouvelles façons de s’exprimer, pour que l’intimité demeure vivante, souple et authentique."
     },
     "reconnection": {
-      "heading": "Reconnecting with body areas that feels unfamiliar or changed",
-      "text": "After surgery, injury, illness, transition, trauma or a long period of disconnection, a part of the body can feel numb, guarded, tender, or no longer fully yours. Gentle massage, scar-tissue awareness, and carefully paced bodywork can support you in approaching that area with patience and curiosity, while remaining within my professional scope and alongside appropriate healthcare when needed."
+      "heading": "Renouer avec son corps après un changement",
+      "text": "Après une intervention chirurgicale, une maladie, une blessure, une transition de genre, un traumatisme, une rupture ou simplement des années de déconnexion, certaines parties du corps peuvent devenir moins familières, voire difficiles à habiter. À travers le toucher doux, des pratiques de conscience des cicatrices et un travail corporel adapté à votre rythme, nous pouvons explorer différentes façons de reconstruire un sentiment de confiance, de confort et de connexion avec votre corps, tout en respectant les limites de mon champ de pratique professionnelle et, lorsque nécessaire, en complément d’un accompagnement par des professionnel·les de la santé."
     },
     "receiving": {
-      "heading": "Practising how it feels to receive without reciprocating",
-      "text": "You might be used to putting your attention on your partner, wondering what they expect, or will want in return. With one-way touch, the attention remains on your experience. You get to practice asking for what you want, receiving it, requesting an adjustment, pausing to find your rhythm, or asking to stop—without needing to care for the practitioner’s pleasure. This can help receiving feel less like an obligation and more like an embodied choice."
-    },
-    "role-expansion": {
-      "heading": "Expanding your preferences or the roles you can inhabit",
-      "text": "Maybe you’ve fallen into a familiar role in your erotic life: initiating, following, bottoming, domming, or only enjoying certain kinds of touch. What happens when you step outside those habits? You could practice being more assertive, receptive, playful, vulnerable, or more in control. Expanding your preferences doesn’t mean abandoning what already works—it gives you choices, so your erotic life can feel more adventurous and more alive."
+      "heading": "Apprendre l’art de recevoir",
+      "text": "Recevoir peut être étonnamment vulnérabilisant. Beaucoup de personnes remarquent qu’elles restent concentrées sur l’expérience de leur partenaire, se demandant ce qu’elles devraient faire ensuite ou comment elles devraient réagir. Dans les pratiques de toucher à sens unique, toute l’attention demeure portée sur votre propre expérience. Vous pouvez vous exercer à demander ce que vous souhaitez et à exprimer vos préférences : « Un peu plus doucement », « Reste là un instant », « Est-ce qu’on peut faire une pause ? » — sans vous sentir responsable du plaisir de l’autre. Avec le temps, recevoir peut devenir moins une question d’obligation et davantage une question de choix."
+    }
+  },
+  "paragraph-offerings-2": "Ce ne sont là que quelques exemples de ce que notre travail ensemble pourrait inclure. Personne n’arrive avec la même histoire, et aucune séance ne se déroule exactement de la même manière. Ensemble, nous découvrirons les pratiques, les conversations et les expériences qui soutiennent votre rapport singulier à l’intimité, au plaisir et à l’incarnation.",
+
+  "heading-boundaries": "Vos choix façonnent chaque séance",
+  "paragraph-boundaries-1": "Se sentir en sécurité est essentiel à tout apprentissage significatif. C’est pourquoi le consentement n’est pas une conversation que nous avons une seule fois, au début de notre rencontre : c’est une pratique que nous cultivons tout au long de chaque séance. Vous êtes toujours libre de faire une pause, de poser des questions, de changer d’avis ou de choisir une autre direction.",
+  "paragraph-boundaries-2": "<strong>Le toucher est toujours facultatif et n’est jamais obligatoire.</strong> De nombreuses séances enrichissantes se déroulent d’ailleurs sans aucun contact physique.",
+  "heading-touch": "Lorsque le toucher fait partie de la séance :",
+  "list-touch": {
+    "agree-boundaries": "Nous discutons des limites au préalable et convenons ensemble de ce qui est approprié.",
+    "one-way": "Le toucher est unidirectionnel : du praticien vers la personne accompagnée.",
+    "clothed": "Je demeure vêtu pendant toute la durée de la séance.",
+    "consent-withdraw": "Vous pouvez modifier ou retirer votre consentement à tout moment.",
+    "genital-anal": "Le toucher génital ou anal est proposé uniquement lorsqu’il est expressément demandé, pertinent au regard de vos objectifs d’apprentissage et clairement convenu au préalable.",
+    "hygiene": "Je respecte les pratiques d’hygiène professionnelles, notamment l’utilisation de gants lors de tout toucher interne."
+  },
+  "paragraph-boundaries-3": "Chaque séance est adaptée à vos intentions, à votre confort, à vos besoins en matière d’accessibilité et à votre état du moment.",
+
+ "heading-practical-information": "Informations pratiques",
+  "paragraph-practical-information": "Je propose des séances en français, en anglais, et en espagnol, auprès de personnes seules, de couples et d’autres configurations relationnelles. Les séances sont offertes en personne à Montréal ou en ligne. Les séances en personne durent 2 heures; les séances en ligne durent de 1 h à 1 h 30. Nous commençons toujours par un appel préliminaire pour faire connaissance, discuter de vos attentes et voir si notre collaboration semble être une bonne démarche pour vous. Je vous communiquerai mes tarifs et les informations pratiques dans mon premier courriel. Des reçus sont disponibles. Si vous habitez à l’extérieur de Montréal, n’hésitez pas à me contacter pour discuter des séances en ligne ou savoir si je prévois bientôt être de passage dans votre ville.",
+  "section-prices": {
+      "heading": "Individual Practice (2-hour sessions)",
+      "pricing": {
+        "opening": "<strong>Opening Session — $225</strong> (taxes included)",
+        "follow-up": "<strong>Individual Follow Up Sessions — $245</strong> (taxes included)",
+        "series": "<strong>3-session series — $705</strong> ($235 per session, taxes included)"
     }
   },
 
-  "heading-boundaries": "Consent, Choice, and Professional Boundaries",
-  "paragraph-boundaries-1": "I aim to create a safer environment grounded in honesty, ongoing consent, curiosity, and care. Your desires, sensations, boundaries, uncertainties, and questions are all welcome.",
-  "paragraph-boundaries-2": "<strong>Touch is always optional and never required,</strong> and many meaningful sessions involve no touch at all.",
-  "heading-touch": "When touch is included",
-  "list-touch": {
-    "agree-boundaries": "We discuss and agree upon boundaries beforehand.",
-    "one-way": "Touch is one-way, from practitioner to client.",
-    "clothed": "I remain clothed throughout the session.",
-    "consent-withdraw": "You can change or withdraw consent at any time.",
-    "genital-anal": "Genital or anal touch is included only when specifically requested, relevant to your learning goals, and clearly agreed upon.",
-    "hygiene": "I follow professional hygiene practices, including the use of gloves for internal touch."
-  },
-  "paragraph-boundaries-3": "Every session is adapted to your intentions, comfort, access needs, and how you are feeling that day.",
+  "heading-about": "À propos de Gerard",
+  "paragraph-about-1": "Si vous avez parfois eu l'impression d'être déconnecté·e de votre corps ou de ne pas entrer dans les normes, sachez que vous n'êtes pas seul·e. En tant que personne queer et non binaire, j'ai mis des années à me sentir pleinement chez moi dans mon corps, dans ma sexualité et dans ma façon de les exprimer. J'ai découvert la danse à l'âge adulte, où j'ai développé mon rapport au mouvement, à l'expression physique, à la discipline et à la présence. Le yoga, la méditation et les pratiques somatiques ont ensuite approfondi ma conscience des sensations, de la sensibilité et de l'expérience incarnée. Pourtant, quelque chose me semblait encore incomplet. J'avais appris à maîtriser physiquement mon corps, mais pas nécessairement à l'habiter dans ses dimensions sensuelles, sexuelles et relationnelles.",
+  "paragraph-about-2": "C'est en découvrant le Sexological Bodywork que j'ai trouvé une pratique qui faisait une place à mon être érotique, me permettant d'accueillir et de réunir des dimensions de mon expérience que je ne savais pas encore pleinement embrasser. J'ai compris que l'intimité dépasse largement notre vie sexuelle. Notre rapport au plaisir, au désir, aux limites, au toucher et à la vulnérabilité façonne notre manière de communiquer, de collaborer, de créer et d'entrer en relation avec les autres.",
+  "paragraph-about-3": "Aujourd'hui, je réunis plus de vingt-cinq ans de pratique corporelle, ma formation de praticien certifié en Sexological Bodywork et mon expérience de la danse, du mouvement, du yoga, de la méditation et des approches somatiques pour accompagner les personnes dans l'exploration de leur propre rapport à l'intimité. Mon approche est expérientielle, curieuse et sans jugement. Je propose des outils et un accompagnement pour vous aider à développer une plus grande conscience de votre corps, à explorer ce qui vous procure du plaisir et vous semble authentique, à exprimer vos besoins et vos limites, et à découvrir de nouvelles possibilités en matière d'intimité, de plaisir et d'expression de soi.",
+  "paragraph-about-4": "Mon rôle n'est pas de vous dire qui devenir. Il est de vous accompagner dans la découverte des connaissances, de la sensibilité et des possibilités qui existent déjà en vous, et de vous guider vers de nouvelles pratiques et façons d'entrer en relation auxquelles vous n'auriez peut-être pas pensé.",
+  "paragraph-about-5": "J'accueille les adultes de tous genres, cultures, origines, religions, orientations sexuelles, capacités physiques, morphologies et niveaux d'expérience. Les personnes queer, trans, hétérosexuelles, monogames, non monogames, kinky et neurodivergentes sont les bienvenues. Vous n'avez pas besoin d'arriver avec de l'assurance, de l'expérience ou des certitudes. Nous commençons là où vous en êtes.",
 
-  "heading-session-length": "Session Length",
-  "paragraph-session-length": "Sessions are available online and in person, currently in Montréal and Toronto. Online sessions are 1 to 1.5 hours, and In-person sessions are 2 hours.",
-
-  "heading-about": "About Gerard",
-  "paragraph-about-1": "As a queer and non-binary person, it has taken me many years to feel comfortable in my skin. My background in dance, yoga, meditation, and somatics helped me discover pleasure, sensitivity, and possibility in my body. Yet it was only through Sexological Bodywork when I began to understand that my erotic self could be integrated into a fuller experience of embodiment.",
-  "paragraph-about-2": "These lessons have shaped not only my sex life, but also how I communicate, collaborate, create, and relate to others. I am passionate about sharing this work because I believe everyone deserves opportunities to feel more present, empowered, and at home in their body.",
-  "paragraph-about-3": "I welcome adults of all genders, cultures, races, religions, sexual orientations, abilities, body types, and levels of experience. Queer, trans, non-monogamous, kinky, of all physical abilities, and neurodivergent experiences are welcome. You do not need to arrive confident, experienced, or certain. We begin wherever you are.",
-
-  "heading-training": "Training & Credentials",
+  "heading-training": "Formation et certifications",
   "list-training": {
-    "certification": "Sexological Bodywork Certification from the Institute of Somatic Sexology, Australia (Master teachers: Deej Juventin, Uma Ayelet, Joseph Kramer, Ellen Heed)",
-    "mentorship": "Mentorship with Certified Sexological Bodyworkers Ron Stewart and Pono Stewart",
-    "practice": "25 years of embodied practice through dance, somatics, yoga, meditation, massage, performance, and movement education"
+    "certification": "Certification en Sexological Bodywork auprès de l’Institute of Somatic Sexology, Australie (enseignant·es principaux·ales : Deej Juventin, Uma Ayelet, Joseph Kramer et Ellen Heed)",
+    "mentorship": "Mentorat auprès de Ron Stewart et Pono Stewart, praticiens certifiés en Sexological Bodywork",
+    "practice": "25 années de pratiques corporelles à travers la danse, les approches somatiques, le yoga, la méditation, le massage, la performance et l’éducation par le mouvement"
   },
 
-  "heading-lets-talk": "Let’s talk!",
-  "paragraph-lets-talk": "Don’t know what you need or want to learn yet? You don’t have to – curiosity is enough. Since this is a new practice to most people, I’m here to answer your questions or doubts. Our first conversation is a barrier-free, 20-minute call and your chance to ask me questions, imagine what’s possible, and decide whether you want to try a first session with me.",
-  "anchor-book": "Book an Intro Call",
-  "text-book-note": "Audio or video—your choice. No pressure and no obligation to continue.",
+  "heading-lets-talk": "Commençons par une conversation",
+  "paragraph-lets-talk-1": "Vous n'avez pas besoin de savoir exactement ce que vous recherchez, d'avoir un objectif précis ou même de savoir par où commencer. Votre curiosité suffit.",
+  "paragraph-lets-talk-2": "Commençons par une conversation. Notre appel gratuit de 20 minutes est l'occasion de faire connaissance, de poser vos questions, de partager ce qui vous amène ici (dans la mesure où vous le souhaitez) et de voir si cette approche et ma façon de travailler vous conviennent.",
+  "paragraph-lets-talk-3": "Il n'y a aucune pression ni obligation de poursuivre. Si vous sentez que c'est une bonne approche pour vous, nous pourrons explorer ensemble les prochaines étapes. Sinon, c'est tout aussi correct.",
+  "anchor-book": " Réserver une conversation découverte gratuite",
+  "text-book-note": "En audio ou en vidéo, selon ce qui vous convient le mieux.",
 
-  "heading-faq": "Frequently Asked Questions",
-  "heading-getting-started": "How Do I Begin?",
+  "heading-faq": "Foire aux questions",
+  "heading-getting-started": "Comment commencer?",
   "list-getting-started": {
     "intro-call": {
-      "heading": "Book an Introductory Call",
-      "text": "Our first conversation takes place by audio or video."
+      "heading": "Réserver un appel intro",
+      "text": "Notre première conversation se déroule par téléphone ou en visioconférence, selon votre préférence."
     },
     "intake-forms": {
-      "heading": "Complete the Intake and Consent Forms",
-      "text": "If it feels like a match, after our call I send you an intake form and agreement. The form allows you to reflect on what you want and gives me more information about your intentions, boundaries, access needs, and relevant history."
+      "heading": "Remplir les formulaires de bienvenue et de consentement",
+      "text": "Si nous sentons que cette approche nous correspond, je vous enverrai, après notre conversation, un formulaire d’accueil ainsi qu’une entente de services. Le formulaire vous permettra de réfléchir à ce que vous recherchez et me donnera davantage d’informations sur vos intentions, vos limites, vos besoins en matière d’accessibilité et les éléments pertinents de votre parcours."
     },
     "first-session": {
-      "heading": "Schedule Your First Session",
-      "text": "In your first session we discuss your intake form, clarify your intentions, and begin with body-awareness exercises, somatic practices, or bodywork."
+      "heading": "Planifier votre première séance",
+      "text": "Lors de notre première séance, nous prendrons le temps de discuter de votre formulaire d’accueil, de clarifier vos intentions et de commencer par des exercices de conscience corporelle, des pratiques somatiques ou du travail corporel."
     }
   },
   "section-faq": {
     "touch-required": {
-      "question": "Do sessions have to include touch?",
-      "answer": "No. Touch, either self-touch or touch from me to you are options."
+      "question": "Et si je ne souhaite pas de toucher?",
+      "answer": "Le toucher, qu’il s’agisse de l’auto-toucher ou du toucher que je peux vous offrir dans le cadre d’un travail corporel (bodywork), est toujours facultatif."
     },
     "nudity": {
-      "question": "Do I have to be naked?",
-      "answer": "Nope! You decide what you wear and whether you remove any clothing during exercises. Your choices can change at any point during the session."
+      "question": "Devrais-je retirer mes vêtements?",
+      "answer": "Pas du tout. Vous décidez de ce que vous portez et si vous souhaitez retirer certains vêtements pendant les exercices. Vous pouvez changer d’avis à tout moment au cours de la séance."
     },
     "goals": {
-      "question": "Do I need to know exactly what I want?",
-      "answer": "Many clients begin with a physical need, or a desire to learn what else is possible, or from a feeling of disconnection. Part of my role is to help you identify your sexual/sensual/intimacy goals and intentions. We move from there."
+      "question": "Dois-je savoir exactement ce que je recherche?",
+      "answer": "Non. Certaines personnes arrivent avec des questions concernant les érections, d’autres à la suite d’une rupture, d’autres encore parce qu’elles ne trouvent plus de plaisir dans leur vie sexuelle. Beaucoup ressentent simplement une déconnexion avec leur corps. Une partie de mon rôle consiste à vous aider à identifier vos objectifs et vos intentions sur les plans sexuel, sensuel et relationnel. Nous avançons à partir de là."
     },
     "arousal": {
-      "question": "What happens if I become aroused?",
-      "answer": "Arousal is a totally natural bodily response and is welcome. There is no shame around it. That said, it is not a goal. It can be noticed without needing to act on it or make it mean anything in particular."
+      "question": "Et si je ressens de l’excitation pendant une séance?",
+      "answer": "L’excitation est une réponse corporelle tout à fait naturelle et elle est accueillie sans jugement. Il n’y a aucune honte à cela. Cela dit, l’excitation n’est pas un objectif en soi. Elle peut simplement être observée et ressentie, sans qu’il soit nécessaire d’agir en conséquence ni de lui attribuer une signification particulière."
     },
     "therapy": {
-      "question": "Is this therapy?",
-      "answer": "Intimacy Coaching and Sexological Bodywork are educational and experiential practices. They can complement therapy or healthcare, but I do not diagnose or treat medical or psychological conditions."
+      "question": "Est-ce une forme de thérapie?",
+      "answer": "Le coaching en intimité et le Sexological Bodywork sont des approches expérientielles et éducatives. Elles peuvent compléter un accompagnement thérapeutique ou des soins de santé, mais je ne pose aucun diagnostic et ne traite aucune condition médicale ou psychologique."
     },
     "partners": {
-      "question": "Can I attend with a partner?",
-      "answer": "Absolutely! In addition to 1:1 sessions, I work with couples, triads, etc. We can discuss what format would best support your intentions during the introductory call and I can send you rates for couples, etc."
+      "question": "Puis-je venir avec un·e partenaire?",
+      "answer": "Absolument ! En plus des séances individuelles, j’accompagne également les couples, les triades et d’autres configurations relationnelles. Lors de notre rencontre introductive, nous pourrons discuter du format qui répondrait le mieux à vos intentions. Je pourrai également vous transmettre les tarifs applicables aux séances en couple et aux autres configurations."
     }
   },
 

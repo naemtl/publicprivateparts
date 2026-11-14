@@ -15,7 +15,7 @@
   "paragraph-coaching-4": "I help people develop the skills most of us were never taught: listening to the body's signals, understanding desire, communicating boundaries, receiving touch, expanding pleasure, and making choices that feel authentic rather than automatic.",
   "paragraph-coaching-5": "If you're wondering whether this approach is right for you, I invite you to book a complimentary 20-minute introductory call with me. It's an opportunity to ask me questions, talk about what you're hoping to explore, and decide whether working together feels right.",
 
-  "anchor-book-intro": "Book a Free Intro Call",
+  "anchor-book-intro": "Book a Free Intro Conversation",
 
   "heading-offerings": "Where We Could Begin",
   "paragraph-offerings-1": "Everyone finds their own way into intimacy. Some people arrive with a specific question. Others simply know they want to feel more connected to themselves or to the people they love. Below are a few examples of where our work together might begin—not a checklist, but invitations into new possibilities.",
@@ -26,7 +26,7 @@
     },
     "presence": {
       "heading": "From Performance to Presence",
-      "text": "During sex, many people wonder, “Am I doing this right?”, “Do I look good?”, “Is my partner enjoying themselves?” When attention shifts toward performance, it becomes difficult to notice your own experience. Through breath, movement, and somatic awareness, you can learn to return to what is happening inside your body—warmth, tension, excitement, hesitation, pleasure—so that intimacy becomes something you experience rather than perform."
+      "text": "During sex, many ask themselves, “Am I doing this right?”, “Do I look good?”, “Is my partner enjoying themselves?” When attention shifts toward performance, it becomes difficult to notice your own experience. Through breath, movement, and somatic awareness, you can learn to return to what is happening inside your body—warmth, tension, excitement, hesitation, pleasure—so that intimacy becomes something you experience rather than perform."
     },
     "boundaries": {
       "heading": "Listening to Your Boundaries",
@@ -70,7 +70,7 @@
   "paragraph-boundaries-3": "Every session is adapted to your intentions, comfort, access needs, and how you are feeling that day.",
 
   "heading-practical-information": "Practical Information",
-  "paragraph-practical-information": "Sessions are available in person or online. I offer sessions in English, French or Spanish. We always start with a call. If you live outside of Montréal, please email or message me via socials (bottom of page) to ask about online sessions or to find out if I’ll be in your city soon. I share rates for individuals, couples, etc in our first call.", 
+  "paragraph-practical-information": "I offer sessions in English, French, and Spanish, working with individuals, couples, and other relationship configurations. Sessions are available in person in Montréal or online. In-person sessions are 2 hours; online sessions are 1 to 1.5 hours. We always begin with an introductory call to connect, discuss what you're looking for, and see whether working together feels like a good fit. I'll share my rates and practical details in my first email. Receipts are available. If you're based outside Montréal, you're welcome to get in touch about online sessions or to find out when I might be visiting your city.", 
  "section-prices": {
       "heading": "Individual Practice (2-hour sessions)",
       "pricing": {
@@ -81,9 +81,11 @@
   },
 
   "heading-about": "About Gerard",
-  "paragraph-about-1": "As a queer and non-binary person, it has taken me many years to feel comfortable in my skin. My background in dance, yoga, meditation, and somatics helped me discover pleasure, sensitivity, and possibility in my body. Yet it was only through Sexological Bodywork when I began to integrate my erotic self into a fuller embodied expression.",
-  "paragraph-about-2": "These lessons have shaped not only my sex life, but also how I communicate, collaborate, create, and relate to others. I am passionate about sharing this work because I believe everyone deserves the opportunity to feel more present, empowered, and at home in their body.",
-  "paragraph-about-3": "I welcome adults of all genders, cultures, races, religions, sexual orientations, abilities, body types, and levels of experience. Queer, trans, non-monogamous, kinky, of all physical abilities, and neurodivergent experiences are welcome. You don't need to arrive confident or experienced. We begin to work from wherever you are.",
+  "paragraph-about-1": "If you've ever felt disconnected from your body or outside the norm, you're not alone. As a queer and non-binary person, I spent years learning to feel at home in my body, my sexuality and my own way of expressing both. I came to dance as an adult, where I discovered movement, physical expression, discipline and presence. Yoga, meditation and somatic practices further deepened my awareness of sensation, sensitivity and embodiment.Yet something still felt incomplete. I had learned to physically master my body, but not necessarily how to inhabit it sensually, sexually and relationally.",
+  "paragraph-about-2": "It wasn't until I discovered Sexological Bodywork that I found a practice that welcomed my erotic self into the conversation, bringing together parts of my experience I hadn't previously known how to embrace. I came to understand that intimacy extends far beyond our sex lives. How we experience pleasure, desire, boundaries, touch and vulnerability shapes how we communicate, collaborate, create and relate to others.",
+  "paragraph-about-3": "Today, I bring together more than twenty-five years of embodied practice, my training as a Certified Sexological Bodyworker, and my experience across dance, movement, yoga, meditation and somatics to support others in exploring their own relationship to intimacy. My approach is experiential, curious and non-judgmental. I offer guidance and tools to help you develop greater awareness of your body, explore what feels pleasurable and authentic, communicate your needs and boundaries, and discover new possibilities for intimacy, pleasure and self-expression.",
+  "paragraph-about-4": "My role isn't to tell you who to become. It's to support you in discovering the knowledge, sensitivity and possibilities that already exist within you, and guide you towards new practices and ways of relating you might not have considered.",
+  "paragraph-about-5": "I welcome adults of all genders, cultures, races, religions, sexual orientations, abilities, body types and levels of experience. Queer, trans, straight, monogamous, non-monogamous, kinky, and neurodivergent experiences are welcome. You don't need to arrive confident, experienced or certain. We begin wherever you are.",
 
   "heading-training": "Training & Credentials",
   "list-training": {
@@ -92,9 +94,12 @@
     "practice": "25 years of embodied practice through dance, somatics, yoga, meditation, massage, performance, and movement education"
   },
 
-  "heading-lets-talk": "Let’s talk!",
-  "paragraph-lets-talk": "Don’t know what you need or want to learn yet? You don’t have to – curiosity is enough. Since this is a new practice to most people, I’m here to answer your questions or doubts. Remember, our first conversation is a barrier-free, 20-minute call and your chance to ask me questions, imagine what’s possible, and decide whether you want to try a first session with me.",
-  "anchor-book": "Book an Intro Call",
+  "heading-lets-talk": "Let's Begin with a Conversation",
+  "paragraph-lets-talk-1": "You don't need to know exactly what you're looking for, have a clear goal, or even know where to begin. Curiosity is enough.",
+  "paragraph-lets-talk-2": "Let's start with a conversation. Our complimentary 20-minute call is an opportunity to meet, ask questions, share what's bringing you here (as much or as little as you'd like), and get a feel for whether this work and my approach are right for you.",
+  "paragraph-lets-talk-3": "There's no pressure or obligation to continue. If it feels like a good fit, we can explore the next steps together. If not, that's perfectly okay too.",
+
+  "anchor-book": "Book a free intro conversation",
   "text-book-note": "Audio or video call — you choose. No pressure and no obligation to book a session.",
 
   "heading-faq": "Frequently Asked Questions",

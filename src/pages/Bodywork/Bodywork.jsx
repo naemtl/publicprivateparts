@@ -129,6 +129,8 @@ const Bodywork = () => {
         <p className="bodywork__text">{t("paragraph-about-1")}</p>
         <p className="bodywork__text">{t("paragraph-about-2")}</p>
         <p className="bodywork__text">{t("paragraph-about-3")}</p>
+        <p className="bodywork__text">{t("paragraph-about-4")}</p>
+        <p className="bodywork__text">{t("paragraph-about-5")}</p>
 
         <h3 className="bodywork__heading">{t("heading-training")}</h3>
         <ul className="bodywork__text">
@@ -151,8 +153,9 @@ const Bodywork = () => {
         </ul>
 
         <h2 className="bodywork__heading">{t("heading-lets-talk")}</h2>
-        <p className="bodywork__text">{t("paragraph-lets-talk")}</p>
-
+        <p className="bodywork__text">{t("paragraph-lets-talk-1")}</p>
+        <p className="bodywork__text">{t("paragraph-lets-talk-2")}</p>
+        <p className="bodywork__text">{t("paragraph-lets-talk-3")}</p>
         <IntroCallButton t={t} />
         
         <p className="bodywork__text"><em>{t("text-book-note")}</em></p>
